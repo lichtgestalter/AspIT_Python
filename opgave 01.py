@@ -9,12 +9,12 @@ def hello():
 
 
 def type_something():
-    user_input = input("type something:  ")
+    user_input = input("click into the console window, then type something and press <return>:  ")
     print(user_input)
 
 
 def my_first_function():
-    0
+    pass
 
 
 hello()

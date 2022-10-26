@@ -10,7 +10,7 @@ def hello():
 
 def type_something():
     user_input = input("click into the console window, then type something and press <return>:  ")
-    print(user_input)
+    print("You typed: " + user_input)
 
 
 def my_first_function():

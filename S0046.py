@@ -1,0 +1,31 @@
+# define a function that prints a car's motor sound (for example "roooaar")
+# define another function that prints an electric car's motor sound
+# in the main program, define variables which represent the number of wheels and the maximum speed of 2 different cars
+# print out the properties of both cars
+# then call both motors sound functions
+
+# replace the zeros with your own code
+# run the program with shift+f10 (or click on the green arrow)
+
+# if you get stuck, ask google, the other pupils or the teacher (in this order).
+# if you are still stuck, open S0047.py and compare it with your solution
+
+
+def drive_car():
+    print(0)  # print a sound
+
+
+def drive_electric_car():
+    0  # print a sound
+
+
+car1_wheels = 4  # define number of wheels for car1
+0  # define maximum speed for car1
+0  # define number of wheels for car2
+0  # define maximum speed for car2
+
+print("wheels", car1_wheels, 0, 0)  # print out the properties of car1
+0  # print out the properties of car2
+
+0  # call drive_car
+0  # call electric_drive_car

@@ -1,19 +1,20 @@
+# Læs https://www.freecodecamp.org/news/the-python-handbook/#classesinpython
 
-def drive_car():
-    print("WROOOOOOOOM!")
+# now we write the same program again,
+# but in an object oriented way.
+
+class Vehicle:  # this starts the definition of a class
+
+    def drive(self):  # This is a method. A method is a function that belongs to a class.
+        print("WROOOOOOOOM!")
 
 
-def drive_electric_car():
-    print("ssssssss")
+car1 = Vehicle()  # car1 is now defined as an object of type Vehicle
+car1.wheels = 4  # the property wheels is now defined for the object car1 of class Vehicle
+car1.max_speed = 160  # the property maxspeed is now defined for the object car1 of class Vehicle
+car1.drive()  # the method drive of the class Vehicle is called on the object car1
 
-
-car1_wheels = 4  # define number of wheels for car1
-car1_maxspeed = 160  # define maximum speed for car1
-car2_wheels = 8  # define number of wheels for car2
-car2_maxspeed = 100  # define maximum speed for car2
-
-print("wheels", car1_wheels, "maximum speed", car1_maxspeed)  # print out the properties of car1
-print("wheels", car2_wheels, "maximum speed", car2_maxspeed)  # print out the properties of car2
-
-drive_car()
-drive_electric_car()
+print(1, type(car1))
+print(2, car1)
+print(3, "wheels", car1.wheels)
+print(4, "maximum speed", car1.max_speed)

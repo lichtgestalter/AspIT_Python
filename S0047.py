@@ -1,3 +1,6 @@
+# Solution of Exercise "Cars" (object oriented programming):
+
+
 # define a function that prints a car's motor sound (for example "roooaar")
 
 # in the main program:

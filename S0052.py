@@ -1,37 +1,29 @@
-# Læs https://www.freecodecamp.org/news/the-python-handbook/#classesinpython
+# Encapsulation:
 
-class Vehicle:  #
+# sometimes we want to keep properties or methods private to a class
+# this means these properties or methods can only be used by the class that owns them
+# in python a private property or method is marked by a leading single underscore (_)
+# in python it's technically possible to use private methods outside their class, but it's considered very unwise
 
+class Vehicle:
     def __init__(self, wheels, max_speed):
-        # in python the constructor of a class is always called __init__
-        # a constructor creates an object of a class
-        self.wheels = wheels  # wheels is called a property. A property is a variable that belongs to a class.
-        self.max_speed = max_speed  # another property
+        self.wheels = wheels
+        self.max_speed = max_speed
 
     def __repr__(self):
-        return f"{self.wheels} wheels, {self.max_speed} km/h maximum speed"
+        return f"Vehicle: {self.wheels} wheels, {self.max_speed} km/h maximum speed"
 
     def drive(self):
         print("WROOOOOOOOM!")
+        self._top_secret()  # this is ok
 
-
-class ElectricVehicle(Vehicle):  # class ElectricVehicle inherits from class Vehicle
-
-    def __init__(self, wheels, max_speed, battery_capacity):
-        super().__init__(wheels, max_speed)
-        self.battery_capacity = battery_capacity
-
-    def __repr__(self):
-        return f"{self.wheels} wheels, {self.max_speed} km/h maximum speed, {self.battery_capacity} kW capacity"
-
-    def drive(self):
-        print("ssssssssss")
+    def _top_secret(self):
+        print("Don't call this method from outside this class!")
 
 
 car1 = Vehicle(4, 160)
-print(car1)
-bigcar2 = ElectricVehicle(8, 100, 90)
-print(bigcar2)
-print(car1.wheels)
 car1.drive()
-bigcar2.drive()
+car1._top_secret()  # this is NOT ok!
+
+# read more about object oriented programming here:
+# https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/

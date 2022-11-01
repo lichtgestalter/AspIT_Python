@@ -1,4 +1,49 @@
-# now we want to represent an electric car with a class ElectricVehicle
+# Inheritance and polymorphism:
+
+# now we want to represent an electric car with the class ElectricVehicle
 # its properties and methods are similar to the class Vehicle, but not identical.
-# we do not have to copy&paste the class code. Instead we define the class ElectricVehicle based on the class Vehicle.
+# we do not have to copy&paste the class code from Vehicle. Instead we define the class ElectricVehicle based on the class Vehicle.
 # this way ElectricVehicle inherits its properties and methods from Vehicle
+
+class Vehicle:  # this starts the definition of a class
+
+    def __init__(self, wheels, max_speed):
+        # in python the constructor of a class is always called __init__
+        # a constructor creates an object of a class
+        self.wheels = wheels  # wheels is called a property. A property is a variable that belongs to a class.
+        self.max_speed = max_speed  # Another property. Properties are also called fields.
+
+    def __repr__(self):
+        return f"Vehicle: {self.wheels} wheels, {self.max_speed} km/h maximum speed"
+
+    def drive(self):  # This is a method. A method is a function that belongs to a class.
+        print("WROOOOOOOOM!")
+
+
+class ElectricVehicle(Vehicle):  # class ElectricVehicle inherits from class Vehicle
+
+    def __init__(self, wheels, max_speed, battery_capacity):
+        super().__init__(wheels, max_speed)  # super() refers to the parent class (Vehicle). That way we can reuse the code of Vehicle.__init__
+        self.battery_capacity = battery_capacity
+
+    def __repr__(self):
+        return f"ElectricVehicle: {self.wheels} wheels, {self.max_speed} km/h maximum speed, {self.battery_capacity} kW capacity"
+
+    def drive(self):  # this replaces the function drive from the parent class (Vehicle).
+        print("ssssssssss")
+
+
+car1 = Vehicle(4, 160)
+ecar = ElectricVehicle(8, 100, 90)
+
+print(car1)
+car1.drive()
+print(ecar)
+ecar.drive()  # polymorphism
+# we seem to just have called the same function "drive" for objects of different types
+# in reality we called Vehicle.drive() and ElectricVehicle.drive()
+# this is called polymorphism (= many forms). It makes life a lot easier for programmers
+# for example can we now have objects of different types in a list and process them conveniently in a for loop:
+cars = [car1, ecar]
+for car in cars:
+    car.drive()

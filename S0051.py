@@ -29,7 +29,7 @@ class ElectricVehicle(Vehicle):  # class ElectricVehicle inherits from class Veh
     def __repr__(self):
         return f"ElectricVehicle: {self.wheels} wheels, {self.max_speed} km/h maximum speed, {self.battery_capacity} kW capacity"
 
-    def drive(self):  # this replaces the function drive from the parent class (Vehicle).
+    def drive(self):  # this replaces the function drive from the parent class (Vehicle). This is called method overriding.
         print("ssssssssss")
 
 

@@ -1,5 +1,6 @@
 # Exercise "Cars" (object oriented programming) with a little help:
 
+# replace the zeros with your own code
 
 # define a function that prints a car's motor sound (for example "roooaar")
 
@@ -8,7 +9,6 @@
 # print out these properties of both cars
 # then call the motor sound function
 
-# replace the zeros with your own code
 # run the program with shift+f10 (or click on the green arrow)
 
 # if you get stuck, ask google, the other pupils or the teacher (in this order).

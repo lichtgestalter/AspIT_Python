@@ -1,4 +1,4 @@
-# Exercise "Cars" (object oriented programming) with a little help:
+# Exercise "Cars" (with a little help):
 
 # replace the zeros with your own code
 

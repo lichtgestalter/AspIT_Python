@@ -1,4 +1,4 @@
-# Exercise "Cars" (object oriented programming):
+# Exercise "Cars":
 
 
 # define a function that prints a car's motor sound (for example "roooaar")

@@ -1,4 +1,4 @@
-# Solution of Exercise "Object oriented role playing game"
+# Exercise: Object oriented role playing game (Solution):
 
 
 # Inspect this code in detail. Especially if you did not come up with a solution yourself.

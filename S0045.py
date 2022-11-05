@@ -1,5 +1,6 @@
 # Exercise "Cars":
 
+# Copy this file into your own solution directory. Write your solution into the copy.
 
 # define a function that prints a car's motor sound (for example "roooaar")
 
@@ -12,3 +13,6 @@
 
 # if you have no idea how to begin, open S0046.py and start from there
 
+# when you program is complete, push it to your github repository and
+# send this Teams message to your teacher: i am done with exercise "cars"
+# in a language of your choice :-)

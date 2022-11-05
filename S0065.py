@@ -1,6 +1,5 @@
 # Exercise: Object oriented role playing game (Solution):
 
-
 # Inspect this code in detail. Especially if you did not come up with a solution yourself.
 # Find out what every line of code does. For example by changing the code a bit.
 

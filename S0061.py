@@ -1,5 +1,7 @@
 # Exercise: Object oriented role playing game (with a little help):
 
+# Copy this file into your own solution directory. Write your solution into the copy.
+
 # define a class Character with properties name, max_health, _current_health, attackpower.
 # _current_health shall be a private property, it is not meant to be changed from outside the class
 

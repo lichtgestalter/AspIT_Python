@@ -1,9 +1,12 @@
 # Classes, methods, properties:
 
-# Læs https://www.freecodecamp.org/news/the-python-handbook/#classesinpython
+# read https://www.freecodecamp.org/news/the-python-handbook/#classesinpython
 
-# now we write the same program again,
-# but in an object oriented way.
+# now we write the same cars program again, but in an object oriented way.
+
+# Inspect the following code in detail.
+# Find out what every line of code does. For example by changing the code a bit.
+
 
 class Vehicle:  # this starts the definition of a class
 

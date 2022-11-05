@@ -1,5 +1,7 @@
 # Exercise "Cars" (with a little help):
 
+# Copy this file into your own solution directory. Write your solution into the copy.
+
 # replace the zeros with your own code
 
 # define a function that prints a car's motor sound (for example "roooaar")
@@ -14,6 +16,7 @@
 # if you get stuck, ask google, the other pupils or the teacher (in this order).
 # if you are still stuck, open S0047.py and compare it with your solution
 
+#
 
 def drive_car():
     print(0)  # print a sound

@@ -1,3 +1,5 @@
+# Exercise "Test pycharm and github":
+
 # run the program with shift+f10 (or click on the green arrow)
 
 # change the text between the quotation marks
@@ -13,6 +15,6 @@
 # send your teacher the url of your github repository via Teams chat
 # the url looks something like https://github.com/lichtgestalter/S1.git
 
-# go on with S0045.py
+# go on with S0020.py
 
 print("hello world")

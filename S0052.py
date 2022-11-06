@@ -1,9 +1,20 @@
 # Encapsulation:
 
-# sometimes we want to keep properties or methods private to a class
-# this means these properties or methods can only be used by the class that owns them
-# in python a private property or method is marked by a leading single underscore (_)
-# in python it's technically possible to use private methods outside their class, but it's considered very unwise
+# sometimes we want to keep attributes or methods private to a class
+# this means these attributes or methods can only be used by the class that owns them
+# in python a private attribute or method is marked by a leading single underscore (_)
+# in python it's technically possible to call private methods from outside their class, but it's considered unwise
+
+# Inspect the following code in detail. Find out what every line of code does.
+# For example by changing the code a bit and then running/debugging the program.
+
+# read more about object oriented programming here:
+# https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/
+
+# Then send this Teams message to your teacher: i am done with exercise "object oriented cars"
+
+# then go on with S0060.py
+
 
 class Vehicle:
     def __init__(self, wheels, max_speed):
@@ -25,5 +36,3 @@ car1 = Vehicle(4, 160)
 car1.drive()
 car1._top_secret()  # this is NOT ok!
 
-# read more about object oriented programming here:
-# https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/

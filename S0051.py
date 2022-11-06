@@ -1,17 +1,23 @@
 # Inheritance and polymorphism:
 
 # now we want to represent an electric car with the class ElectricVehicle
-# its properties and methods are similar to the class Vehicle, but not identical.
+# its attributes and methods are similar to the class Vehicle, but not identical.
 # we do not have to copy&paste the class code from Vehicle. Instead we define the class ElectricVehicle based on the class Vehicle.
-# this way ElectricVehicle inherits its properties and methods from Vehicle
+# this way ElectricVehicle inherits its attributes and methods from Vehicle
+
+# Inspect the following code in detail. Find out what every line of code does.
+# For example by changing the code a bit and then running/debugging the program.
+
+# then go on with S0052.py
+
 
 class Vehicle:  # this starts the definition of a class
 
     def __init__(self, wheels, max_speed):
         # in python the constructor of a class is always called __init__
         # a constructor creates an object of a class
-        self.wheels = wheels  # wheels is called a property. A property is a variable that belongs to a class.
-        self.max_speed = max_speed  # Another property. Properties are also called fields.
+        self.wheels = wheels  # wheels is called an attribute. A attribute is a variable that belongs to an object of a class.
+        self.max_speed = max_speed  # Another attribute.
 
     def __repr__(self):
         return f"Vehicle: {self.wheels} wheels, {self.max_speed} km/h maximum speed"
@@ -44,6 +50,7 @@ ecar.drive()  # polymorphism
 # in reality we called Vehicle.drive() and ElectricVehicle.drive()
 # this is called polymorphism (= many forms). It makes life a lot easier for programmers
 # for example can we now have objects of different types in a list and process them conveniently in a for loop:
+print("for loop:")
 cars = [car1, ecar]
 for car in cars:
     car.drive()

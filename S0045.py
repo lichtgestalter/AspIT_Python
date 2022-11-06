@@ -13,6 +13,6 @@
 
 # if you have no idea how to begin, open S0046.py and start from there
 
-# when you program is complete, push it to your github repository and
-# send this Teams message to your teacher: i am done with exercise "cars"
-# in a language of your choice :-)
+# when your program is complete, push it to your github repository and
+# compare it to the teacher's solution in S0047.py
+# then send this Teams message to your teacher: i am done with exercise "cars" (in a language of your choice) :-)

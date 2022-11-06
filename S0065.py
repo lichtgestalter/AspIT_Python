@@ -1,7 +1,11 @@
-# Exercise: Object oriented role playing game (Solution):
+# Exercise: Object oriented role playing game, part 1 (Solution):
 
 # Inspect this code in detail. Especially if you did not come up with a solution yourself.
 # Find out what every line of code does. For example by changing the code a bit.
+# then send this Teams message to your teacher: i am done with exercise "role playing game 1"
+
+# then go on with S0067.py
+
 
 class Character:
 

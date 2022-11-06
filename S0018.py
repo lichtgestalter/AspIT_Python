@@ -6,11 +6,13 @@
     # Git, Commit (or click the green check mark)
     # write a meaningful comment
     # click on "commit and push" (push means: upload this commit to github)
+    # push
 
-# check in your web browser on github.com that the changed file is present there
+# check in your web browser on github.com that the changed file is present in your repository on github
 
 # send your teacher the url of your github repository via Teams chat
 # the url looks something like https://github.com/lichtgestalter/S1.git
 
+# go on with S0045.py
 
 print("hello world")

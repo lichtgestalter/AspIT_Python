@@ -2,6 +2,10 @@
 
 # Inspect this code in detail. Especially if you did not come up with a solution yourself.
 # Find out what every line of code does. For example by changing the code a bit.
+# Then send this Teams message to your teacher: i am done with exercise "cars" (in a language of your choice) :-)
+
+# then go on with S0048.py
+
 
 def drive_car():
     print("WROOOOOOOOM!")

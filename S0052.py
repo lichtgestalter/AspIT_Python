@@ -13,7 +13,7 @@
 
 # Then send this Teams message to your teacher: i am done with exercise "object oriented cars"
 
-# then go on with S0060.py
+# thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
 
 
 class Vehicle:

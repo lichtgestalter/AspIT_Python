@@ -7,7 +7,7 @@
 # Inspect the following code in detail. Find out what every line of code does.
 # For example by changing the code a bit and then running/debugging the program.
 
-# then go on with S0049.py
+# thereafter go on with the next file in numerical order in the teacher's exercise repository.
 
 
 class Vehicle:  # this starts the definition of a class

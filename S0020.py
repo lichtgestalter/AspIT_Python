@@ -26,4 +26,4 @@
 
 # when your program is complete, push it to your github repository
 # then send this Teams message to your teacher: i am done with exercise "Number pyramid" (in a language of your choice) :-)
-# then go on with S00??.py
+# thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.

@@ -4,7 +4,7 @@
 # Find out what every line of code does. For example by changing the code a bit.
 # then send this Teams message to your teacher: i am done with exercise "role playing game 1"
 
-# then go on with S0067.py
+# thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
 
 
 class Character:

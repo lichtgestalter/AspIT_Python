@@ -12,5 +12,4 @@
 
 # when your program is complete, push it to your github repository and
 # then send this Teams message to your teacher: i am done with exercise "role playing game 2"
-
-# then go on with S0080.py
+# thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.

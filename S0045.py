@@ -10,6 +10,8 @@
 # then call the motor sound function
 
 # if you have no idea how to begin, open S0046.py and start from there
+# if you get stuck, ask google, the other pupils or the teacher (in this order).
+# if you are still stuck, open S0047.py and compare it with your solution
 
 # when your program is complete, push it to your github repository and
 # compare it to the teacher's solution in S0047.py

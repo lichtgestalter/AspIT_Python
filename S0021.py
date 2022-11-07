@@ -4,12 +4,11 @@
 
 # watch the first 93 seconds of this video: https://www.youtube.com/watch?v=NsjsLwYRW8o
 
-# write a function pyramid which produces the numbers shown in the video
-# the function accepts a parameter defining the number of lines to produce
-# the function prints out the numbers of each line and their sum
+# write a function "pyramid" which produces the numbers shown in the video
+# the function accepts a parameter defining how many number lines to produce
+# the function prints out the numbers of each line and also their sum
 
-# in the main program, call the function with 1, 2, 3, ..., 10 as an argument.
-
+# in the main program, call the function with 1, 2, 3, ..., 10 as an argument
 # run the program with shift+f10 (or click on the green arrow)
 
 # add a more general function pyramid2

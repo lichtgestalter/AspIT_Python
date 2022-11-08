@@ -6,9 +6,7 @@
 # thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
 
 
-
-
-def pyramid2_uli(lines, start):
+def pyramid2(lines, start):
     numbers = [int(i) for i in str(start)]
     numbers2 = [i for i in numbers]
     for line in range(lines):
@@ -22,6 +20,21 @@ def pyramid2_uli(lines, start):
         numbers = [i for i in numbers2]
 
 
-startInput = int(input("Enter the numbers to start the pyramid sequence: "))
+def pyramid3(lines, start):
+    number_lists=[]
+    number_lists.append([int(i) for i in str(start)])
+    for line in range(lines):
+        number_lists.append([i for i in number_lists[line]])
+        print("line " + str(line+1), end=": ")
+        print(number_lists[line])
+        index_shift = 0
+        for n in range(len(number_lists[line])-1):
+            if number_lists[line][n] + number_lists[line][n + 1] == line + 2:
+                number_lists[line+1].insert(n + index_shift + 1, line + 2)
+                index_shift += 1
+
+
+startInput = int(input("Enter the first line of the pyramid: "))
 linesInput = int(input("Enter the number of lines to print: "))
-pyramid2_uli(linesInput, startInput)
+pyramid2(linesInput, startInput)
+pyramid3(linesInput, startInput)

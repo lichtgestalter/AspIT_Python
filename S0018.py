@@ -1,10 +1,12 @@
 # Exercise "Test pycharm and github":
 
+# Copy this file into your own solution directory. Edit your copy only.
+
 # run the program with shift+f10 (or click on the green arrow)
 
 # change the text between the quotation marks
 
-# commit the file to your git repository (commit means: back up the current state of your files as a new version)
+# commit the file to your own git repository (commit means: back up the current state of your files as a new version)
 #     Git, Commit (or click the green check mark)
 #     write a meaningful comment
 #     click on "commit and push" (push means: upload this commit to github)

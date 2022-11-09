@@ -6,7 +6,7 @@
 # thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
 
 
-def pyramid2(lines, start):
+def pyramid2a(lines, start):
     numbers = [int(i) for i in str(start)]
     numbers2 = [i for i in numbers]
     for line in range(lines):
@@ -20,7 +20,7 @@ def pyramid2(lines, start):
         numbers = [i for i in numbers2]
 
 
-def pyramid3(lines, start):
+def pyramid2b(lines, start):
     number_lists=[]
     number_lists.append([int(i) for i in str(start)])
     for line in range(lines):
@@ -36,5 +36,5 @@ def pyramid3(lines, start):
 
 startInput = int(input("Enter the first line of the pyramid: "))
 linesInput = int(input("Enter the number of lines to print: "))
-pyramid2(linesInput, startInput)
-pyramid3(linesInput, startInput)
+pyramid2a(linesInput, startInput)
+pyramid2b(linesInput, startInput)

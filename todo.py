@@ -1,6 +1,12 @@
+"""
+oplæg
+    vorstellung uli
+    installation python etc.
+    aufbau programm: imports, klassen, funktionen, hauptprogramm
+    debugger erklären
 
-# vor 20: debugger erklären
+Aufgaben
+    Turtle graphics
+    File einlesen / schreiben
 
-# main program vs function and class definitions
-# Turtle graphics
-# File einlesen / schreiben
+"""

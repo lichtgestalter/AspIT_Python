@@ -1,11 +1,13 @@
-# Constructor:
+"""
+Constructor:
 
-# now we use a constructor to more elegantly define the cars and their attributes
+now we use a constructor to more elegantly define the cars and their attributes
 
-# Inspect the following code in detail. Find out what every line of code does.
-# For example by changing the code a bit and then running/debugging the program.
+Inspect the following code in detail. Find out what every line of code does.
+For example by changing the code a bit and then running/debugging the program.
 
-# thereafter go on with the next file in numerical order in the teacher's exercise repository.
+thereafter go on with the next file in numerical order in the teacher's exercise repository.
+"""
 
 
 class Vehicle:  # this starts the definition of a class

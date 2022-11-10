@@ -1,15 +1,17 @@
-# __repr__ and f-strings:
+"""
+__repr__ and f-strings:
 
-# every class in python has a function __repr__ that defines the output of printing an object of this class
-# every class in python has automatically some useful functions, which begin and end with to underscores
-# they are called magic functions or dunder functions.
-# in this example we are using so called f-strings. They are very handy.
-# Read more about f-strings here: https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python
+every class in python has a function __repr__ that defines the output of printing an object of this class
+every class in python has automatically some useful functions, which begin and end with to underscores
+they are called magic functions or dunder functions.
+in this example we are using so called f-strings. They are very handy.
+Read more about f-strings here: https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python
 
-# Inspect the following code in detail. Find out what every line of code does.
-# For example by changing the code a bit and then running/debugging the program.
+Inspect the following code in detail. Find out what every line of code does.
+For example by changing the code a bit and then running/debugging the program.
 
-# thereafter go on with the next file in numerical order in the teacher's exercise repository.
+thereafter go on with the next file in numerical order in the teacher's exercise repository.
+"""
 
 
 class Vehicle:  # this starts the definition of a class

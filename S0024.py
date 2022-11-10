@@ -33,8 +33,45 @@ def pyramid2b(lines, start):
                 number_lists[line+1].insert(n + index_shift + 1, line + 2)
                 index_shift += 1
 
+def pyramid2c(lines, start):
+    number_lists=[]
+    number_lists.append([int(i) for i in str(start)])
+    for line in range(lines):
+        number_lists.append(number_lists[line].copy())
+        print("line " + str(line+1), end=": ")
+        print(number_lists[line])
+        index_shift = 0
+        for n in range(len(number_lists[line])-1):
+            if number_lists[line][n] + number_lists[line][n + 1] == line + 2:
+                number_lists[line+1].insert(n + index_shift + 1, line + 2)
+                index_shift += 1
 
-startInput = int(input("Enter the first line of the pyramid: "))
+
+def pyramid2d(lines, start):
+    strings = start.split(" ")
+    numbers = []
+    for s in strings:
+        if len(s) > 0:
+            numbers.append(int(s.strip()))
+    number_lists = []
+    number_lists.append(numbers)
+    for line in range(lines):
+        number_lists.append(number_lists[line].copy())
+        print("line " + str(line+1), end=": ")
+        print(number_lists[line])
+        index_shift = 0
+        for n in range(len(number_lists[line])-1):
+            if number_lists[line][n] + number_lists[line][n + 1] == line + 2:
+                number_lists[line+1].insert(n + index_shift + 1, line + 2)
+                index_shift += 1
+
+
+# startInput = int(input("Enter the first line of the pyramid: "))
+# linesInput = int(input("Enter the number of lines to print: "))
+# pyramid2a(linesInput, startInput)
+# pyramid2b(linesInput, startInput)
+# pyramid2c(linesInput, startInput)
+
+startInput = input("Enter the first line of the pyramid. (Separate the individual numbers with spaces.): ")
 linesInput = int(input("Enter the number of lines to print: "))
-pyramid2a(linesInput, startInput)
-pyramid2b(linesInput, startInput)
+pyramid2d(linesInput, startInput)

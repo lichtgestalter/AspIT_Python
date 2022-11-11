@@ -18,7 +18,7 @@
 # if you are still stuck, open S0065.py and compare it with your solution
 
 # when your program is complete, push it to your github repository and
-# compare it to the teacher's solution in S006565.py
+# compare it to the teacher's solution in S0065.py
 # then send this Teams message to your teacher: i am done with exercise "role playing game 1"
 # thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
 

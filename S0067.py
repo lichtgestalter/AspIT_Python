@@ -9,6 +9,10 @@ your new classes shall have their own methods and/or attributes. Maybe they also
 in the main program, let objects of your new classes fight against each other until one character is dead
 print out what happens during the fight
 
+Each time a character uses one of it's capabilities, add some randomness to the used power.
+Let your characters fight against each other 100 times.
+Try to balance your character's capabilities in such a way that each character wins about half of the time.
+
 if you get stuck, ask google, the other pupils or the teacher (in this order).
 
 when your program is complete, push it to your github repository and

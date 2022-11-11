@@ -1,0 +1,3 @@
+Hi,
+this is a text file.
+It has 3 lines.

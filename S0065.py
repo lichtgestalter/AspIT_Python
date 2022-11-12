@@ -2,8 +2,8 @@
 Exercise: Object oriented role playing game, part 1 (Solution):
 
 Inspect this code in detail. Especially if you did not come up with a solution yourself.
-Find out what every line of code does. For example by changing the code a bit.
-then send this Teams message to your teacher: i am done with exercise "role playing game 1"
+Find out what every row of code does. For example by changing the code a bit.
+then send this Teams message to your teacher: I am done with exercise "role playing game 1"
 
 thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
 """

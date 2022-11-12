@@ -1,15 +1,16 @@
 """
-Exercise "Morris The Miner"
+Exercise "Morris The Miner":
 
 Copy this file into your own solution directory. Write your solution into the copy.
 
 Initial situation:
 Morris has the attributes sleepiness, thirst, hunger, whisky, gold.
 All attributes have the starting value 0.
+
+Rules:
 If sleepiness, thirst or hunger goes above 100, Morris the miner dies.
 Morris can’t store more than 10 bottles of whisky.
-Sleepiness, thirst, hunger do not go below 0.
-Morris can't shop or eat without enough gold.
+No attribute may go below 0.
 
 Possible moves for a turn:
 sleep:      sleepiness-=10, thirst+=1,  hunger+=1,  whisky+=0, gold+=0
@@ -24,7 +25,7 @@ Write a program that gets Morris as much gold as possible in 1000 turns.
 if you get stuck, ask google, the other pupils or the teacher (in this order).
 
 when your program is complete, push it to your github repository
-then send this Teams message to your teacher: i am done with exercise "Morris The Miner"
+then send this Teams message to your teacher: I am done with exercise "Morris The Miner"
 thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
 """
 

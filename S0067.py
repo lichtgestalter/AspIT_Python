@@ -1,21 +1,29 @@
 """
-Exercise: Object oriented role playing game, part 2 :
+exercise: Object oriented role playing game, part 2 :
 
-build on your solution of part 1
+Build on your solution of part 1.
 
-invent two new classes, which inherit from class Character. For example Hunter and Magician.
-your new classes shall have their own methods and/or attributes. Maybe they also override methods or attributes from class Character.
+Invent two new classes, which inherit from class Character. For example Hunter and Magician.
+Your new classes shall have their own additional methods and/or attributes. Maybe they also override methods or attributes from class Character.
 
-in the main program, let objects of your new classes fight against each other until one character is dead
-print out what happens during the fight
+In the main program, let objects of your new classes fight against each other until one character is dead.
+Print out what happens during the fight.
 
+In each turn, a character uses one of its capabilities (methods). Then it's the other character's turn.
+It is up to you, how your program decides in each turn, which capability to use.
+For example, the decision may be based on randomness or on a clever strategy
+
+Upgrade 1:
 Each time a character uses one of it's capabilities, add some randomness to the used power.
+
+Upgrade 2:
 Let your characters fight against each other 100 times.
-Try to balance your character's capabilities in such a way that each character wins about half of the time.
+Keep track of the results.
+Try to balance your character's capabilities in such a way that each character wins about half of the fights.
 
-if you get stuck, ask google, the other pupils or the teacher (in this order).
+If you get stuck, ask google, the other pupils or the teacher (in this order).
 
-when your program is complete, push it to your github repository and
-then send this Teams message to your teacher: i am done with exercise "role playing game 2"
-thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
+When your program is complete, push it to your github repository and
+then send this Teams message to your teacher: I am done with exercise "role playing game 2"
+Thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
 """

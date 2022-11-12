@@ -19,7 +19,7 @@ if you are still stuck, open S0047.py and compare it with your solution
 
 when your program is complete, push it to your github repository and
 compare it to the teacher's solution in S0047.py
-then send this Teams message to your teacher: i am done with exercise "cars" (in a language of your choice) :-)
+then send this Teams message to your teacher: I am done with exercise "cars" (in a language of your choice) :-)
 thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
 """
 

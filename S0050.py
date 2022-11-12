@@ -7,7 +7,7 @@ they are called magic functions or dunder functions.
 in this example we are using so called f-strings. They are very handy.
 Read more about f-strings here: https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python
 
-Inspect the following code in detail. Find out what every line of code does.
+Inspect the following code in detail. Find out what every row of code does.
 For example by changing the code a bit and then running/debugging the program.
 
 thereafter go on with the next file in numerical order in the teacher's exercise repository.

@@ -2,8 +2,8 @@
 Exercise "Number pyramid" (Solution):
 
 Inspect this code in detail. Especially if you did not come up with a solution yourself.
-Find out what every line of code does. For example by changing the code a bit.
-Then send this Teams message to your teacher: i am done with exercise "Number pyramid"
+Find out what every row of code does. For example by changing the code a bit.
+Then send this Teams message to your teacher: I am done with exercise "Number pyramid"
 thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
 """
 
@@ -12,7 +12,7 @@ def pyramid2a(lines, start):
     numbers = [int(i) for i in str(start)]
     numbers2 = [i for i in numbers]
     for line in range(lines):
-        print("line " + str(line+1), end=": ")
+        print("row " + str(line+1), end=": ")
         print(numbers2)
         index_shift = 0
         for n in range(len(numbers)-1):
@@ -27,7 +27,7 @@ def pyramid2b(lines, start):
     number_lists.append([int(i) for i in str(start)])
     for line in range(lines):
         number_lists.append([i for i in number_lists[line]])
-        print("line " + str(line+1), end=": ")
+        print("row " + str(line+1), end=": ")
         print(number_lists[line])
         index_shift = 0
         for n in range(len(number_lists[line])-1):
@@ -40,7 +40,7 @@ def pyramid2c(lines, start):
     number_lists.append([int(i) for i in str(start)])
     for line in range(lines):
         number_lists.append(number_lists[line].copy())
-        print("line " + str(line+1), end=": ")
+        print("row " + str(line+1), end=": ")
         print(number_lists[line])
         index_shift = 0
         for n in range(len(number_lists[line])-1):
@@ -59,7 +59,7 @@ def pyramid2d(lines, start):
     number_lists.append(numbers)
     for line in range(lines):
         number_lists.append(number_lists[line].copy())
-        print("line " + str(line+1), end=": ")
+        print("row " + str(line+1), end=": ")
         print(number_lists[line])
         index_shift = 0
         for n in range(len(number_lists[line])-1):
@@ -68,12 +68,12 @@ def pyramid2d(lines, start):
                 index_shift += 1
 
 
-# startInput = int(input("Enter the first line of the pyramid: "))
-# linesInput = int(input("Enter the number of lines to print: "))
+# startInput = int(input("Enter the first row of the pyramid: "))
+# linesInput = int(input("Enter the number of rows to print: "))
 # pyramid2a(linesInput, startInput)
 # pyramid2b(linesInput, startInput)
 # pyramid2c(linesInput, startInput)
 
-startInput = input("Enter the first line of the pyramid. (Separate the individual numbers with spaces.): ")
-linesInput = int(input("Enter the number of lines to print: "))
+startInput = input("Enter the first row of the pyramid. (Separate the individual numbers with spaces.): ")
+linesInput = int(input("Enter the number of rows to print: "))
 pyramid2d(linesInput, startInput)

@@ -2,20 +2,20 @@
 Random numbers:
 
 Inspect this code in detail.
-Find out what every line of code does. For example by changing the code a bit.
+Find out what every row of code does. For example by changing the code a bit.
 Thereafter go on with the next file in numerical order in the teacher's exercise repository.
 """
 
-import random  # this imports a library called "random". A library is someone else's python code, which you can use in your python code.
+import random  # this imports a library called "random". A library is (someone else's) python code, that you can use in your own program.
 
-for i in range(5):
+for i in range(3):
     print(f"A random number between 0 and 1: {random.random()}")
 print()
 
 minimum = 2
-maximum = 6
+maximum = 4
 for i in range(5):
-    print(f"A random number between {minimum} and {maximum}: {random.randint(minimum, maximum)}")
+    print(f"A random integer number between {minimum} and {maximum}: {random.randint(minimum, maximum)}")  #
 print()
 
 first_seed = 5
@@ -36,7 +36,5 @@ for i in range(3):
 print()
 
 max_number = 8
-for i in range(5):
+for i in range(3):
     print(f"A random number between 0 and {max_number}: {random.random()*max_number}")
-
-# font size

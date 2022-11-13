@@ -12,9 +12,9 @@ For example by changing the code a bit and then running/debugging the program.
 read more about object oriented programming here:
 https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/
 
-Then send this Teams message to your teacher: I am done with exercise "object oriented cars"
+Then send this Teams message to your teacher: <filename> done
 
-thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
+thereafter go on with the next file.
 """
 
 

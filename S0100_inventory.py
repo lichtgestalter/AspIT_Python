@@ -1,6 +1,8 @@
 """
 Exercise "The inventory sequence"
 
+As always, read the whole exercise description carefully before your start to solve the exercise.
+
 This exercise is an optional challenge for the excellent programmers among you.
 You absolutely do not have to solve this exercise in order to proceed successfully.
 
@@ -18,10 +20,11 @@ appears in the current number sequence.
 
 In the main program, call inventory with 6 as an argument.
 
-If you have no idea how to begin, have a look at the solution in S0102.py
+If you have no idea how to begin, have a look at the solution in S0102_inventory.py
 
-When your program is complete, push it to your github repository
-Then send this Teams message to your teacher: I am done with exercise "inventory sequence"
-Thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
+When your program is complete, push it to your github repository.
+Then send this Teams message to your teacher: <filename> done
+Thereafter go on with the next file.
 """
+
 

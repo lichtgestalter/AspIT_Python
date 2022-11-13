@@ -1,6 +1,8 @@
 """
 Exercise "Cars" (with a little help):
 
+As always, read the whole exercise description carefully before your start to solve the exercise.
+
 Copy this file into your own solution directory. Write your solution into the copy.
 
 replace the zeros with your own code
@@ -15,12 +17,13 @@ then call the motor sound function
 run the program with shift+f10 (or click on the green arrow)
 
 if you get stuck, ask google, the other pupils or the teacher (in this order).
-if you are still stuck, open S0047.py and compare it with your solution
+if you are still stuck, open S0047_cars.py and compare it with your solution
 
-when your program is complete, push it to your github repository and
-compare it to the teacher's solution in S0047.py
-then send this Teams message to your teacher: I am done with exercise "cars" (in a language of your choice) :-)
-thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
+Compare your program to the teacher's solution in S0047_cars.py
+
+When your program is complete, push it to your github repository.
+Then send this Teams message to your teacher: <filename> done
+Thereafter go on with the next file.
 """
 
 

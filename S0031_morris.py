@@ -1,6 +1,8 @@
 """
 Exercise "Morris The Miner":
 
+As always, read the whole exercise description carefully before your start to solve the exercise.
+
 Copy this file into your own solution directory. Write your solution into the copy.
 
 Initial situation:
@@ -20,18 +22,18 @@ buy_whisky: sleepiness+=5,  thirst+=1,  hunger+=1,  whisky+=1, gold-=1
 drink:      sleepiness+=5,  thirst-=15, hunger-=1,  whisky-=1, gold+=0
 
 Your task:
-Write a program that gets Morris as much gold as possible in 1000 turns.
+Write a program that gets Morris as much gold as possible in at most 1000 turns.
 
-if you get stuck, ask google, the other pupils or the teacher (in this order).
+If you get stuck, ask google, the other pupils or the teacher (in this order).
 
-when your program is complete, push it to your github repository
-then send this Teams message to your teacher: I am done with exercise "Morris The Miner"
-thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
+When your program is complete, push it to your github repository.
+Then send this Teams message to your teacher: <filename> done
+Thereafter go on with the next file.
 """
 
 
 def sleep():
-    status["sleepiness"] -= 10
+    status["sleepiness"] -= 10  # update sleepiness
     # update thirst
     # update hunger
     # check for values out of boundaries
@@ -41,10 +43,9 @@ def dead():
     return status["sleepiness"] > 100 or status["thirst"] > 100 or status["hunger"] > 100
 
 
-turn = 0
 status = {"turn": 0, "sleepiness": 0, "thirst": 0, "hunger": 0, "whisky": 0, "gold": 0}  # dictionary
 
-while not dead() and turn < 1000:
-    turn += 1
+while not dead() and status["turn"] < 1000:
+    status["turn"] += 1
     sleep()
     print(status)

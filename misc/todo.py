@@ -2,6 +2,7 @@
 oplæg
     vorstellung uli
     installation python etc.
+    how to use notebooks
     Datatypes
     Turtlegraphics
     aufbau programm: imports, klassen, funktionen, hauptprogramm
@@ -9,7 +10,6 @@ oplæg
     vor Morris-OOP: kig igen på Tom the turtle
 
 Aufgaben
-    Turtle graphics
-    File einlesen / schreiben
+    S0220_tkinter
 
 """

@@ -9,7 +9,7 @@ this way ElectricVehicle inherits its attributes and methods from Vehicle
 Inspect the following code in detail. Find out what every row of code does.
 For example by changing the code a bit and then running/debugging the program.
 
-thereafter go on with the next file in numerical order in the teacher's exercise repository.
+thereafter go on with the next file.
 """
 
 

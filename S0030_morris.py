@@ -1,6 +1,8 @@
 """
 Exercise "Morris The Miner":
 
+As always, read the whole exercise description carefully before your start to solve the exercise.
+
 Copy this file into your own solution directory. Write your solution into the copy.
 
 Initial situation:
@@ -22,10 +24,10 @@ drink:      sleepiness+=5,  thirst-=15, hunger-=1,  whisky-=1, gold+=0
 Your task:
 Write a program that gets Morris as much gold as possible in 1000 turns.
 
-if you have no idea how to begin, open S0031.py and start from there
+if you have no idea how to begin, open S0031_morris.py and start from there
 if you get stuck, ask google, the other pupils or the teacher (in this order).
 
-when your program is complete, push it to your github repository
-then send this Teams message to your teacher: I am done with exercise "Morris The Miner"
-thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
+When your program is complete, push it to your github repository.
+Then send this Teams message to your teacher: <filename> done
+Thereafter go on with the next file.
 """

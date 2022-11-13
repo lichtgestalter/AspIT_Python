@@ -3,15 +3,16 @@ Exercise "The inventory sequence" (solution)
 
 Inspect this code in detail. Especially if you did not come up with a solution yourself.
 Find out what every row of code does. For example by changing the code a bit.
-Then send this Teams message to your teacher: I am done with exercise "cars" (in a language of your choice) :-)
-thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
+
+Then send this Teams message to your teacher: <filename> done
+Thereafter go on with the next file.
 """
 
 
 def count_number(number):
     counter = 0
-    for row_ in rows:
-        counter += row_.count_number(number)
+    for row in rows:
+        counter += row.count(number)
     return counter
 
 
@@ -30,4 +31,4 @@ def inventory(max_row):
 
 
 rows = []
-inventory(6)
+inventory(16)

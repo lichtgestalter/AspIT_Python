@@ -1,6 +1,8 @@
 """
 exercise: Object oriented role playing game, part 2 :
 
+As always, read the whole exercise description carefully before your start to solve the exercise.
+
 Build on your solution of part 1.
 
 Invent two new classes, which inherit from class Character. For example Hunter and Magician.
@@ -23,7 +25,8 @@ Try to balance your character's capabilities in such a way that each character w
 
 If you get stuck, ask google, the other pupils or the teacher (in this order).
 
-When your program is complete, push it to your github repository and
-then send this Teams message to your teacher: I am done with exercise "role playing game 2"
-Thereafter go on with the next file in numerical order in the teacher's exercise repository after the current exercise.
+When your program is complete, push it to your github repository.
+Then send this Teams message to your teacher: <filename> done
+Thereafter go on with the next file.
 """
+

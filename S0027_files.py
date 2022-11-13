@@ -3,7 +3,7 @@ Writing to and reading from a file
 
 Inspect this code in detail.
 Find out what every row of code does. For example by changing the code a bit.
-Thereafter go on with the next file in numerical order in the teacher's exercise repository.
+Thereafter go on with the next file.
 """
 
 mydata = ["Hi,\n", "this is a text file.\n", "It has 3 rows.\n"]  # this is a list of strings

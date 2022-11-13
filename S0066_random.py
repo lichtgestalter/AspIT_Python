@@ -3,10 +3,11 @@ Random numbers:
 
 Inspect this code in detail.
 Find out what every row of code does. For example by changing the code a bit.
-Thereafter go on with the next file in numerical order in the teacher's exercise repository.
+Thereafter go on with the next file.
 """
 
 import random  # this imports a library called "random". A library is (someone else's) python code, that you can use in your own program.
+#
 
 for i in range(3):
     print(f"A random number between 0 and 1: {random.random()}")

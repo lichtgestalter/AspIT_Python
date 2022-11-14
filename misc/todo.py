@@ -1,7 +1,7 @@
 """
 oplæg
-    vorstellung uli
-    installation python etc.
+    *vorstellung uli
+    *installation python etc.
     how to use notebooks
     Datatypes
     Turtlegraphics

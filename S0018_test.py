@@ -17,7 +17,7 @@ Commit the file to your own git repository (commit means: back up the current st
 
 Check in your web browser on github.com that the changed file is present in your repository on github
 
-Send your teacher the url of your github repository via Teams chat
+If you haven't already, send your teacher the url of your github solutions repository via Teams chat.
 The url looks something like https://github.com/lichtgestalter/S1.git
 
 Thereafter go on with the next file.

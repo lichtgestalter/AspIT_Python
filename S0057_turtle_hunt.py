@@ -34,28 +34,26 @@ import math
 import random
 
 
-class TurtleExample1(turtle.Turtle):
+class PlayerName1(turtle.Turtle):
 
-    def __repr__(self):
-        return "Test1"
+    def prey_rotation(self, hunters_):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
+        degree = -2
+        return degree
 
-    def prey_rotation(self, hunters_):
-        return -1
-
-    def hunter_rotation(self, prey_):
-        return 1.5
+    def hunter_rotation(self, prey_):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
+        degree = 1.5
+        return degree
 
 
-class TurtleExample2(turtle.Turtle):
+class PlayerName2(turtle.Turtle):
 
-    def __repr__(self):
-        return "Test2"
+    def prey_rotation(self, hunters_):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
+        degree = 2.2
+        return degree
 
-    def prey_rotation(self, hunters_):
-        return 1.2
-
-    def hunter_rotation(self, prey_):
-        return 0.5
+    def hunter_rotation(self, prey_):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
+        degree = 0.5
+        return degree
 
 
 def distance(pos1, pos2):
@@ -105,7 +103,8 @@ def hunt(prey_class_, hunter_class_, color):
         t.speed(SPEED)
     init_positions(turtles)
     turn = 0
-    while not caught(turtles, CAUGHT_DISTANCE) and turn < MAX_TURNS:  # debug not
+
+    while not caught(turtles, CAUGHT_DISTANCE) and turn < MAX_TURNS:
         turn += 1
         for h in hunters:
             h.right(h.hunter_rotation(prey))
@@ -113,19 +112,22 @@ def hunt(prey_class_, hunter_class_, color):
         for t in turtles:
             move(t)
         # print(prey, "is now at", prey.position())
+
     turtle.clearscreen()
-    print(f'Caught after {turn} turns.')
-    # for t in turtles:
-    #     print(t, "is now at", t.position())
+    if turn < MAX_TURNS:
+        print(f'Caught after {turn} turns.')
+    else:
+        print(f'Prey not caught after {turn} turns. Prey receives {turn} bonus points on top.')
+        turn *= 2
     return turn
 
 
-MAX_TURNS = 70  #
-HUNTS = 2  #
+MAX_TURNS = 200  #
+ROUNDS = 2  #
 MAX_POS = 300  # x and y coordinates must be between -MAX_POS and +MAX_POS. (0, 0) is in the center of the screen.
 STEP_SIZE = 3  # distance each turtle moves in one turn
 SPEED = 0  # fastest: 10, slowest: 1, max speed: 0
-CAUGHT_DISTANCE = 300  #
+CAUGHT_DISTANCE = 270  #
 BOUNCE_STEP_SIZE = 15  # a turtle trying to leave the window, gets thrown back so many pixels
 START_ANGLES_MIN = [0, 90, 180, 270]
 START_ANGLES_MAX = [20, 110, 200, 290]
@@ -133,14 +135,15 @@ START_DISTANCE_MIN = int(MAX_POS * 0.7)
 START_DISTANCE_MAX = int(MAX_POS * 0.9)
 
 
-prey_class = TurtleExample1
-hunter_class = TurtleExample2
+class1 = PlayerName1  # change player name here (red prey)
+class2 = PlayerName2  # change player name here (green prey)
+
 score1 = score2 = 0
 
-for h in range(HUNTS):
-    score1 += hunt(prey_class, hunter_class, "red")
-    score2 += hunt(hunter_class, prey_class, "green")  # hunter class and prey class have switched roles now!
-    print(f"Score after {h+1} rounds: {prey_class}: {score1}    {hunter_class}: {score2}")
+for r in range(ROUNDS):
+    score1 += hunt(class1, class2, "red")
+    score2 += hunt(class2, class1, "green")  # hunter class and prey class have switched roles now!
+    print(f"Score after round {r + 1}: {class1.__name__}: {score1}    {class2.__name__}: {score2}")
 turtle.done()  # keeps the turtle window open after the program is done
 
 

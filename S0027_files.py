@@ -2,7 +2,7 @@
 Writing to and reading from a file
 
 Inspect this code in detail.
-Find out what every row of code does. For example by changing the code a bit.
+Find out what every row of code does. For example by changing the code a bit and running it again.
 Thereafter go on with the next file.
 """
 

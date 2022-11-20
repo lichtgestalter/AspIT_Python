@@ -1,8 +1,7 @@
 """
 Exercise "The inventory sequence" (solution)
 
-Inspect this code in detail. Especially if you did not come up with a solution yourself.
-Find out what every row of code does. For example by changing the code a bit.
+Find out what every row of code does. For example by changing the code a bit and running it again.
 
 Then send this Teams message to your teacher: <filename> done
 Thereafter go on with the next file.

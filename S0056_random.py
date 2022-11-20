@@ -2,12 +2,11 @@
 Random numbers:
 
 Inspect this code in detail.
-Find out what every row of code does. For example by changing the code a bit.
+Find out what every row of code does. For example by changing the code a bit and running it again.
 Thereafter go on with the next file.
 """
 
 import random  # this imports a library called "random". A library is (someone else's) python code, that you can use in your own program.
-#
 
 for i in range(3):
     print(f"A random number between 0 and 1: {random.random()}")
@@ -20,7 +19,7 @@ for i in range(5):
 print()
 
 first_seed = 5
-random.seed(first_seed)  # use seed() to create _repeatable_ and _predictable_ random numbers
+random.seed(first_seed)  # use seed() to create reproducible random numbers
 for i in range(3):
     print(f"A random number between 0 and 1 with seed {first_seed}: {random.random()}")
 print()

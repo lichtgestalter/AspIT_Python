@@ -77,6 +77,12 @@ def distance(pos1, pos2):  # calculate the distance between 2 points with the Py
     delta_y = pos1[1] - pos2[1]
     return math.sqrt(delta_x ** 2 + delta_y ** 2)
 
+hier weiter
+def direction(start_turtle, end_turtle):
+    # returns the direction from start_turtle to end_turtle in degrees
+    # 0° is east (plus x-axis), 90° is south (minus y-axis), 180° is west (minus x-axis), 270° is north (plus y-axis)
+    pass
+
 
 def move(turtle_):  # move the turtle and bounce it back when it crosses the window border
     turtle_.forward(STEP_SIZE)
@@ -147,11 +153,11 @@ def hunt(prey_class, hunter_class, color):  # execute the hunt
 
 # region edit this
 # edit these global constants only for debugging purposes:
-MAX_TURNS = 100      # Maximum number of turns in a hunt.                           In competition: probably 200.
-ROUNDS = 1          # Each player plays the prey this often.                       In competition: probably 10.
-STEP_SIZE = 3        # Distance each turtle moves in one turn.                      In competition: probably 3.
-SPEED = 0            # Fastest: 10, slowest: 1, max speed: 0.                       In competition: probably 0.
-CAUGHT_DISTANCE = 5  # Hunt is over, when a hunter is nearer to the prey than that. In competition: probably 5.
+MAX_TURNS = 100       # Maximum number of turns in a hunt.                           In competition: probably 200.
+ROUNDS = 1            # Each player plays the prey this often.                       In competition: probably 10.
+STEP_SIZE = 3         # Distance each turtle moves in one turn.                      In competition: probably 3.
+SPEED = 0             # Fastest: 10, slowest: 1, max speed: 0.                       In competition: probably 0.
+CAUGHT_DISTANCE = 6   # Hunt is over, when a hunter is nearer to the prey than that. In competition: probably 6.
 
 # random.seed(0)  # use seed() if you want reproducible random numbers for debugging purposes
 class1 = PlayerName1  # change player name here (red prey)

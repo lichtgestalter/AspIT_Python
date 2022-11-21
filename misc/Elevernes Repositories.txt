@@ -1,4 +1,10 @@
 Adam https://github.com/adam7973/s1.git
 Albert https://github.com/GARZTHONGK/Solutions.git
+Anton
+Gustav
+Jeppe https://github.com/JeppeAarskov/PyramidRowProject.git
 Klaes https://github.com/IDidntWannaDoThis/just-let-me-finish.git
+Naja
+Noah
+Saim
 Simon https://github.com/MesterianUnion/Solutions_real_1.git

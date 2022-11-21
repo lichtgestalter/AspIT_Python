@@ -80,7 +80,8 @@ def distance(pos1, pos2):  # calculate the distance between 2 points with the Py
 hier weiter
 def direction(start_turtle, end_turtle):
     # returns the direction from start_turtle to end_turtle in degrees
-    # 0° is east (plus x-axis), 90° is south (minus y-axis), 180° is west (minus x-axis), 270° is north (plus y-axis)
+    # 0° is east (plus x-axis), which is also the direction of each turtle at the beginning of each hunt.
+    # 90° is south (minus y-axis), 180° is west (minus x-axis), 270° is north (plus y-axis)
     pass
 
 
@@ -107,7 +108,7 @@ def init_positions(turtles_):  # move turtles to their initial random positions
         turtle_.right(angle)  # turn turtle a random angle
         turtle_.penup()
         turtle_.forward(random.randint(START_DISTANCE_MIN, START_DISTANCE_MAX))  # move turtle a random distance
-        turtle_.right(-angle)  # now the turtle points in the original direction again (the x-axis direction)
+        turtle_.right(-angle)  # now the turtle points in the original direction again (the x-axis direction, also called east)
         turtle_.pendown()
 
 

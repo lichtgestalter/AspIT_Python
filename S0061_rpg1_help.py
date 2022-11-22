@@ -20,7 +20,7 @@ for this reason we define another method get_hit which reduces _current_health o
 If you get stuck, ask google, the other pupils or the teacher (in this order).
 
 When your program is complete, push it to your github repository
-and compare it to the teacher's solution in S0065_rpg1.py
+and compare it to the teacher's solution in S0065_rpg1_solution.py
 Then send this Teams message to your teacher: <filename> done
 Thereafter go on with the next file.
 """

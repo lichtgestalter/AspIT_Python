@@ -17,9 +17,12 @@ oplæg
     debugger erklären
     vor Morris-OOP: kig igen på Tom the turtle
 
+
 Aufgaben
-    turtle direction færdig
+    dateinamen besser nummerieren
+    RECHTSCHREIBUNG
     S0220_tkinter
+
 
 Sonstiges
     opret python.doc aktualisieren:
@@ -29,3 +32,6 @@ Sonstiges
             solutions: deine løsungen
             am anfang im file expolorer alles von opgave nach solution kopieren (danach nur einzelne files, um løsungen nicht zu ueberschreiben)
         Aufforderung zum senden des git links frueher
+        check list
+            lists all installation steps
+            provides tests for success of all steps

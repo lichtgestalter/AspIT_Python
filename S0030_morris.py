@@ -24,7 +24,7 @@ drink:      sleepiness+=5,  thirst-=15, hunger-=1,  whisky-=1, gold+=0
 Your task:
 Write a program that gets Morris as much gold as possible in 1000 turns.
 
-if you have no idea how to begin, open S0031_morris.py and start from there
+if you have no idea how to begin, open S0031_morris_help.py and start from there
 if you get stuck, ask google, the other pupils or the teacher (in this order).
 
 When your program is complete, push it to your github repository.

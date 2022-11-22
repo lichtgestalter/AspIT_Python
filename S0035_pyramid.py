@@ -25,7 +25,7 @@ try out different lists as the second argument.
 
 run the program with shift+f10 (or click on the green arrow)
 
-if you have no idea how to begin, open S0036_pyramid.py and start from there
+if you have no idea how to begin, open S0036_pyramid_help.py and start from there
 
 When your program is complete, push it to your github repository.
 Then send this Teams message to your teacher: <filename> done

@@ -85,10 +85,10 @@ def direction(start_turtle, end_turtle):
     # returns the direction from start_turtle to end_turtle in degrees
     # 0° is east (plus x-axis), which is also the direction of each turtle at the beginning of each hunt.
     # 90° is south (minus y-axis), 180° is west (minus x-axis), 270° is north (plus y-axis)
-    dx = end_turtle.position()[0] - start_turtle.position()[0]
-    dy = end_turtle.position()[1] - start_turtle.position()[1]
-    angle = math.atan2(dy, dx) * 180 / math.pi
-    if dy < 0:
+    delta_x = end_turtle.position()[0] - start_turtle.position()[0]
+    delta_y = end_turtle.position()[1] - start_turtle.position()[1]
+    angle = math.atan2(delta_y, delta_x) * 180 / math.pi
+    if delta_y < 0:
         return -angle
     else:
         return 360 - angle
@@ -135,6 +135,7 @@ def hunt(prey_class, hunter_class, color):  # execute the hunt
     prey.pencolor(color)
     for t in turtles:
         t.speed(SPEED)
+        t.shape("turtle")
     init_positions(turtles)
 
     # the hunt:
@@ -168,9 +169,9 @@ MAX_TURNS = 100       # Maximum number of turns in a hunt.                      
 ROUNDS = 1            # Each player plays the prey this often.                       In competition: probably 10.
 STEP_SIZE = 3         # Distance each turtle moves in one turn.                      In competition: probably 3.
 SPEED = 0             # Fastest: 10, slowest: 1, max speed: 0.                       In competition: probably 0.
-CAUGHT_DISTANCE = 6   # Hunt is over, when a hunter is nearer to the prey than that. In competition: probably 6.
+CAUGHT_DISTANCE = 10  # Hunt is over, when a hunter is nearer to the prey than that. In competition: probably 10.
 
-# random.seed(0)  # use seed() if you want reproducible random numbers for debugging purposes
+random.seed(2)  # use seed() if you want reproducible random numbers for debugging purposes
 class1 = PlayerName1  # (red prey) Replace PlayerName1 by your own class name here.
 class2 = PlayerName2  # (green prey) For testing your code, replace PlayerName2 by your own class name here. Later replace this by your sparring partner's class name.
 # endregion

@@ -18,10 +18,10 @@ the method hit may not change the private attribute _current_health off a (poten
 for this reason we define another method get_hit which reduces _current_health of the object it belongs to by attackpower.
 
 If you get stuck, ask google, the other pupils or the teacher (in this order).
-If you have no idea how to begin, open S0061_rpg1.py and start from there.
+If you have no idea how to begin, open S0061_rpg1_help.py and start from there.
 
 When your program is complete, push it to your github repository
-and compare it to the teacher's solution in S0065_rpg1.py
+and compare it to the teacher's solution in S0065_rpg1_solution.py
 Then send this Teams message to your teacher: <filename> done
 Thereafter go on with the next file.
 """

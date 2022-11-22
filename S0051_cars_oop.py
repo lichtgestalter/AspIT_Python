@@ -32,6 +32,7 @@ class ElectricVehicle(Vehicle):  # class ElectricVehicle inherits from class Veh
 
     def __init__(self, wheels, max_speed, battery_capacity):
         super().__init__(wheels, max_speed)  # super() refers to the parent class (Vehicle). That way we can reuse the code of Vehicle.__init__
+        # Vehicle.__init__(self, wheels, max_speed)  # would do exactly the same as the line above but is not as flexible
         self.battery_capacity = battery_capacity
 
     def __repr__(self):
@@ -52,7 +53,7 @@ ecar.drive()  # polymorphism
 # in reality we called Vehicle.drive() and ElectricVehicle.drive()
 # this is called polymorphism (= many forms). It makes life a lot easier for programmers
 # for example can we now have objects of different types in a list and process them conveniently in a for loop:
-print("for loop:")
+print("\nfor loop:")
 cars = [car1, ecar]
 for car in cars:
     car.drive()

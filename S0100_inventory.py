@@ -20,7 +20,7 @@ appears in the current number sequence.
 
 In the main program, call inventory with 6 as an argument.
 
-If you have no idea how to begin, have a look at the solution in S0102_inventory.py
+If you have no idea how to begin, have a look at the solution in S0102_inventory_solution.py
 
 When your program is complete, push it to your github repository.
 Then send this Teams message to your teacher: <filename> done

@@ -1,4 +1,3 @@
-"""
 oplæg
     vorstellung uli
     installation python etc.
@@ -30,5 +29,3 @@ Sonstiges
             solutions: deine løsungen
             am anfang im file expolorer alles von opgave nach solution kopieren (danach nur einzelne files, um løsungen nicht zu ueberschreiben)
         Aufforderung zum senden des git links frueher
-
-"""

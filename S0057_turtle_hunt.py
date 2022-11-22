@@ -82,6 +82,14 @@ def direction(start_turtle, end_turtle):
     # returns the direction from start_turtle to end_turtle in degrees
     # 0° is east (plus x-axis), which is also the direction of each turtle at the beginning of each hunt.
     # 90° is south (minus y-axis), 180° is west (minus x-axis), 270° is north (plus y-axis)
+
+    # def direction(dx, dy):
+    #     angle = math.atan2(dy, dx) * 180 / math.pi
+    #     if dy < 0:
+    #         return -angle
+    #     else:
+    #         return 360 - angle
+
     pass
 
 

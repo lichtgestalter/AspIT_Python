@@ -15,3 +15,4 @@ print((math.atan2(dy, dx)*180/math.pi) % 360)
 print((math.atan2(-dy, dx)*180/math.pi) % 360)
 print((math.atan2(dy, -dx)*180/math.pi) % 360)
 print((math.atan2(-dy, -dx)*180/math.pi) % 360)
+

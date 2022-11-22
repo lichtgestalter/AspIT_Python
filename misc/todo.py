@@ -19,6 +19,15 @@ oplæg
     vor Morris-OOP: kig igen på Tom the turtle
 
 Aufgaben
+    turtle direction færdig
     S0220_tkinter
+
+Sonstiges
+    opret python.doc aktualisieren:
+        Uebersicht, was erreicht werden soll.
+        Betonung auf 2 Projekte mit jeweiligem repository
+            opgaver nur lesen, nicht løsungen
+            solutions: deine løsungen
+        Aufforderung zum senden des git links frueher
 
 """

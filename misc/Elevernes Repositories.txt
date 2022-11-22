@@ -1,7 +1,7 @@
 Adam https://github.com/adam7973/s1.git
 Albert https://github.com/GARZTHONGK/Solutions.git
 Anton
-Gustav
+Gustav https://github.com/DanishGent/pythonProject1.git
 Jeppe https://github.com/JeppeAarskov/PyramidRowProject.git
 Klaes https://github.com/IDidntWannaDoThis/just-let-me-finish.git
 Naja

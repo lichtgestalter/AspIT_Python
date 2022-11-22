@@ -14,25 +14,28 @@ Step 1:
     Find out what the code does. For example by changing the code a bit and running it again.
 
 Step 2:
-    Change the name of class PlayerName1 to your personal class name. Do this in it's class definition and near the bottom of this script.
-    Make the methods rotate_prey and rotate_hunter smarter.
+    Change the name of class PlayerName1 in the first line of it's class definition to your personal class name.
+    Near the bottom of this script, set the variables class1 and class2 to your personal class name.
+    In your personal class, make the methods rotate_prey and rotate_hunter smarter.
     Possibly you'll also want to add some attributes and/or methods to your class.
 
 Step 3:
-    Find a sparring partner in your study group. As with everything else, ask your teacher for help, if needed.
-    In your code, replace the class PlayerName2 with your sparring partner's class.
+    Find a sparring partner in your study group.
+    As with everything else, ask your teacher for help, if needed.
+    In your code, replace the whole class PlayerName2 with your sparring partner's class.
+    Set the variable class2 to your sparring partner's class name.
     Let the 2 classes fight and learn from the results in order to improve your code.
     Repeat this step until you are happy :-)
 
-
 Step 4:
-Step 5:
-Step 6:
+    When your program is complete, push it to your github repository.
+    Then send this Teams message to your teacher: <filename> done
+    Thereafter go on with the next file.
 
+Later:
+    When everyone is done with this exercise, we will hold a tournament
+    to find out, who programmed the smartest turtles :)
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
 """
 
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
@@ -49,7 +52,7 @@ class PlayerName1(turtle.Turtle):
         # positions: a list of tuples. Each tuple is a pair of coordinates (x,y).
         # positions[0] is the coordinate tuple of the prey. positions[0][0] is the x-coordinate of the prey.
         # positions[1], positions[2], positions[3] refer to the hunters.
-        degree = 2
+        degree = 3
         # print(positions[0][1])
         return degree
 
@@ -65,7 +68,7 @@ class PlayerName2(turtle.Turtle):
         return degree
 
     def rotate_hunter(self, positions):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
-        degree = 0.5
+        degree = 1
         return degree
 # endregion
 
@@ -77,20 +80,18 @@ def distance(pos1, pos2):  # calculate the distance between 2 points with the Py
     delta_y = pos1[1] - pos2[1]
     return math.sqrt(delta_x ** 2 + delta_y ** 2)
 
-hier weiter
+
 def direction(start_turtle, end_turtle):
     # returns the direction from start_turtle to end_turtle in degrees
     # 0° is east (plus x-axis), which is also the direction of each turtle at the beginning of each hunt.
     # 90° is south (minus y-axis), 180° is west (minus x-axis), 270° is north (plus y-axis)
-
-    # def direction(dx, dy):
-    #     angle = math.atan2(dy, dx) * 180 / math.pi
-    #     if dy < 0:
-    #         return -angle
-    #     else:
-    #         return 360 - angle
-
-    pass
+    dx = end_turtle.position()[0] - start_turtle.position()[0]
+    dy = end_turtle.position()[1] - start_turtle.position()[1]
+    angle = math.atan2(dy, dx) * 180 / math.pi
+    if dy < 0:
+        return -angle
+    else:
+        return 360 - angle
 
 
 def move(turtle_):  # move the turtle and bounce it back when it crosses the window border
@@ -148,7 +149,8 @@ def hunt(prey_class, hunter_class, color):  # execute the hunt
             move(t)
             positions = [t.position() for t in turtles]  # this is list comprehension https://www.w3schools.com/python/python_lists_comprehension.asp
         # print(prey, "is now at", prey.position())
-
+        # if turn % 15 == 0:
+        #     print(direction(prey, hunter1), direction(hunter1, prey))
     # hunt results:
     turtle.clearscreen()
     if turn < MAX_TURNS:
@@ -169,8 +171,8 @@ SPEED = 0             # Fastest: 10, slowest: 1, max speed: 0.                  
 CAUGHT_DISTANCE = 6   # Hunt is over, when a hunter is nearer to the prey than that. In competition: probably 6.
 
 # random.seed(0)  # use seed() if you want reproducible random numbers for debugging purposes
-class1 = PlayerName1  # change player name here (red prey)
-class2 = PlayerName2  # change player name here (green prey). For debugging purposes class1 and class2 may be identical.
+class1 = PlayerName1  # (red prey) Replace PlayerName1 by your own class name here.
+class2 = PlayerName2  # (green prey) For testing your code, replace PlayerName2 by your own class name here. Later replace this by your sparring partner's class name.
 # endregion
 
 

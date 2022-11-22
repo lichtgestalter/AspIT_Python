@@ -10,6 +10,7 @@ Hyggerum
     Brætspil
     Oplæg uden afledning
 
+------------------
 
 Overskuelig, Forudsigelig
     S0000

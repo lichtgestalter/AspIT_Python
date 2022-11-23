@@ -2,9 +2,9 @@ Adam https://github.com/adam7973/s1.git
 Albert https://github.com/GARZTHONGK/Solutions.git
 Anton
 Gustav https://github.com/DanishGent/pythonProject1.git
-Jeppe https://github.com/JeppeAarskov/PyramidRowProject.git
+Jeppe https://github.com/JeppeAarskov/solutions2.git
 Klaes https://github.com/IDidntWannaDoThis/just-let-me-finish.git
-Naja
+Naja https://github.com/Naja1575/Solutions.git
 Noah
 Saim
 Simon https://github.com/MesterianUnion/Solutions_real_1.git

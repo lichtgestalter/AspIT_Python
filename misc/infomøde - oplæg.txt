@@ -9,6 +9,7 @@ Hyggerum
     Socialt samvær
     Brætspil
     Oplæg uden afledning
+    Varsel via chat før oplæg
 
 ------------------
 

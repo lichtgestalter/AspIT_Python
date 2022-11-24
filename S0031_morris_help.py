@@ -14,7 +14,7 @@ If sleepiness, thirst or hunger goes above 100, Morris the miner dies.
 Morris can’t store more than 10 bottles of whisky.
 No attribute may go below 0.
 
-Possible moves for a turn:
+At each turn, Morris can perform exactly one of these activities:
 sleep:      sleepiness-=10, thirst+=1,  hunger+=1,  whisky+=0, gold+=0
 mine:       sleepiness+=5,  thirst+=5,  hunger+=5,  whisky+=0, gold+=5
 eat:        sleepiness+=5,  thirst-=5,  hunger-=20, whisky+=0, gold-=2

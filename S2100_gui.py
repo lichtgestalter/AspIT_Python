@@ -69,21 +69,21 @@ label_container_id = tk.Label(edit_frame_container, text="Id")  # https://www.tu
 label_container_id.grid(row=0, column=0, padx=padx, pady=pady)
 entry_container_id = tk.Entry(edit_frame_container, width=4, justify="right")  # https://www.tutorialspoint.com/python/tk_entry.htm
 entry_container_id.grid(row=1, column=0, padx=padx, pady=pady)
-# label and entry for container weight
-label_container_weight = tk.Label(edit_frame_container, text="Weight")
-label_container_weight.grid(row=0, column=1, padx=padx, pady=pady)
-entry_container_weight = tk.Entry(edit_frame_container, width=8, justify="right")
-entry_container_weight.grid(row=1, column=1, padx=padx, pady=pady)
-# label and entry for container destination
-label_container_destination = tk.Label(edit_frame_container, text="Destination")
-label_container_destination.grid(row=0, column=2, padx=padx, pady=pady)
-entry_container_destination = tk.Entry(edit_frame_container, width=20)
-entry_container_destination.grid(row=1, column=2, padx=padx, pady=pady)
-# label and entry for container destination
-label_container_weather = tk.Label(edit_frame_container, text="Weather")
-label_container_weather.grid(row=0, column=3, padx=padx, pady=pady)
-entry_container_weather = tk.Entry(edit_frame_container, width=14)
-entry_container_weather.grid(row=1, column=3, padx=padx, pady=pady)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Define Frame which contains buttons
 button_frame_container = tk.Label(controls_frame_container)
@@ -91,12 +91,12 @@ button_frame_container.grid(row=1, column=0, padx=padx, pady=pady)
 # Define buttons
 button_create_container = tk.Button(button_frame_container, text="Create")
 button_create_container.grid(row=0, column=1, padx=padx, pady=pady)
-button_update_container = tk.Button(button_frame_container, text="Update")
-button_update_container.grid(row=0, column=2, padx=padx, pady=pady)
-button_delete_container = tk.Button(button_frame_container, text="Delete")
-button_delete_container.grid(row=0, column=3, padx=padx, pady=pady)
-select_record_button = tk.Button(button_frame_container, text="Clear Entry Boxes")
-select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
+
+
+
+
+
+
 
 # endregion container widgets
 

@@ -1,11 +1,11 @@
 """
 Exercise "Test pycharm and github":
 
-As always, read the whole exercise description carefully before your start to solve the exercise.
+As always, read the whole exercise description carefully before you begin to solve the exercise.
 
 Copy this file into your own solution directory. Edit your copy only.
 
-Run the program with shift+f10 (or click on the green arrow)
+Run the program with shift+f10 (or click on the green "play" icon)
 
 In the program code change the text between the quotation marks
 

@@ -1,7 +1,7 @@
 """
 exercise: Object oriented role playing game, part 2 :
 
-As always, read the whole exercise description carefully before your start to solve the exercise.
+As always, read the whole exercise description carefully before you begin to solve the exercise.
 
 Build on your solution of part 1.
 

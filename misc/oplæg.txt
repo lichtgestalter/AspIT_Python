@@ -12,14 +12,27 @@
     Playstation (10er Pauser)
 
 24/11/22
-    garderobe
+    -garderobe
 
     har i læst fil vedr. BL?
-    besvar invitationerne fællesmøder BL!
+    besvar invitationerne til BL-fællesmøder!
     arbejde hjemmefra ok?
 
     Opdater opgaverne!
-    Morris: bare en handling hvert turn
+    -Morris: bare en handling hvert turn
 
 25/11/22
-    døren låst kl. 12-13!
+    -døren låst kl. 12-13!
+
+28/11/22
+    Kahoot: for loops  (manglede Noah, Saim, Anton, Naja)
+
+
+
+N.N.
+    pycharm intro / Turtlegraphics
+        run current file (shift f10)
+        pull opgaver from GitHub
+        debug with print
+        aufbau programm: imports, klassen, funktionen, hauptprogramm
+    debugger erklären

@@ -1,7 +1,7 @@
 """
 Exercise "Morris The Miner":
 
-As always, read the whole exercise description carefully before your start to solve the exercise.
+As always, read the whole exercise description carefully before you begin to solve the exercise.
 
 Copy this file into your own solution directory. Write your solution into the copy.
 

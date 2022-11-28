@@ -1,7 +1,7 @@
 """
 Exercise "Number pyramid":
 
-As always, read the whole exercise description carefully before your start to solve the exercise.
+As always, read the whole exercise description carefully before you begin to solve the exercise.
 
 Copy this file into your own solution directory. Write your solution into the copy.
 
@@ -13,8 +13,6 @@ The function prints out the numbers of each row and also their sum.
 
 In the main program, call the function with 1, 2, 3, ..., 10 as an argument.
 
-Run the program with shift+f10 (or click on the green arrow).
-
 Add a more general function pyramid2.
 This function has as a second parameter a list with the numbers of
 the pyramid's topmost row.
@@ -24,6 +22,9 @@ and a list of numbers of your choice as the second argument.
 Try out different lists as the second argument.
 
 Replace the zeros in the code below with your own code
+
+If you get stuck, ask google, the other pupils or the teacher (in this order).
+If you are still stuck, open S0038_pyramid_solution.py and compare it with your solution
 
 When your program is complete, push it to your github repository.
 Then send this Teams message to your teacher: <filename> done

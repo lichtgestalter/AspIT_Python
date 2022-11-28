@@ -1,7 +1,7 @@
 """
 Exercise "The inventory sequence"
 
-As always, read the whole exercise description carefully before your start to solve the exercise.
+As always, read the whole exercise description carefully before you begin to solve the exercise.
 
 This exercise is an optional challenge for the excellent programmers among you.
 You absolutely do not have to solve this exercise in order to proceed successfully.

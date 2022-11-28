@@ -1,7 +1,7 @@
 """
 Exercise "Number pyramid":
 
-As always, read the whole exercise description carefully before your start to solve the exercise.
+As always, read the whole exercise description carefully before you begin to solve the exercise.
 
 Copy this file into your own solution directory. Write your solution into the copy.
 
@@ -12,8 +12,6 @@ The function has a parameter defining how many number rows to produce.
 The function prints out the numbers of each row and also their sum.
 
 In the main program, call the function with 1, 2, 3, ..., 10 as an argument.
-
-Run the program with shift+f10 (or click on the green arrow).
 
 Add a more general function pyramid2.
 This function has as a second parameter a list with the numbers of

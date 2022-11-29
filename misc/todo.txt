@@ -1,7 +1,8 @@
 Exercises
     dateinamen besser nummerieren
-    RECHTSCHREIBUNG
-    S0220_tkinter
+    tkinter
+    sql
+
 
 
 opret python.doc aktualisieren:

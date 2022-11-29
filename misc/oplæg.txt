@@ -27,6 +27,29 @@
 28/11/22
     Kahoot: for loops  (manglede Noah, Saim, Anton, Naja)
 
+30/11/22 BL 1
+    pycharm short cuts
+        Alt+Down/Up: move line down/up
+        Ctrl+Del: delete line
+        Ctrl+D : duplicate line
+        Alt+Shift+mousedrag: rectangular selection
+        Ctrl+W / Ctrl+Shift+W: expand / reduce selection
+
+        Ctrl+1: comment / uncomment
+        Ctrl+Shift+(Numpad)Minus: collapse all (folding of blocks, functions, classes, etc.)
+        Ctrl+Shift+(Numpad)Plus: expand all
+        Shift+F6: refactor (change names etc.)
+        Ctrl+Shift+A: search IDE commands
+        Ctrl+Alt+S: settings
+        Ctrl+B: show usages
+
+30/11/22 BL 2
+    pycharm debugging
+    F8 38, F7 31
+    opgaverækkefølge, pull i morgen
+
+30/11/22 BL 3
+    2100-2400, S2
 
 
 N.N.

@@ -7,7 +7,7 @@ Copy this file into your own solution directory. Edit your copy only.
 
 Run the program with shift+f10 (or click on the green "play" icon)
 
-In the program code change the text between the quotation marks
+In the program code, change the text between the quotation marks
 
 Commit the file to your own git repository (commit means: back up the current state of your files as a new version)
     Git, Commit (or click the green check mark)
@@ -15,7 +15,9 @@ Commit the file to your own git repository (commit means: back up the current st
     click on "commit and push" (push means: upload this commit to github)
     push
 
-Check in your web browser on github.com that the changed file is present in your repository on github
+Check in your web browser on github.com that the changed file is present in your repository on github.
+
+On the GitHub web page of your repository, click on "Settings", make sure that your repository is public (General, Change repository visibility).
 
 If you haven't already, send your teacher the url of your github solutions repository via Teams chat.
 The url looks something like https://github.com/lichtgestalter/S1.git

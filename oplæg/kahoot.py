@@ -68,3 +68,32 @@ for number in numbers:
     print(number)
 
 print("-----")
+
+class Vehicle:
+    def __init__(self, wheels, max_speed):
+        self.wheels = wheels
+        self.max_speed = max_speed
+
+    def __repr__(self):
+        return f"Vehicle: {self.wheels} wheels, {self.max_speed} km/h maximum speed"
+
+    def drive(self):
+        print("WROOOOOOOOM!")
+        self._top_secret()  # this is ok
+
+    def _top_secret(self):
+        print("Don't call this method from outside this class!")
+
+
+car1 = Vehicle(4, 160)
+car1.drive()
+car1._top_secret()  # this is NOT ok!
+
+"""
+attribute
+method
+member
+protected/private member
+class
+inheritance
+"""

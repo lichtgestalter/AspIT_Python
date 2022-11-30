@@ -62,5 +62,9 @@ x = 2
 y = 5
 print(f'{x ** y =}   {type(x ** y) =}')
 
-print("-----")
 
+numbers = [8, 12, 3]
+for number in numbers:
+    print(number)
+
+print("-----")

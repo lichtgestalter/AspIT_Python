@@ -1,12 +1,12 @@
 """
 Constructor:
 
-now we use a constructor to more elegantly define the cars and their attributes
+Now we use a constructor to more elegantly define the cars and their attributes.
 
 Inspect the following code in detail. Find out what every row of code does.
 For example by changing the code a bit and then running/debugging the program.
 
-thereafter go on with the next file.
+Thereafter go on with the next file.
 """
 
 

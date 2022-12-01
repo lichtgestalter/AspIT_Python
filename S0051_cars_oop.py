@@ -1,15 +1,16 @@
 """
 Inheritance and polymorphism:
 
-now we want to represent an electric car with the class ElectricVehicle
-its attributes and methods are similar to the class Vehicle, but not identical.
-we do not have to copy&paste the class code from Vehicle. Instead we define the class ElectricVehicle based on the class Vehicle.
-this way ElectricVehicle inherits its attributes and methods from Vehicle
+Now we want to represent an electric car with the class ElectricVehicle.
+Its attributes and methods are similar to the class Vehicle, but not identical.
+Together, attributes and methods are called the class's members.
+We do not have to copy&paste the class code from Vehicle. Instead we define the class ElectricVehicle based on the class Vehicle.
+This way ElectricVehicle inherits its attributes and methods from Vehicle.
 
 Inspect the following code in detail. Find out what every row of code does.
 For example by changing the code a bit and then running/debugging the program.
 
-thereafter go on with the next file.
+Thereafter go on with the next file.
 """
 
 

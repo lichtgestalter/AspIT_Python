@@ -27,12 +27,22 @@
 28/11/22
     Kahoot: for loops  (manglede Noah, Saim, Anton, Naja)
 
+30/11/22 BL 1
+    pycharm short cuts
+
+30/11/22 BL 2
+    pycharm debugging (print, F7, F8)
+
+30/11/22 BL 3
+    2100-2400, S2
 
 
 N.N.
+    opgaverækkefølge
+    pull!
+
     pycharm intro / Turtlegraphics
         run current file (shift f10)
         pull opgaver from GitHub
-        debug with print
         aufbau programm: imports, klassen, funktionen, hauptprogramm
     debugger erklären

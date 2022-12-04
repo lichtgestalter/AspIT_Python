@@ -189,7 +189,7 @@ class Vehicle:
         self.max_speed = max_speed
 
     def __repr__(self):
-        return f"Vehicle: {self.wheels} wheels, {self.max_speed} km/h maximum speed"
+        return f"Vehicle: {self.wheels=} {self.max_speed=}"
 
     def drive(self):
         print("WROOOOOOOOM!")
@@ -202,6 +202,7 @@ class Vehicle:
 car1 = Vehicle(4, 160)
 car1.drive()
 car1._top_secret()
+print(car1)
 
 
 """

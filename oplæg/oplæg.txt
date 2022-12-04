@@ -41,3 +41,15 @@ N.N.
     opgaverækkefølge
     pull opgaver fra GitHub
     aufbau programm: imports, klassen, funktionen, hauptprogramm
+
+    (   parentes, rund parentes, klamme
+    [   kantet parentes
+    {   krøllet parentes, tuborgklamme, akkolade, tuborgparentes
+    :   dobbeltpunkt, kolon
+    ;   semikolon
+    "   dobbelt anførselstegn, citationstegn, gåseøjne
+    '   enkelt anførselstegn
+    =   er lige med
+    /   divideret med
+    2**5 to i femte (potens)
+    &   et-tegn, og-tegn

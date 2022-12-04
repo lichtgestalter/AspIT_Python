@@ -2,7 +2,7 @@ Exercises
     dateinamen besser nummerieren
     tkinter
     sql
-
+    begriffsliste, examensfragenliste
 
 
 opret python.doc aktualisieren:
@@ -10,7 +10,7 @@ opret python.doc aktualisieren:
     Betonung auf 2 Projekte mit jeweiligem repository
         opgaver nur lesen, nicht løsungen
         solutions: deine løsungen
-        am anfang im file expolorer alles von opgave nach solution kopieren (danach nur einzelne files, um løsungen nicht zu ueberschreiben)
+        am anfang im file explorer alles von opgave nach solution kopieren (danach nur einzelne files, um løsungen nicht zu ueberschreiben)
     Aufforderung zum senden des git links frueher
     check list
         lists all installation steps

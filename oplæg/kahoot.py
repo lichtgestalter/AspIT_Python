@@ -97,3 +97,114 @@ protected/private member
 class
 inheritance
 """
+
+print("-----")
+
+print(3>1)
+
+print("-----")
+
+print(type(3>1))
+
+print("-----")
+
+print(3==1)
+
+print("-----")
+
+print(3!=1)
+
+print("-----")
+
+print(3==1 or 5>0)
+
+print("-----")
+
+print(3!=1 and 4>2)
+
+print("-----")
+
+print(not 2<7)
+
+print("-----")
+
+print(not (2<7 or 4>=1))
+
+print("-----")
+
+print(not False)
+
+print("-----")
+
+dark = True
+if dark==True:
+    print("Night!")
+
+print("-----")
+
+dark = True
+if dark:
+    print("Night!")
+
+print("-----")
+
+dark = False
+if dark:
+    print("Night!")
+
+print("-----")
+
+dark = False
+if dark:
+    print("Night!")
+else:
+    print("Day!")
+
+
+print("-----")
+
+dark = not False
+if dark:
+    print("Night!")
+else:
+    print("Day!")
+
+print("-----")
+
+def animal(name):
+    return name in ["cat", "dog", "pig"]
+
+print(animal("mouse"))
+
+print("-----")
+
+def animal(name):
+    return name in ["cat", "dog", "pig"]
+
+print(animal("mouse") or animal("cat"))
+
+print("-----")
+
+def animal(name):
+    return name in ["cat", "dog", "pig"]
+
+if animal("dog"):
+    print("known animal")
+else:
+    print("unknown name")
+
+print("-----")
+print()
+
+print("-----")
+print()
+
+print("-----")
+
+print()
+
+print("-----")
+
+print()
+
+print("-----")

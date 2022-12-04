@@ -1,5 +1,5 @@
 """
-Exercise "The inventory sequence"
+Exercise "Animals"
 
 As always, read the whole exercise description carefully before you begin to solve the exercise.
 

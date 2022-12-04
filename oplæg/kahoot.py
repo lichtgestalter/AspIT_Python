@@ -38,36 +38,150 @@
 # x = str(x)
 # print(f'{x=}  {type(x)=}')
 
-a = 3
-b = 7
-c = 2
-print((a+b)*c)
+# a = 3
+# b = 7
+# c = 2
+# print((a+b)*c)
+#
+# print("-----")
+#
+# a = 3
+# b = 7
+# c = 2
+# print(a+b*c)
+#
+# print("-----")
+#
+# x = 13
+# y = 5
+# print(f'{x / y =}   {x // y =}    {x % y =}')
+#
+# print("-----")
+#
+# x = 2
+# y = 5
+# print(f'{x ** y =}   {type(x ** y) =}')
+#
+#
+# numbers = [8, 12, 3]
+# for number in numbers:
+#     print(number)
+#
+#
+# print("-----")
+#
+# print(3>1)
+#
+# print("-----")
+#
+# print(type(3>1))
+#
+# print("-----")
+#
+# print(3==1)
+#
+# print("-----")
+#
+# print(3!=1)
+#
+# print("-----")
+#
+# print(3==1 or 5>0)
+#
+# print("-----")
+#
+# print(3!=1 and 4>2)
+#
+# print("-----")
+#
+# print(not 2<7)
+#
+# print("-----")
+#
+# print(not (2<7 or 4>=1))
+#
+# print("-----")
+#
+# print(not False)
+#
+# print("-----")
+#
+# dark = True
+# if dark==True:
+#     print("Night!")
+#
+# print("-----")
+#
+# dark = True
+# if dark:
+#     print("Night!")
+#
+# print("-----")
+#
+# dark = False
+# if dark:
+#     print("Night!")
+#
+# print("-----")
+#
+# dark = False
+# if dark:
+#     print("Night!")
+# else:
+#     print("Day!")
+#
+#
+# print("-----")
+#
+# dark = not False
+# if dark:
+#     print("Night!")
+# else:
+#     print("Day!")
+#
+# print("-----")
+#
+# def animal(name):
+#     return name in ["cat", "dog", "pig"]
+#
+# print(animal("mouse"))
+#
+# print("-----")
+#
+# def animal(name):
+#     return name in ["cat", "dog", "pig"]
+#
+# print(animal("mouse") or animal("cat"))
+#
+# print("-----")
+#
+# def animal(name):
+#     return name in ["cat", "dog", "pig"]
+#
+# if animal("dog"):
+#     print("known animal")
+# else:
+#     print("unknown name")
+#
+# print("-----")
+# print()
+#
+# print("-----")
+# print()
+#
+# print("-----")
+#
+# print()
+#
+# print("-----")
+#
+# print()
+#
+# print("-----")
+#
+# print("-----")
 
-print("-----")
 
-a = 3
-b = 7
-c = 2
-print(a+b*c)
-
-print("-----")
-
-x = 13
-y = 5
-print(f'{x / y =}   {x // y =}    {x % y =}')
-
-print("-----")
-
-x = 2
-y = 5
-print(f'{x ** y =}   {type(x ** y) =}')
-
-
-numbers = [8, 12, 3]
-for number in numbers:
-    print(number)
-
-print("-----")
 
 class Vehicle:
     def __init__(self, wheels, max_speed):
@@ -79,7 +193,7 @@ class Vehicle:
 
     def drive(self):
         print("WROOOOOOOOM!")
-        self._top_secret()  # this is ok
+        self._top_secret()
 
     def _top_secret(self):
         print("Don't call this method from outside this class!")
@@ -87,7 +201,8 @@ class Vehicle:
 
 car1 = Vehicle(4, 160)
 car1.drive()
-car1._top_secret()  # this is NOT ok!
+car1._top_secret()
+
 
 """
 attribute
@@ -97,114 +212,3 @@ protected/private member
 class
 inheritance
 """
-
-print("-----")
-
-print(3>1)
-
-print("-----")
-
-print(type(3>1))
-
-print("-----")
-
-print(3==1)
-
-print("-----")
-
-print(3!=1)
-
-print("-----")
-
-print(3==1 or 5>0)
-
-print("-----")
-
-print(3!=1 and 4>2)
-
-print("-----")
-
-print(not 2<7)
-
-print("-----")
-
-print(not (2<7 or 4>=1))
-
-print("-----")
-
-print(not False)
-
-print("-----")
-
-dark = True
-if dark==True:
-    print("Night!")
-
-print("-----")
-
-dark = True
-if dark:
-    print("Night!")
-
-print("-----")
-
-dark = False
-if dark:
-    print("Night!")
-
-print("-----")
-
-dark = False
-if dark:
-    print("Night!")
-else:
-    print("Day!")
-
-
-print("-----")
-
-dark = not False
-if dark:
-    print("Night!")
-else:
-    print("Day!")
-
-print("-----")
-
-def animal(name):
-    return name in ["cat", "dog", "pig"]
-
-print(animal("mouse"))
-
-print("-----")
-
-def animal(name):
-    return name in ["cat", "dog", "pig"]
-
-print(animal("mouse") or animal("cat"))
-
-print("-----")
-
-def animal(name):
-    return name in ["cat", "dog", "pig"]
-
-if animal("dog"):
-    print("known animal")
-else:
-    print("unknown name")
-
-print("-----")
-print()
-
-print("-----")
-print()
-
-print("-----")
-
-print()
-
-print("-----")
-
-print()
-
-print("-----")

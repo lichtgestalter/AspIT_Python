@@ -199,10 +199,10 @@ class ClassName:
         print("Don't call this method from outside this class!")
 
 
-object1 = ClassName(4, 160)
-object1.method1()
-object1._top_secret()  # don't do this
-print(object1)
+object1 = ClassName(4, 160)  # creates an object by calling the constructor __init__
+object1.method1()  # calls method1 on object1
+object1._protected_method()  # don't do this
+print(object1)  # calls internally __repr__ on object1
 
 
 class Vehicle:

@@ -183,6 +183,28 @@
 
 
 
+class ClassName:
+    def __init__(self, attribute1_value, attribute2_value):  # constructor, magic function
+        self.attribute1 = attribute1_value
+        self.attribute2 = attribute2_value
+
+    def __repr__(self):  # magic function, defines the result of print()
+        return f"ClassName: {self.attribute1=} {self.attribute2=}"
+
+    def method1(self):
+        print("this is method1")
+        self._top_secret()
+
+    def _protected_method(self):
+        print("Don't call this method from outside this class!")
+
+
+object1 = ClassName(4, 160)
+object1.method1()
+object1._top_secret()  # don't do this
+print(object1)
+
+
 class Vehicle:
     def __init__(self, wheels, max_speed):
         self.wheels = wheels

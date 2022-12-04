@@ -48,8 +48,9 @@ N.N.
     :   dobbeltpunkt, kolon
     ;   semikolon
     "   dobbelt anførselstegn, citationstegn, gåseøjne
-    '   enkelt anførselstegn
+    '   enkelt anførselstegn, plinger
     =   er lige med
     /   divideret med
     2**5 to i femte (potens)
     &   et-tegn, og-tegn
+

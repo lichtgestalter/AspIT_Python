@@ -34,15 +34,10 @@
     pycharm debugging (print, F7, F8)
 
 30/11/22 BL 3
-    2100-2400, S2
+    overblik GUI- og S2-opgaver
 
 
 N.N.
     opgaverækkefølge
-    pull!
-
-    pycharm intro / Turtlegraphics
-        run current file (shift f10)
-        pull opgaver from GitHub
-        aufbau programm: imports, klassen, funktionen, hauptprogramm
-    debugger erklären
+    pull opgaver fra GitHub
+    aufbau programm: imports, klassen, funktionen, hauptprogramm

@@ -11,7 +11,7 @@ class ClassName:
         self.attribute1 = parameter1
         self.attribute2 = parameter2
 
-    def __repr__(self):  # magic function, defines the result of print()
+    def __repr__(self):  # magic function, defines how objects are printed
         return f"ClassName: {self.attribute1=} {self.attribute2=}"
 
     def method1(self):

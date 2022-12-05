@@ -12,6 +12,8 @@ Only if you are curious and love details:
 Step 1:
     Understand the program code as it is now.
     Find out what the code does. For example by changing the code a bit and running it again.
+    If you changed the code, copy this file's original into your own solution directory again,
+    before you go on with the following steps.
 
 Step 2:
     Change the name of class PlayerName1 in the first line of it's class definition to your personal class name.

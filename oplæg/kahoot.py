@@ -228,7 +228,6 @@ print(car1)
 
 
 print(car1.__dir__())
-
 ['wheels', 'max_speed',
  '__module__', '__init__', '__repr__', 'drive', '_top_secret', '__dict__',
  '__weakref__', '__doc__', '__new__', '__hash__', '__str__', '__getattribute__',

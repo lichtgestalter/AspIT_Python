@@ -193,7 +193,7 @@ class ClassName:
 
     def method1(self):
         print("this is method1")
-        self._top_secret()
+        self._protected_method()
 
     def _protected_method(self):
         print("Don't call this method from outside this class!")
@@ -225,6 +225,17 @@ car1 = Vehicle(4, 160)
 car1.drive()
 car1._top_secret()
 print(car1)
+
+
+print(car1.__dir__())
+
+['wheels', 'max_speed',
+ '__module__', '__init__', '__repr__', 'drive', '_top_secret', '__dict__',
+ '__weakref__', '__doc__', '__new__', '__hash__', '__str__', '__getattribute__',
+ '__setattr__', '__delattr__', '__lt__', '__le__', '__eq__', '__ne__', '__gt__',
+ '__ge__', '__reduce_ex__', '__reduce__', '__getstate__', '__subclasshook__',
+ '__init_subclass__', '__format__', '__sizeof__', '__dir__', '__class__']
+
 
 
 """

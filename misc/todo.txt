@@ -1,6 +1,6 @@
 Exercises
-    turtle "visible" mere scaffolding
-    mehr einfache Aufgaben
+    turtle "def visible" mere scaffolding
+    mehr einfache Aufgaben ohne løsungen, auch fuer oop
     Pyramide hinter rpg Aufgabe schieben
     dateinamen besser nummerieren
     tkinter

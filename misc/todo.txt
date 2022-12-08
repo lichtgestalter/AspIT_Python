@@ -1,4 +1,7 @@
 Exercises
+    turtle "visible" mere scaffolding
+    mehr einfache Aufgaben
+    Pyramide hinter rpg Aufgabe schieben
     dateinamen besser nummerieren
     tkinter
     sql
@@ -18,3 +21,4 @@ opret python.doc aktualisieren:
 
 
 Sonstiges
+    Powerpoint fuer zB. OOP

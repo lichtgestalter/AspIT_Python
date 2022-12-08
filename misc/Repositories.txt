@@ -6,5 +6,5 @@ Jeppe https://github.com/JeppeAarskov/solutions2.git
 Klaes https://github.com/IDidntWannaDoThis/just-let-me-finish.git
 Naja https://github.com/Naja1575/Solutions.git
 Noah
-Saim https://github.com/winnerbros2/pythonProject.git
+Saim https://github.com/winnerbros2/solutions2.git
 Simon https://github.com/MesterianUnion/Solutions_real_1.git

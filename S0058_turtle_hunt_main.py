@@ -50,4 +50,3 @@ for r in range(Tclass.ROUNDS):
     score2 += Tlib.hunt(Tclass.class2, Tclass.class1, "green")  # hunter class and prey class have switched roles now!
     print(f"Score after round {r + 1}: {Tclass.class1.__name__}: {score1}    {Tclass.class2.__name__}: {score2}")
 # turtle.done()  # keeps the turtle window open after the program is done
-# endregion

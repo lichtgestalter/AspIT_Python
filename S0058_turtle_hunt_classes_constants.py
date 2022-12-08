@@ -80,13 +80,4 @@ CAUGHT_DISTANCE = 10  # Hunt is over, when a hunter is nearer to the prey than t
 
 random.seed(2)  # use seed() if you want reproducible random numbers for debugging purposes
 class1 = PlayerName1  # (red prey) Replace PlayerName1 by your own class name here.
-class2 = PlayerName2  # (green prey) For testing your code, replace PlayerName2 by your own class name here. Later replace this by your sparring partner's class name.
-
-
-# do NOT change these global constants!
-MAX_POS = 300    # x and y coordinates must be between -MAX_POS and +MAX_POS. (0, 0) is in the center of the screen.
-BOUNCE_STEP_SIZE = 2 * STEP_SIZE         # a turtle trying to leave the window, gets thrown back so many pixels
-START_ANGLES_MIN = [0, 90, 180, 270]     # minimum initial right rotation of each turtle
-START_ANGLES_MAX = [30, 120, 210, 300]   # maximum initial right rotation of each turtle
-START_DISTANCE_MIN = int(MAX_POS * 0.6)  # minimum initial move of all turtles
-START_DISTANCE_MAX = int(MAX_POS * 0.9)  # maximum initial move of all turtles
+class2 = PlayerName1  # (green prey) For testing your code, replace PlayerName1 by your own class name here. Later replace this by your sparring partner's class name.

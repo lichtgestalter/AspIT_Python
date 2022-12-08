@@ -45,6 +45,14 @@ import math
 import random
 import S0058_turtle_hunt_classes_constants as Tclass
 
+# do NOT change these global constants!
+MAX_POS = 300    # x and y coordinates must be between -MAX_POS and +MAX_POS. (0, 0) is in the center of the screen.
+BOUNCE_STEP_SIZE = 2 * Tclass.STEP_SIZE         # a turtle trying to leave the window, gets thrown back so many pixels
+START_ANGLES_MIN = [0, 90, 180, 270]     # minimum initial right rotation of each turtle
+START_ANGLES_MAX = [30, 120, 210, 300]   # maximum initial right rotation of each turtle
+START_DISTANCE_MIN = int(MAX_POS * 0.6)  # minimum initial move of all turtles
+START_DISTANCE_MAX = int(MAX_POS * 0.9)  # maximum initial move of all turtles
+
 
 def distance(pos1, pos2):  # calculate the distance between 2 points with the Pythagorean equation
     delta_x = pos1[0] - pos2[0]
@@ -68,9 +76,9 @@ def direction(start_turtle, end_turtle):
 def move(turtle_):  # move the turtle and bounce it back when it crosses the window border
     turtle_.forward(Tclass.STEP_SIZE)
     x, y = turtle_.position()
-    if abs(x) > Tclass.MAX_POS or abs(y) > Tclass.MAX_POS:
+    if abs(x) > MAX_POS or abs(y) > MAX_POS:
         turtle_.right(180)
-        turtle_.forward(Tclass.BOUNCE_STEP_SIZE)
+        turtle_.forward(BOUNCE_STEP_SIZE)
         turtle_.right(180)
 
 
@@ -83,11 +91,11 @@ def caught(turtles_, max_distance):  # is a hunter near enough to the prey?
 
 
 def init_positions(turtles_):  # move turtles to their initial random positions
-    for turtle_, min_angle, max_angle in zip(turtles_, Tclass.START_ANGLES_MIN, Tclass.START_ANGLES_MAX):
+    for turtle_, min_angle, max_angle in zip(turtles_, START_ANGLES_MIN, START_ANGLES_MAX):
         angle = random.randint(min_angle, max_angle)
         turtle_.right(angle)  # turn turtle a random angle
         turtle_.penup()
-        turtle_.forward(random.randint(Tclass.START_DISTANCE_MIN, Tclass.START_DISTANCE_MAX))  # move turtle a random distance
+        turtle_.forward(random.randint(START_DISTANCE_MIN, START_DISTANCE_MAX))  # move turtle a random distance
         turtle_.right(-angle)  # now the turtle points in the original direction again (the x-axis direction, also called east)
         turtle_.pendown()
 
@@ -95,7 +103,7 @@ def init_positions(turtles_):  # move turtles to their initial random positions
 def hunt(prey_class, hunter_class, color):  # execute the hunt
     # initialize screen:
     screen = turtle.Screen()
-    screen.setup(2 * Tclass.MAX_POS, 2 * Tclass.MAX_POS)
+    screen.setup(2 * MAX_POS, 2 * MAX_POS)
     # initialize turtles:
     prey = prey_class()
     hunter1 = hunter_class()
@@ -131,4 +139,3 @@ def hunt(prey_class, hunter_class, color):  # execute the hunt
         print(f'Prey not caught after {turn} turns. Prey receives {turn} bonus points on top.')
         turn *= 2
     return turn
-# endregion

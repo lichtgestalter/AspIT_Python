@@ -1,4 +1,5 @@
 Exercises
+    turtle 58 opgavebeskrivelse
     turtle "def visible" mere scaffolding
     mehr einfache Aufgaben ohne løsungen, auch fuer oop
     Pyramide hinter rpg Aufgabe schieben

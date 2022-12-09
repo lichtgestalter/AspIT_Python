@@ -3,33 +3,50 @@ Exercise "Turtle Hunt":
 
 As always, read the whole exercise description carefully before you begin to solve the exercise.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+This exercise is a game. 3 Turtles (hunters) are trying to catch another turtle (prey)
+as fast as possible. The code for the game is already written in S0058_turtle_hunt_main.py.
+Do not change this file.
 
-Only if you are curious and love details:
-    Here is the full turtle graphics documentation:
-    https://docs.python.org/3.3/library/turtle.html
+Your job is to make the turtles smarter.
+
+Copy this file and S0058_turtle_hunt_main.py into your own solution directory.
+Write your solution into your copy of this file.
+
+The code is divided into 2 files in order to make it clear which part of the code
+you are supposed to change and which part of the code you shall leave unchanged.
+
+S0058_turtle_hunt_main.py:
+    This is the main program.
+    Do not make changes therein.
+    Run it in order to start the game.
+
+This file:
+    All your programming for this exercise happens in this file.
 
 Step 1:
     Understand the program code as it is now.
-    Find out what the code does. For example by changing the code a bit and running it again.
-    If you changed the code, copy this file's original into your own solution directory again,
-    before you go on with the following steps.
+    You do not need to understand every detail of the main program though.
+    Understand when and how the methods rotate_prey() and rotate_hunt() are used.
+    From now on, all your programming for this exercise happens in this file here.
 
 Step 2:
     Change the name of class PlayerName1 in the first line of it's class definition to your personal class name.
-    Near the bottom of this script, set the variables class1 and class2 to your personal class name.
-    In your personal class, make the methods rotate_prey and rotate_hunter smarter.
-    Possibly you'll also want to add some attributes and/or methods to your class.
+    At the bottom of this file, set the variables class1 and class2 to your personal class name.
 
 Step 3:
+    In your personal class, make the methods rotate_prey and rotate_hunter smarter.
+    Possibly you'll also want to add some attributes and/or methods to your class.
+    You may not manipulate (e.g. move) the turtles with your code though.
+
+Step 4:
     Find a sparring partner in your study group.
     As with everything else, ask your teacher for help, if needed.
     In your code, replace the whole class PlayerName2 with your sparring partner's class.
-    Set the variable class2 to your sparring partner's class name.
+    At the bottom of this file, set the variable class2 to your sparring partner's class name.
     Let the 2 classes fight and learn from the results in order to improve your code.
     Repeat this step until you are happy :-)
 
-Step 4:
+Step 5:
     When your program is complete, push it to your github repository.
     Then send this Teams message to your teacher: <filename> done
     Thereafter go on with the next file.
@@ -38,6 +55,9 @@ Later:
     When everyone is done with this exercise, we will hold a tournament
     to find out, who programmed the smartest turtles :)
 
+Only if you are curious and love details:
+    Here is the full turtle graphics documentation:
+    https://docs.python.org/3.3/library/turtle.html
 """
 
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
@@ -51,7 +71,7 @@ class PlayerName1(turtle.Turtle):
         # positions: a list of tuples. Each tuple is a pair of coordinates (x,y).
         # positions[0] is the coordinate tuple of the prey. positions[0][0] is the x-coordinate of the prey.
         # positions[1], positions[2], positions[3] refer to the hunters.
-        # print(positions[0][1])
+        # for example is positions[3][1] the y-coordinate of the third hunter.
         degree = 3
         return degree
 
@@ -60,15 +80,11 @@ class PlayerName1(turtle.Turtle):
         return degree
 
 
-class PlayerName2(turtle.Turtle):
-
-    def rotate_prey(self, positions):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
-        degree = 2.2
-        return degree
-
-    def rotate_hunter(self, positions):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
-        degree = 1
-        return degree
+#  Insert the code of your sparring partner's turtle class here:
+#
+#
+#
+#
 
 
 # change these global constants only for debugging purposes:
@@ -78,6 +94,9 @@ STEP_SIZE = 3         # Distance each turtle moves in one turn.                 
 SPEED = 0             # Fastest: 10, slowest: 1, max speed: 0.                       In competition: probably 0.
 CAUGHT_DISTANCE = 10  # Hunt is over, when a hunter is nearer to the prey than that. In competition: probably 10.
 
-random.seed(2)  # use seed() if you want reproducible random numbers for debugging purposes
+
+random.seed(2)  # use seed() if you want reproducible random numbers for debugging purposes. You may change the argument of seed().
+
+
 class1 = PlayerName1  # (red prey) Replace PlayerName1 by your own class name here.
 class2 = PlayerName1  # (green prey) For testing your code, replace PlayerName1 by your own class name here. Later replace this by your sparring partner's class name.

@@ -59,9 +59,9 @@ def demo():  # demonstration of basic turtle commands
         tom.forward(100)  # move 100 pixels
         tom.left(45)  # turn 45 degrees left
         print("Tom is now at", tom.position())
-    tom.penup()  # do not draw while moving
+    tom.penup()  # do not draw while moving from now on
     tom.forward(222)
-    tom.pendown()  # draw while moving
+    tom.pendown()  # draw while moving from now on
     tom.pencolor("red")  # draw in red
     tom.right(90)  # turn 90 degrees right
     tom.forward(333)

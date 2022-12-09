@@ -51,8 +51,8 @@ class PlayerName1(turtle.Turtle):
         # positions: a list of tuples. Each tuple is a pair of coordinates (x,y).
         # positions[0] is the coordinate tuple of the prey. positions[0][0] is the x-coordinate of the prey.
         # positions[1], positions[2], positions[3] refer to the hunters.
-        degree = 3
         # print(positions[0][1])
+        degree = 3
         return degree
 
     def rotate_hunter(self, positions):  # turtle will be turned right <degree> degrees. Use negative values for left turns.

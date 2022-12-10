@@ -16,7 +16,7 @@ Part 1:
     Calling this function causes the turtle to draw a square with a side length of "length" pixels.
 
 Part 2:
-     Write a function "visible" which returns a boolean value,
+     Complete the function "visible" which shall return a boolean value,
      indicating if the turtle is in the visible area of the screen.
      Use this function in the following parts of this exercise
      to return the turtle to the screen when it wandered off.
@@ -47,24 +47,31 @@ Then send this Teams message to your teacher: <filename> done
 Thereafter go on with the next file.
 """
 
+import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
 
-import turtle    # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
+
+def visible(turtle_name):  # returns true if both the x- and y-value of the turtle's position are between -480 and 480
+    # you will need this: x-value: turtle_name.position()[0]
+    # and this:           y-value: turtle_name.position()[1]
+    return 0
 
 
 def demo():  # demonstration of basic turtle commands
     tom = turtle.Turtle()  # create an object named tom of type Turtle
     print(type(tom))
     tom.speed(1)  # fastest: 10, slowest: 1
-    for x in range(8):
-        tom.forward(100)  # move 100 pixels
+    for x in range(8):  # do the following for x = 0, 1, 2, 3, 4, 5, 6, 7
+        tom.forward(50)  # move 50 pixels
         tom.left(45)  # turn 45 degrees left
-        print("Tom is now at", tom.position())
+        print(f'Tom is now at {tom.position()}, x-value: {tom.position()[0]=:.2f}, y-value: {tom.position()[1]=:.2f}')
     tom.penup()  # do not draw while moving from now on
-    tom.forward(222)
+    tom.forward(100)
     tom.pendown()  # draw while moving from now on
     tom.pencolor("red")  # draw in red
     tom.right(90)  # turn 90 degrees right
-    tom.forward(333)
+    tom.forward(120)
+    tom.right(-90)  # turning -90 degrees right is the same as turning +90 degrees left
+    tom.forward(120)
     tom.home()  # return to the original position in the middle of the window
     turtle.done()  # keeps the turtle window open after the program is done
 

@@ -1,11 +1,12 @@
 Exercises
-    turtle 58 opgavebeskrivelse
-    turtle "def visible" mere scaffolding
     mehr einfache Aufgaben ohne løsungen, auch fuer oop
-    Pyramide hinter rpg Aufgabe schieben
-    dateinamen besser nummerieren
     tkinter
     sql
+    unit test
+    api
+
+    dateinamen besser nummerieren
+    update S000 list of content
     begriffsliste, examensfragenliste
 
 
@@ -20,6 +21,10 @@ opret python.doc aktualisieren:
         lists all installation steps
         provides tests for success of all steps
 
+Powerpoint Slides
+    function calls
+    OOP
+    importing modulesimporting modules
+    aufbau programm: imports, klassen, funktionen, hauptprogramm
 
 Sonstiges
-    Powerpoint fuer zB. OOP

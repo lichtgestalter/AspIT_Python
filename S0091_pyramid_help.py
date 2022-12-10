@@ -24,7 +24,7 @@ Try out different lists as the second argument.
 Replace the zeros in the code below with your own code
 
 If you get stuck, ask google, the other pupils or the teacher (in this order).
-If you are still stuck, open S0038_pyramid_solution.py and compare it with your solution
+If you are still stuck, open S0092_pyramid_solution.py and compare it with your solution
 
 When your program is complete, push it to your github repository.
 Then send this Teams message to your teacher: <filename> done

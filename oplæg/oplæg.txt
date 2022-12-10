@@ -39,7 +39,9 @@
 
 N.N.
     opgaverækkefølge
+    turtle 58
     pull opgaver fra GitHub
+    functions, variable realms
     aufbau programm: imports, klassen, funktionen, hauptprogramm
 
     (   parentes, rund parentes, klamme

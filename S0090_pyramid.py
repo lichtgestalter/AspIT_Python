@@ -21,7 +21,7 @@ In the main program, call pyramid2 with 1, 2, 3, ..., 10 as the first argument
 and a list of numbers of your choice as the second argument.
 Try out different lists as the second argument.
 
-If you have no idea how to begin, open S0036_pyramid_help.py and start from there
+If you have no idea how to begin, open S0091_pyramid_help.py and start from there
 
 When your program is complete, push it to your github repository.
 Then send this Teams message to your teacher: <filename> done

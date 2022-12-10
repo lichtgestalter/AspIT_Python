@@ -14,30 +14,27 @@ The function print_repeatedly shall ...
     have 2 parameters named "string" and "repetitions".
     print the parameter "string" "repetitions" times
         Tip: use end="" as a second parameter of print() to avoid getting printed every string in a new line. See also https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/ .
-    Example: print_repeatedly("xy", 3) prints out "xyxyxy"
+Example: print_repeatedly("xy", 3) prints out "xyxyxy"
 
 Write another function named "print_pattern".
 The function print_pattern shall ...
-    have 2 parameters named "string" and "repetition_list". repetition_list is a list of integer numbers.
-    call the function print_repeatedly()
-
-    Example:
-        print_pattern("xy", [3, 2, 4])  calls print_repeatedly("xy", 3), print_repeatedly("xy", 2)  and print_repeatedly("xy", 4)
-        this results in the following print out:
-            xyxyxy
-            xyxy
-            xyxyxyxy
+    have 2 parameters named "string" and "repetition_list". "repetition_list" is a list of integer numbers.
+    call the function print_repeatedly() several times using every member of "repetition_list" as its second parameter. The first parameter is always "string".
+Example:
+    print_pattern("xy", [3, 2, 4])  calls print_repeatedly("xy", 3), print_repeatedly("xy", 2)  and print_repeatedly("xy", 4)
+    This results in the following print out:
+        xyxyxy
+        xyxy
+        xyxyxyxy
 
 In the main program...
-    Write a line of code saving the integer number 5 in a variable called factorial_input.
-    In the next line of code call the function factorial with factorial_input as its argument
-    and save the result of this function call in a variable named factorial_result.
-    In the next line of code print out "5! = 120" using the variables factorial_input and factorial_result.
+    Write a line of code calling print_pattern() with the arguments "abc" and [4, 2, 1].
 
-Run the program. "5! = 120" should be printed in the console.
-Change the first line of the main program to "factorial_input = 6".
-Run the program again.
-This time "6! = 720" should be printed in the console.
+Run the program.
+In the console should be printed:
+    abcabcabcabc
+    abcabc
+    abc
 
 When your program is complete, push it to your github repository.
 Then send this Teams message to your teacher: <filename> done

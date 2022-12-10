@@ -8,11 +8,11 @@ Copy this file into your own solution directory. Write your solution into the co
 All you need to know about functions in order to solve this exercise, you'll find in the jupiter notebook S0014_basics.ipynb.
 
 Write a function named "double_this".
-Scroll down to find the place in this file, where to write the function.
+Scroll down to find the place in this file, where to write the function in.
 
-the function shall ...
+The function double_this shall ...
     have one parameter named "number".
-    calculate twice the value of number and store the result in a variable named double_number.
+    calculate twice the value of parameter and store the result in a variable named double_number.
     return the result.
 
 There's already one line of code in the main program calling this function with the argument 3.

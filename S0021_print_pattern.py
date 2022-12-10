@@ -1,5 +1,5 @@
 """
-Exercise "factorial"
+Exercise "print_pattern"
 
 As always, read the whole exercise description carefully before you begin to solve the exercise.
 
@@ -7,14 +7,26 @@ Copy this file into your own solution directory. Write your solution into the co
 
 All you need to know about functions in order to solve this exercise, you'll find in the jupiter notebook S0014_basics.ipynb.
 
-Write a function named "factorial".
+Write a function named "print_repeatedly".
 Scroll down to find the place in this file, where to write the function in.
 
-The function factorial shall ...
-    have one parameter named "number".
-    calculate the factorial of this parameter and store the result in a variable named factorial.
-        (If you do not remember the definition of factorial: https://da.wikipedia.org/wiki/Fakultet_(matematik) or https://en.wikipedia.org/wiki/Factorial)
-    return the result.
+The function print_repeatedly shall ...
+    have 2 parameters named "string" and "repetitions".
+    print the parameter "string" "repetitions" times
+        Tip: use end="" as a second parameter of print() to avoid getting printed every string in a new line. See also https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/ .
+    Example: print_repeatedly("xy", 3) prints out "xyxyxy"
+
+Write another function named "print_pattern".
+The function print_pattern shall ...
+    have 2 parameters named "string" and "repetition_list". repetition_list is a list of integer numbers.
+    call the function print_repeatedly()
+
+    Example:
+        print_pattern("xy", [3, 2, 4])  calls print_repeatedly("xy", 3), print_repeatedly("xy", 2)  and print_repeatedly("xy", 4)
+        this results in the following print out:
+            xyxyxy
+            xyxy
+            xyxyxyxy
 
 In the main program...
     Write a line of code saving the integer number 5 in a variable called factorial_input.
@@ -32,7 +44,7 @@ Then send this Teams message to your teacher: <filename> done
 Thereafter go on with the next file.
 """
 
-#  Write your function below this line.
+#  Write your functions below this line.
 
 
 # Here starts the main program. From the main program you can call your functions.

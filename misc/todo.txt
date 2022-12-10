@@ -1,5 +1,4 @@
 Exercises
-    mehr einfache Aufgaben ohne løsungen, auch fuer oop
     tkinter
     sql
     unit test

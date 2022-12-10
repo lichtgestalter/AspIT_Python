@@ -128,9 +128,9 @@ def empty_treeview(tree):  # Clear treeview table
 # endregion common functions
 
 # region common widgets
-root = tk.Tk()  # Define the main window
-root.title('my first GUI')  # Text shown in the top window bar
-root.geometry("500x500")  # window size
+main_window = tk.Tk()  # Define the main window
+main_window.title('my first GUI')  # Text shown in the top window bar
+main_window.geometry("500x500")  # window size
 
 style = ttk.Style()  # Add style
 style.theme_use('default')  # Pick theme
@@ -143,7 +143,7 @@ style.map('Treeview', background=[('selected', treeview_selected)])  # Define co
 
 # region container widgets
 # Define Labelframe which contains all container related GUI objects (data table, labels, buttons, ...)
-frame_container = tk.LabelFrame(root, text="Container")  # https://www.tutorialspoint.com/python/tk_labelframe.htm
+frame_container = tk.LabelFrame(main_window, text="Container")  # https://www.tutorialspoint.com/python/tk_labelframe.htm
 frame_container.grid(row=0, column=0, padx=padx, pady=pady, sticky=tk.N)  # https://www.tutorialspoint.com/python/tk_grid.htm
 
 # Define data table (Treeview) and its scrollbar. Put them in a Frame.
@@ -214,5 +214,5 @@ select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
 # endregion container widgets
 
 refresh_treeview(tree_container)  # Load data from database
-if __name__ == "__main__":  # Executed when invoked directly. We use this so root.mainloop() does not keep our unit tests from running.
-    root.mainloop()  # Wait for button clicks and act upon them
+if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
+    main_window.mainloop()  # Wait for button clicks and act upon them

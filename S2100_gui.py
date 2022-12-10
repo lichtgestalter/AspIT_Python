@@ -17,9 +17,9 @@ pady = 4  # Vertical distance to neighboring objects
 
 
 # region common widgets
-root = tk.Tk()  # Define the main window
-root.title('my first GUI')  # Text shown in the top window bar
-root.geometry("500x500")  # window size
+main_window = tk.Tk()  # Define the main window
+main_window.title('my first GUI')  # Text shown in the top window bar
+main_window.geometry("500x500")  # window size
 
 style = ttk.Style()  # Add style
 style.theme_use('default')  # Pick theme
@@ -32,7 +32,7 @@ style.theme_use('default')  # Pick theme
 
 # region container widgets
 # Define Labelframe which contains all container related GUI objects (data table, labels, buttons, ...)
-frame_container = tk.LabelFrame(root, text="Container")  # https://www.tutorialspoint.com/python/tk_labelframe.htm
+frame_container = tk.LabelFrame(main_window, text="Container")  # https://www.tutorialspoint.com/python/tk_labelframe.htm
 frame_container.grid(row=0, column=0, padx=padx, pady=pady, sticky=tk.N)  # https://www.tutorialspoint.com/python/tk_grid.htm
 
 
@@ -100,5 +100,5 @@ button_create_container.grid(row=0, column=1, padx=padx, pady=pady)
 
 # endregion container widgets
 
-if __name__ == "__main__":  # Executed when invoked directly. We use this so root.mainloop() does not keep our unit tests from running.
-    root.mainloop()  # Wait for button clicks and act upon them
+if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
+    main_window.mainloop()  # Wait for button clicks and act upon them

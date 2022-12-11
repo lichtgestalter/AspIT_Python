@@ -1,5 +1,5 @@
 """
-now there are more buttons, a label and an Entry
+now there are more buttons, a label and an entry.
 
 xFind out what every row of code does. For example by changing the code a bit and running it again.
 xRead all the comments.

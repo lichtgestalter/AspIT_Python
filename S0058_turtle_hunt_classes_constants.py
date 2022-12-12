@@ -3,14 +3,21 @@ Exercise "Turtle Hunt":
 
 As always, read the whole exercise description carefully before you begin to solve the exercise.
 
-This exercise is a game. 3 Turtles (hunters) are trying to catch another turtle (prey)
-as fast as possible. The code for the game is already written in S0058_turtle_hunt_main.py.
-Do not change this file.
+The game:
+    This exercise is a game for 2 players.
+    3 Turtles (hunters) are trying to catch another turtle (prey) as fast as possible.
+    One player controls the prey, the other player controls the hunters. Then the players switch roles.
+    In each turn the players decide how many degrees their turtle(s) rotate(s). This is the player's only task.
+    The prey gets one point for every turn before it gets caught.
+    If the prey is still on the run after MAX_TURNS turns, the points double and the hunt ends.
 
-Your job is to make the turtles smarter.
+
+The code for the game is already written in S0058_turtle_hunt_main.py. Do not change that file.
+
+Your job is to make the turtles rotate smarter.
 
 Copy this file and S0058_turtle_hunt_main.py into your own solution directory.
-Write your solution into your copy of this file.
+Write your solution into your copy of S0058_turtle_hunt_classes_constants.py.
 
 The code is divided into 2 files in order to make it clear which part of the code
 you are supposed to change and which part of the code you shall leave unchanged.

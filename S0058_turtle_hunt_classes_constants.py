@@ -19,16 +19,17 @@ Your job is to make the turtles rotate smarter.
 Copy this file and S0058_turtle_hunt_main.py into your own solution directory.
 Write your solution into your copy of S0058_turtle_hunt_classes_constants.py.
 
-The code is divided into 2 files in order to make it clear which part of the code
-you are supposed to change and which part of the code you shall leave unchanged.
+File structure:
+    The code is divided into 2 files in order to make it clear which part of the code
+    you are supposed to change and which part of the code you shall leave unchanged.
 
-S0058_turtle_hunt_main.py:
-    This is the main program.
-    Do not make changes therein.
-    Run it in order to start the game.
+    S0058_turtle_hunt_main.py:
+        This is the main program.
+        Do not make changes therein.
+        Run it in order to start the game.
 
-This file:
-    All your programming for this exercise happens in this file.
+    This file (S0058_turtle_hunt_classes_constants.py):
+        All your programming for this exercise happens in this file.
 
 Step 1:
     Understand the program code as it is now.

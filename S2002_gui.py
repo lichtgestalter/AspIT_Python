@@ -27,10 +27,18 @@ button_5.grid(row=117, column=117)
 
 # create a label
 # find all possible options of tk.Label() in the following documentations:
+# https://tkdocs.com/shipman/label.html
+# https://www.tutorialspoint.com/python/tk_label.htm
+label_1 = tk.Label(main_window, text="this is a label")
+label_1.grid(row=2, column=3)
 
 # create an entry
 # find all possible options of tk.Entry() in the following documentations:
-
+# https://tkdocs.com/shipman/entry.html
+# https://www.tutorialspoint.com/python/tk_entry.htm
+entry_1 = tk.Entry(main_window, width=24, justify="right")
+entry_1.grid(row=1, column=2)
+entry_1.insert(0, "This is an entry. Edit me!")
 
 
 if __name__ == "__main__":  # Executed only when this file is run.

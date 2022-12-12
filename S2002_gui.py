@@ -1,34 +1,36 @@
 """
-now there are more buttons, a label and an entry.
+Now there are more buttons, a label and an entry.
 
-xFind out what every row of code does. For example by changing the code a bit and running it again.
-xRead all the comments.
-xHave a short look at the linked documentations.
-xWatch the youtube video.
+Find out what every row of code does. For example by changing the code a bit and running it again.
+Read all the comments.
+Play around with the row and column parameters of grid() in order to understand grid() better.
+Have a short look at the linked documentations for Entry and Label. You will need them in future exercises.
 
-play around with the row and column options of grid() in order to understand grid() better
 """
 import tkinter as tk  # import the GUI library
 
-# Define the main window, its title text and its size
-# These first 3 lines are typically roughly the same in every tkinter GUI
 main_window = tk.Tk()  # create the main window
 main_window.title('my first GUI')  # text shown in the top window bar
 main_window.geometry("500x500")  # window size
 
-# create a button
-# find all possible options of tk.Button() in the following documentations:
-# https://tkdocs.com/shipman/button.html
-# https://www.tutorialspoint.com/python/tk_button.htm#
-button_1 = tk.Button(main_window, text="Click me, I am a button")
+# create some buttons
+button_1 = tk.Button(main_window, text="Click me, I am a button")  # create a button
+button_1.grid(row=0, column=1)  # define where the button is positioned
+button_2 = tk.Button(main_window, text="button_2")
+button_2.grid(row=1, column=1)
+button_3 = tk.Button(main_window, text="button_3")
+button_3.grid(row=2, column=1)
+button_4 = tk.Button(main_window, text="button_4")
+button_4.grid(row=3, column=3)
+button_5 = tk.Button(main_window, text="lower right button")
+button_5.grid(row=117, column=117)
 
-# define where the button is positioned
-# watch this video from 1:48 till 7:03 to understand positioning in tkinter:
-# https://www.youtube.com/watch?v=BSfbjrqIw20&t=108s
-# find all possible options of grid() in the following documentations:
-# https://tkdocs.com/shipman/grid.html
-# https://www.tutorialspoint.com/python/tk_grid.htm
-button_1.grid(row=0, column=1)
+# create a label
+# find all possible options of tk.Label() in the following documentations:
+
+# create an entry
+# find all possible options of tk.Entry() in the following documentations:
+
 
 
 if __name__ == "__main__":  # Executed only when this file is run.

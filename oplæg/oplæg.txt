@@ -36,24 +36,19 @@
 30/11/22 BL 3
     overblik GUI- og S2-opgaver
 
+8/12/22
+    Kahoot Types + Operators
+
+12/12/22
+    -turtle hunt nu bedre struktureret
+    pull opgaver fra GitHub
+    Kahoot boolean algebra
+
 
 N.N.
     opgaverækkefølge
-    turtle 58
-    pull opgaver fra GitHub
     functions, variable realms
     aufbau programm: imports, klassen, funktionen, hauptprogramm
-
-
-
-
-
-
-
-
-
-
-
 
 
     (   parentes, rund parentes, klamme
@@ -68,4 +63,3 @@ N.N.
     /   divideret med
     2**5 to i femte (potens)
     &   et-tegn, og-tegn
-

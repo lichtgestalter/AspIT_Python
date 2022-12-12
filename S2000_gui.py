@@ -3,7 +3,7 @@ Our first gui: just one button in one window.
 
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Read all the comments.
-Have a short look at the linked documentations.
+Have a short look at the linked documentations. You will need them in future exercises.
 Watch the youtube video.
 
 """

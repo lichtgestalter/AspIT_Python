@@ -1,5 +1,17 @@
 Exercises
     tkinter
+    2004
+        padding
+        labelframe
+        2100 bauen
+        frame
+        2200 bauen
+        treeview
+        2300 bauen
+        ...
+        2400 bauen
+        function call
+
     sql
     unit test
     api
@@ -25,5 +37,11 @@ Powerpoint Slides
     OOP
     importing modulesimporting modules
     aufbau programm: imports, klassen, funktionen, hauptprogramm
+
+Kahoots
+    diverse S1 kahoots
+        Function calls
+        While loops
+        ...
 
 Sonstiges

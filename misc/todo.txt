@@ -2,16 +2,19 @@ Exercises
     tkinter
         2000 button, grid
         2002 label, entry
-        2004 padding, labelframe
-        2100 bauen
-        frame
-        button option command
-        2200 bauen
-        treeview
-        2300 bauen
-        ...
-        2400 bauen
-        function call
+        2004 padding
+        2006 labelframe
+        2010 10 bauen
+        2012 frame
+        2016 button option command
+        2020 20 bauen
+        2024 treeview
+        2030 30 bauen
+        2034 hard coded example data
+        2040 40 bauen
+        treeview-click:  write into entries
+        empty entries
+        2050 40 bauen mit Funktionalität für Button clear und Klick in treeview füllt entries
 
     sql
     unit test

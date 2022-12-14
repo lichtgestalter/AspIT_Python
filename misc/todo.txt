@@ -1,6 +1,5 @@
 Exercises
     tkinter
-        TURTLE DOOF Parameter?
         2000 button, grid
         2002 label, entry
         2004 padding

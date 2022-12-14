@@ -12,21 +12,25 @@ The game:
     If the prey is still on the run after MAX_TURNS turns, the points double and the hunt ends.
 
 
-The code for the game is already written in S0058_turtle_hunt_main.py. Do not change that file.
+The code for the game is already written in S0058_turtle_hunt_main.py and S0058_turtle_hunt_service.py. Do not change these files.
 
 Your job is to make the turtles rotate smarter.
 
-Copy this file and S0058_turtle_hunt_main.py into your own solution directory.
+Copy all 3 turtle_hunt files into your own solution directory.
 Write your solution into your copy of S0058_turtle_hunt_classes_constants.py.
 
 File structure:
-    The code is divided into 2 files in order to make it clear which part of the code
+    The code is divided into 3 files in order to make it clear which part of the code
     you are supposed to change and which part of the code you shall leave unchanged.
 
     S0058_turtle_hunt_main.py:
         This is the main program.
         Do not make changes therein.
         Run it in order to start the game.
+
+    S0058_turtle_hunt_service.py:
+        Contains some service functions that will be useful to you.
+        Do not make changes therein.
 
     This file (S0058_turtle_hunt_classes_constants.py):
         All your programming for this exercise happens in this file.
@@ -70,6 +74,7 @@ Only if you are curious and love details:
 
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
 import random
+from S0058_turtle_hunt_service import distance, direction
 
 
 class PlayerName1(turtle.Turtle):
@@ -80,11 +85,17 @@ class PlayerName1(turtle.Turtle):
         # positions[0] is the coordinate tuple of the prey. positions[0][0] is the x-coordinate of the prey.
         # positions[1], positions[2], positions[3] refer to the hunters.
         # for example is positions[3][1] the y-coordinate of the third hunter.
-        degree = 3
+
+        # Example for use of the service functions distance() and direction
+        print(f'{distance(positions[0], positions[1])=}   {direction(positions[0], positions[1])=}')  # print distance and direction from prey to hunter1
+
+        degree = 3  # When the turtle rotates the same amount each turn,  it will just run in a circle. Make this function smarter!
         return degree
 
     def rotate_hunter(self, positions):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
-        degree = -0.5
+        # Example for use of the service functions distance() and direction
+        print(f'{distance(self.position(), positions[0])=}   {direction(self.position(), positions[0])=}')  # print distance and direction from the current hunter to the prey
+        degree = -0.5  # When the turtle rotates the same amount each turn,  it will just run in a circle. Make this function smarter!
         return degree
 
 

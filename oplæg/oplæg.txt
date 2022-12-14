@@ -37,12 +37,12 @@
     overblik GUI- og S2-opgaver
 
 8/12/22
-    Kahoot Types + Operators
+    Kahoot Types + Operators (deltager?)
 
 12/12/22
     -turtle hunt nu bedre struktureret
     pull opgaver fra GitHub
-    Kahoot boolean algebra
+    Kahoot boolean algebra (Klaes, Gustav, Simon, Albert, (Naja, Anton))
 
 
 N.N.

@@ -79,6 +79,11 @@ from S0058_turtle_hunt_service import distance, direction
 
 class PlayerName1(turtle.Turtle):
 
+    def __init__(self):
+        # turtle.Turtle.__init__(self)
+        super().__init__()
+        self.orientation = 0
+
     def rotate_prey(self, positions):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
         # self: the turtle that shall be rotated
         # positions: a list of tuples. Each tuple is a pair of coordinates (x,y).
@@ -87,14 +92,17 @@ class PlayerName1(turtle.Turtle):
         # for example is positions[3][1] the y-coordinate of the third hunter.
 
         # Example for use of the service functions distance() and direction
-        print(f'{distance(positions[0], positions[1])=}   {direction(positions[0], positions[1])=}')  # print distance and direction from prey to hunter1
+        # print(f'{distance(positions[0], positions[1])=}   {direction(positions[0], positions[1])=}')  # print distance and direction from prey to hunter1
 
         degree = 3  # When the turtle rotates the same amount each turn,  it will just run in a circle. Make this function smarter!
+        self.orientation += degree
+        self.orientation %= 360
+        print(self.orientation)
         return degree
 
     def rotate_hunter(self, positions):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
         # Example for use of the service functions distance() and direction
-        print(f'{distance(self.position(), positions[0])=}   {direction(self.position(), positions[0])=}')  # print distance and direction from the current hunter to the prey
+        # print(f'{distance(self.position(), positions[0])=}   {direction(self.position(), positions[0])=}')  # print distance and direction from the current hunter to the prey
         degree = -0.5  # When the turtle rotates the same amount each turn,  it will just run in a circle. Make this function smarter!
         return degree
 

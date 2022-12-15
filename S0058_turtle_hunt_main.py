@@ -78,8 +78,8 @@ def hunt(prey_class, hunter_class, color):  # execute the hunt
             move(t)
             positions = [t.position() for t in turtles]  # this is list comprehension https://www.w3schools.com/python/python_lists_comprehension.asp
         # print(prey, "is now at", prey.position())
-        if turn % 30 == 0:
-            input()
+        # if turn % 30 == 0:
+        #     input()
         #     print(direction(prey, hunter1), direction(hunter1, prey))
     # hunt results:
     turtle.clearscreen()

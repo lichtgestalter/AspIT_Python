@@ -12,7 +12,7 @@ Scroll down to find the place in this file, where to write the function in.
 
 The function double_this shall ...
     have one parameter named "number".
-    calculate twice the value of parameter and store the result in a variable named double_number.
+    calculate twice the value of this parameter and store the result in a variable named double_number.
     return the result.
 
 There's already one line of code in the main program calling this function with the argument 3.

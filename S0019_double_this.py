@@ -1,5 +1,5 @@
 """
-Exercise "double_this"
+Exercise "double_this":
 
 As always, read the whole exercise description carefully before you begin to solve the exercise.
 

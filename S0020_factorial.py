@@ -1,5 +1,5 @@
 """
-Exercise "factorial"
+Exercise "factorial":
 
 As always, read the whole exercise description carefully before you begin to solve the exercise.
 

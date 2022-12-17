@@ -19,8 +19,9 @@ Exercises
     sql
     unit test
     api
+    exercise: danskcargo fertig bauen
 
-    dateinamen besser nummerieren
+    dateinamen besser nummerieren, delete 57, rename 58?
     update S000 list of content
     begriffsliste, examensfragenliste
 
@@ -39,11 +40,11 @@ opret python.doc aktualisieren:
 Powerpoint Slides
     function calls
     OOP
-    importing modulesimporting modules
+    importing modules
     aufbau programm: imports, klassen, funktionen, hauptprogramm
 
 Kahoots
-    diverse S1 kahoots
+    diverse S1 kah
         Function calls
         While loops
         ...

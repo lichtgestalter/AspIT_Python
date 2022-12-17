@@ -80,8 +80,7 @@ from S0058_turtle_hunt_service import distance, direction
 class PlayerName1(turtle.Turtle):
 
     def __init__(self):
-        # turtle.Turtle.__init__(self)
-        super().__init__()
+        super().__init__()  # Here, this is equivalent to turtle.Turtle.__init__(self)
         self.orientation = 0  # used to keep track of the turtle's current orientation (the direction it is heading)
 
     def rotate_prey(self, positions):  # turtle will be turned right <degree> degrees. Use negative values for left turns.

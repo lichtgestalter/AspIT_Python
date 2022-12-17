@@ -1,11 +1,12 @@
 Exercises
     tkinter
-        2000 button, grid
+        2001 button, grid
         2002 label, entry
         2004 padding
-        2006 labelframe
+        2006 frame
+        2008 labelframe
         2010 10 bauen
-        2012 frame
+
         2016 button option command
         2020 20 bauen
         2024 treeview

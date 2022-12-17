@@ -1,3 +1,5 @@
+# this is a list of useful links about tkinter
+
 # grid(): https://tkdocs.com/shipman/grid.html   https://www.tutorialspoint.com/python/tk_grid.htm
 #         https://www.youtube.com/watch?v=BSfbjrqIw20&t=108s (from 1:48 till 7:03)
 

@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
 
-# region global constants
 padx = 8  # Horizontal distance to neighboring objects
 pady = 4  # Vertical distance to neighboring objects
 rowheight = 24  # rowheight in treeview
@@ -12,11 +11,6 @@ oddrow = "#dddddd"  # color of odd row in treeview
 evenrow = "#cccccc"  # color of even row in treeview
 INTERNAL_ERROR_CODE = 0
 
-
-# endregion global constants
-
-
-# region common widgets
 main_window = tk.Tk()  # Define the main window
 main_window.title('my first GUI')  # Text shown in the top window bar
 main_window.geometry("500x500")  # window size
@@ -28,9 +22,6 @@ style.theme_use('default')  # Pick theme
 style.configure("Treeview", background=treeview_background, foreground=treeview_foreground, rowheight=rowheight, fieldbackground=treeview_background)
 style.map('Treeview', background=[('selected', treeview_selected)])  # Define color of selected row in treeview
 
-# endregion common widgets
-
-# region container widgets
 # Define Labelframe which contains all container related GUI objects (data table, labels, buttons, ...)
 frame_container = tk.LabelFrame(main_window, text="Container")  # https://www.tutorialspoint.com/python/tk_labelframe.htm
 frame_container.grid(row=0, column=0, padx=padx, pady=pady, sticky=tk.N)  # https://www.tutorialspoint.com/python/tk_grid.htm
@@ -98,7 +89,6 @@ button_delete_container.grid(row=0, column=3, padx=padx, pady=pady)
 select_record_button = tk.Button(button_frame_container, text="Clear Entry Boxes")
 select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
 
-# endregion container widgets
 
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
     main_window.mainloop()  # Wait for button clicks and act upon them

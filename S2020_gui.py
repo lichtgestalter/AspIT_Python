@@ -16,6 +16,9 @@ The GUI structure should be this:
                 frame
                     buttons
 
+Functionality:
+    clicking on the button "clear entry boxes" deletes the text in all entry boxes
+
 When your program is complete, push it to your github repository.
 Then send this Teams message to your teacher: <filename> done
 Thereafter go on with the next file.

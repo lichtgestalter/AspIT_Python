@@ -2,9 +2,9 @@
 Some buttons have been removed again in order to make the code more compact.
 Padding has been added.
 
+Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Especially play with the values of padx and pady.
-Read all the comments.
 """
 import tkinter as tk
 

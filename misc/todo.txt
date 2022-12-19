@@ -7,11 +7,13 @@ Exercises
         2008 labelframe
         2010 10 bauen
 
-        2016 button option command
+        2014 button option command
         2020 20 bauen
         2024 treeview
+
         2030 30 bauen
         2034 hard coded example data
+
         2040 40 bauen
         treeview-click:  write into entries
         empty entries

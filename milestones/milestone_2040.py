@@ -175,7 +175,7 @@ controls_frame_container = tk.Frame(frame_container)
 controls_frame_container.grid(row=3, column=0, padx=padx, pady=pady)
 
 # Define Frame which contains labels (text fields) and entries (input fields)
-edit_frame_container = tk.Label(controls_frame_container)  # Add tuple entry boxes
+edit_frame_container = tk.Frame(controls_frame_container)  # Add tuple entry boxes
 edit_frame_container.grid(row=0, column=0, padx=padx, pady=pady)
 # label and entry for container id
 label_container_id = tk.Label(edit_frame_container, text="Id")  # https://www.tutorialspoint.com/python/tk_label.htm
@@ -199,7 +199,7 @@ entry_container_weather = tk.Entry(edit_frame_container, width=14)
 entry_container_weather.grid(row=1, column=3, padx=padx, pady=pady)
 
 # Define Frame which contains buttons
-button_frame_container = tk.Label(controls_frame_container)
+button_frame_container = tk.Frame(controls_frame_container)
 button_frame_container.grid(row=1, column=0, padx=padx, pady=pady)
 # Define buttons
 button_create_container = tk.Button(button_frame_container, text="Create", command=lambda: create_container(tree_container, read_container_entries()))

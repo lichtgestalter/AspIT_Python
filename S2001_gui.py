@@ -1,5 +1,5 @@
 """
-Our first gui: just one button in one window.
+Our first GUI: just one button in one window.
 
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Read all the comments.

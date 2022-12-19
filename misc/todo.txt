@@ -13,7 +13,8 @@ Exercises
         2024 treeview
 
         2030 30 bauen
-        2034 hard coded example data
+        2032 hard coded example data
+        2034 odd+even rows formatting
 
         2040 40 bauen
         treeview-click:  write into entries

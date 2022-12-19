@@ -1,9 +1,9 @@
 """
-A function "empty_entry" was defined and gets called by pressing a button.
+A treeview and its scrollbar have been added.
 
 Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
-Pay special attention to ...
+Pay special attention to how the scrollbar is placed right beside the treeview.
 """
 import tkinter as tk
 from tkinter import ttk   # we need this additional import for our treeview widget
@@ -21,17 +21,19 @@ main_window = tk.Tk()
 main_window.title('my first GUI')
 main_window.geometry("900x500")  # we've made the window a bit wider
 
-# Define data table (Treeview) and its scrollbar.
+# Create a data table (Treeview) and its scrollbar.
+# Treeviews present data (for example from a database) in a table.
+# Find all possible options of ttk.Treeview() in the following documentations:
 # https://docs.python.org/3/library/tkinter.ttk.html#treeview
+# Additionaly, create a scrollbar and connect it to the treeview
+# Find all possible options of tk.Scrollbar() in the following documentations:
 # https://tkdocs.com/shipman/scrollbar.html
 # https://www.tutorialspoint.com/python/tk_scrollbar.htm
-mehr doku
-
-tree_scrollbar = tk.Scrollbar(main_window)
-tree_scrollbar.grid(row=5, column=6, padx=padx, pady=pady, sticky='ns')
-tree_1 = ttk.Treeview(main_window, yscrollcommand=tree_scrollbar.set, selectmode="browse")
-tree_1.grid(row=5, column=5, padx=0, pady=pady)
-tree_scrollbar.config(command=tree_1.yview)
+tree_1_scrollbar = tk.Scrollbar(main_window)  # define the scrollbar
+tree_1_scrollbar.grid(row=5, column=6, padx=padx, pady=pady, sticky='ns')  # place the scrollbar
+tree_1 = ttk.Treeview(main_window, yscrollcommand=tree_1_scrollbar.set, selectmode="browse")  # define the treeview, connect it with the scrollbar
+tree_1.grid(row=5, column=5, padx=0, pady=pady)  # place the treeview
+tree_1_scrollbar.config(command=tree_1.yview)  # connect the scrollbar with the treeview
 
 frame_1 = tk.LabelFrame(main_window, text="this is the label of the label frame")  # Create a label frame
 frame_1.grid(row=0, column=0, padx=padx, pady=pady, sticky=tk.N)

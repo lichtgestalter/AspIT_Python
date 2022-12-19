@@ -112,6 +112,26 @@ container_list.append(Container("1", "1000", "oslo"))
 container_list.append(Container("2", "2000", "chicago"))
 container_list.append(Container("3", "3000", "milano"))
 container_list.append(Container("4", "4000", "amsterdam"))
+container_list.append(Container("1", "1000", "oslo"))
+container_list.append(Container("2", "2000", "chicago"))
+container_list.append(Container("3", "3000", "milano"))
+container_list.append(Container("4", "4000", "amsterdam"))
+container_list.append(Container("1", "1000", "oslo"))
+container_list.append(Container("2", "2000", "chicago"))
+container_list.append(Container("3", "3000", "milano"))
+container_list.append(Container("4", "4000", "amsterdam"))
+container_list.append(Container("1", "1000", "oslo"))
+container_list.append(Container("2", "2000", "chicago"))
+container_list.append(Container("3", "3000", "milano"))
+container_list.append(Container("4", "4000", "amsterdam"))
+container_list.append(Container("1", "1000", "oslo"))
+container_list.append(Container("2", "2000", "chicago"))
+container_list.append(Container("3", "3000", "milano"))
+container_list.append(Container("4", "4000", "amsterdam"))
+container_list.append(Container("1", "1000", "oslo"))
+container_list.append(Container("2", "2000", "chicago"))
+container_list.append(Container("3", "3000", "milano"))
+container_list.append(Container("4", "4000", "amsterdam"))
 
 
 # region common functions
@@ -157,7 +177,7 @@ tree_scroll_container.config(command=tree_container.yview)
 
 # Define the data table's formatting and content
 tree_container['columns'] = ("id", "weight", "destination")  # Define columns
-tree_container.column("#0", width=0, stretch=tk.NO)  # Format columns. Suppress the irritating first empty column.
+tree_container.column("#0", width=0, stretch=tk.NO)  # Format columns. Suppress the annoying first empty column.
 tree_container.column("id", anchor=tk.E, width=40)  # "E" stands for East, meaning Right. Possible anchors are N, NE, E, SE, S, SW, W, NW and CENTER
 tree_container.column("weight", anchor=tk.E, width=80)
 tree_container.column("destination", anchor=tk.W, width=200)

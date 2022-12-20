@@ -1,8 +1,10 @@
 """
 The treeview has been formatted to show the data rows in alternating colors. To achieve this,
-    the variables oddrow and evenrow have been added
-    the function read_table has been extended
-    the treeview definition has been extended with 2 tags (tree_1.tag_configure)
+    (1) the variables oddrow and evenrow have been added
+    (2) the function read_table has been extended
+    (3) the treeview definition has been extended with 2 tags (tree_1.tag_configure)
+To make it easier to find the new code, the above numbers have been added to the comments ((1), (2), ...)
+
 Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Pay special attention to the newly added code.
@@ -17,7 +19,7 @@ def empty_entry():  # Delete text in the entry box
 
 
 def read_table(tree):  # fill tree with test data
-    count = 0  # Use counter to keep track of odd and even rows, because these will be colored differently.
+    count = 0  # Use counter to keep track of odd and even rows, because these will be colored differently. (2)
     for record in test_data_list:
         if count % 2 == 0:  # even
             tree.insert(parent='', index='end', text='', values=record, tags=('evenrow',))  # Insert one row into the data table
@@ -32,7 +34,7 @@ rowheight = 24
 treeview_background = "#eeeeee"
 treeview_foreground = "black"
 treeview_selected = "#773333"
-oddrow = "#ddeedd"  # color of odd row in treeview
+oddrow = "#ddeedd"  # color of odd row in treeview (1)
 evenrow = "#cce0cc"  # color of even row in treeview
 
 # add test data by hard coding a list of tuples
@@ -76,7 +78,7 @@ tree_1.heading("col1", text="col1 heading", anchor=tk.CENTER)
 tree_1.heading("col2", text="col2 heading", anchor=tk.CENTER)
 tree_1.heading("col3", text="col3 heading", anchor=tk.CENTER)
 
-tree_1.tag_configure('oddrow', background=oddrow)  # Create tags for rows in 2 different colors
+tree_1.tag_configure('oddrow', background=oddrow)  # Create tags for rows in 2 different colors (3)
 tree_1.tag_configure('evenrow', background=evenrow)
 
 frame_1 = tk.LabelFrame(main_window, text="this is the label of the label frame")  # Create a label frame

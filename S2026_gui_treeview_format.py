@@ -1,10 +1,11 @@
 """
-Configured treeview style and colors.
-Added some global variables, which define the treeview's formatting.
+Added some global variables, which define the treeview's colors.
+A treeview style has been added. This makes the treeview look a
+bit nicer and uses the global color variables.
 
 Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
-Right now you can't see much of the formatting's effect. This will change soon when we have data in the tree view.
+Right now you can't see much of the formatting's effect. This will change soon when we'll have data in the tree view.
 """
 import tkinter as tk
 from tkinter import ttk   # we need this additional import for our treeview widget

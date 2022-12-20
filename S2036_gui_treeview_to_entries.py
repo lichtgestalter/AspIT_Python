@@ -1,7 +1,8 @@
 """
 Now, a click on a row of the treeview copies data of that row into the entry. To achieve this,
-    a function edit_record has been added
-    the treeview definition has been extended with an event on mouse click (tree_1.bind), which calls the new function
+    (1) a function edit_record has been added
+    (2) the treeview definition has been extended with an event on mouse click (tree_1.bind), which calls the new function
+To make it easier to find the new code, the above numbers have been added to the comments ((1), (2), ...)
 
 Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
@@ -26,7 +27,7 @@ def read_table(tree):  # fill tree with test data
         count += 1
 
 
-def edit_record(event, tree):  # Copy data from selected row into entry box. Parameter event is mandatory but we don't use it.
+def edit_record(event, tree):  # Copy data from selected row into entry box. Parameter event is mandatory but we don't use it. (1)
     index_selected = tree.focus()  # Index of selected tuple
     values = tree.item(index_selected, 'values')  # Values of selected tuple
     entry_1.delete(0, tk.END)  # Delete text in entry box, beginning with the first character (0) and ending with the last character (tk.END)
@@ -86,7 +87,7 @@ tree_1.heading("col3", text="col3 heading", anchor=tk.CENTER)
 tree_1.tag_configure('oddrow', background=oddrow)  # Create tags
 tree_1.tag_configure('evenrow', background=evenrow)
 
-tree_1.bind("<ButtonRelease-1>", lambda event: edit_record(event, tree_1))  # Define function to be called, when an item is selected.
+tree_1.bind("<ButtonRelease-1>", lambda event: edit_record(event, tree_1))  # Define function to be called, when an item is selected. (2)
 
 frame_1 = tk.LabelFrame(main_window, text="this is the label of the label frame")  # Create a label frame
 frame_1.grid(row=0, column=0, padx=padx, pady=pady, sticky=tk.N)

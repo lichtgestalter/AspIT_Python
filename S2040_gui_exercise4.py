@@ -8,7 +8,8 @@ use what you've learned in the GUI example files and build the GUI depicted in i
 
 Reuse your code from "GUI step 3".
 
-fill the treeview with test data
+Fill the treeview with test data.
+Play with the color values. Find a color combination that you like.
 
 Functionality:
     clicking on the button "clear entry boxes" deletes the text in all entry boxes.
@@ -19,4 +20,4 @@ Then send this Teams message to your teacher: <filename> done
 Thereafter go on with the next file.
 """
 
-ist das schon fertig? next step?
+# ist das schon fertig? next step?

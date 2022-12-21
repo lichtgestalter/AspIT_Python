@@ -35,17 +35,6 @@ def select_all(classparam):  # https://docs.sqlalchemy.org/en/14/tutorial/data_s
     return result
 
 
-def max_id(classparam):
-    # find the highest id currently in the database
-    with Session(engine) as session:
-        records = session.scalars(select(classparam))  # very useful for converting into our data class
-        maximum = 0
-        for record in records:
-            if record.id > maximum:
-                maximum = record.id
-    return maximum
-
-
 def get_record(classparam, record_id):  # https://docs.sqlalchemy.org/en/14/tutorial/data_select.html
     # return the record in classparams table with a certain id
     with Session(engine) as session:

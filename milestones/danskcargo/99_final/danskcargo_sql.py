@@ -36,7 +36,7 @@ def select_all(classparam):  # https://docs.sqlalchemy.org/en/14/tutorial/data_s
 
 
 def max_id(classparam):
-    # find the highest id currently in the database
+    # find the highest id currently in the database (only used in unittest example)
     with Session(engine) as session:
         records = session.scalars(select(classparam))  # very useful for converting into our data class
         maximum = 0

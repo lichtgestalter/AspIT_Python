@@ -474,8 +474,8 @@ select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
 
 # endregiontransport widgets
 
-refresh_treeview(tree_container, dcsql.Container)  # Load data from database
-refresh_treeview(tree_aircraft, dcsql.Aircraft)  # Load data from database
-refresh_treeview(tree_transport, dcsql.Transport)  # Load data from database
+refresh_treeview(tree_container, dcd.Container)  # Load data from database
+refresh_treeview(tree_aircraft, dcd.Aircraft)  # Load data from database
+refresh_treeview(tree_transport, dcd.Transport)  # Load data from database
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
     main_window.mainloop()  # Wait for button clicks and act upon them

@@ -33,16 +33,16 @@ class TestEmptyEntries(unittest.TestCase):
         Base.metadata.create_all(engine)
         with Session(engine) as session:
             new_items = []
-            new_items.append(dcd.Container(weight=1234, destination="Oslo"))
-            new_items.append(dcd.Aircraft(max_cargo_weight=1000, registration="OY-THR"))
+            new_items.append(dcd.Container(weight=1234, destination="Oslo"))  # add new container to database
+            new_items.append(dcd.Aircraft(max_cargo_weight=1000, registration="OY-THR"))  # add new aircraft to database
             session.add_all(new_items)
             session.commit()
         a_date = "8888-11-22"
-        record = ("", a_date, dcsql.max_id(dcd.Container), dcsql.max_id(dcd.Aircraft))
+        record = ("", a_date, dcsql.max_id(dcd.Container), dcsql.max_id(dcd.Aircraft))  # create a tuple using the newly added container and aircraft (because they have been newly added, they each have the highest id in their table)
         # act
         dcg.create_transport(dcg.tree_transport, record)
         # assert
-        self.assertEqual(dcg.INTERNAL_ERROR_CODE, 1)
+        self.assertEqual(dcg.INTERNAL_ERROR_CODE, 1)  # container weighs more than the aircraft's
 
 
 if __name__ == '__main__':

@@ -1,14 +1,16 @@
 """
 First read /misc/SQL.docx and do what it says.
 
-Just to get us going we create some test data. We need to do this only once.
+In this program we define a class. Very elegantly, at the same time this creates a sql database table with the same structure.
+Just to get us going we also create some test data. We need to do this only once.
+
+Read all the comments. You will not understand all of it. That's ok. Some things you will understand later on.
+But when using a foreign library, often it's good enough to just make it work without understanding all the details.
 """
 
-from sqlalchemy.orm import declarative_base  # install sqlalchemy with the command "pip install SQLAlchemy" in a terminal.
+from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with the command "pip install SQLAlchemy" in a terminal.
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database
-
-from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, select, update, delete
+from sqlalchemy import create_engine
 
 Database = 'sqlite:///data/my_first_sql_database.db'  # first part: database type, second part: file path
 Base = declarative_base()  # creating the registry and declarative base classes - combined into one step. Base will serve as the base class for the ORM mapped classes we declare.
@@ -23,9 +25,6 @@ class Person(Base):
     name = Column(String)
     age = Column(Integer)
 
-    def __repr__(self):  # Only for testing/debugging purposes.
-        return f"Persons({self.id=:4}    {self.name=:16}    {self.age=})"
-
 
 def create_test_data():  # Optional. Used to test data base functions before gui is ready.
     with Session(engine) as session:
@@ -38,25 +37,6 @@ def create_test_data():  # Optional. Used to test data base functions before gui
         session.commit()
 
 
-def select_all(classparam):  # https://docs.sqlalchemy.org/en/14/tutorial/data_select.html
-    # return a list of all records in classparams table
-    with Session(engine) as session:
-        records = session.scalars(select(classparam))  # very useful for converting into our data class
-        result = []
-        for record in records:
-            # print(record)
-            result.append(record)
-    return result
-
-
 engine = create_engine(Database, echo=False, future=True)  # https://docs.sqlalchemy.org/en/14/tutorial/engine.html   The start of any SQLAlchemy application is an object called the Engine. This object acts as a central source of connections to a particular database, providing both a factory as well as a holding space called a connection pool for these database connections. The engine is typically a global object created just once for a particular database server, and is configured using a URL string which will describe how it should connect to the database host or backend.
 Base.metadata.create_all(engine)
-# create_test_data()
-answer = select_all(Person)
-print(answer)
-# print(get_record(Container, 2))
-# print(get_record(Aircraft, 3))
-# update_example(engine)
-# delete_example(engine)
-# insert_example(engine)
-# select_text(engine)
+create_test_data()

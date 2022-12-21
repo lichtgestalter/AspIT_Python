@@ -1,22 +1,5 @@
 Exercises
     tkinter
-        2001 button, grid
-        2002 label, entry
-        2004 padding
-        2006 frame
-        2008 labelframe
-        2010 10 bauen
-
-        2014 button option command
-        2020 20 bauen
-
-        2024 treeview
-
-        2030 30 bauen
-        2032 hard coded example data
-        2034 odd+even rows formatting
-
-        2040 40 bauen
         treeview-click:  write into entries
         empty entries
         2050 40 bauen mit Funktionalität für Button clear und Klick in treeview füllt entries
@@ -47,6 +30,7 @@ Powerpoint Slides
     OOP
     importing modules
     aufbau programm: imports, klassen, funktionen, hauptprogramm
+    try except
 
 Kahoots
     diverse S1 kah

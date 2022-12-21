@@ -26,9 +26,9 @@ class Container(Base):
             return False
         return value >= 0
 
-    @classmethod
-    def convert_from_tuple(cls, tuple_):  # Convert tuple to Container
-        container = cls(id=tuple_[0], weight=tuple_[1], destination=tuple_[2])
+    @staticmethod
+    def convert_from_tuple(tuple_):  # Convert tuple to Container
+        container = Container(id=tuple_[0], weight=tuple_[1], destination=tuple_[2])
         return container
 
 
@@ -51,8 +51,8 @@ class Aircraft(Base):
             return False
         return value >= 0
 
-    @classmethod
-    def convert_from_tuple(cls, tuple_):  # Convert tuple to aircraft
+    @staticmethod
+    def convert_from_tuple(tuple_):  # Convert tuple to aircraft
         try:
             if tuple_[0] != '':
                 id_ = int(tuple_[0])
@@ -62,7 +62,7 @@ class Aircraft(Base):
             if max_cargo_weight < 0:
                 messagebox.showwarning("", "Max. Cargo Weight must not be negative!")
             else:
-                aircraft = cls(id=id_, max_cargo_weight=max_cargo_weight, registration=tuple_[2])
+                aircraft = Aircraft(id=id_, max_cargo_weight=max_cargo_weight, registration=tuple_[2])
                 return aircraft
         except:
             messagebox.showwarning("", "Entries could not be converted to aircraft!")
@@ -88,8 +88,8 @@ class Transport(Base):
             return False
         return value >= 0
 
-    @classmethod
-    def convert_from_tuple(cls, tuple_):  # Convert tuple to transport
+    @staticmethod
+    def convert_from_tuple(tuple_):  # Convert tuple to transport
         try:
             if tuple_[0] != '':
                 id_ = int(tuple_[0])
@@ -98,7 +98,7 @@ class Transport(Base):
             date = parser.parse(tuple_[1])
             container_id = int(tuple_[2])
             aircraft_id = int(tuple_[3])
-            transport = cls(id=id_, date=date, container_id=container_id, aircraft_id=aircraft_id)
+            transport = Transport(id=id_, date=date, container_id=container_id, aircraft_id=aircraft_id)
             return transport
         except:
             messagebox.showwarning("", "Entries could not be converted to transport!")

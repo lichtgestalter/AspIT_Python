@@ -4,7 +4,6 @@ from tkinter import messagebox
 import danskcargo_data as dcd
 import danskcargo_sql as dcsql
 import danskcargo_func as dcf
-import weather
 
 # region global constants
 padx = 8  # Horizontal distance to neighboring objects
@@ -37,7 +36,6 @@ def write_container_entries(values):  # Fill entry boxes
     entry_container_id.insert(0, values[0])
     entry_container_weight.insert(0, values[1])
     entry_container_destination.insert(0, values[2])
-    entry_container_weather.insert(0, weather.weather_now(entry_container_destination.get()))
 
 
 def edit_container(event, tree):  # Copy selected tuple into entry boxes. Parameter event is mandatory but we don't use it.
@@ -250,7 +248,6 @@ def empty_treeview(tree):  # Clear treeview table
 # region common widgets
 main_window = tk.Tk()  # Define the main window
 main_window.title('AspIT S2: DanskCargo')  # Text shown in the top window bar
-main_window.iconbitmap('AspIT.ico')  # Icon in the upper left corner
 main_window.geometry("1200x500")  # window size
 
 style = ttk.Style()  # Add style
@@ -477,8 +474,8 @@ select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
 
 # endregiontransport widgets
 
-refresh_treeview(tree_container, dcd.Container)  # Load data from database
-refresh_treeview(tree_aircraft, dcd.Aircraft)  # Load data from database
-refresh_treeview(tree_transport, dcd.Transport)  # Load data from database
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
+    refresh_treeview(tree_container, dcd.Container)  # Load data from database
+    refresh_treeview(tree_aircraft, dcd.Aircraft)  # Load data from database
+    refresh_treeview(tree_transport, dcd.Transport)  # Load data from database
     main_window.mainloop()  # Wait for button clicks and act upon them

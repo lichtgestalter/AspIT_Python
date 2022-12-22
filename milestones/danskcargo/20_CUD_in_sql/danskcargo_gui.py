@@ -156,6 +156,6 @@ select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
 
 # endregion container widgets
 
-refresh_treeview(tree_container, dcd.Container)  # Load data from database
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
+    refresh_treeview(tree_container, dcd.Container)  # Load data from database
     main_window.mainloop()  # Wait for button clicks and act upon them

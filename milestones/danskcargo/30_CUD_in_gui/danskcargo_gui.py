@@ -43,6 +43,27 @@ def edit_container(event, tree):  # Copy selected tuple into entry boxes. Parame
     write_container_entries(values)  # Fill entry boxes
 
 
+def create_container(tree, record):  # add new tuple to database
+    container = dcd.Container.convert_from_tuple(record)  # Convert tuple to Container
+    dcsql.create_record(container)  # Update database
+    clear_container_entries()  # Clear entry boxes
+    refresh_treeview(tree, dcd.Container)  # Refresh treeview table
+
+
+def update_container(tree, record):  # update tuple in database
+    container = dcd.Container.convert_from_tuple(record)  # Convert tuple to Container
+    dcsql.update_container(container)  # Update database
+    clear_container_entries()  # Clear entry boxes
+    refresh_treeview(tree, dcd.Container)  # Refresh treeview table
+
+
+def delete_container(tree, record):  # delete tuple in database
+    container = dcd.Container.convert_from_tuple(record)  # Convert tuple to Container
+    dcsql.delete_soft_container(container)  # Update database
+    clear_container_entries()  # Clear entry boxes
+    refresh_treeview(tree, dcd.Container)  # Refresh treeview table
+
+
 def read_table(tree, class_):  # fill tree from database
     count = 0  # Used to keep track of odd and even rows, because these will be colored differently.
     result = dcsql.select_all(class_)  # Read all containers from database
@@ -145,17 +166,17 @@ entry_container_weather.grid(row=1, column=3, padx=padx, pady=pady)
 button_frame_container = tk.Frame(controls_frame_container)
 button_frame_container.grid(row=1, column=0, padx=padx, pady=pady)
 # Define buttons
-button_create_container = tk.Button(button_frame_container, text="Create")
+button_create_container = tk.Button(button_frame_container, text="Create", command=lambda: create_container(tree_container, read_container_entries()))
 button_create_container.grid(row=0, column=1, padx=padx, pady=pady)
-button_update_container = tk.Button(button_frame_container, text="Update")
+button_update_container = tk.Button(button_frame_container, text="Update", command=lambda: update_container(tree_container, read_container_entries()))
 button_update_container.grid(row=0, column=2, padx=padx, pady=pady)
-button_delete_container = tk.Button(button_frame_container, text="Delete")
+button_delete_container = tk.Button(button_frame_container, text="Delete", command=lambda: delete_container(tree_container, read_container_entries()))
 button_delete_container.grid(row=0, column=3, padx=padx, pady=pady)
 select_record_button = tk.Button(button_frame_container, text="Clear Entry Boxes", command=clear_container_entries)
 select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
 
 # endregion container widgets
 
-refresh_treeview(tree_container, dcd.Container)  # Load data from database
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
+    refresh_treeview(tree_container, dcd.Container)  # Load data from database
     main_window.mainloop()  # Wait for button clicks and act upon them

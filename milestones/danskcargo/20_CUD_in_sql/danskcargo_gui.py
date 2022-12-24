@@ -12,7 +12,6 @@ treeview_foreground = "black"  # color of foreground in treeview
 treeview_selected = "#206030"  # color of selected row in treeview
 oddrow = "#dddddd"  # color of odd row in treeview
 evenrow = "#cccccc"  # color of even row in treeview
-INTERNAL_ERROR_CODE = 0
 
 # endregion global constants
 

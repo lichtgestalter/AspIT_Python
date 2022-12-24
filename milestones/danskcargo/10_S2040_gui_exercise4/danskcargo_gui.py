@@ -12,13 +12,11 @@ treeview_foreground = "black"  # color of foreground in treeview
 treeview_selected = "#206030"  # color of selected row in treeview
 oddrow = "#dddddd"  # color of odd row in treeview
 evenrow = "#cccccc"  # color of even row in treeview
-INTERNAL_ERROR_CODE = 0
+
 
 # endregion global constants
 
 # region container functions
-
-
 def read_container_entries():  # Read content of entry boxes
     return entry_container_id.get(), entry_container_weight.get(), entry_container_destination.get(),
 
@@ -58,7 +56,6 @@ def read_table(tree, class_):  # fill tree from database
 # endregion container functions
 
 # region common functions
-
 def refresh_treeview(tree, class_):  # Refresh treeview table
     empty_treeview(tree)  # Clear treeview table
     read_table(tree, class_)  # Fill treeview from database
@@ -66,7 +63,6 @@ def refresh_treeview(tree, class_):  # Refresh treeview table
 
 def empty_treeview(tree):  # Clear treeview table
     tree.delete(*tree.get_children())
-
 # endregion common functions
 
 
@@ -159,3 +155,4 @@ select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
     refresh_treeview(tree_container, dcd.Container)  # Load data from database
     main_window.mainloop()  # Wait for button clicks and act upon them
+

@@ -12,7 +12,7 @@ Scroll down to find the place in this file, where to write the function in.
 
 The function factorial shall ...
     have one parameter named "number".
-    calculate the factorial of this parameter and store the result in a variable named factorial.
+    calculate the factorial of this parameter and store the result in a variable named result.
         (If you do not remember the definition of factorial: https://da.wikipedia.org/wiki/Fakultet_(matematik) or https://en.wikipedia.org/wiki/Factorial)
     return the result.
 

@@ -181,53 +181,53 @@
 #
 # print("-----")
 
+#
+#
+# class ClassName:
+#     def __init__(self, attribute1_value, attribute2_value):  # constructor, magic function
+#         self.attribute1 = attribute1_value
+#         self.attribute2 = attribute2_value
+#
+#     def __repr__(self):  # magic function, defines the result of print()
+#         return f"ClassName: {self.attribute1=} {self.attribute2=}"
+#
+#     def method1(self):
+#         print("this is method1")
+#         self._protected_method()
+#
+#     def _protected_method(self):
+#         print("Don't call this method from outside this class!")
+#
+#
+# object1 = ClassName(4, 160)  # creates an object by calling the constructor __init__
+# object1.method1()  # calls method1 on object1
+# object1._protected_method()  # don't do this
+# print(object1)  # calls internally __repr__ on object1
+#
+#
+# class Vehicle:
+#     def __init__(self, wheels, max_speed):
+#         self.wheels = wheels
+#         self.max_speed = max_speed
+#
+#     def __repr__(self):
+#         return f"Vehicle: {self.wheels=} {self.max_speed=}"
+#
+#     def drive(self):
+#         print("WROOOOOOOOM!")
+#         self._top_secret()
+#
+#     def _top_secret(self):
+#         print("Don't call this method from outside this class!")
+#
+#
+# car1 = Vehicle(4, 160)
+# car1.drive()
+# car1._top_secret()
+# print(car1)
+#
 
-
-class ClassName:
-    def __init__(self, attribute1_value, attribute2_value):  # constructor, magic function
-        self.attribute1 = attribute1_value
-        self.attribute2 = attribute2_value
-
-    def __repr__(self):  # magic function, defines the result of print()
-        return f"ClassName: {self.attribute1=} {self.attribute2=}"
-
-    def method1(self):
-        print("this is method1")
-        self._protected_method()
-
-    def _protected_method(self):
-        print("Don't call this method from outside this class!")
-
-
-object1 = ClassName(4, 160)  # creates an object by calling the constructor __init__
-object1.method1()  # calls method1 on object1
-object1._protected_method()  # don't do this
-print(object1)  # calls internally __repr__ on object1
-
-
-class Vehicle:
-    def __init__(self, wheels, max_speed):
-        self.wheels = wheels
-        self.max_speed = max_speed
-
-    def __repr__(self):
-        return f"Vehicle: {self.wheels=} {self.max_speed=}"
-
-    def drive(self):
-        print("WROOOOOOOOM!")
-        self._top_secret()
-
-    def _top_secret(self):
-        print("Don't call this method from outside this class!")
-
-
-car1 = Vehicle(4, 160)
-car1.drive()
-car1._top_secret()
-print(car1)
-
-
-print(car1.__dir__())
+# print(car1.__dir__())
 # ['wheels', 'max_speed',
 #  '__module__', '__init__', '__repr__', 'drive', '_top_secret', '__dict__',
 #  '__weakref__', '__doc__', '__new__', '__hash__', '__str__', '__getattribute__',

@@ -1,17 +1,14 @@
 Exercises
-    tkinter
-        treeview-click:  write into entries
-        empty entries
-        2050 40 bauen mit Funktionalität für Button clear und Klick in treeview füllt entries
-
     sql
+        word doc anleitung weiterschreiben (exercise: danskcargo fertig bauen)
     unit test
     api
-    exercise: danskcargo fertig bauen
 
     dateinamen besser nummerieren, delete 57, rename 58?
     update S000 list of content
     begriffsliste, examensfragenliste
+    neuer Name/URL fuer repository?
+    examensopgave
 
 
 opret python.doc aktualisieren:
@@ -33,7 +30,7 @@ Powerpoint Slides
     try except
 
 Kahoots
-    diverse S1 kah
+    diverse S1 kahoots
         Function calls
         While loops
         ...

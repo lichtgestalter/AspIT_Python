@@ -18,9 +18,9 @@ Overskuelig, Forudsigelig, Nemt start (pga. angst)
     S0005 arithmetic operators
 
 Struktureret, præcis, entydig
-    S0020
+    S0023_turtle
 
 Anskuelig
-    S0057 turtle graphics
+    S0058 turtle graphics
         man ser med det samme hvad programmet gør
 

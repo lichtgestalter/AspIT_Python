@@ -1,6 +1,7 @@
 """
 A frame has been added.
 
+Run the program.
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Especially switch the parent windows of the GUI objects between frame_1
 and main_window and play with the values of padx and pady.

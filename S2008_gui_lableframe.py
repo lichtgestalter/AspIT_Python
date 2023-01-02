@@ -1,6 +1,7 @@
 """
 The frame has been replaced by a label frame.
 
+Run the program.
 Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Especially switch the parent windows of the GUI objects between frame_1

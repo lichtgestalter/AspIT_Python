@@ -1,6 +1,7 @@
 """
 The treeview has now columns.
 
+Run the program.
 Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Pay special attention to the options of treeview columns and columns headings. Play around with them.

@@ -44,6 +44,12 @@
     pull opgaver fra GitHub
     Kahoot boolean algebra (Klaes, Gustav, Simon, Albert, (Naja, Anton))
 
+02/01/23
+    -godt nytår!
+    husk BL dag
+    svar på aftaler
+    kahoot gentagelse Types + Operators, for loops
+    løs 19, 20, 21 for at komme i gang
 
 N.N.
     opgaverækkefølge

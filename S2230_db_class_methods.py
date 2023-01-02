@@ -1,6 +1,7 @@
 """
 We add a few more methods to our class, which will be useful later on.
 
+Run the program.
 Read all the comments.
 Understand the program code.
 """

@@ -1,6 +1,7 @@
 """
 Our first GUI: just one button in one window.
 
+Run the program.
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Read all the comments.
 Have a short look at the linked documentations. You will need them in future exercises.

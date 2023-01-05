@@ -2,8 +2,10 @@
 First read /misc/SQL.docx and do what it says.
 
 In this program we define a class. Very elegantly, at the same time this creates a sql database table with the same structure.
+This is called ORM (Object–relational mapping).
 Just to get us going we also create some test data. We need to do this only once.
 
+Run the program.
 Read all the comments. You will not understand all of it. That's ok. Some things you will understand later on.
 But when using a foreign library, often it's good enough to just make it work without understanding all the details.
 """

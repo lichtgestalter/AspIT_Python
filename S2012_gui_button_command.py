@@ -1,6 +1,7 @@
 """
 A function "empty_entry" was defined and gets called by pressing a button.
 
+Run the program.
 Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Pay special attention to how the function is called and how the text in the entry box is emptied.

@@ -3,6 +3,7 @@ Sometimes we don't want to read all records from a table.
 Instead we just want a single record with a certain id.
 For this, we add a function get_record.
 
+Run the program.
 Read all the comments.
 Understand the program code.
 """

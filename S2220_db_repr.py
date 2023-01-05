@@ -1,6 +1,7 @@
 """
 We add a function __repr__ to our class, so print produces prettier results.
 
+Run the program.
 Read all the comments.
 Understand the program code.
 """

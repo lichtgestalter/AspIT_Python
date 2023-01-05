@@ -1,6 +1,7 @@
 """
 Now we query our sql database table.
 
+Run the program.
 Read all the comments.
 Understand the program code  in the new function select_all.
 """

@@ -1,6 +1,7 @@
 """
 Now there are more buttons, a label and an entry.
 
+Run the program.
 Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Play around with the row and column parameters of grid() in order to understand grid() better.

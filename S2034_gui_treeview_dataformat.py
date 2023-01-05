@@ -5,6 +5,7 @@ The treeview has been formatted to show the data rows in alternating colors. To 
     (3) the treeview definition has been extended with 2 tags (tree_1.tag_configure)
 To make it easier to find the new code, the above numbers have been added to the comments ((1), (2), ...)
 
+Run the program.
 Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Pay special attention to the newly added code.

@@ -3,6 +3,7 @@ Added some global variables, which define the treeview's colors.
 A treeview style has been added. This makes the treeview look a
 bit nicer and uses the global color variables.
 
+Run the program.
 Read all the comments.
 Find out what every row of code does. For example by changing the code a bit and running it again.
 Right now you can't see much of the formatting's effect. This will change soon when we'll have data in the tree view.

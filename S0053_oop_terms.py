@@ -26,4 +26,3 @@ object1 = ClassName(4, 160)  # creates an instance/object by calling the constru
 object1.method1()  # calls method1 on object1
 object1._protected_method()  # don't do this
 print(object1)  # calls internally __repr__ on object1
-

@@ -18,7 +18,7 @@ class Vehicle:  # this starts the definition of a class
 
     def __init__(self, wheels, max_speed):
         # in python the constructor of a class is always called __init__
-        # a constructor creates an object of a class
+        # a constructor creates an instance/object of a class
         self.wheels = wheels  # wheels is called an attribute. A attribute is a variable that belongs to an object of a class.
         self.max_speed = max_speed  # Another attribute.
 

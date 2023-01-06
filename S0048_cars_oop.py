@@ -18,9 +18,9 @@ class Vehicle:  # this starts the definition of a class
         print("WROOOOOOOOM!")
 
 
-car1 = Vehicle()  # car1 is now defined as an object of type Vehicle
-car1.wheels = 4  # the attribute wheels is now defined for the object car1 of class Vehicle
-car1.max_speed = 160  # the attribute max_speed is now defined for the object car1 of class Vehicle
+car1 = Vehicle()  # car1 is now defined as an object of type Vehicle. car1 is an instance of class Vehicle.
+car1.wheels = 4  # the attribute wheels is now defined for the instance car1 of class Vehicle
+car1.max_speed = 160  # the attribute max_speed is now defined for the instance car1 of class Vehicle
 
 car2 = Vehicle()
 car2.wheels = 8

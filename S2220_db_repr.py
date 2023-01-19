@@ -21,7 +21,7 @@ class Person(Base):
     age = Column(Integer)
 
     def __repr__(self):  # Only for testing/debugging purposes.
-        return f"Persons({self.id=}    {self.name=}    {self.age=})"
+        return f"Person({self.id=}    {self.name=}    {self.age=})"
 
 
 def select_all(classparam):  # https://docs.sqlalchemy.org/en/14/tutorial/data_select.html

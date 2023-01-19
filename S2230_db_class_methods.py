@@ -21,7 +21,7 @@ class Person(Base):
     age = Column(Integer)
 
     def __repr__(self):  # Only for testing/debugging purposes.
-        return f"Persons({self.id=}    {self.name=}    {self.age=})"
+        return f"Person({self.id=}    {self.name=}    {self.age=})"
 
     def convert_to_tuple(self):  # Convert Person to tuple
         # Soon we want to show the contents of our database in our gui in a treeview widget.
@@ -47,7 +47,7 @@ class Person(Base):
         # when reading data from our gui widgets, we typically get the data as a tuple
         # This function converts a tuple into an object of type Person.
         # the decorator declares the method to be static
-        # a static method operates on the class, not on an object off the class
+        # a static method operates on the class, not on an object of the class
         # see https://www.geeksforgeeks.org/python-staticmethod/
         person = Person(id=tuple_[0], name=tuple_[1], age=tuple_[2])
         return person
@@ -66,5 +66,5 @@ def select_all(classparam):  # https://docs.sqlalchemy.org/en/14/tutorial/data_s
 engine = create_engine(Database, echo=False, future=True)
 Base.metadata.create_all(engine)
 
-print(select_all(Person))
+# print(select_all(Person))
 print(Person.convert_from_tuple((12, "test", 17)))

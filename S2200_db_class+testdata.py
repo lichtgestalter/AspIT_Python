@@ -39,6 +39,11 @@ def create_test_data():  # Optional. Used to test data base functions before gui
         session.commit()
 
 
-engine = create_engine(Database, echo=False, future=True)  # https://docs.sqlalchemy.org/en/14/tutorial/engine.html   The start of any SQLAlchemy application is an object called the Engine. This object acts as a central source of connections to a particular database, providing both a factory as well as a holding space called a connection pool for these database connections. The engine is typically a global object created just once for a particular database server, and is configured using a URL string which will describe how it should connect to the database host or backend.
-Base.metadata.create_all(engine)
-create_test_data()
+# https://docs.sqlalchemy.org/en/14/tutorial/engine.html   The start of any SQLAlchemy application is an object called the Engine.
+# This object acts as a central source of connections to a particular database, providing both a factory as well as a holding space
+# called a connection pool for these database connections. The engine is typically a global object created just once for a particular
+# database server, and is configured using a URL string which will describe how it should connect to the database host or backend.
+engine = create_engine(Database, echo=False, future=True)  # define engine
+Base.metadata.create_all(engine)  # establish connection to database (and create if it does not exist yet)
+
+create_test_data()  # write some test data into the database

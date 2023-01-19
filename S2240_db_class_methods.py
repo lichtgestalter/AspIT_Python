@@ -23,7 +23,7 @@ class Person(Base):
     age = Column(Integer)
 
     def __repr__(self):  # Only for testing/debugging purposes.
-        return f"Persons({self.id=}    {self.name=}    {self.age=})"
+        return f"Person({self.id=}    {self.name=}    {self.age=})"
 
     def convert_to_tuple(self):  # Convert Person to tuple
         return self.id, self.name, self.age
@@ -52,12 +52,15 @@ def select_all(classparam):  # return a list of all records in classparams table
 
 def get_record(classparam, record_id):  # return the record in classparams table with a certain id   https://docs.sqlalchemy.org/en/14/tutorial/data_select.html
     with Session(engine) as session:
-        record = session.scalars(select(classparam).where(classparam.id == record_id)).first()  # in the background this creates the sql query "select * from persons where id=record_id" when called with classparam=Person
+        # in the background this creates the sql query "select * from persons where id=record_id" when called with classparam=Person
+        record = session.scalars(select(classparam).where(classparam.id == record_id)).first()
     return record
 
 
 engine = create_engine(Database, echo=False, future=True)
 Base.metadata.create_all(engine)
 
-print(select_all(Person))
-print(Person.convert_from_tuple((12, "test", 17)))
+# print(select_all(Person))
+# print(Person.convert_from_tuple((12, "test", 17)))
+print(get_record(Person, 1))
+

@@ -68,4 +68,4 @@ N.N.
     !=  er ikke lige med
     /   divideret med
     2**5 to i femte (potens)
-    &   et-tegn, og-tegn
+    &   og-tegn, et-tegn

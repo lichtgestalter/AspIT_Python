@@ -1,5 +1,6 @@
 Exercises
     sql
+        einfache Aufgabe(n) zur Anwendung/Vertiefung von S2210 bis S2240
         word doc anleitung weiterschreiben (exercise: danskcargo fertig bauen)
     unit test
     api

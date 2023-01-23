@@ -14,7 +14,7 @@ class Container(Base):
     destination = Column(String)
 
     def __repr__(self):  # Optional. Only for test purposes.
-        return f"Container({self.id=:4}    {self.weight=:16}    {self.destination=})"
+        return f"Container({self.id=:4}    {self.weight=:5}    {self.destination=})"
 
     def convert_to_tuple(self):  # Convert Container to tuple
         return self.id, self.weight, self.destination

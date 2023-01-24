@@ -150,8 +150,8 @@ button_update_container = tk.Button(button_frame_container, text="Update")
 button_update_container.grid(row=0, column=2, padx=padx, pady=pady)
 button_delete_container = tk.Button(button_frame_container, text="Delete")
 button_delete_container.grid(row=0, column=3, padx=padx, pady=pady)
-select_record_button = tk.Button(button_frame_container, text="Clear Entry Boxes", command=clear_container_entries)
-select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
+button_clear_boxes = tk.Button(button_frame_container, text="Clear Entry Boxes", command=clear_container_entries)
+button_clear_boxes.grid(row=0, column=4, padx=padx, pady=pady)
 
 # endregion container widgets
 

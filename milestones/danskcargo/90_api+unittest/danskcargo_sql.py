@@ -1,12 +1,11 @@
-from sqlalchemy.orm import declarative_base, Session
+from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, select, update, delete
 
 from datetime import date
 
-from danskcargo_data import Container, Aircraft, Transport
+from danskcargo_data import Container, Aircraft, Transport, Base
 
 Database = 'sqlite:///danskcargo.db'  # first part: database type, second part: file path
-Base = declarative_base()  # creating the registry and declarative base classes - combined into one step. Base will serve as the base class for the ORM mapped classes we declare.
 
 
 def create_test_data():  # Optional. Used to test data base functions before gui is ready.

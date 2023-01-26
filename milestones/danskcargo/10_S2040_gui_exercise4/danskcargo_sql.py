@@ -1,10 +1,9 @@
-from sqlalchemy.orm import declarative_base, Session
+from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, select
 
-from danskcargo_data import Container
+from danskcargo_data import Container, Base
 
 Database = 'sqlite:///danskcargo.db'  # first part: database type, second part: file path
-Base = declarative_base()  # creating the registry and declarative base classes - combined into one step. Base will serve as the base class for the ORM mapped classes we declare.
 
 
 def create_test_data():  # Optional. Used to test data base functions before gui is ready.
@@ -39,9 +38,9 @@ def get_record(classparam, record_id):  # https://docs.sqlalchemy.org/en/14/tuto
 if __name__ == "__main__":  # Executed when invoked directly
     engine = create_engine(Database, echo=False, future=True)  # https://docs.sqlalchemy.org/en/14/tutorial/engine.html   The start of any SQLAlchemy application is an object called the Engine. This object acts as a central source of connections to a particular database, providing both a factory as well as a holding space called a connection pool for these database connections. The engine is typically a global object created just once for a particular database server, and is configured using a URL string which will describe how it should connect to the database host or backend.
     Base.metadata.create_all(engine)
-    # create_test_data()
-    print(select_all(Container))
-    print(get_record(Container, 2))
+    create_test_data()
+    # print(select_all(Container))
+    # print(get_record(Container, 2))
 else:  # Executed when imported
     engine = create_engine(Database, echo=False, future=True)  # https://docs.sqlalchemy.org/en/14/tutorial/engine.html   The start of any SQLAlchemy application is an object called the Engine. This object acts as a central source of connections to a particular database, providing both a factory as well as a holding space called a connection pool for these database connections. The engine is typically a global object created just once for a particular database server, and is configured using a URL string which will describe how it should connect to the database host or backend.
     Base.metadata.create_all(engine)

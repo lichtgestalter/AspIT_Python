@@ -12,57 +12,55 @@ treeview_foreground = "black"  # color of foreground in treeview
 treeview_selected = "#206030"  # color of selected row in treeview
 oddrow = "#dddddd"  # color of odd row in treeview
 evenrow = "#cccccc"  # color of even row in treeview
-
-
 # endregion global constants
 
+
 # region container functions
-# def read_container_entries():  # Read content of entry boxes
-#     return entry_container_id.get(), entry_container_weight.get(), entry_container_destination.get(),
-#
-#
-# def clear_container_entries():  # Clear entry boxes
-#     entry_container_id.delete(0, tk.END)  # Delete text in entry box, beginning with the first character (0) and ending with the last character (tk.END)
-#     entry_container_weight.delete(0, tk.END)
-#     entry_container_destination.delete(0, tk.END)
-#     entry_container_weather.delete(0, tk.END)
-#
-#
-# def write_container_entries(values):  # Fill entry boxes
-#     entry_container_id.insert(0, values[0])
-#     entry_container_weight.insert(0, values[1])
-#     entry_container_destination.insert(0, values[2])
-#
-#
-# def edit_container(event, tree):  # Copy selected tuple into entry boxes. Parameter event is mandatory but we don't use it.
-#     index_selected = tree.focus()  # Index of selected tuple
-#     values = tree.item(index_selected, 'values')  # Values of selected tuple
-#     clear_container_entries()  # Clear entry boxes
-#     write_container_entries(values)  # Fill entry boxes
-#
-#
-# def read_table(tree, class_):  # fill tree from database
-#     count = 0  # Used to keep track of odd and even rows, because these will be colored differently.
-#     result = dcsql.select_all(class_)  # Read all containers from database
-#     for record in result:
-#         if record.valid():  # this condition excludes soft deleted records from being shown in the data table
-#             if count % 2 == 0:  # even
-#                 tree.insert(parent='', index='end', iid=str(count), text='', values=record.convert_to_tuple(), tags=('evenrow',))  # Insert one row into the data table
-#             else:  # odd
-#                 tree.insert(parent='', index='end', iid=str(count), text='', values=record.convert_to_tuple(), tags=('oddrow',))  # Insert one row into the data table
-#             count += 1
-#
-#
+def read_container_entries():  # Read content of entry boxes
+    return entry_container_id.get(), entry_container_weight.get(), entry_container_destination.get(),
+
+
+def clear_container_entries():  # Clear entry boxes
+    entry_container_id.delete(0, tk.END)  # Delete text in entry box, beginning with the first character (0) and ending with the last character (tk.END)
+    entry_container_weight.delete(0, tk.END)
+    entry_container_destination.delete(0, tk.END)
+    entry_container_weather.delete(0, tk.END)
+
+
+def write_container_entries(values):  # Fill entry boxes
+    entry_container_id.insert(0, values[0])
+    entry_container_weight.insert(0, values[1])
+    entry_container_destination.insert(0, values[2])
+
+
+def edit_container(event, tree):  # Copy selected tuple into entry boxes. Parameter event is mandatory but we don't use it.
+    index_selected = tree.focus()  # Index of selected tuple
+    values = tree.item(index_selected, 'values')  # Values of selected tuple
+    clear_container_entries()  # Clear entry boxes
+    write_container_entries(values)  # Fill entry boxes
+
+
+def read_table(tree, class_):  # fill tree from database
+    count = 0  # Used to keep track of odd and even rows, because these will be colored differently.
+    result = dcsql.select_all(class_)  # Read all containers from database
+    for record in result:
+        if record.valid():  # this condition excludes soft deleted records from being shown in the data table
+            if count % 2 == 0:  # even
+                tree.insert(parent='', index='end', iid=str(count), text='', values=record.convert_to_tuple(), tags=('evenrow',))  # Insert one row into the data table
+            else:  # odd
+                tree.insert(parent='', index='end', iid=str(count), text='', values=record.convert_to_tuple(), tags=('oddrow',))  # Insert one row into the data table
+            count += 1
 # endregion container functions
-#
+
+
 # region common functions
-# def refresh_treeview(tree, class_):  # Refresh treeview table
-#     empty_treeview(tree)  # Clear treeview table
-#     read_table(tree, class_)  # Fill treeview from database
-#
-#
-# def empty_treeview(tree):  # Clear treeview table
-#     tree.delete(*tree.get_children())
+def refresh_treeview(tree, class_):  # Refresh treeview table
+    empty_treeview(tree)  # Clear treeview table
+    read_table(tree, class_)  # Fill treeview from database
+
+
+def empty_treeview(tree):  # Clear treeview table
+    tree.delete(*tree.get_children())
 # endregion common functions
 
 
@@ -77,8 +75,8 @@ style.theme_use('default')  # Pick theme
 # Configure treeview colors and formatting. A treeview is an object that can contain a data table.
 style.configure("Treeview", background=treeview_background, foreground=treeview_foreground, rowheight=rowheight, fieldbackground=treeview_background)
 style.map('Treeview', background=[('selected', treeview_selected)])  # Define color of selected row in treeview
-
 # endregion common widgets
+
 
 # region container widgets
 # Define Labelframe which contains all container related GUI objects (data table, labels, buttons, ...)
@@ -106,8 +104,7 @@ tree_container.heading("weight", text="Weight", anchor=tk.CENTER)
 tree_container.heading("destination", text="Destination", anchor=tk.CENTER)
 tree_container.tag_configure('oddrow', background=oddrow)  # Create tags for rows in 2 different colors
 tree_container.tag_configure('evenrow', background=evenrow)
-
-# tree_container.bind("<ButtonRelease-1>", lambda event: edit_container(event, tree_container))  # Define function to be called, when an item is selected.
+tree_container.bind("<ButtonRelease-1>", lambda event: edit_container(event, tree_container))  # Define function to be called, when an item is selected.
 
 # Define Frame which contains labels, entries and buttons
 controls_frame_container = tk.Frame(frame_container)
@@ -147,15 +144,15 @@ button_update_container = tk.Button(button_frame_container, text="Update")
 button_update_container.grid(row=0, column=2, padx=padx, pady=pady)
 button_delete_container = tk.Button(button_frame_container, text="Delete")
 button_delete_container.grid(row=0, column=3, padx=padx, pady=pady)
-button_clear_boxes = tk.Button(button_frame_container, text="Clear Entry Boxes")
-# button_clear_boxes = tk.Button(button_frame_container, text="Clear Entry Boxes", command=clear_container_entries)
+# button_clear_boxes = tk.Button(button_frame_container, text="Clear Entry Boxes")
+button_clear_boxes = tk.Button(button_frame_container, text="Clear Entry Boxes", command=clear_container_entries)
 button_clear_boxes.grid(row=0, column=4, padx=padx, pady=pady)
-
 # endregion container widgets
+
 
 # region main program
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
-    # refresh_treeview(tree_container, dcd.Container)  # Load data from database
+    refresh_treeview(tree_container, dcd.Container)  # Load data from database
     main_window.mainloop()  # Wait for button clicks and act upon them
 # endregion main program
 

@@ -2,8 +2,10 @@ Exercises
     sql
         einfache Aufgabe(n) zur Anwendung/Vertiefung von S2210 bis S2240
     word doc anleitung weiterschreiben (exercise: danskcargo fertig bauen)
-    unit test
-    api
+    weitere aufgabe wie danskcargo aber viel weniger stillads
+
+    unit test???
+    api???
 
     dateinamen besser nummerieren, delete 57, rename 58? Aufgaben mit EX im Dateinamen erkennbar machen?
     update S000 list of content

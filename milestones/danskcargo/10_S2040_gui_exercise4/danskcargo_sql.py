@@ -38,9 +38,9 @@ def get_record(classparam, record_id):  # https://docs.sqlalchemy.org/en/14/tuto
 if __name__ == "__main__":  # Executed when invoked directly
     engine = create_engine(Database, echo=False, future=True)  # https://docs.sqlalchemy.org/en/14/tutorial/engine.html   The start of any SQLAlchemy application is an object called the Engine. This object acts as a central source of connections to a particular database, providing both a factory as well as a holding space called a connection pool for these database connections. The engine is typically a global object created just once for a particular database server, and is configured using a URL string which will describe how it should connect to the database host or backend.
     Base.metadata.create_all(engine)
-    create_test_data()
-    # print(select_all(Container))
-    # print(get_record(Container, 2))
+    # create_test_data()
+    print(select_all(Container))
+    print(get_record(Container, 2))
 else:  # Executed when imported
     engine = create_engine(Database, echo=False, future=True)  # https://docs.sqlalchemy.org/en/14/tutorial/engine.html   The start of any SQLAlchemy application is an object called the Engine. This object acts as a central source of connections to a particular database, providing both a factory as well as a holding space called a connection pool for these database connections. The engine is typically a global object created just once for a particular database server, and is configured using a URL string which will describe how it should connect to the database host or backend.
     Base.metadata.create_all(engine)

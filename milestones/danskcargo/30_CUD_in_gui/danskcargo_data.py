@@ -18,7 +18,7 @@ class Container(Base):
         return self.id, self.weight, self.destination
 
     def valid(self):
-        try:
+        try:  # https://www.w3schools.com/python/python_try_except.asp
             value = int(self.weight)
         except ValueError:
             return False

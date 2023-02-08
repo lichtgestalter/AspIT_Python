@@ -44,7 +44,6 @@ def create_record(record):  # https://docs.sqlalchemy.org/en/14/tutorial/orm_dat
 
 
 # region container
-
 def update_container(container):  # https://docs.sqlalchemy.org/en/14/tutorial/orm_data_manipulation.html#orm-enabled-update-statements
     # update a record in the container table
     with Session(engine) as session:
@@ -64,7 +63,6 @@ def delete_soft_container(container):
     with Session(engine) as session:
         session.execute(update(Container).where(Container.id == container.id).values(weight=-1, destination=container.destination))
         session.commit()  # makes changes permanent in database
-
 # endregion container
 
 

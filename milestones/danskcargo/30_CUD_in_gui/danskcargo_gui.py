@@ -12,12 +12,10 @@ treeview_foreground = "black"  # color of foreground in treeview
 treeview_selected = "#206030"  # color of selected row in treeview
 oddrow = "#dddddd"  # color of odd row in treeview
 evenrow = "#cccccc"  # color of even row in treeview
-
 # endregion global constants
 
+
 # region container functions
-
-
 def read_container_entries():  # Read content of entry boxes
     return entry_container_id.get(), entry_container_weight.get(), entry_container_destination.get(),
 
@@ -73,12 +71,10 @@ def read_table(tree, class_):  # fill tree from database
             else:  # odd
                 tree.insert(parent='', index='end', iid=str(count), text='', values=record.convert_to_tuple(), tags=('oddrow',))  # Insert one row into the data table
             count += 1
-
-
 # endregion container functions
 
-# region common functions
 
+# region common functions
 def refresh_treeview(tree, class_):  # Refresh treeview table
     empty_treeview(tree)  # Clear treeview table
     read_table(tree, class_)  # Fill treeview from database
@@ -86,7 +82,6 @@ def refresh_treeview(tree, class_):  # Refresh treeview table
 
 def empty_treeview(tree):  # Clear treeview table
     tree.delete(*tree.get_children())
-
 # endregion common functions
 
 
@@ -101,8 +96,8 @@ style.theme_use('default')  # Pick theme
 # Configure treeview colors and formatting. A treeview is an object that can contain a data table.
 style.configure("Treeview", background=treeview_background, foreground=treeview_foreground, rowheight=rowheight, fieldbackground=treeview_background)
 style.map('Treeview', background=[('selected', treeview_selected)])  # Define color of selected row in treeview
-
 # endregion common widgets
+
 
 # region container widgets
 # Define Labelframe which contains all container related GUI objects (data table, labels, buttons, ...)
@@ -173,9 +168,11 @@ button_delete_container = tk.Button(button_frame_container, text="Delete", comma
 button_delete_container.grid(row=0, column=3, padx=padx, pady=pady)
 button_clear_boxes = tk.Button(button_frame_container, text="Clear Entry Boxes", command=clear_container_entries)
 button_clear_boxes.grid(row=0, column=4, padx=padx, pady=pady)
-
 # endregion container widgets
 
+
+# region main program
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
     refresh_treeview(tree_container, dcd.Container)  # Load data from database
     main_window.mainloop()  # Wait for button clicks and act upon them
+# endregion main program

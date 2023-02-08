@@ -1,5 +1,6 @@
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, select
+# from sqlalchemy import create_engine, select
+from sqlalchemy import create_engine, select, update, delete
 from danskcargo_data import Container, Base
 
 Database = 'sqlite:///danskcargo.db'  # first part: database type, second part: file path
@@ -32,6 +33,37 @@ def get_record(classparam, record_id):  # https://docs.sqlalchemy.org/en/14/tuto
     with Session(engine) as session:
         record = session.scalars(select(classparam).where(classparam.id == record_id)).first()  # very useful for converting into our data class
     return record
+
+
+def create_record(record):  # https://docs.sqlalchemy.org/en/14/tutorial/orm_data_manipulation.html#orm-enabled-update-statements
+    # create a record in the database
+    with Session(engine) as session:
+        record.id = None
+        session.add(record)
+        session.commit()  # makes changes permanent in database
+
+
+# region container
+def update_container(container):  # https://docs.sqlalchemy.org/en/14/tutorial/orm_data_manipulation.html#orm-enabled-update-statements
+    # update a record in the container table
+    with Session(engine) as session:
+        session.execute(update(Container).where(Container.id == container.id).values(weight=container.weight, destination=container.destination))
+        session.commit()  # makes changes permanent in database
+
+
+def delete_hard_container(container):
+    # delete a record in the container table
+    with Session(engine) as session:
+        session.execute(delete(Container).where(Container.id == container.id))
+        session.commit()  # makes changes permanent in database
+
+
+def delete_soft_container(container):
+    # soft delete a record in the container table by setting its weight to -1 (see also method "valid" in the container class)
+    with Session(engine) as session:
+        session.execute(update(Container).where(Container.id == container.id).values(weight=-1, destination=container.destination))
+        session.commit()  # makes changes permanent in database
+# endregion container
 
 
 if __name__ == "__main__":  # Executed when invoked directly

@@ -5,9 +5,9 @@ from sqlalchemy import extract
 import danskcargo_data as dcd
 import danskcargo_sql as dcsql
 
-# One could argue that function1 and function2 should be in the SQL layer,
+# One could argue that booked_cargo() and find_destination() should be in the SQL layer,
 # because they interact with the database. But since they are specifically written for
-# function3 and function4 respectively, and are not called by other functions,
+# capacity_available() and max_one_destination() respectively, and are not called by other functions,
 # it is also a good choice to keep them in the function layer.
 
 def booked_cargo(aircraft, date_):

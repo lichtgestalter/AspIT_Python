@@ -54,15 +54,16 @@ class Aircraft(Base):
     @staticmethod
     def convert_from_tuple(tuple_):  # Convert tuple to aircraft
         try:
-            if tuple_[0] != '':
-                id_ = int(tuple_[0])
-            else:
-                id_ = 0
+            # if tuple_[0] != '':  # unnecessary precaution
+            #     id_ = int(tuple_[0])
+            # else:
+            #     id_ = 0
             max_cargo_weight = int(tuple_[1])
             if max_cargo_weight < 0:
                 messagebox.showwarning("", "Max. Cargo Weight must not be negative!")
             else:
-                aircraft = Aircraft(id=id_, max_cargo_weight=max_cargo_weight, registration=tuple_[2])
+                aircraft = Aircraft(id=tuple_[0], max_cargo_weight=max_cargo_weight, registration=tuple_[2])
+                # aircraft = Aircraft(id=id_, max_cargo_weight=max_cargo_weight, registration=tuple_[2])
                 return aircraft
         except:
             messagebox.showwarning("", "Entries could not be converted to aircraft!")

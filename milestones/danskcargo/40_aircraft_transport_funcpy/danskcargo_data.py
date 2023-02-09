@@ -54,7 +54,7 @@ class Aircraft(Base):
     @staticmethod
     def convert_from_tuple(tuple_):  # Convert tuple to aircraft
         try:
-            # if tuple_[0] != '':
+            # if tuple_[0] != '':  # unnecessary precaution
             #     id_ = int(tuple_[0])
             # else:
             #     id_ = 0
@@ -99,6 +99,7 @@ class Transport(Base):
             date = parser.parse(tuple_[1])
             container_id = int(tuple_[2])
             aircraft_id = int(tuple_[3])
+            # transport = Transport(id=tuple_[0], date=date, container_id=tuple_[2], aircraft_id=tuple_[3])
             transport = Transport(id=id_, date=date, container_id=container_id, aircraft_id=aircraft_id)
             return transport
         except:

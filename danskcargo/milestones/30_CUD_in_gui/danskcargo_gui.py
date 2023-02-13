@@ -61,8 +61,10 @@ def delete_container(tree, record):  # delete tuple in database
     dcsql.delete_soft_container(container)  # Update database
     clear_container_entries()  # Clear entry boxes
     refresh_treeview(tree, dcd.Container)  # Refresh treeview table
+# endregion container functions
 
 
+# region common functions
 def read_table(tree, class_):  # fill tree from database
     count = 0  # Used to keep track of odd and even rows, because these will be colored differently.
     result = dcsql.select_all(class_)  # Read all containers from database
@@ -73,17 +75,15 @@ def read_table(tree, class_):  # fill tree from database
             else:  # odd
                 tree.insert(parent='', index='end', iid=str(count), text='', values=record.convert_to_tuple(), tags=('oddrow',))  # Insert one row into the data table
             count += 1
-# endregion container functions
-
-
-# region common functions
-def empty_treeview(tree):  # Clear treeview table
-    tree.delete(*tree.get_children())
 
 
 def refresh_treeview(tree, class_):  # Refresh treeview table
     empty_treeview(tree)  # Clear treeview table
     read_table(tree, class_)  # Fill treeview from database
+
+
+def empty_treeview(tree):  # Clear treeview table
+    tree.delete(*tree.get_children())
 # endregion common functions
 
 
@@ -127,6 +127,7 @@ tree_container.heading("weight", text="Weight", anchor=tk.CENTER)
 tree_container.heading("destination", text="Destination", anchor=tk.CENTER)
 tree_container.tag_configure('oddrow', background=oddrow)  # Create tags for rows in 2 different colors
 tree_container.tag_configure('evenrow', background=evenrow)
+
 tree_container.bind("<ButtonRelease-1>", lambda event: edit_container(event, tree_container))  # Define function to be called, when an item is selected.
 
 # Define Frame which contains labels, entries and buttons
@@ -157,18 +158,14 @@ label_container_weather.grid(row=0, column=3, padx=padx, pady=pady)
 entry_container_weather = tk.Entry(edit_frame_container, width=14)
 entry_container_weather.grid(row=1, column=3, padx=padx, pady=pady)
 
-
 # Define Frame which contains buttons
 button_frame_container = tk.Frame(controls_frame_container)
 button_frame_container.grid(row=1, column=0, padx=padx, pady=pady)
 # Define buttons
-# button_create_container = tk.Button(button_frame_container, text="Create")
 button_create_container = tk.Button(button_frame_container, text="Create", command=lambda: create_container(tree_container, read_container_entries()))
 button_create_container.grid(row=0, column=1, padx=padx, pady=pady)
-# button_update_container = tk.Button(button_frame_container, text="Update")
 button_update_container = tk.Button(button_frame_container, text="Update", command=lambda: update_container(tree_container, read_container_entries()))
 button_update_container.grid(row=0, column=2, padx=padx, pady=pady)
-# button_delete_container = tk.Button(button_frame_container, text="Delete")
 button_delete_container = tk.Button(button_frame_container, text="Delete", command=lambda: delete_container(tree_container, read_container_entries()))
 button_delete_container.grid(row=0, column=3, padx=padx, pady=pady)
 button_clear_boxes = tk.Button(button_frame_container, text="Clear Entry Boxes", command=clear_container_entries)

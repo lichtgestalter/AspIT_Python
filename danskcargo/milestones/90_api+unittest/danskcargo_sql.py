@@ -34,6 +34,17 @@ def select_all(classparam):  # https://docs.sqlalchemy.org/en/14/tutorial/data_s
     return result
 
 
+def max_id(classparam):
+    # find the highest id currently in the database (only used in unittest example)
+    with Session(engine) as session:
+        records = session.scalars(select(classparam))  # very useful for converting into our data class
+        maximum = 0
+        for record in records:
+            if record.id > maximum:
+                maximum = record.id
+    return maximum
+
+
 def get_record(classparam, record_id):  # https://docs.sqlalchemy.org/en/14/tutorial/data_select.html
     # return the record in classparams table with a certain id
     with Session(engine) as session:
@@ -50,7 +61,6 @@ def create_record(record):  # https://docs.sqlalchemy.org/en/14/tutorial/orm_dat
 
 
 # region container
-
 def update_container(container):  # https://docs.sqlalchemy.org/en/14/tutorial/orm_data_manipulation.html#orm-enabled-update-statements
     # update a record in the container table
     with Session(engine) as session:
@@ -70,12 +80,10 @@ def delete_soft_container(container):
     with Session(engine) as session:
         session.execute(update(Container).where(Container.id == container.id).values(weight=-1, destination=container.destination))
         session.commit()  # makes changes permanent in database
-
-
 # endregion container
 
-# region aircraft
 
+# region aircraft
 def update_aircraft(aircraft):  # https://docs.sqlalchemy.org/en/14/tutorial/orm_data_manipulation.html#orm-enabled-update-statements
     # update a record in the aircraft table
     with Session(engine) as session:
@@ -95,13 +103,10 @@ def delete_soft_aircraft(aircraft):
     with Session(engine) as session:
         session.execute(update(Aircraft).where(Aircraft.id == aircraft.id).values(max_cargo_weight=-1, registration=aircraft.registration))
         session.commit()  # makes changes permanent in database
-
-
 # endregion aircraft
 
+
 # region transport
-
-
 def update_transport(transport):  # https://docs.sqlalchemy.org/en/14/tutorial/orm_data_manipulation.html#orm-enabled-update-statements
     # update a record in the transport table
     with Session(engine) as session:
@@ -114,11 +119,9 @@ def delete_hard_transport(transport):
     with Session(engine) as session:
         session.execute(delete(Transport).where(Transport.id == transport.id))
         session.commit()  # makes changes permanent in database
-
 # endregion transport
 
 # region examples
-
 # def select_container():  # https://docs.sqlalchemy.org/en/14/tutorial/data_select.html
 #     with Session(engine) as session:
 #         print("\nsession.scalars(select(Container).where(Container.id >= '4'))")
@@ -165,8 +168,8 @@ def delete_hard_transport(transport):
 #         containers = session.scalars(select(Container).where(Container.id >= "0"))  # very useful for converting into our data class
 #         for container in containers:
 #             print(container, type(container), type(containers))
-
 # endregion examples
+
 
 if __name__ == "__main__":  # Executed when invoked directly
     engine = create_engine(Database, echo=False, future=True)  # https://docs.sqlalchemy.org/en/14/tutorial/engine.html   The start of any SQLAlchemy application is an object called the Engine. This object acts as a central source of connections to a particular database, providing both a factory as well as a holding space called a connection pool for these database connections. The engine is typically a global object created just once for a particular database server, and is configured using a URL string which will describe how it should connect to the database host or backend.

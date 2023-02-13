@@ -16,12 +16,10 @@ treeview_selected = "#206030"  # color of selected row in treeview
 oddrow = "#dddddd"  # color of odd row in treeview
 evenrow = "#cccccc"  # color of even row in treeview
 INTERNAL_ERROR_CODE = 0
-
 # endregion global constants
 
+
 # region container functions
-
-
 def read_container_entries():  # Read content of entry boxes
     return entry_container_id.get(), entry_container_weight.get(), entry_container_destination.get(),
 
@@ -47,11 +45,6 @@ def edit_container(event, tree):  # Copy selected tuple into entry boxes. Parame
     write_container_entries(values)  # Fill entry boxes
 
 
-def copy_container_id(event):
-    entry_transport_container_id.delete(0, tk.END)
-    entry_transport_container_id.insert(0, entry_container_id.get())
-
-
 def create_container(tree, record):  # add new tuple to database
     container = dcd.Container.convert_from_tuple(record)  # Convert tuple to Container
     dcsql.create_record(container)  # Update database
@@ -73,19 +66,11 @@ def delete_container(tree, record):  # delete tuple in database
     refresh_treeview(tree, dcd.Container)  # Refresh treeview table
 
 
-def read_table(tree, class_):  # fill tree from database
-    count = 0  # Used to keep track of odd and even rows, because these will be colored differently.
-    result = dcsql.select_all(class_)  # Read all containers from database
-    for record in result:
-        if record.valid():  # this condition excludes soft deleted records from being shown in the data table
-            if count % 2 == 0:  # even
-                tree.insert(parent='', index='end', iid=str(count), text='', values=record.convert_to_tuple(), tags=('evenrow',))  # Insert one row into the data table
-            else:  # odd
-                tree.insert(parent='', index='end', iid=str(count), text='', values=record.convert_to_tuple(), tags=('oddrow',))  # Insert one row into the data table
-            count += 1
-
-
+def copy_container_id(event):
+    entry_transport_container_id.delete(0, tk.END)
+    entry_transport_container_id.insert(0, entry_container_id.get())
 # endregion container functions
+
 
 # region aircraft functions
 def read_aircraft_entries():  # Read content of entry boxes
@@ -135,24 +120,10 @@ def delete_aircraft(tree, record):  # delete tuple in database
     dcsql.delete_soft_aircraft(aircraft)  # Update database
     clear_aircraft_entries()  # Clear entry boxes
     refresh_treeview(tree, dcd.Aircraft)  # Refresh treeview table
-
-
-def read_aircraft(tree):  # fill tree from database
-    count = 0  # Used to keep track of odd and even rows, because these will be colored differently.
-    result = dcsql.select_all(dcd.Aircraft)  # Read all aircrafts from database
-    for record in result:
-        if record.weight >= 0:  # this condition excludes soft deleted records from being shown in the data table
-            if count % 2 == 0:  # even
-                tree.insert(parent='', index='end', iid=str(count), text='', values=record.aircraft2tuple(), tags=('evenrow',))  # Insert one row into the data table
-            else:  # odd
-                tree.insert(parent='', index='end', iid=str(count), text='', values=record.aircraft2tuple(), tags=('oddrow',))  # Insert one row into the data table
-            count += 1
-
-
 # endregion aircraft functions
 
-# region transport functions
 
+# region transport functions
 def read_transport_entries():  # Read content of entry boxes
     return entry_transport_id.get(), entry_transport_date.get(), entry_transport_container_id.get(), entry_transport_aircraft_id.get(),
 
@@ -218,23 +189,21 @@ def delete_transport(tree, record):  # delete tuple in database
     dcsql.delete_hard_transport(transport)  # Update database
     clear_transport_entries()  # Clear entry boxes
     refresh_treeview(tree, dcd.Transport)  # Refresh treeview table
-
-
-def read_transport(tree):  # fill tree from database
-    count = 0  # Used to keep track of odd and even rows, because these will be colored differently.
-    result = dcsql.select_all(dcd.Transport)  # Read all transports from database
-    for record in result:
-        if record.weight >= 0:  # this condition excludes soft deleted records from being shown in the data table
-            if count % 2 == 0:  # even
-                tree.insert(parent='', index='end', iid=str(count), text='', values=record.transport2tuple(), tags=('evenrow',))  # Insert one row into the data table
-            else:  # odd
-                tree.insert(parent='', index='end', iid=str(count), text='', values=record.transport2tuple(), tags=('oddrow',))  # Insert one row into the data table
-            count += 1
-
-
 # endregion transport functions
 
+
 # region common functions
+def read_table(tree, class_):  # fill tree from database
+    count = 0  # Used to keep track of odd and even rows, because these will be colored differently.
+    result = dcsql.select_all(class_)  # Read all containers from database
+    for record in result:
+        if record.valid():  # this condition excludes soft deleted records from being shown in the data table
+            if count % 2 == 0:  # even
+                tree.insert(parent='', index='end', iid=str(count), text='', values=record.convert_to_tuple(), tags=('evenrow',))  # Insert one row into the data table
+            else:  # odd
+                tree.insert(parent='', index='end', iid=str(count), text='', values=record.convert_to_tuple(), tags=('oddrow',))  # Insert one row into the data table
+            count += 1
+
 
 def refresh_treeview(tree, class_):  # Refresh treeview table
     empty_treeview(tree)  # Clear treeview table
@@ -243,7 +212,6 @@ def refresh_treeview(tree, class_):  # Refresh treeview table
 
 def empty_treeview(tree):  # Clear treeview table
     tree.delete(*tree.get_children())
-
 # endregion common functions
 
 
@@ -259,8 +227,8 @@ style.theme_use('default')  # Pick theme
 # Configure treeview colors and formatting. A treeview is an object that can contain a data table.
 style.configure("Treeview", background=treeview_background, foreground=treeview_foreground, rowheight=rowheight, fieldbackground=treeview_background)
 style.map('Treeview', background=[('selected', treeview_selected)])  # Define color of selected row in treeview
-
 # endregion common widgets
+
 
 # region container widgets
 # Define Labelframe which contains all container related GUI objects (data table, labels, buttons, ...)
@@ -332,8 +300,8 @@ button_delete_container = tk.Button(button_frame_container, text="Delete", comma
 button_delete_container.grid(row=0, column=3, padx=padx, pady=pady)
 button_clear_boxes = tk.Button(button_frame_container, text="Clear Entry Boxes", command=clear_container_entries)
 button_clear_boxes.grid(row=0, column=4, padx=padx, pady=pady)
-
 # endregion container widgets
+
 
 # region aircraft widgets
 # Define Labelframe which contains all aircraft related GUI objects (data table, labels, buttons, ...)
@@ -400,8 +368,8 @@ button_delete_aircraft = tk.Button(button_frame_aircraft, text="Delete", command
 button_delete_aircraft.grid(row=0, column=3, padx=padx, pady=pady)
 button_clear_boxes = tk.Button(button_frame_aircraft, text="Clear Entry Boxes", command=clear_aircraft_entries)
 button_clear_boxes.grid(row=0, column=4, padx=padx, pady=pady)
-
 # endregion aircraft widgets
+
 
 # regiontransport widgets
 # Define Labelframe which contains all transport related GUI objects (data table, labels, buttons, ...)
@@ -474,8 +442,8 @@ button_delete_transport = tk.Button(button_frame_transport, text="Delete", comma
 button_delete_transport.grid(row=0, column=3, padx=padx, pady=pady)
 button_clear_boxes = tk.Button(button_frame_transport, text="Clear Entry Boxes", command=clear_transport_entries)
 button_clear_boxes.grid(row=0, column=4, padx=padx, pady=pady)
-
 # endregiontransport widgets
+
 
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
     refresh_treeview(tree_container, dcd.Container)  # Load data from database

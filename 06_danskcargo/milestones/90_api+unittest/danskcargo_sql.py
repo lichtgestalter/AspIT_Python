@@ -5,7 +5,7 @@ from datetime import date
 
 from danskcargo_data import Container, Aircraft, Transport, Base
 
-Database = 'sqlite:///06_danskcargo.db'  # first part: database type, second part: file path
+Database = 'sqlite:///danskcargo.db'  # first part: database type, second part: file path
 
 
 def create_test_data():  # Optional. Used to test data base functions before gui is ready.

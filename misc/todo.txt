@@ -1,13 +1,13 @@
 Exercises
-    sql
-        einfache Aufgabe(n) zur Anwendung/Vertiefung von S2210 bis S2240
-    word doc anleitung weiterschreiben (exercise: danskcargo fertig bauen)
+    danskcargo DE->DK abschließen
+    foreign key constraint reparieren!
+    sql: einfache Aufgabe(n) zur Anwendung/Vertiefung von S2210 bis S2240
     weitere aufgabe wie danskcargo aber viel weniger stillads
 
     unit test???
     api???
 
-    dateinamen besser nummerieren, delete 57, rename 58? Aufgaben mit EX im Dateinamen erkennbar machen?
+    dateinamen besser nummerieren, Aufgaben mit EX im Dateinamen erkennbar machen?
     update S000 list of content
     begriffsliste, examensfragenliste
     neuer Name/URL fuer repository?
@@ -36,6 +36,7 @@ Kahoots
     diverse S1 kahoots
         Function calls
         While loops
+        try except
         ...
 
 Sonstiges

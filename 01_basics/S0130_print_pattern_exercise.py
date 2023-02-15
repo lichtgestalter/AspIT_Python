@@ -5,7 +5,7 @@ As always, read the whole exercise description carefully before you begin to sol
 
 Copy this file into your own solution directory. Write your solution into the copy.
 
-All you need to know about functions in order to solve this exercise, you'll find in the jupiter notebook S0014_basics.ipynb.
+All you need to know about functions in order to solve this exercise, you'll find in the jupiter notebook S0040_basics.ipynb.
 
 Write a function named "print_repeatedly".
 Scroll down to find the place in this file, where to write the function in.

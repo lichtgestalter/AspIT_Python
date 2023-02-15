@@ -12,27 +12,27 @@ The game:
     If the prey is still on the run after MAX_TURNS turns, the points double and the hunt ends.
 
 
-The code for the game is already written in S0058_turtle_hunt_main.py and S0058_turtle_hunt_service.py. Do not change these files.
+The code for the game is already written in S1530_turtle_hunt_main.py and S1520_turtle_hunt_service.py. Do not change these files.
 
 Your job is to make the turtles rotate smarter.
 
 Copy all 3 turtle_hunt files into your own solution directory.
-Write your solution into your copy of S0058_turtle_hunt_classes_constants.py.
+Write your solution into your copy of S1510_turtle_hunt_classes_constants.py.
 
 File structure:
     The code is divided into 3 files in order to make it clear which part of the code
     you are supposed to change and which part of the code you shall leave unchanged.
 
-    S0058_turtle_hunt_main.py:
+    S1530_turtle_hunt_main.py:
         This is the main program.
         Do not make changes therein.
         Run it in order to start the game.
 
-    S0058_turtle_hunt_service.py:
+    S1520_turtle_hunt_service.py:
         Contains some service functions that will be useful to you.
         Do not make changes therein.
 
-    This file (S0058_turtle_hunt_classes_constants.py):
+    This file (S1510_turtle_hunt_classes_constants.py):
         All your programming for this exercise happens in this file.
 
 Step 1:
@@ -74,7 +74,7 @@ Only if you are curious and love details:
 
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
 import random
-from S0058_turtle_hunt_service import distance, direction
+from S1520_turtle_hunt_service import distance, direction
 
 
 class PlayerName1(turtle.Turtle):

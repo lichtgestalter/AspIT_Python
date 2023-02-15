@@ -21,25 +21,9 @@ In the main program, call pyramid2 with 1, 2, 3, ..., 10 as the first argument
 and a list of numbers of your choice as the second argument.
 Try out different lists as the second argument.
 
-Replace the zeros in the code below with your own code
-
-If you get stuck, ask google, the other pupils or the teacher (in this order).
-If you are still stuck, open S0092_pyramid_solution.py and compare it with your solution
+If you have no idea how to begin, open S1620_pyramid_help.py and start from there
 
 When your program is complete, push it to your github repository.
 Then send this Teams message to your teacher: <filename> done
 Thereafter go on with the next file.
 """
-
-
-def pyramid(lines):
-    numbers = [1, 1]
-    0
-
-
-def pyramid2(lines, numbers):
-    0
-
-
-pyramid(1)  # the calls for 2...10 are still missing
-pyramid2(1, [1, 0, 1, 2])

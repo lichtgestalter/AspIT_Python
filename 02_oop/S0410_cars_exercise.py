@@ -12,9 +12,9 @@ In the main program:
     Print out these properties of both cars
     Then call the motor sound function
 
-If you have no idea how to begin, open S0046_cars_help.py and start from there.
+If you have no idea how to begin, open S0420_cars_help.py and start from there.
 If you get stuck, ask google, the other pupils or the teacher (in this order).
-If you are still stuck, open S0047_cars_solution.py and compare it with your solution.
+If you are still stuck, open S0430_cars_solution.py and compare it with your solution.
 
 When your program is complete, push it to your github repository.
 Then send this Teams message to your teacher: <filename> done

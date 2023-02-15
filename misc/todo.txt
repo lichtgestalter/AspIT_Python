@@ -1,6 +1,5 @@
 Exercises
-    danskcargo DE->DK abschließen
-    foreign key constraint reparieren!
+    doku->word
     sql: einfache Aufgabe(n) zur Anwendung/Vertiefung von S2210 bis S2240
     weitere aufgabe wie danskcargo aber viel weniger stillads
 

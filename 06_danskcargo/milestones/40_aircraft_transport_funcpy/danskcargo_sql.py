@@ -3,7 +3,7 @@ from sqlalchemy import create_engine, select, update, delete
 from datetime import date
 from danskcargo_data import Container, Aircraft, Transport, Base
 
-# add the following 7 lines to make foreign key constraints work
+# add the following 7 lines to make foreign key constraints work  https://docs.sqlalchemy.org/en/14/dialects/sqlite.html#sqlite-foreign-keys
 from sqlalchemy.engine import Engine
 from sqlalchemy import event
 @event.listens_for(Engine, "connect")

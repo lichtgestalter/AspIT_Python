@@ -2,14 +2,13 @@ Exercises
     sql: einfache Aufgabe(n) zur Anwendung/Vertiefung von S2210 bis S2240
     weitere aufgabe wie danskcargo aber viel weniger stillads
 
-    unit test???
-    api???
-
-    dateinamen besser nummerieren, Aufgaben mit EX im Dateinamen erkennbar machen?
-    update S000 list of content
+    målliste offiziell
     begriffsliste, examensfragenliste
     neuer Name/URL fuer repository?
     examensopgave
+
+    unit test???
+    api???
 
 
 opret python.doc aktualisieren:

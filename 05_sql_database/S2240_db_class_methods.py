@@ -12,7 +12,7 @@ from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with 
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database
 from sqlalchemy import create_engine, select
 
-Database = 'sqlite:///data/my_first_sql_database.db'
+Database = 'sqlite:///../data/my_first_sql_database.db'
 Base = declarative_base()
 
 
@@ -36,7 +36,7 @@ class Person(Base):
         return value >= 0
 
     @staticmethod
-    def convert_from_tuple(tuple_):  # Convert tuple to Container
+    def convert_from_tuple(tuple_):  # Convert tuple to Person
         person = Person(id=tuple_[0], name=tuple_[1], age=tuple_[2])
         return person
 

@@ -10,7 +10,7 @@ from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with 
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database
 from sqlalchemy import create_engine, select
 
-Database = 'sqlite:///data/my_first_sql_database.db'
+Database = 'sqlite:///../data/my_first_sql_database.db'
 Base = declarative_base()
 
 
@@ -43,7 +43,7 @@ class Person(Base):
         return value >= 0  # only non-negative values are considered valid
 
     @staticmethod  # this is called a decorator
-    def convert_from_tuple(tuple_):  # Convert tuple to Container
+    def convert_from_tuple(tuple_):  # Convert tuple to Person
         # when reading data from our gui widgets, we typically get the data as a tuple
         # This function converts a tuple into an object of type Person.
         # the decorator declares the method to be static

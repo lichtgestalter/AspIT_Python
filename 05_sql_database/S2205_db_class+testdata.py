@@ -1,5 +1,5 @@
 """
-First read SQL.docx and do what it says.
+First read S2200_SQL.docx and do what it says.
 
 In this program we define a class. Very elegantly, at the same time this creates a sql database table with the same structure.
 This is called ORM (Object–relational mapping).

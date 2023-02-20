@@ -1,10 +1,10 @@
 Exercises
-    sql: einfache Aufgabe(n) zur Anwendung/Vertiefung von S2210 bis S2240
-    weitere aufgabe wie danskcargo aber viel weniger stillads
+    kapitel 7: weitere aufgabe wie danskcargo aber viel weniger stillads
+    neuer Name/URL fuer repository?
 
     målliste offiziell
     begriffsliste, examensfragenliste
-    neuer Name/URL fuer repository?
+    Powerpoint Slides, Kahoots
     examensopgave
 
     unit test???

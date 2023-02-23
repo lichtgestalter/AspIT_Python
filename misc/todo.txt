@@ -1,6 +1,5 @@
 Exercises
-    plusbus
-    neuer Name/URL fuer repository?
+    test neuer Name/URL fuer repository?
 
     målliste offiziell
     begriffsliste, examensfragenliste

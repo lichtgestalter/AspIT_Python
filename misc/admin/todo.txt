@@ -1,11 +1,30 @@
 Exercises
-    målliste offiziell
     begriffsliste, examensfragenliste
-    Powerpoint Slides, Kahoots
+    Powerpoint Slides
+    Kahoots
     examensopgave
 
-    unit test???
-    api???
+
+Powerpoint Slides
+    SQL
+    GUI
+    function calls
+    OOP
+    importing modules
+    aufbau programm: imports, klassen, funktionen, hauptprogramm
+    try except
+    3. normaliseringsgrad (normalform)
+
+
+Kahoots
+    diverse S1 kahoots
+        Function calls
+        While loops
+        try except
+        ...
+
+
+Sonstiges
 
 
 opret python.doc aktualisieren:
@@ -19,18 +38,7 @@ opret python.doc aktualisieren:
         lists all installation steps
         provides tests for success of all steps
 
-Powerpoint Slides
-    function calls
-    OOP
-    importing modules
-    aufbau programm: imports, klassen, funktionen, hauptprogramm
-    try except
 
-Kahoots
-    diverse S1 kahoots
-        Function calls
-        While loops
-        try except
-        ...
-
-Sonstiges
+S3
+    unit test (meilenstein 90, in Word-Dokument beschreiben)
+    api (meilenstein 90, in Word-Dokument beschreiben)

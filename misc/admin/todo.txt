@@ -1,19 +1,18 @@
 Exercises
-    begriffsliste, examensfragenliste
     Powerpoint Slides
     Kahoots
     examensopgave
 
 
 Powerpoint Slides
-    SQL
-    GUI
     function calls
-    OOP
     importing modules
     aufbau programm: imports, klassen, funktionen, hauptprogramm
-    try except
+    OOP
+    GUI
+    SQL
     3. normaliseringsgrad (normalform)
+    try except
 
 
 Kahoots

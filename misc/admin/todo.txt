@@ -25,6 +25,7 @@ Kahoots
 
 
 Sonstiges
+    data Ordner aufloesen?
 
 
 opret python.doc aktualisieren:

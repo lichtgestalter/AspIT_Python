@@ -26,6 +26,7 @@ Kahoots
 
 Sonstiges
     data Ordner aufloesen?
+    Aufgaben von EN auf DA uebersetzen
 
 
 opret python.doc aktualisieren:

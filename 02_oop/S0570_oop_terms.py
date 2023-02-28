@@ -11,14 +11,14 @@ class ClassName:
         self.attribute1 = parameter1
         self.attribute2 = parameter2
 
-    def __repr__(self):  # magic function, defines how objects are printed
+    def __repr__(self):  # magic function, defines how objects are printed. Magic function names always start and end with two underscores.
         return f"ClassName: {self.attribute1=} {self.attribute2=}"
 
     def method1(self):
         print("this is method1")
         self._protected_method()
 
-    def _protected_method(self):
+    def _protected_method(self):  # protected method or attribute names always start with one underscore
         print("Don't call this method from outside this class!")
 
 

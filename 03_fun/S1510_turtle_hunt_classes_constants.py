@@ -49,6 +49,7 @@ Step 3:
     In your personal class, make the methods rotate_prey and rotate_hunter smarter.
     Possibly you'll also want to add some attributes and/or methods to your class.
     You may not manipulate (e.g. move) the turtles with your code though.
+    The runtime of your methods rotate_prey and rotate_hunter must be less than 0.1 seconds per iteration.
 
 Step 4:
     Find a sparring partner in your study group.

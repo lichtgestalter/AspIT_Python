@@ -8,6 +8,7 @@ Powerpoint Slides
     function calls
     importing modules
     aufbau programm: imports, klassen, funktionen, hauptprogramm
+    Best practice
     OOP
     GUI
     SQL

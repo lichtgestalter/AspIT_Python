@@ -1,7 +1,18 @@
 """
-Write a python program that uses sqlalchemy to create a sqlite database with a table named customers containig the columns id (primary key), name and age. The program creates 4 test datasets for this table, writes them into the database and uses tkinter in order to display the table's content.
+Input:
+Write a python program that uses sqlalchemy to create a sqlite database with a table named
+customers containig the columns id (primary key), name and age. The program creates 4 test
+datasets for this table, writes them into the database and uses tkinter in order to display
+the table's content.
 
-Sure, here's a python program that creates a SQLite database using SQLAlchemy and then creates a table called "customers" with columns "id" (primary key), "name", and "age". It then inserts four test datasets into the table and uses Tkinter to display the table's content.
+Output:
+Sure, here's a python program that creates a SQLite database using SQLAlchemy and then creates
+a table called "customers" with columns "id" (primary key), "name", and "age". It then inserts
+four test datasets into the table and uses Tkinter to display the table's content.
+
+When you run this program, it should create a SQLite database called "customers.db" in your
+current working directory, create a table called "customers" with the specified columns, insert
+four test datasets into the table, and display the table's content using Tkinter.
 """
 
 from tkinter import *

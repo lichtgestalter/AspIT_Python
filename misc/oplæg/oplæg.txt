@@ -52,7 +52,7 @@
     løs 19, 20, 21 for at komme i gang
 
 N.N.
-    opgaverækkefølge
+    ueberblick modul, opgaverækkefølge, begriffsliste, eksamen
     functions, variable realms
     aufbau programm: imports, klassen, funktionen, hauptprogramm
 

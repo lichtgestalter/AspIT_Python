@@ -1,6 +1,7 @@
 Exercises
     Powerpoint Slides
     Kahoots
+    eksamensavis
     examensopgave
 
 
@@ -26,6 +27,7 @@ Kahoots
 
 Sonstiges
     data Ordner aufloesen?
+    Liste mit Links zu kahoots in dieses Repository aufnehmen
     Aufgaben von EN auf DA uebersetzen
 
 

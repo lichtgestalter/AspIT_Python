@@ -1,0 +1,12 @@
+    (   parentes, rund parentes, klamme
+    [   kantet parentes
+    {   krøllet parentes, tuborgklamme, akkolade, tuborgparentes
+    :   dobbeltpunkt, kolon
+    ;   semikolon
+    "   dobbelt anførselstegn, citationstegn, gåseøjne
+    '   enkelt anførselstegn, plinger
+    =   er lige med
+    !=  er ikke lige med
+    /   divideret med
+    2**5 to i femte (potens)
+    &   og-tegn, et-tegn

@@ -3,7 +3,6 @@ Exercises
     Kahoots
     eksamensavis
     examensopgave
-äää
 
 Powerpoint Slides
     function calls

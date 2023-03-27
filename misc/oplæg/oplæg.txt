@@ -53,10 +53,13 @@
 
 -------------------------
 
-23/03/23
+23/03/23 (manglede Klæs, Saim, Gustav, Naja)
     ueberblick modul, opgaverækkefølge, begriffsliste, eksamen
     god programmeringsskik
 
 
     functions, variable realms
     aufbau programm: imports, klassen, funktionen, hauptprogramm
+
+    oop kahoot
+

@@ -107,6 +107,19 @@ def read_table(tree):  # fill tree from database
 
 # endregion container functions
 
+# region common functions
+
+def refresh_treeview(tree):  # Refresh treeview table
+    empty_treeview(tree)  # Clear treeview table
+    read_table(tree)  # Fill treeview from database
+
+
+def empty_treeview(tree):  # Clear treeview table
+    tree.delete(*tree.get_children())
+
+# endregion common functions
+
+
 container_list = []
 container_list.append(Container("1", "1000", "oslo"))
 container_list.append(Container("2", "2000", "chicago"))
@@ -133,19 +146,6 @@ container_list.append(Container("2", "2000", "chicago"))
 container_list.append(Container("3", "3000", "milano"))
 container_list.append(Container("4", "4000", "amsterdam"))
 
-
-# region common functions
-
-def refresh_treeview(tree):  # Refresh treeview table
-    empty_treeview(tree)  # Clear treeview table
-    read_table(tree)  # Fill treeview from database
-
-
-def empty_treeview(tree):  # Clear treeview table
-    tree.delete(*tree.get_children())
-
-
-# endregion common functions
 
 # region common widgets
 main_window = tk.Tk()  # Define the main window
@@ -234,5 +234,6 @@ select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
 # endregion container widgets
 
 refresh_treeview(tree_container)  # Load data from database
+
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.
     main_window.mainloop()  # Wait for button clicks and act upon them

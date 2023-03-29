@@ -57,9 +57,10 @@
     ueberblick modul, opgaverækkefølge, begriffsliste, eksamen
     god programmeringsskik
 
+29/03/23 (manglede Saim, Gustav, Anders)
+    aufbau programm: imports, globale Variablen, klassen, funktionen, hauptprogramm, if __name__ == "__main__":
+
 
     functions, variable realms
-    aufbau programm: imports, klassen, funktionen, hauptprogramm
-
     oop kahoot
 

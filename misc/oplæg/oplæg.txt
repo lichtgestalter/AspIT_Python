@@ -64,3 +64,6 @@
     functions, variable realms
     oop kahoot
 
+    metode valid forhindrer at mærkelige data bliver vist. Men de er i databasen. Fx weight="This Is Not A Number"
+
+    api, unittests

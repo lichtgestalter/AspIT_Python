@@ -218,7 +218,7 @@ def empty_treeview(tree):  # Clear treeview table
 # region common widgets
 main_window = tk.Tk()  # Define the main window
 main_window.title('AspIT S2: DanskCargo')  # Text shown in the top window bar
-main_window.iconbitmap('AspIT.ico')  # Icon in the upper left corner
+#main_window.iconbitmap('AspIT.ico')  # Icon in the upper left corner
 main_window.geometry("1200x500")  # window size
 
 style = ttk.Style()  # Add style

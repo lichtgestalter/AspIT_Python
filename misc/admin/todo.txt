@@ -21,7 +21,7 @@ Kahoots
         Function calls
         While loops
         try except
-        ...
+        .....
 
 
 Sonstiges

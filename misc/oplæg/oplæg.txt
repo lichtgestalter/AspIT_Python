@@ -53,11 +53,11 @@
 
 -------------------------
 
-23/03/23 (manglede Klæs, Saim, Gustav, Naja)
+23/03/23 (Klæs, Saim, Gustav, Naja 11/04/23)
     ueberblick modul, opgaverækkefølge, begriffsliste, eksamen
     god programmeringsskik
 
-29/03/23 (manglede Saim, Gustav, Anders)
+29/03/23 (Saim, Gustav, Anders 11/04/23)
     aufbau programm: imports, globale Variablen, klassen, funktionen, hauptprogramm, if __name__ == "__main__":
 
 

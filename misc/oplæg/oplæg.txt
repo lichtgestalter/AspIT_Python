@@ -61,8 +61,12 @@
     aufbau programm: imports, globale Variablen, klassen, funktionen, hauptprogramm, if __name__ == "__main__":
 
 
-    functions, variable realms
+    S0580_oop_terms_quiz
+
     oop kahoot
+
+
+    functions, variable realms
 
     metode valid forhindrer at mærkelige data bliver vist. Men de er i databasen. Fx weight="This Is Not A Number"
 

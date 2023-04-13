@@ -1,8 +1,5 @@
-Exercises
-    Powerpoint Slides
-    Kahoots
-    eksamensavis
-    examensopgave
+
+
 
 Powerpoint Slides
     function calls

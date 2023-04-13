@@ -40,4 +40,3 @@ skyscraper = Skyscraper(5000, 25, 10000000)
 
 for building in [small_house, skyscraper]:
     building.renovate()
-

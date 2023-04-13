@@ -18,7 +18,7 @@ class ClassName:
         print("This is method1")
         self._protected_method()  # Calling the protected method from inside its class. This is ok.
 
-    def _protected_method(self):  # protected method or attribute names always start with one underscore
+    def _protected_method(self):  # encapsulation: protected method or attribute names always start with one underscore
         print("This is a protected method. Call it only from inside its class.")
 
 

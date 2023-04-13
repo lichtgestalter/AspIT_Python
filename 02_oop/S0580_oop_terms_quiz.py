@@ -1,14 +1,15 @@
 """
+Run this program.
 Add oop related comments to this code. Examples:
-    class definition
-    constructor
-    inheritance
-    object definition
-    attribute
-    method
-    polymorphism
-    encapsulation: protected attribute
-    encapsulation: protected method
+    class definition / klasse definition
+    constructor / konstruktor
+    inheritance / nedarvning
+    object definition / objekt definition
+    attribute / attribut
+    method / metode
+    polymorphism / polymorfisme
+    encapsulation: protected attribute / indkapsling: beskyttet attributå
+    encapsulation: protected method / indkapsling: beskyttet metode
 """
 
 
@@ -39,3 +40,4 @@ skyscraper = Skyscraper(5000, 25, 10000000)
 
 for building in [small_house, skyscraper]:
     building.renovate()
+

@@ -1,4 +1,5 @@
-
+next:
+    Aufgaben von EN auf DA uebersetzen
 
 
 Powerpoint Slides
@@ -22,21 +23,6 @@ Kahoots
 
 
 Sonstiges
-    data Ordner aufloesen?
-    Liste mit Links zu kahoots in dieses Repository aufnehmen
-    Aufgaben von EN auf DA uebersetzen
-
-
-opret python.doc aktualisieren:
-    Uebersicht, was erreicht werden soll.
-    Betonung auf 2 Projekte mit jeweiligem repository
-        opgaver nur lesen, nicht løsungen
-        solutions: deine løsungen
-        am anfang im file explorer alles von opgave nach solution kopieren (danach nur einzelne files, um løsungen nicht zu ueberschreiben)
-    Aufforderung zum senden des git links frueher
-    check list
-        lists all installation steps
-        provides tests for success of all steps
 
 
 S3

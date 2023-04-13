@@ -14,7 +14,7 @@ from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with 
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database
 from sqlalchemy import create_engine
 
-Database = 'sqlite:///../data/my_first_sql_database.db'  # first part: database type, second part: file path
+Database = 'sqlite:///S2206_my_first_sql_database.db'  # first part: database type, second part: file path
 Base = declarative_base()  # creating the registry and declarative base classes - combined into one step. Base will serve as the base class for the ORM mapped classes we declare.
 
 

@@ -6,7 +6,7 @@ Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 Anvend det, du har lært i dette kapitel om databaser, på en første opgave.
 
 Trin 1:
-Opret en ny database "my_second_sql_database.db" i din eksisterende mappe “data”.
+Opret en ny database "S2311_my_second_sql_database.db" i din solutions mappe.
 Denne database skal indeholde 2 tabeller.
 Den første tabel skal hedde "customers" og repræsenteres i Python-koden af en klasse kaldet "Customer".
 Tabellen bruger sin første attribut "id" som primærnøgle.

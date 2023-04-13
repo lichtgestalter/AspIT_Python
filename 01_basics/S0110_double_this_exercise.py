@@ -1,29 +1,29 @@
 """
-Exercise "double_this":
+Opgave "double_this":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-All you need to know about functions in order to solve this exercise, you'll find in the jupiter notebook S0040_basics.ipynb.
+Alt, hvad du har brug for at vide om funktioner for at løse denne øvelse, finder du i jupiter-notesbogen S0040_basics.ipynb.
 
-Write a function named "double_this".
-Scroll down to find the place in this file, where to write the function in.
+Skriv en funktion med navnet "double_this".
+Scroll ned for at finde det sted i denne fil, hvor du skal skrive funktionen ind.
 
-The function double_this shall ...
-    have one parameter named "number".
-    calculate twice the value of this parameter and store the result in a variable named double_number.
-    return the result.
+Funktionen double_this skal ...
+    have én parameter ved navn "number".
+    beregne det dobbelte af værdien af denne parameter og gemme resultatet i en variabel ved navn double_number.
+    returnere resultatet.
 
-There's already one line of code in the main program calling this function with the argument 3.
+Der er allerede én kodelinje i hovedprogrammet, der kalder denne funktion med argumentet 3.
 
-Run the program. The number 6 should be printed in the console,
-followed by "Process finished with exit code 0".
-This means that the program ended without an error message.
+Kør programmet. Tallet 6 bør udskrives i konsollen,
+efterfulgt af "Process finished with exit code 0".
+Det betyder, at programmet sluttede uden en fejlmeddelelse.
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil.
 """
 
 #  Write your function below this line.

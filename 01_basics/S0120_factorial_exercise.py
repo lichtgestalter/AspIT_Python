@@ -1,11 +1,11 @@
 """
-Exercise "factorial":
+Opgave "factorial":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-All you need to know about functions in order to solve this exercise, you'll find in the jupiter notebook S0040_basics.ipynb.
+Alt, hvad du har brug for at vide om funktioner for at løse denne øvelse, finder du i jupiter-notesbogen S0040_basics.ipynb.
 
 Write a function named "factorial".
 Scroll down to find the place in this file, where to write the function in.
@@ -27,9 +27,9 @@ Change the first line of the main program to "factorial_input = 6".
 Run the program again.
 This time "6! = 720" should be printed in the console.
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil.
 """
 
 #  Write your function below this line.

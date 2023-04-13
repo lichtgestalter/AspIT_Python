@@ -1,32 +1,32 @@
 """
-Exercise "Test pycharm and github":
+Opgave "Test pycharm og github":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory.
-    In the opgaver project, click on the file name in the Project Files window and press CTRL+C.
-    Switch to the solutions project, click on the main folder in the Project Files window and press CTRL+V.
+Kopier denne fil til din egen løsningsmappe.
+    I opgaver-projektet skal du klikke på filnavnet i vinduet Project og trykke CTRL+C.
+    Skift til løsningsprojektet, klik på hovedmappen i vinduet Project og tryk CTRL+V.
 
-Edit your copy only.
+Rediger kun din kopi.
 
-Run the program with shift+f10 (or click on the green "play" icon)
+Kør programmet med shift+f10 (eller klik på det grønne "play"-ikon)
 
-In the program code, change the text between the quotation marks
+I programkoden ændre teksten mellem anførselstegnene
 
-Commit the file to your own git repository (commit means: back up the current state of your files as a new version)
-    Git, Commit (or click the green check mark)
-    write a meaningful comment
-    click on "commit and push" (push means: upload this commit to github)
+Commit filen til dit eget git-repository (commit betyder: sikkerhedskopier den aktuelle tilstand af dine filer som en ny version)
+    Git, Commit (eller klik på det grønne flueben)
+    skriv en meningsfuld kommentar
+    klik på "commit and push" (push betyder: upload dette commit til github)
     push
 
-Check in your web browser on github.com that the changed file is present in your repository on github.
+Kontroller i din webbrowser på github.com, at den ændrede fil er til stede i dit repository på github.
 
-On the GitHub web page of your repository, click on "Settings", make sure that your repository is public (General, Change repository visibility).
+På GitHub-websiden for dit repository skal du klikke på "Settings" (indstillinger) og sikre dig, at dit repository er offentligt (General, Change repository visibility).
 
-If you haven't already, send your teacher the url of your github solutions repository via Teams chat.
-The url looks something like https://github.com/<your_user_name/Solutions.git
+Hvis du ikke allerede har gjort det, skal du sende din lærer url'en til dit github-løsningsrepositorium via Teams-chat.
+URL'en ser ud som https://github.com/<dit_brugernavn/Solutions.git
 
-Thereafter go on with the next file.
+Derefter går du videre med den næste fil.
 """
 
 print("hello world")

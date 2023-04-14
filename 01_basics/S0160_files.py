@@ -1,9 +1,9 @@
 """
-Writing to and reading from a file
+Skrivning til og læsning fra en fil
 
-Inspect this code in detail.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Thereafter go on with the next file.
+Undersøg denne kode i detaljer.
+Find ud af, hvad hver kodelinje gør. Fx ved at ændre koden en smule og køre den igen.
+Fortsæt herefter med den næste fil.
 """
 
 mydata = ["Hi,\n", "this is a text file.\n", "It has 3 rows.\n"]  # this is a list of strings

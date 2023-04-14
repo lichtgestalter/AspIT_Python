@@ -1,44 +1,45 @@
 """
-Exercise "print_pattern":
+Opgave "print_pattern":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-All you need to know about functions in order to solve this exercise, you'll find in the jupiter notebook S0040_basics.ipynb.
+Alt, hvad du har brug for at vide om funktioner for at løse denne øvelse, finder du i jupiter-notesbogen S0040_basics.ipynb
 
-Write a function named "print_repeatedly".
-Scroll down to find the place in this file, where to write the function in.
+Skriv en funktion med navnet "print_repeatedly".
+Rul ned for at finde det sted i denne fil, hvor du skal skrive funktionen ind.
 
-The function print_repeatedly shall ...
-    have 2 parameters named "string" and "repetitions".
-    print the parameter "string" "repetitions" times
-        Tip: use end="" as a second parameter of print() to avoid getting printed every string in a new line. See also https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/ .
-Example: print_repeatedly("xy", 3) prints out "xyxyxy"
+Funktionen print_repeatedly skal ...
+    have 2 parametre ved navn "string" og "repetitions".
+    udskrive parameteren "string" "repetitions" gange
+Eksempel: print_repeatedly("xy", 3) udskriver "xyxyxyxy"
+Tip: brug end="" som anden parameter i print() for at undgå at få udskrevet hver string i en ny linje. Mere om det: https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/ .
 
-Write another function named "print_pattern".
-The function print_pattern shall ...
-    have 2 parameters named "string" and "repetition_list". "repetition_list" is a list of integer numbers.
-    call the function print_repeatedly() several times using every member of "repetition_list" as its second parameter. The first parameter is always "string".
-Example:
-    print_pattern("xy", [3, 2, 4])  calls print_repeatedly("xy", 3), print_repeatedly("xy", 2)  and print_repeatedly("xy", 4)
-    This results in the following print out:
+Skriv en anden funktion med navnet "print_pattern".
+Funktionen print_pattern skal ...
+    have 2 parametre ved navn "string" og "repetition_list". "repetition_list" er en liste over integer tal.
+    kald funktionen print_repeatedly() flere gange med hvert medlem af "repetition_list" som anden parameter. Den første parameter er altid "string".
+
+Eksempel:
+    print_pattern("xy", [3, 2, 4]) kalder print_repeatedly("xy", 3), print_repeatedly("xy", 2) og print_repeatedly("xy", 4)
+    Dette resulterer i følgende udskrift:
         xyxyxy
         xyxy
         xyxyxyxy
 
-In the main program...
-    Write a line of code calling print_pattern() with the arguments "abc" and [4, 2, 1].
+I hovedprogrammet...
+    Skriv en kodelinje, der kalder print_pattern() med argumenterne "abc" og [4, 2, 1].
 
-Run the program.
-In the console should be printed:
+Kør programmet.
+I konsollen skal der udskrives:
     abcabcabcabc
     abcabc
     abc
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil.
 """
 
 #  Write your functions below this line.

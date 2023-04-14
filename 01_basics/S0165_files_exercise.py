@@ -1,22 +1,22 @@
 """
-Exercise "Reading from a file":
+Opgave "Reading from a file":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-create a text file with a editor of your choice (pycharm, notepad, notepad++, etc.)
-each row shall consist of a person's name, followed by a space and a number, representing the person's age.
-save the file in your solution directory
+Opret en tekstfil med en editor efter eget valg (pycharm, notepad, notepad++ osv.)
+Hver række skal bestå af en persons navn efterfulgt af et mellemrum og et tal, der repræsenterer personens alder.
+gem filen i din løsningsmappe
 
-write a program which reads the file into a list of strings
-then use the content of each string to print out a row like:
-    <name> is <age> years old.
+Skriv et program, der læser filen til en liste af strings.
+Derefter brug indholdet af hver string til at udskrive en række som f.eks:
+    <navn> er <alder> år gammel.
 
-if you get stuck, ask google, the other pupils or the teacher (in this order).
+Hvis du går i stå, så spørg google, de andre elever eller læreren (i denne rækkefølge).
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil.
 """
 

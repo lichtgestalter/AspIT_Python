@@ -1,50 +1,50 @@
 """
-Exercise "Tom the Turtle":
+Opgave "Tom the Turtle":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-The function "demo" introduces you to all commands you need to interact with Tom in the following exercises.
+Funktionen "demo" introducerer dig til alle de kommandoer, du skal bruge for at interagere med Tom i de følgende øvelser.
 
-Only if you are curious and love details:
-    Here is the full turtle graphics documentation:
+Kun hvis du er nysgerrig og elsker detaljer:
+    Her er den fulde dokumentation for turtle graphics:
     https://docs.python.org/3.3/library/turtle.html
 
-Part 1:
-    Write a function "square" which accepts a parameter "length".
-    Calling this function causes the turtle to draw a square with a side length of "length" pixels.
+Del 1:
+    Skriv en funktion "square", som accepterer en parameter "length".
+    Hvis denne funktion kaldes, får skildpadden til at tegne en firkant med en sidelængde på "længde" pixels.
 
-Part 2:
-     Complete the function "visible" which shall return a boolean value,
-     indicating if the turtle is in the visible area of the screen.
-     Use this function in the following parts of this exercise
-     to return the turtle to the screen when it wandered off.
+Del 2:
+     Færdiggør funktionen "visible", som skal returnere en boolsk værdi,
+     der angiver, om skildpadden befinder sig i det synlige område af skærmen.
+     Brug denne funktion i de følgende dele af denne øvelse
+     til at få skildpadden tilbage til skærmen, når den er vandret væk.
 
-Part 3:
-    Write a function "many_squares" with a for loop, which calls square repeatedly.
-    Use this function to draw several squares of different sizes in different positions.
-    The function shall have some parameters. For example:
-        number: how many squares will be drawn?
-        size: how large are the squares?
-        distance: how far away from the last square is the next square positioned?
+Del 3:
+    Skriv en funktion "many_squares" med en for-loop, som kalder square gentagne gange.
+    Brug denne funktion til at tegne flere firkanter af forskellig størrelse i forskellige positioner.
+    Funktionen skal have nogle parametre. F.eks:
+        antal: hvor mange firkanter skal der tegnes?
+        størrelse: hvor store er firkanterne?
+        afstand: hvor langt væk fra den sidste firkant er den næste firkant placeret?
 
-Part 4:
-    Write a function that produces patterns similar to this:
+Del 4:
+    Skriv en funktion, der producerer mønstre, der ligner dette:
     https://pixabay.com/vectors/spiral-square-pattern-black-white-154465/
 
-Part 5:
-    Write a function that produces patterns similar to this:
+Del 5:
+    Skriv en funktion, der producerer mønstre svarende til dette:
     https://www.101computing.net/2d-shapes-using-python-turtle/star-polygons/
-    The function shall have a parameter, that influences the shape of the pattern.
+    Funktionen skal have en parameter, som påvirker mønsterets form.
 
-Part 6:
-    Create your own function that produces a cool pattern.
-    Later, if you like, present your pattern on the big screen to the others.
+Del 6:
+    Opret din egen funktion, der producerer et sejt mønster.
+    Senere, hvis du har lyst, kan du præsentere dit mønster på storskærmen for de andre.
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil.
 """
 
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.

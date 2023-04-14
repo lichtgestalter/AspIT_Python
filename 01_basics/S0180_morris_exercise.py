@@ -1,33 +1,35 @@
 """
-Exercise "Morris The Miner":
+Opgave "Morris the Miner":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Initial situation:
-Morris has the attributes sleepiness, thirst, hunger, whisky, gold.
-All attributes have the starting value 0.
+Udgangssituation:
+Morris har egenskaberne sleepiness, thirst, hunger, whisky, gold.
+Alle attributter har startværdien 0.
 
-Rules:
-If sleepiness, thirst or hunger goes above 100, Morris the miner dies.
-Morris can’t store more than 10 bottles of whisky.
-No attribute may go below 0.
+Regler:
+Hvis sleepiness, thirst eller hunger kommer over 100, dør Morris.
+Morris kan ikke opbevare mere end 10 flasker whisky.
+Ingen attribut kan gå under 0.
 
-At each turn, Morris can perform exactly one of these activities:
+Ved hver omgang kan Morris udføre præcis én af disse aktiviteter:
 sleep:      sleepiness-=10, thirst+=1,  hunger+=1,  whisky+=0, gold+=0
 mine:       sleepiness+=5,  thirst+=5,  hunger+=5,  whisky+=0, gold+=5
 eat:        sleepiness+=5,  thirst-=5,  hunger-=20, whisky+=0, gold-=2
 buy_whisky: sleepiness+=5,  thirst+=1,  hunger+=1,  whisky+=1, gold-=1
 drink:      sleepiness+=5,  thirst-=15, hunger-=1,  whisky-=1, gold+=0
 
-Your task:
-Write a program that gets Morris as much gold as possible in 1000 turns.
+Din opgave:
+Skriv et program, der giver Morris så meget guld som muligt på 1000 omgange.
 
-if you have no idea how to begin, open S0185_morris_help.py and start from there
-if you get stuck, ask google, the other pupils or the teacher (in this order).
+Hvis du ikke har nogen idé om hvordan du skal begynde, så åbn S0185_morris_help.py og start derfra.
+Hvis du går i stå, så spørg google, de andre elever eller læreren (i denne rækkefølge).
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil.
 """
+
+

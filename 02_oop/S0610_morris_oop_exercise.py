@@ -1,20 +1,19 @@
 """
-Exercise "Morris The Miner" (this time object oriented)
+Opgave "Morris The Miner" (denne gang objekt orienteret)
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Rewrite your original Morris code into an object oriented version.
+Omskriv din oprindelige Morris-kode til en objektorienteret version.
 
-Define a class Miner with attributes like sleepiness, thirst, etc.
-and methods like sleep, drink, etc.
-Create Morris and initialize his attributes by calling the constructor of Miner:
+Definer en klasse Miner med attributter som sleepiness, thirst osv.
+og metoder som sleep, drink osv.
+Opret Morris og initialiser hans attributter ved at kalde konstruktoren for Miner:
 morris = Miner()
 
-If you get stuck, ask google, the other pupils or the teacher (in this order).
+Hvis du går i stå, så spørg google, de andre elever eller læreren (i denne rækkefølge).
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""

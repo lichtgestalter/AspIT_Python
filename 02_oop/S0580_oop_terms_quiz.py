@@ -1,15 +1,16 @@
 """
-Run this program.
-Add oop related comments to this code. Examples:
-    class definition / klasse definition
-    constructor / konstruktor
-    inheritance / nedarvning
-    object definition / objekt definition
-    attribute / attribut
-    method / metode
-    polymorphism / polymorfisme
-    encapsulation: protected attribute / indkapsling: beskyttet attributå
-    encapsulation: protected method / indkapsling: beskyttet metode
+Kør dette program.
+Tilføj oop-relaterede kommentarer til denne kode.
+    Eksempler:
+        class definition / klasse definition
+        constructor / konstruktor
+        inheritance / nedarvning
+        object definition / objekt definition
+        attribute / attribut
+        method / metode
+        polymorphism / polymorfisme
+        encapsulation: protected attribute / indkapsling: beskyttet attributå
+        encapsulation: protected method / indkapsling: beskyttet metode
 """
 
 

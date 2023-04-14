@@ -1,23 +1,22 @@
 """
-Exercise "Cars":
+Opgave "Cars":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Define a function that prints a car's motor sound (for example "roooaar")
+Definer en funktion drive_car(), der udskriver en bils motorlyd (f.eks. "roooaar")
 
-In the main program:
-    Define variables which represent the number of wheels and the maximum speed of 2 different cars
-    Print out these properties of both cars
-    Then call the motor sound function
+I hovedprogrammet:
+    Definer variabler, som repræsenterer antallet af hjul og den maksimale hastighed for 2 forskellige biler
+    Udskriv disse egenskaber for begge biler
+    Kald derefter funktionen motorlyd
 
-If you have no idea how to begin, open S0420_cars_help.py and start from there.
-If you get stuck, ask google, the other pupils or the teacher (in this order).
-If you are still stuck, open S0430_cars_solution.py and compare it with your solution.
+Hvis du ikke har nogen idé om, hvordan du skal begynde, kan du åbne S0420_cars_help.py og starte derfra.
+Hvis du går i stå, kan du spørge google, de andre elever eller læreren (i denne rækkefølge).
+Hvis du stadig er gået i stå, skal du åbne S0430_cars_solution.py og sammenligne den med din løsning.
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Team-besked til din lærer: <filename> done
+Fortsæt derefter med den næste fil."""
 

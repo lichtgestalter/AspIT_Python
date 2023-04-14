@@ -1,11 +1,10 @@
 """
-Exercise "Cars" (Solution):
+Opgave "Cars" (løsning):
 
-Inspect this code in detail. Especially if you did not come up with a solution yourself.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Undersøg denne kode i detaljer. Især hvis du ikke selv har fundet på en løsning.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og køre den igen.
+Send derefter denne Teams besked til din lærer: <filename> done
+Fortsæt derefter med den næste fil."""
 
 
 def drive_car():

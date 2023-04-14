@@ -1,13 +1,12 @@
 """
-Constructor:
+Konstruktor:
 
-Now we use a constructor to more elegantly define the cars and their attributes.
+Nu bruger vi en konstruktor til at definere bilerne og deres attributter på en mere elegant måde.
 
-Inspect the following code in detail. Find out what every row of code does.
-For example by changing the code a bit and then running/debugging the program.
+Inspicer følgende kode i detaljer. Find ud af, hvad hver række kode gør.
+F.eks. ved at ændre koden en smule og derefter køre/debugge programmet.
 
-Thereafter go on with the next file.
-"""
+Derefter går du videre med den næste fil."""
 
 
 class Vehicle:  # this starts the definition of a class

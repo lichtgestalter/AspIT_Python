@@ -1,9 +1,8 @@
 """
-This file is meant to give you an overview on the
-most important terms in object oriented programming.
+Denne fil er beregnet til at give dig et overblik over de
+de vigtigste termer inden for objektorienteret programmering.
 
-Read it carefully and use it as an look up table when solving exercises.
-"""
+Læs den omhyggeligt og brug den som opslagstavle, når du løser de følgende opgaver."""
 
 
 class ClassName:

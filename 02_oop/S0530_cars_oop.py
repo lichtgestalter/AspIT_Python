@@ -1,17 +1,16 @@
 """
-Inheritance and polymorphism:
+Nedarvning og polymorphisme:
 
-Now we want to represent an electric car with the class ElectricVehicle.
-Its attributes and methods are similar to the class Vehicle, but not identical.
-Together, attributes and methods are called the class's members.
-We do not have to copy&paste the class code from Vehicle. Instead we define the class ElectricVehicle based on the class Vehicle.
-This way ElectricVehicle inherits its attributes and methods from Vehicle.
+Nu ønsker vi at repræsentere en elbil med klassen ElectricVehicle.
+Dens attributter og metoder ligner klassen Vehicle, men er ikke identiske.
+Tilsammen kaldes attributter og metoder for klassens medlemmer.
+Vi behøver ikke at copy&paste klassekoden fra Vehicle. I stedet definerer vi klassen ElectricVehicle på grundlag af klassen Vehicle.
+På denne måde arver ElectricVehicle sine attributter og metoder fra Vehicle.
 
-Inspect the following code in detail. Find out what every row of code does.
-For example by changing the code a bit and then running/debugging the program.
+Inspicer følgende kode i detaljer. Find ud af, hvad hver række kode gør.
+F.eks. ved at ændre koden en smule og derefter køre/debugge programmet.
 
-Thereafter go on with the next file.
-"""
+Derefter går du videre med den næste fil."""
 
 
 class Vehicle:  # this starts the definition of a class

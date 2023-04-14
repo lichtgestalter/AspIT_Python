@@ -1,15 +1,14 @@
 """
-Classes, methods, attributes:
+Klasser, metoder, attributter:
 
-Read https://www.freecodecamp.org/news/the-python-handbook/#classesinpython
+Læs https://www.freecodecamp.org/news/the-python-handbook/#classesinpython
 
-Now we write the same cars program again, but in an object oriented way.
+Nu skriver vi det samme bilprogram igen, men på en objektorienteret måde.
 
-Inspect the following code in detail. Find out what every row of code does.
-For example by changing the code a bit and then running/debugging the program.
+Inspicer følgende kode i detaljer. Find ud af, hvad hver række kode gør.
+F.eks. ved at ændre koden en smule og derefter køre/debugge programmet.
 
-Thereafter go on with the next file.
-"""
+Derefter går du videre med den næste fil."""
 
 
 class Vehicle:  # this starts the definition of a class

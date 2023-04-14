@@ -1,18 +1,16 @@
 """
-__repr__ and f-strings:
+__repr__ og f-strings:
 
-Every class in python has a function __repr__ that defines the output of printing an object of this class.
-Every class in python has automatically some useful functions, which begin and end with to underscores.
-We can override these functions.
-They are called magic functions or dunder functions.
-In this example we are using so called f-strings. They are very handy.
-Read more about f-strings here: https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python
+Alle klasser i python har en funktion __repr__, der definerer output af udskrivning af et objekt af denne klasse.
+Hver klasse i python har automatisk nogle nyttige funktioner, som begynder og slutter med to understregninger.
+Vi kan overskrive disse funktioner. De kaldes magiske funktioner eller dunder functions.
+I dette eksempel bruger vi såkaldte f-strings. De er meget praktiske.
+Læs mere om f-strings her: https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python
 
-Inspect the following code in detail. Find out what every row of code does.
-For example by changing the code a bit and then running/debugging the program.
+Inspicer følgende kode i detaljer. Find ud af, hvad hver række kode gør.
+F.eks. ved at ændre koden en smule og derefter køre/debugge programmet.
 
-Thereafter go on with the next file.
-"""
+Derefter går du videre med den næste fil."""
 
 
 class Vehicle:  # this starts the definition of a class

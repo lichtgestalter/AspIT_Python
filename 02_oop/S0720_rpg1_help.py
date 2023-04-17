@@ -1,29 +1,28 @@
-"""
-Exercise: Object oriented role playing game, part 1 :
+"""Opgave: Objektorienteret rollespil, del 1 :
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Define a class "Character" with attributes "name, max_health", "_current_health", "attackpower."
-_current_health shall be a private attribute, it is not meant to be changed from outside the class.
+Definer en klasse "Character" med attributterne "name", "max_health", "_current_health", "attackpower".
+_current_health skal være en privat attribut, det er ikke meningen at den skal kunne ændres udefra i klassen.
 
-Add a constructor (__init__) which accepts the classes' attributes as parameters.
-Add a method for printing out class objects (__repr__).
+Tilføj en konstruktor (__init__), der accepterer klassens attributter som parametre.
+Tilføj en metode til udskrivning af klasseobjekter (__repr__).
 
-Add a method "hit" which reduces _current_health of another character by attackpower.
-Example: _current_health=80 and attackpower=10: a hit reduces _current_health to 70.
+Tilføj en metode "hit", som reducerer _current_health af en anden karakter med attackpower.
+Eksempel: _current_health=80 og attackpower=10: et hit reducerer _current_health til 70.
 
-The method hit may not change the private attribute _current_health of a (potentially) foreign class.
-For this reason we define another method get_hit which reduces _current_health of the object it belongs to by attackpower.
+Metoden hit må ikke ændre den private attribut _current_health i en (potentielt) fremmed klasse.
+Derfor definerer vi en anden metode get_hit, som reducerer _current_health for det objekt, som den tilhører, med attackpower.
 
-If you get stuck, ask google, the other pupils or the teacher (in this order).
+Hvis du er gået i stå, kan du spørge google, de andre elever eller læreren (i denne rækkefølge).
 
-When your program is complete, push it to your github repository
-and compare it to the teacher's solution in S0730_rpg1_solution.py
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Når dit program er færdigt, skal du skubbe det til dit github-repository
+og sammenlign det med lærerens løsning i S0730_rpg1_solution.py
+
+Send derefter denne Teams-besked til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""
 
 
 class Character:

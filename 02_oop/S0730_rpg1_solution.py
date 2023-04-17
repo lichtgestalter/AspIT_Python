@@ -1,12 +1,9 @@
-"""
-Exercise: Object oriented role playing game, part 1 (Solution):
+"""Inspicer følgende kode i detaljer. Især hvis du ikke selv har fundet på en løsning.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og derefter
+køre/debugge programmet.
 
-Inspect this code in detail. Especially if you did not come up with a solution yourself.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Then send this Teams message to your teacher: I am done with exercise "role playing game 1"
-
-Thereafter go on with the next file.
-"""
+Så send denne Team-besked til din lærer: Jeg er færdig med opgave "rollespil 1"
+Derefter går du videre med den næste fil."""
 
 
 class Character:

@@ -1,29 +1,27 @@
-"""
-Exercise "Number pyramid":
+"""Opgave "Number pyramid"
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Watch the first 93 seconds of this video: https://www.youtube.com/watch?v=NsjsLwYRW8o
+Se de første 93 sekunder af denne video: https://www.youtube.com/watch?v=NsjsLwYRW8o
 
-Write a function "pyramid" which produces the numbers shown in the video.
-The function has a parameter defining how many number rows to produce.
-The function prints out the numbers of each row and also their sum.
+Skriv en funktion "pyramid", der producerer de tal, der er vist i videoen.
+Funktionen har en parameter, der definerer, hvor mange talrækker der skal produceres.
+Funktionen udskriver tallene i hver række og også deres sum.
 
-In the main program, call the function with 1, 2, 3, ..., 10 as an argument.
+I hovedprogrammet kalder du funktionen med 1, 2, 3, ..., 10 som et argument.
 
-Add a more general function pyramid2.
-This function has as a second parameter a list with the numbers of
-the pyramid's topmost row.
+Tilføj en mere generel funktion pyramid2.
+Denne funktion har som andet parameter en liste med tallene i
+pyramidens øverste række.
 
-In the main program, call pyramid2 with 1, 2, 3, ..., 10 as the first argument
-and a list of numbers of your choice as the second argument.
-Try out different lists as the second argument.
+I hovedprogrammet kalder du pyramid2 med 1, 2, 3, ..., 10 som det første argument
+og en liste med tal efter eget valg som det andet argument.
+Afprøv forskellige lister som andet argument.
 
-If you have no idea how to begin, open S1620_pyramid_help.py and start from there
+Hvis du ikke aner, hvordan du skal begynde, kan du åbne S1620_pyramid_help.py og starte derfra
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""

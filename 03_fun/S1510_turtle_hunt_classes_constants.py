@@ -1,77 +1,77 @@
-"""
-Exercise "Turtle Hunt":
+"""Opgave "Turtle Hunt":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-The game:
-    This exercise is a game for 2 players.
-    3 Turtles (hunters) are trying to catch another turtle (prey) as fast as possible.
-    One player controls the prey, the other player controls the hunters. Then the players switch roles.
-    In each turn the players decide how many degrees their turtle(s) rotate(s). This is the player's only task.
-    The prey gets one point for every turn before it gets caught.
-    If the prey is still on the run after MAX_TURNS turns, the points double and the hunt ends.
+Spillet:
+    Denne øvelse er et spil for 2 spillere.
+    3 skildpadder (jægere) forsøger at fange en anden skildpadde (bytte) så hurtigt som muligt.
+    Den ene spiller styrer byttet, den anden spiller styrer jægerne. Derefter bytter spillerne roller.
+    I hver tur bestemmer spillerne, hvor mange grader deres skildpadde(r) roterer. Dette er spillerens eneste opgave.
+    Byttet får et point for hver tur, før det bliver fanget.
+    Hvis byttet stadig er på flugt efter MAX_TURNS omgange, fordobles pointene, og jagten slutter.
 
 
-The code for the game is already written in S1530_turtle_hunt_main.py and S1520_turtle_hunt_service.py. Do not change these files.
+Koden til spillet er allerede skrevet i S1530_turtle_hunt_main.py og S1520_turtle_hunt_service.py. Du må ikke ændre disse filer.
 
-Your job is to make the turtles rotate smarter.
+Din opgave er at få skildpadderne til at rotere smartere.
 
-Copy all 3 turtle_hunt files into your own solution directory.
-Write your solution into your copy of S1510_turtle_hunt_classes_constants.py.
+Kopier alle 3 turtle_hunt-filer til din egen løsningsmappe.
+Skriv din løsning ind i din kopi af S1510_turtle_hunt_classes_constants.py.
 
-File structure:
-    The code is divided into 3 files in order to make it clear which part of the code
-    you are supposed to change and which part of the code you shall leave unchanged.
+Filstruktur:
+    Koden er opdelt i 3 filer for at gøre det klart, hvilken del af koden
+    du skal ændre, og hvilken del af koden du skal lade være uændret.
 
     S1530_turtle_hunt_main.py:
-        This is the main program.
-        Do not make changes therein.
-        Run it in order to start the game.
+        Dette er hovedprogrammet.
+        Du må ikke foretage ændringer heri.
+        Kør det for at starte spillet.
 
     S1520_turtle_hunt_service.py:
-        Contains some service functions that will be useful to you.
-        Do not make changes therein.
+        Indeholder nogle servicefunktioner, som vil være nyttige for dig.
+        Du må ikke foretage ændringer heri.
 
-    This file (S1510_turtle_hunt_classes_constants.py):
-        All your programming for this exercise happens in this file.
+    Denne fil (S1510_turtle_hunt_classes_constants.py):
+        Alt din programmering til denne øvelse foregår i denne fil.
 
-Step 1:
-    Understand the program code as it is now.
-    You do not need to understand every detail of the main program though.
-    Understand when and how the methods rotate_prey() and rotate_hunt() are used.
-    From now on, all your programming for this exercise happens in this file here.
+Delopgaver:
+Trin 1:
+    Kig på programkoden.
+    Du behøver ikke at forstå alle detaljer i hovedprogrammet.
+    Forstå, hvordan de tre filer importerer hinandens kode med "import".
+    Forstå, hvornår og hvordan metoderne rotate_prey() og rotate_hunt() bruges.
+    Fra nu af foregår al din programmering til denne øvelse i denne fil her.
 
-Step 2:
-    Change the name of class PlayerName1 in the first line of it's class definition to your personal class name.
-    At the bottom of this file, set the variables class1 and class2 to your personal class name.
+Trin 2:
+    Ændr navnet på klassen PlayerName1 i den første linje i dens klassedefinition til dit personlige klasses navn.
+    Nederst i denne fil skal du sætte variablerne class1 og class2 til dit personlige klasses navn.
 
-Step 3:
-    In your personal class, make the methods rotate_prey and rotate_hunter smarter.
-    Possibly you'll also want to add some attributes and/or methods to your class.
-    You may not manipulate (e.g. move) the turtles with your code though.
-    The runtime of your methods rotate_prey and rotate_hunter must be less than 0.1 seconds per iteration.
+Trin 3:
+    I din personlige klasse skal du gøre metoderne rotate_prey og rotate_hunter smartere.
+    Eventuelt vil du også tilføje nogle attributter og/eller metoder til din klasse.
+    Du må dog ikke manipulere (f.eks. flytte) skildpadderne med din kode.
+    Køretiden for dine metoder rotate_prey og rotate_hunter skal være mindre end 0,1 sekunder pr. iteration.
 
-Step 4:
-    Find a sparring partner in your study group.
-    As with everything else, ask your teacher for help, if needed.
-    In your code, replace the whole class PlayerName2 with your sparring partner's class.
-    At the bottom of this file, set the variable class2 to your sparring partner's class name.
-    Let the 2 classes fight and learn from the results in order to improve your code.
-    Repeat this step until you are happy :-)
+Trin 4:
+    Find en sparringspartner i din studiegruppe.
+    Som med alt andet skal du bede din lærer om hjælp, hvis det er nødvendigt.
+    I din kode skal du erstatte hele klassen PlayerName2 med din sparringspartners klasse.
+    Nederst i denne fil indstiller du variablen class2 til din sparringpartners klasses navn.
+    Lad de 2 klasser kæmpe og lær af resultaterne for at forbedre din kode.
+    Gentag dette trin indtil du er tilfreds :-)
 
-Step 5:
-    When your program is complete, push it to your github repository.
-    Then send this Teams message to your teacher: <filename> done
-    Thereafter go on with the next file.
+Trin 5:
+    Når dit program er færdigt, skal du skubbe det til dit github-repository.
+    Send derefter denne Teams-besked til din lærer: <filename> done
+    Derefter fortsætter du med den næste fil.
 
-Later:
-    When everyone is done with this exercise, we will hold a tournament
-    to find out, who programmed the smartest turtles :)
+Senere:
+    Når alle er færdige med denne øvelse, afholder vi en turnering
+    for at finde ud af, hvem der har programmeret de klogeste skildpadder :)
 
-Only if you are curious and love details:
-    Here is the full turtle graphics documentation:
-    https://docs.python.org/3.3/library/turtle.html
-"""
+Kun hvis du er nysgerrig og elsker detaljer:
+    Her er den fulde dokumentation for skildpaddegrafikken:
+    https://docs.python.org/3.3/library/turtle.html"""
 
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
 import random
@@ -92,7 +92,7 @@ class PlayerName1(turtle.Turtle):
         # for example is positions[3][1] the y-coordinate of the third hunter.
 
         # Example for use of the service functions distance() and direction
-        # print(f'{distance(positions[0], positions[1])=}   {direction(positions[0], positions[1])=}')  # print distance and direction from prey to hunter1
+        print(f'{distance(positions[0], positions[1])=}   {direction(positions[0], positions[1])=}')  # print distance and direction from prey to hunter1
 
         degree = 3  # When the turtle rotates the same amount each turn,  it will just run in a circle. Make this function smarter!
         self.orientation += degree
@@ -102,7 +102,7 @@ class PlayerName1(turtle.Turtle):
 
     def rotate_hunter(self, positions):  # turtle will be turned right <degree> degrees. Use negative values for left turns.
         # Example for use of the service functions distance() and direction
-        # print(f'{distance(self.position(), positions[0])=}   {direction(self.position(), positions[0])=}')  # print distance and direction from the current hunter to the prey
+        print(f'{distance(self.position(), positions[0])=}   {direction(self.position(), positions[0])=}')  # print distance and direction from the current hunter to the prey
         degree = -0.5  # When the turtle rotates the same amount each turn,  it will just run in a circle. Make this function smarter!
         self.orientation += degree
         self.orientation %= 360

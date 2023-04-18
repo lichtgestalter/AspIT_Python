@@ -2,7 +2,7 @@
 Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og derefter
 køre/debugge programmet.
 
-Så send denne Team-besked til din lærer: Jeg er færdig med opgave "rollespil 1"
+Så send denne Teams-besked til din lærer: Jeg er færdig med opgave "rollespil 1"
 Derefter går du videre med den næste fil."""
 
 

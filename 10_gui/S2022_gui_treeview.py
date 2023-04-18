@@ -24,10 +24,10 @@ main_window.geometry("900x500")  # we've made the window a bit wider
 
 # Create a data table (Treeview) and its scrollbar.
 # Treeviews present data (for example from a database) in a table.
-# Find all possible options of ttk.Treeview() in the following documentations:
+# You can find all possible options of ttk.Treeview() in the following documentations:
 # https://docs.python.org/3/library/tkinter.ttk.html#treeview
 # Additionaly, create a scrollbar and connect it to the treeview
-# Find all possible options of tk.Scrollbar() in the following documentations:
+# You can find all possible options of tk.Scrollbar() in the following documentations:
 # https://tkdocs.com/shipman/scrollbar.html
 # https://www.tutorialspoint.com/python/tk_scrollbar.htm
 tree_1_scrollbar = tk.Scrollbar(main_window)  # define the scrollbar

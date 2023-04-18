@@ -19,7 +19,7 @@ main_window.geometry("500x500")
 # Create a label frame
 # A label frame is used like a frame but its borders are visible
 # and on the border is placed a label.
-# Find all possible options of tk.LabelFrame() in the following documentations:
+# You can find all possible options of tk.LabelFrame() in the following documentations:
 # https://tkdocs.com/shipman/labelframe.html
 # https://www.tutorialspoint.com/python/tk_labelframe.htm
 frame_1 = tk.LabelFrame(main_window, text="this is the label of the label frame")

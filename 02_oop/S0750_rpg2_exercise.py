@@ -1,32 +1,30 @@
-"""
-exercise: Object oriented role playing game, part 2 :
+"""opgave: Objektorienteret rollespil, del 2 :
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øvelsesbeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Build on your solution of part 1.
+Byg videre på din løsning af del 1.
 
-Invent two new classes, which inherit from class Character. For example Hunter and Magician.
-Your new classes shall have their own additional methods and/or attributes. Maybe they also override methods or attributes from class Character.
+Opfind to nye klasser, som arver fra klassen Character. For eksempel Hunter og Magician.
+Dine nye klasser skal have deres egne ekstra metoder og/eller attributter. Måske overskriver de også metoder eller attributter fra klassen Character.
 
-In the main program, let objects of your new classes fight against each other until one character is dead.
-Print out what happens during the fight.
+Lad i hovedprogrammet objekter af dine nye klasser (dvs. rollespilfigurer) kæmpe mod hinanden,
+indtil den ene figur er død. Udskriv, hvad der sker under kampen.
 
-In each turn, a character uses one of its capabilities (methods). Then it's the other character's turn.
-It is up to you, how your program decides in each turn, which capability to use.
-For example, the decision may be based on randomness or on a clever strategy
+I hver omgang bruger en figur en af sine evner (metoder). Derefter er det den anden figurs tur.
+Det er op til dig, hvordan dit program i hver tur beslutter, hvilken evne der skal bruges.
+Beslutningen kan f.eks. være baseret på tilfældighed eller på en smart strategi
 
-Upgrade 1:
-Each time a character uses one of it's capabilities, add some randomness to the used power.
+Opgradering 1:
+Hver gang en figur bruger en af sine evner, skal du tilføje noget tilfældighed til den anvendte evne.
 
-Upgrade 2:
-Let your characters fight against each other 100 times.
-Keep track of the results.
-Try to balance your character's capabilities in such a way that each character wins about half of the fights.
+Opgradering 2:
+Lad dine figurer kæmpe mod hinanden 100 gange.
+Hold styr på resultaterne.
+Prøv at afbalancere dine figurers evner på en sådan måde, at hver figur vinder ca. halvdelen af kampene.
 
-If you get stuck, ask google, the other pupils or the teacher (in this order).
+Hvis du går i stå, kan du spørge google, de andre elever eller læreren (i denne rækkefølge).
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-besked til din lærer: <filename> done
+Fortsæt derefter med den næste fil."""
 

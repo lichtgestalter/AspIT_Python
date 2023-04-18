@@ -26,14 +26,14 @@ button_5 = tk.Button(main_window, text="lower right button")
 button_5.grid(row=117, column=117)
 
 # Create a label. Labels are just plain text. They cannot be interacted with.
-# Find all possible options of tk.Label() in the following documentations:
+# You can find all possible options of tk.Label() in the following documentations:
 # https://tkdocs.com/shipman/label.html
 # https://www.tutorialspoint.com/python/tk_label.htm
 label_1 = tk.Label(main_window, text="this is a label")
 label_1.grid(row=2, column=3)
 
 # Create an entry
-# Find all possible options of tk.Entry() in the following documentations:
+# You can find all possible options of tk.Entry() in the following documentations:
 # https://tkdocs.com/shipman/entry.html
 # https://www.tutorialspoint.com/python/tk_entry.htm
 entry_1 = tk.Entry(main_window, width=24, justify="right")

@@ -20,7 +20,7 @@ main_window.geometry("500x500")
 # Create a frame
 # A frame is an (invisible) subwindow with its own grid.
 # Frames are used to organize the positioning of GUI objects that belong to this frame.
-# Find all possible options of tk.Frame() in the following documentations:
+# You can find all possible options of tk.Frame() in the following documentations:
 # https://tkdocs.com/shipman/frame.html
 # https://www.tutorialspoint.com/python/tk_frame.htm
 frame_1 = tk.Frame(main_window)

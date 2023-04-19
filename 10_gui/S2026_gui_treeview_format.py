@@ -1,13 +1,14 @@
-"""
-Added some global variables, which define the treeview's colors.
-A treeview style has been added. This makes the treeview look a
-bit nicer and uses the global color variables.
+""" Tilføjede nogle globale variabler, som definerer farverne i treeview.
+Der er blevet tilføjet en treeview-stil. Dette får treeviewet til at se ud som
+lidt pænere og bruger de globale farvevariabler.
 
-Run the program.
-Read all the comments.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Right now you can't see much of the formatting's effect. This will change soon when we'll have data in the tree view.
+Kør programmet.
+Læs alle kommentarerne.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden lidt og køre den igen.
+
+Lige nu kan du ikke se meget af formateringens effekt. Det vil ændre sig snart, når vi får data i treeview'en.
 """
+
 import tkinter as tk
 from tkinter import ttk   # we need this additional import for our treeview widget
 

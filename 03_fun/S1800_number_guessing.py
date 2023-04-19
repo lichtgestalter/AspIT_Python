@@ -1,5 +1,4 @@
-"""
-Opgave "Number guessing"
+""" Opgave "Number guessing"
 
 Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 

@@ -1,14 +1,14 @@
-"""
-Exercise "GUI step 3":
+"""Opgave "GUI step 3":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
-use what you've learned in the GUI example files and build the GUI depicted in images/gui_2030.png
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Reuse your code from "GUI step 2".
+Bruge det, du har lært i GUI-eksempelfilerne, og byg den GUI, der er afbildet i images/gui_2030.png
 
-The GUI structure should be this:
+Genbrug din kode fra "GUI step 2".
+
+GUI-strukturen bør være som følger:
     main window
         labelframe
             frame
@@ -18,11 +18,13 @@ The GUI structure should be this:
             frame
                 buttons
 
-Functionality:
-    clicking on the button "clear entry boxes" deletes the text in all entry boxes
+Funktionalitet:
+    Klik på knappen "clear entry boxes" sletter teksten i alle indtastningsfelter (entries).
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""
+
+
 

@@ -1,6 +1,14 @@
 import tkinter as tk
 from tkinter import ttk
 
+def empty_entries():
+    print("button_1 was pressed")
+    entry_container_id.delete(0, tk.END)  # Delete text in the entry box, beginning with the first character (0) and ending with the last character (tk.END)
+    entry_container_weight.delete(0, tk.END)  # Delete text in the entry box, beginning with the first character (0) and ending with the last character (tk.END)
+    entry_container_destination.delete(0, tk.END)  # Delete text in the entry box, beginning with the first character (0) and ending with the last character (tk.END)
+    entry_container_weather.delete(0, tk.END)  # Delete text in the entry box, beginning with the first character (0) and ending with the last character (tk.END)
+
+
 padx = 8  # Horizontal distance to neighboring objects
 pady = 4  # Vertical distance to neighboring objects
 
@@ -53,8 +61,8 @@ button_update_container = tk.Button(button_frame_container, text="Update")
 button_update_container.grid(row=0, column=2, padx=padx, pady=pady)
 button_delete_container = tk.Button(button_frame_container, text="Delete")
 button_delete_container.grid(row=0, column=3, padx=padx, pady=pady)
-select_record_button = tk.Button(button_frame_container, text="Clear Entry Boxes")
-select_record_button.grid(row=0, column=4, padx=padx, pady=pady)
+clear_entries_button = tk.Button(button_frame_container, text="Clear Entry Boxes", command=empty_entries)
+clear_entries_button.grid(row=0, column=4, padx=padx, pady=pady)
 
 
 if __name__ == "__main__":  # Executed when invoked directly. We use this so main_window.mainloop() does not keep our unit tests from running.

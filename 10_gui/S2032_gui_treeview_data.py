@@ -1,11 +1,11 @@
-"""
-Added test data to the treeview.
+""" Tilføjede testdata til treeview'en.
 
-Run the program.
-Read all the comments.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Pay special attention to how the data is fed into the tree view.
-"""
+Kør programmet.
+Læs alle kommentarer.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og køre den igen.
+
+Vær særlig opmærksom på, hvordan dataene føres ind i treeview'en."""
+
 import tkinter as tk
 from tkinter import ttk   # we need this additional import for our treeview widget
 

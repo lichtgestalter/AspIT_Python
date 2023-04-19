@@ -1,5 +1,4 @@
-"""
-Opgave "The inventory sequence" (løsning)
+""" Opgave "The inventory sequence" (løsning)
 
 Inspicer følgende kode i detaljer. Især hvis du ikke selv har fundet på en løsning.
 Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og derefter2

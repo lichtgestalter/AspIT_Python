@@ -1,13 +1,13 @@
-"""
-The treeview has now columns.
+""" Treeview'en har nu kolonner.
 
-Run the program.
-Read all the comments.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Pay special attention to the options of treeview columns and columns headings. Play around with them.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og køre den igen.
+
+Vær særlig opmærksom på indstillingerne for treeview-kolonner og kolonneoverskrifter. Leg lidt med dem."""
+
 import tkinter as tk
-from tkinter import ttk   # we need this additional import for our treeview widget
+from tkinter import ttk  # we need this additional import for our treeview widget
 
 
 def empty_entry():  # Delete text in the entry box
@@ -51,7 +51,6 @@ label_1.grid(row=2, column=3, padx=padx, pady=pady)
 entry_1 = tk.Entry(frame_1, width=24, justify="right")  # Create an entry
 entry_1.grid(row=1, column=2, padx=padx, pady=pady)
 entry_1.insert(0, "This is an entry. Edit me!")
-
 
 if __name__ == "__main__":
     main_window.mainloop()

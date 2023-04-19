@@ -1,4 +1,4 @@
-"""Opgave "GUI step 2":
+""" Opgave "GUI step 2":
 
 Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 

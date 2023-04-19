@@ -1,4 +1,4 @@
-"""Der er tilføjet en treeview og dens scrollbar (rullebjælke).
+""" Der er tilføjet en treeview og dens scrollbar (rullebjælke).
 
 Kør programmet.
 Læs alle kommentarerne.

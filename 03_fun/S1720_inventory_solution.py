@@ -1,11 +1,12 @@
 """
-Exercise "The inventory sequence" (solution)
+Opgave "The inventory sequence" (løsning)
 
-Find out what every row of code does. For example by changing the code a bit and running it again.
+Inspicer følgende kode i detaljer. Især hvis du ikke selv har fundet på en løsning.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og derefter2
+køre/debugge programmet.
 
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""
 
 
 def count_number(number):

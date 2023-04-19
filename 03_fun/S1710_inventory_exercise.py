@@ -1,30 +1,29 @@
-"""
-Exercise "The inventory sequence"
+"""Opgave "The inventory sequence"
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-This exercise is an optional challenge for the excellent programmers among you.
-You absolutely do not have to solve this exercise in order to proceed successfully.
+Denne øvelse er en valgfri udfordring for de fremragende programmører blandt jer.
+Du behøver absolut ikke at løse denne øvelse for at fortsætte med succes.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Watch the first 3 minutes of this video:
+Se de første 3 minutter af denne video:
 https://www.youtube.com/watch?v=rBU9E-ZOZAI
 
-Write a function "inventory" which produces the numbers shown in the video.
-The function accepts a parameter defining how many number rows to produce.
-The function prints out the numbers of each row.
+Skriv en funktion inventory(), som producerer de tal, der er vist i videoen.
+Funktionen accepterer en parameter, der definerer, hvor mange talrækker der skal produceres.
+Funktionen udskriver tallene i hver række.
 
-You will probably want to define a function count_number which counts how often a certain number
-appears in the current number sequence.
+Du vil sandsynligvis ønske at definere en funktion count_number(), som tæller, hvor ofte
+et bestemt antal optræder i den aktuelle talrække.
 
-In the main program, call inventory with 6 as an argument.
+I hovedprogrammet kalder du inventory() med fx 6 som argument.
 
-If you have no idea how to begin, have a look at the solution in S1720_inventory_solution.py
+Hvis du ikke har nogen idé om, hvordan du skal begynde, kan du kigge på løsningen
+i S1720_inventory_solution.py
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""
 
 

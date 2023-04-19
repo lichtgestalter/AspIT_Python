@@ -10,7 +10,7 @@ Skriv en funktion "pyramid", der producerer de tal, der er vist i videoen.
 Funktionen har en parameter, der definerer, hvor mange talrækker der skal produceres.
 Funktionen udskriver tallene i hver række og også deres sum.
 
-I hovedprogrammet kalder du funktionen med 1, 2, 3, ..., 10 som et argument.
+I hovedprogrammet kalder du funktionen med fx 7 som argument.
 
 Tilføj en mere generel funktion pyramid2.
 Denne funktion har som andet parameter en liste med tallene i

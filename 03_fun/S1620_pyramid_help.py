@@ -1,35 +1,33 @@
-"""
-Exercise "Number pyramid":
+"""Opgave "Number pyramid"
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Watch the first 93 seconds of this video: https://www.youtube.com/watch?v=NsjsLwYRW8o
+Se de første 93 sekunder af denne video: https://www.youtube.com/watch?v=NsjsLwYRW8o
 
-Write a function "pyramid" which produces the numbers shown in the video.
-The function has a parameter defining how many number rows to produce.
-The function prints out the numbers of each row and also their sum.
+Skriv en funktion "pyramid", der producerer de tal, der er vist i videoen.
+Funktionen har en parameter, der definerer, hvor mange talrækker der skal produceres.
+Funktionen udskriver tallene i hver række og også deres sum.
 
-In the main program, call the function with 1, 2, 3, ..., 10 as an argument.
+I hovedprogrammet kalder du funktionen med fx 7 som argument.
 
-Add a more general function pyramid2.
-This function has as a second parameter a list with the numbers of
-the pyramid's topmost row.
+Tilføj en mere generel funktion pyramid2.
+Denne funktion har som andet parameter en liste med tallene i
+pyramidens øverste række.
 
-In the main program, call pyramid2 with 1, 2, 3, ..., 10 as the first argument
-and a list of numbers of your choice as the second argument.
-Try out different lists as the second argument.
+I hovedprogrammet kalder du pyramid2 med 1, 2, 3, ..., 10 som det første argument
+og en liste med tal efter eget valg som det andet argument.
+Afprøv forskellige lister som andet argument.
 
-Replace the zeros in the code below with your own code
+Erstat nuller i nedenstående kode med din egen kode.
 
-If you get stuck, ask google, the other pupils or the teacher (in this order).
-If you are still stuck, open S1630_pyramid_solution.py and compare it with your solution
+Hvis du går i stå, kan du spørge google, de andre elever eller læreren (i denne rækkefølge).
+Hvis du sidder stadig fast, skal du åbne S1630_pyramid_solution.py og sammenligne den med din løsning.
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""
 
 
 def pyramid(lines):
@@ -41,5 +39,5 @@ def pyramid2(lines, numbers):
     0
 
 
-pyramid(1)  # the calls for 2...10 are still missing
-pyramid2(1, [1, 0, 1, 2])
+pyramid(7)  # the calls for 2...10 are still missing
+pyramid2(7, [1, 0, 1, 2])

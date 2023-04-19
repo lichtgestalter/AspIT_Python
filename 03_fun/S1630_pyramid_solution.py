@@ -1,11 +1,11 @@
-"""
-Exercise "Number pyramid" (Solution):
+"""Opgave "Number pyramid" (løsning):
 
-Inspect this code in detail. Especially if you did not come up with a solution yourself.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Inspicer følgende kode i detaljer. Især hvis du ikke selv har fundet på en løsning.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og derefter2
+køre/debugge programmet.
+
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""
 
 
 def pyramid2(lines, start):

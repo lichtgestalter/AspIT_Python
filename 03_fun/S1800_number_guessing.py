@@ -1,21 +1,20 @@
 """
-Exercise "Number guessing"
+Opgave "Number guessing"
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Create a program that will play a number guessing game with the user. The program works like this:
-    Explain the rules to the user.
-    Randomly generate a 4-digit integer number.
-    Ask the user to guess a 4-digit number.
-    Every digit that the user guesses correctly in the correct position, counts as a black coin.
-    Every digit the user guesses correctly, but in the wrong position, counts as a white coin.
-    After the user made a guess, print out how many black and white coins the guess is worth.
-    let the user guess until the guess is correct.
-    Keep track of the number of guesses the user makes throughout the game and print it out at the end.
+Opret et program, der spiller et gættespil med brugeren. Programmet fungerer på følgende måde:
+    Forklar reglerne for brugeren.
+    Generer tilfældigt et 4-cifret heltal.
+    Bed brugeren om at gætte et 4-cifret tal.
+    Hvert ciffer, som brugeren gætter korrekt i den rigtige position, tæller som en sort mønt.
+    Hvert ciffer, som brugeren gætter korrekt, men i den forkerte position, tæller som en hvid mønt.
+    Når brugeren har gættet, udskrives det, hvor mange sorte og hvide mønter gættet er værd.
+    Lad brugeren gætte, indtil gættet er korrekt.
+    Hold styr på antallet af gæt, som brugeren gætter i løbet af spillet, og print det ud til sidst.
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""

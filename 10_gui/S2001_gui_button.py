@@ -1,12 +1,10 @@
-"""
-Our first GUI: just one button in one window.
+"""Vores første GUI: kun én knap i ét vindue.
 
-Run the program.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Read all the comments.
-Have a short look at the linked documentations. You will need them in future exercises.
-Watch the youtube video.
-"""
+Kør programmet.
+Find ud af, hvad hver række kode gør. For eksempel ved at ændre koden en smule og køre den igen.
+Læs alle kommentarerne.
+Tag et kort kig på de linkede dokumentationer. Du vil få brug for dem i fremtidige øvelser.
+Se youtube-videoen (link i kommentarerne)."""
 
 import tkinter as tk  # import the GUI library
 

@@ -1,13 +1,12 @@
-"""
-A frame has been added.
+"""Der er blevet tilføjet en frame.
 
-Run the program.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Especially switch the parent windows of the GUI objects between frame_1
-and main_window and play with the values of padx and pady.
-Read all the comments.
-Have a short look at the linked documentations for Frame. You will need them in future exercises.
-"""
+Kør programmet.
+Find ud af, hvad hver række af kode gør. F.eks. ved at ændre koden en smule og køre den igen.
+Især skift de overordnede vinduer for GUI-objekterne mellem frame_1
+og main_window og leg med værdierne for padx og pady.
+Læs alle kommentarerne.
+Tag et kort kig på de linkede dokumentationer for Frame. Du vil få brug for dem i fremtidige øvelser."""
+
 import tkinter as tk
 
 padx = 8

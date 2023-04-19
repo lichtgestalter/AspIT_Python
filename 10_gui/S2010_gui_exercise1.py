@@ -1,13 +1,13 @@
 """
-Exercise "GUI step 1":
+Opgave "GUI step 1":
 
-As always, read the whole exercise description carefully before you begin to solve the exercise.
+Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
-Copy this file into your own solution directory. Write your solution into the copy.
-use what you've learned in the GUI example files and build the GUI depicted in images/gui_2010.png
+Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-When your program is complete, push it to your github repository.
-Then send this Teams message to your teacher: <filename> done
-Thereafter go on with the next file.
-"""
+Bruge det, du har lært i GUI-eksempelfilerne, og byg den GUI, der er afbildet i images/gui_2010.png
+
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""
 

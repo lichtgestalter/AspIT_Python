@@ -1,12 +1,11 @@
-"""
-Now there are more buttons, a label and an entry.
+"""Nu er der flere buttons, en label og en entry.
 
-Run the program.
-Read all the comments.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Play around with the row and column parameters of grid() in order to understand grid() better.
-Have a short look at the linked documentations for Entry and Label. You will need them in future exercises.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden lidt og køre den igen.
+Leg lidt med række- og kolonneparametrene i grid() for at forstå grid() bedre.
+Tag et kort kig på de linkede dokumentationer for Entry og Label. Du vil få brug for dem i fremtidige øvelser."""
+
 import tkinter as tk
 
 main_window = tk.Tk()
@@ -39,7 +38,6 @@ label_1.grid(row=2, column=3)
 entry_1 = tk.Entry(main_window, width=24, justify="right")
 entry_1.grid(row=1, column=2)
 entry_1.insert(0, "This is an entry. Edit me!")
-
 
 if __name__ == "__main__":
     main_window.mainloop()

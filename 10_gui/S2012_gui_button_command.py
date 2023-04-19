@@ -1,11 +1,11 @@
-"""
-A function "empty_entry" was defined and gets called by pressing a button.
+"""Der er defineret en funktion empty_entry(), som kaldes ved at trykke på en knap.
 
-Run the program.
-Read all the comments.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Pay special attention to how the function is called and how the text in the entry box is emptied.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og køre den igen.
+
+Vær særlig opmærksom på, hvordan funktionen empty_entry() kaldes, og hvordan teksten i indtastningsfeltet entry_1 tømmes."""
+
 import tkinter as tk
 
 

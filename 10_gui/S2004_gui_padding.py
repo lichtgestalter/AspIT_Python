@@ -1,12 +1,12 @@
-"""
-Some buttons have been removed again in order to make the code more compact.
-Padding has been added.
+"""Nogle buttons er blevet fjernet igen for at gøre koden mere kompakt.
+Der er blevet tilføjet padding.
 
-Run the program.
-Read all the comments.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Especially play with the values of padx and pady.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden lidt og køre den igen.
+
+Leg især med værdierne for padx og pady."""
+
 import tkinter as tk
 
 # The following two variables hold the amount of padding in horizontal and vertical direction.

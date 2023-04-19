@@ -1,12 +1,12 @@
-"""
-The frame has been replaced by a label frame.
+"""Fram'en er blevet erstattet af en label frame.
 
-Run the program.
-Read all the comments.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Especially switch the parent windows of the GUI objects between frame_1
-and main_window and play with the values of padx and pady.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og køre den igen.
+
+Især skift de overordnede vinduer for GUI-objekterne mellem frame_1
+og main_window og lege med værdierne for padx og pady."""
+
 import tkinter as tk
 
 padx = 8

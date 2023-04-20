@@ -1,10 +1,8 @@
-"""
-Now we query our sql database table.
+""" Nu forespørger (query) vi vores sql-database tabel.
 
-Run the program.
-Read all the comments.
-Understand the program code  in the new function select_all.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Forstå programkoden i den nye funktion select_all. """
 
 from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with the command "pip install SQLAlchemy" in a terminal.
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database

@@ -1,10 +1,8 @@
-"""
-We add a few more methods to our class, which will be useful later on.
+""" Vi tilføjer nogle flere metoder til vores klasse, som vil være nyttige senere.
 
-Run the program.
-Read all the comments.
-Understand the program code.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Forstå programkoden. """
 
 from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with the command "pip install SQLAlchemy" in a terminal.
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database

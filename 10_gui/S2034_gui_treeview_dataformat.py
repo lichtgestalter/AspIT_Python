@@ -1,15 +1,16 @@
 """
-The treeview has been formatted to show the data rows in alternating colors. To achieve this,
-    (1) the variables oddrow and evenrow have been added
-    (2) the function read_table has been extended
-    (3) the treeview definition has been extended with 2 tags (tree_1.tag_configure)
-To make it easier to find the new code, the above numbers have been added to the comments ((1), (2), ...)
+Treeview'en er blevet formateret til at vise datarækkerne i skiftende farver. For at opnå dette,
+    (1) er variablerne oddrow og evenrow blevet tilføjet
+    (2) funktionen read_table() er blevet udvidet
+    (3) treeview-definitionen er blevet udvidet med 2 tags (tree_1.tag_configure)
+For at gøre det lettere at finde den nye kode er ovenstående numre blevet tilføjet i kommentarerne ((1), (2), ...)
 
-Run the program.
-Read all the comments.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Pay special attention to the newly added code.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og køre den igen.
+
+Vær særlig opmærksom på den nyligt tilføjede kode."""
+
 import tkinter as tk
 from tkinter import ttk   # we need this additional import for our treeview widget
 

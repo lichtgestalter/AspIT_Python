@@ -1,14 +1,15 @@
-"""
-Now, a click on a row of the treeview copies data of that row into the entry. To achieve this,
-    (1) a function edit_record has been added
-    (2) the treeview definition has been extended with an event on mouse click (tree_1.bind), which calls the new function
-To make it easier to find the new code, the above numbers have been added to the comments ((1), (2), ...)
+""" Nu kopierer et klik på en række i treeview'en data fra den pågældende række til indtastningsfeltet.
+For at opnår dette,
+    (1) er der tilføjet en funktion edit_record
+    (2) treeview-definitionen er blevet udvidet med en "event" ved museklik (tree_1.bind), som kalder den nye funktion
+For at gøre det lettere at finde den nye kode er ovenstående numre blevet tilføjet i kommentarerne ((1), (2), ...)
 
-Run the program.
-Read all the comments.
-Find out what every row of code does. For example by changing the code a bit and running it again.
-Pay special attention to the newly added code.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og køre den igen.
+
+Vær særlig opmærksom på den nyligt tilføjede kode."""
+
 import tkinter as tk
 from tkinter import ttk   # we need this additional import for our treeview widget
 

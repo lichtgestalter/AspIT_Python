@@ -1,10 +1,8 @@
-"""
-We add a function __repr__ to our class, so print produces prettier results.
+""" Vi tilføjer en funktion __repr__ til vores klasse, så print() giver flottere resultater.
 
-Run the program.
-Read all the comments.
-Understand the program code.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Forstå programkoden. """
 
 from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with the command "pip install SQLAlchemy" in a terminal.
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database

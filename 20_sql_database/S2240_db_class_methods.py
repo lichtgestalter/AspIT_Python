@@ -1,12 +1,10 @@
-"""
-Sometimes we don't want to read all records from a table.
-Instead we just want a single record with a certain id.
-For this, we add a function get_record.
+""" Nogle gange ønsker vi ikke at læse alle poster fra en tabel.
+I stedet ønsker vi kun at få en enkelt post med et bestemt id.
+Til dette formål tilføjer vi en funktion get_record.
 
-Run the program.
-Read all the comments.
-Understand the program code.
-"""
+Kør programmet.
+Læs alle kommentarerne.
+Forstå programkoden. """
 
 from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with the command "pip install SQLAlchemy" in a terminal.
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database

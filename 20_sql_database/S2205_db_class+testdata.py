@@ -1,14 +1,12 @@
-"""
-First read S2200_SQL_opgave.docx and do what it says.
+""" Læs først S2200_SQL_opgave.docx og gør, som der står.
 
-In this program we define a class. Very elegantly, at the same time this creates a sql database table with the same structure.
-This is called ORM (Object–relational mapping).
-Just to get us going we also create some test data. We need to do this only once.
+I dette program definerer vi en klasse. Meget elegant, samtidig opretter dette en sql database tabel med samme struktur.
+Dette kaldes ORM (Object-relational mapping).
+Bare for at komme i gang opretter vi også nogle testdata. Vi behøver kun at gøre dette én gang.
 
-Run the program.
-Read all the comments. You will not understand all of it. That's ok. Some things you will understand later on.
-But when using a foreign library, often it's good enough to just make it work without understanding all the details.
-"""
+Kør programmet.
+Læs alle kommentarerne. Du vil ikke forstå det hele. Det er helt ok. Nogle ting vil du forstå senere hen.
+Men når du bruger et fremmed bibliotek, er det ofte godt nok bare at få det til at virke uden at forstå alle detaljerne."""
 
 from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with the command "pip install SQLAlchemy" in a terminal.
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database

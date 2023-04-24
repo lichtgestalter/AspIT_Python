@@ -32,19 +32,19 @@ Fortsæt derefter med den næste fil."""
 
 
 def sleep():
-    status["sleepiness"] -= 10  # update sleepiness
+    morris["sleepiness"] -= 10  # update sleepiness
     # update thirst
     # update hunger
     # check for values out of boundaries
 
 
 def dead():
-    return status["sleepiness"] > 100 or status["thirst"] > 100 or status["hunger"] > 100
+    return morris["sleepiness"] > 100 or morris["thirst"] > 100 or morris["hunger"] > 100
 
 
-status = {"turn": 0, "sleepiness": 0, "thirst": 0, "hunger": 0, "whisky": 0, "gold": 0}  # dictionary
+morris = {"turn": 0, "sleepiness": 0, "thirst": 0, "hunger": 0, "whisky": 0, "gold": 0}  # dictionary
 
-while not dead() and status["turn"] < 1000:
-    status["turn"] += 1
+while not dead() and morris["turn"] < 1000:
+    morris["turn"] += 1
     sleep()
-    print(status)
+    print(morris)

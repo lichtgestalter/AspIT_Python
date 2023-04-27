@@ -7,7 +7,7 @@ Fortsæt herefter med den næste fil.
 """
 
 mydata = ["Hi,\n", "this is a text file.\n", "It has 3 rows.\n"]  # this is a list of strings
-myfile = "../S0161_input.txt"  # the name of the file. Note the / (slash) instead of a \ (backslash) in the file path!
+myfile = "S0161_input.txt"  # the name of the file. Note the / (slash) instead of a \ (backslash) in the file path!
 
 # Writing to a file
 with open(myfile, "w") as file:  # 'w' stands fro "write"

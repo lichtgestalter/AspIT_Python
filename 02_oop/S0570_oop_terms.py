@@ -34,7 +34,7 @@ object1._protected_method()  # don't do this
 print(object1)  # calls internally __repr__ on object1
 
 print("\n--- Class: ClassName2, Object: Object2 ---")
-object2 = ClassName2(12, 99)  # creates an instance of class ClassName2.  ClassName2 has own function __init__, so it uses the inherited __init__ of class ClassName
+object2 = ClassName2(12, 99)  # creates an instance of class ClassName2.  ClassName2 doesn't have its own function __init__, so it uses the inherited __init__ of class ClassName
 print(object2)  # calls internally __repr__ on object1
 object2.method1()  # calls method1 on object2
 

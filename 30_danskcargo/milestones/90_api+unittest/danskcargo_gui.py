@@ -38,7 +38,7 @@ def write_container_entries(values):  # Fill entry boxes
     entry_container_weather.insert(0, weather.weather_now(entry_container_destination.get()))
 
 
-def edit_container(event, tree):  # Copy selected tuple into entry boxes. Parameter event is mandatory but we don't use it.
+def edit_container(_, tree):  # Copy selected tuple into entry boxes. First parameter is mandatory but we don't use it.
     index_selected = tree.focus()  # Index of selected tuple
     values = tree.item(index_selected, 'values')  # Values of selected tuple
     clear_container_entries()  # Clear entry boxes
@@ -66,7 +66,7 @@ def delete_container(tree, record):  # delete tuple in database
     refresh_treeview(tree, dcd.Container)  # Refresh treeview table
 
 
-def copy_container_id(event):
+def copy_container_id(_):
     entry_transport_container_id.delete(0, tk.END)
     entry_transport_container_id.insert(0, entry_container_id.get())
 # endregion container functions
@@ -89,14 +89,14 @@ def write_aircraft_entries(values):  # Fill entry boxes
     entry_aircraft_registration.insert(0, values[2])
 
 
-def edit_aircraft(event, tree):  # Copy selected tuple into entry boxes. Parameter event is mandatory but we don't use it.
+def edit_aircraft(_, tree):  # Copy selected tuple into entry boxes. First parameter is mandatory but we don't use it.
     index_selected = tree.focus()  # Index of selected tuple
     values = tree.item(index_selected, 'values')  # Values of selected tuple
     clear_aircraft_entries()  # Clear entry boxes
     write_aircraft_entries(values)  # Fill entry boxes
 
 
-def copy_aircraft_id(event):
+def copy_aircraft_id(_):
     entry_transport_aircraft_id.delete(0, tk.END)
     entry_transport_aircraft_id.insert(0, entry_aircraft_id.get())
 
@@ -142,7 +142,7 @@ def write_transport_entries(values):  # Fill entry boxes
     entry_transport_aircraft_id.insert(0, values[3])
 
 
-def edit_transport(event, tree):  # Copy selected tuple into entry boxes. Parameter event is mandatory but we don't use it.
+def edit_transport(_, tree):  # Copy selected tuple into entry boxes. First parameter is mandatory but we don't use it.
     index_selected = tree.focus()  # Index of selected tuple
     values = tree.item(index_selected, 'values')  # Values of selected tuple
     clear_transport_entries()  # Clear entry
@@ -218,7 +218,7 @@ def empty_treeview(tree):  # Clear treeview table
 # region common widgets
 main_window = tk.Tk()  # Define the main window
 main_window.title('AspIT S2: DanskCargo')  # Text shown in the top window bar
-#main_window.iconbitmap('AspIT.ico')  # Icon in the upper left corner
+# main_window.iconbitmap('AspIT.ico')  # Icon in the upper left corner
 main_window.geometry("1200x500")  # window size
 
 style = ttk.Style()  # Add style

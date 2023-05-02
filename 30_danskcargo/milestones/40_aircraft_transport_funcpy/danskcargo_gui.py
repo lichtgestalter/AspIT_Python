@@ -35,7 +35,7 @@ def write_container_entries(values):  # Fill entry boxes
     entry_container_destination.insert(0, values[2])
 
 
-def edit_container(event, tree):  # Copy selected tuple into entry boxes. Parameter event is mandatory but we don't use it.
+def edit_container(_, tree):  # Copy selected tuple into entry boxes. First parameter is mandatory but we don't use it.
     index_selected = tree.focus()  # Index of selected tuple
     values = tree.item(index_selected, 'values')  # Values of selected tuple
     clear_container_entries()  # Clear entry boxes
@@ -86,7 +86,7 @@ def write_aircraft_entries(values):  # Fill entry boxes
     entry_aircraft_registration.insert(0, values[2])
 
 
-def edit_aircraft(event, tree):  # Copy selected tuple into entry boxes. Parameter event is mandatory but we don't use it.
+def edit_aircraft(_, tree):  # Copy selected tuple into entry boxes. First parameter is mandatory but we don't use it.
     index_selected = tree.focus()  # Index of selected tuple
     values = tree.item(index_selected, 'values')  # Values of selected tuple
     clear_aircraft_entries()  # Clear entry boxes
@@ -139,7 +139,7 @@ def write_transport_entries(values):  # Fill entry boxes
     entry_transport_aircraft_id.insert(0, values[3])
 
 
-def edit_transport(event, tree):  # Copy selected tuple into entry boxes. Parameter event is mandatory but we don't use it.
+def edit_transport(_, tree):  # Copy selected tuple into entry boxes. First parameter is mandatory but we don't use it.
     index_selected = tree.focus()  # Index of selected tuple
     values = tree.item(index_selected, 'values')  # Values of selected tuple
     clear_transport_entries()  # Clear entry

@@ -12,6 +12,7 @@ from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with 
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database
 from sqlalchemy import create_engine
 
+# The next 2 lines are needed _before_ data classes / sql tables are defined
 Database = 'sqlite:///S2206_my_first_sql_database.db'  # first part: database type, second part: file path
 Base = declarative_base()  # creating the registry and declarative base classes - combined into one step. Base will serve as the base class for the ORM mapped classes we declare.
 
@@ -41,6 +42,8 @@ def create_test_data():  # Optional. Used to test data base functions before gui
 # This object acts as a central source of connections to a particular database, providing both a factory as well as a holding space
 # called a connection pool for these database connections. The engine is typically a global object created just once for a particular
 # database server, and is configured using a URL string which will describe how it should connect to the database host or backend.
+
+# The next 2 lines are needed _after_ data classes / sql tables were defined
 engine = create_engine(Database, echo=False, future=True)  # define engine
 Base.metadata.create_all(engine)  # establish connection to database (and create if it does not exist yet)
 

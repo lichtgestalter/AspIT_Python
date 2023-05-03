@@ -48,7 +48,7 @@ def max_id(classparam):
 def get_record(classparam, record_id):  # https://docs.sqlalchemy.org/en/14/tutorial/data_select.html
     # return the record in classparams table with a certain id
     with Session(engine) as session:
-        record = session.scalars(select(classparam).where(classparam.id == record_id)).first()  # very useful for converting into our data class
+        record = session.scalars(select(classparam).where(classparam.id == record_id)).first()  # works only if all our data classes have a primary key with name "id"
     return record
 
 

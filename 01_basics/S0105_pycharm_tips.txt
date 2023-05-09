@@ -1,0 +1,25 @@
+Her er nogle nyttige keyboard shortcuts for pycharm.
+Vend tilbage til denne fil en gang i mellem og prøv nogle shortcuts.
+
+Du kan finde mere shortcuts her:
+https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html
+
+
+Alt+Down/Up: move line down/up
+Ctrl+Ins: insert line
+Ctrl+Del: delete line
+Ctrl+D : duplicate line
+Ctrl+Shift+J: join lines
+
+Alt+Shift+mousedrag: rectangular selection
+Ctrl+W / Ctrl+Shift+W: expand / reduce selection
+
+Ctrl+1: comment / uncomment
+Ctrl+Shift+(Numpad)Minus: collapse all (folding of blocks, functions, classes, etc.)
+Ctrl+Shift+(Numpad)Plus: expand all
+
+Shift+F6: refactor (change names etc.)
+Ctrl+Shift+A: search IDE commands
+Ctrl+Alt+S: settings
+Ctrl+B: show usages
+Ctrl+Alt+Shift+F8: remove all breakpoints

@@ -6,6 +6,8 @@ from danskcargo_data import Container, Aircraft, Transport, Base
 # add the following 7 lines to make foreign key constraints work  https://docs.sqlalchemy.org/en/14/dialects/sqlite.html#sqlite-foreign-keys
 from sqlalchemy.engine import Engine
 from sqlalchemy import event
+
+
 @event.listens_for(Engine, "connect")
 def set_sqlite_pragma(dbapi_connection, connection_record):
     cursor = dbapi_connection.cursor()

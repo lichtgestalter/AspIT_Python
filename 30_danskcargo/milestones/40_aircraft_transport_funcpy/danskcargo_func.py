@@ -10,6 +10,7 @@ import danskcargo_sql as dcsql
 # capacity_available() and max_one_destination() respectively, and are not called by other functions,
 # it is also a good choice to keep them in the function layer.
 
+
 def booked_cargo(aircraft, date_):
     # returns the already booked cargo on an aircraft at a certain date
     with Session(dcsql.engine) as session:

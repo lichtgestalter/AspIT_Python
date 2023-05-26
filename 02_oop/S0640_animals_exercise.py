@@ -36,6 +36,7 @@ Kald denne metode i hovedprogrammet.
 Skriv en funktion mate(mother, father). Begge parametre er af typen Dog.
 Denne funktion skal returnere et nyt objekt af typen Dog.
 I denne funktion skal du lave meningsfulde regler for den nye hunds attributter.
+Hvis du har lyst, brug random numbers så mate() producerer tilfældige hunde.
 Sørg for, at denne funktion kun accepterer hunde med det korrekte køn som argumenter.
 
 I hovedprogrammet kalder du denne metode og udskriver den nye hund.

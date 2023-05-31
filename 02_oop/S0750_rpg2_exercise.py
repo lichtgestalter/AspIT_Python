@@ -5,7 +5,8 @@ Som altid skal du læse hele øvelsesbeskrivelsen omhyggeligt, før du begynder 
 Byg videre på din løsning af del 1.
 
 Opfind to nye klasser, som arver fra klassen Character. For eksempel Hunter og Magician.
-Dine nye klasser skal have deres egne ekstra metoder og/eller attributter. Måske overskriver de også metoder eller attributter fra klassen Character.
+Dine nye klasser skal have deres egne ekstra metoder og/eller attributter.
+Måske overskriver de også metoder eller attributter fra klassen Character.
 
 Lad i hovedprogrammet objekter af dine nye klasser (dvs. rollespilfigurer) kæmpe mod hinanden,
 indtil den ene figur er død. Udskriv, hvad der sker under kampen.

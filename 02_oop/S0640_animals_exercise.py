@@ -5,7 +5,7 @@ Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder a
 
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Alt, hvad du har brug for at vide for at løse denne opgave, finder du i cars_oop- og rpg1-filerne.
+Alt, hvad du har brug for at vide for at løse denne opgave, finder du i cars_oop-filerne.
 
 Definer en klasse ved navn Animal.
 Hvert objekt i denne klasse skal have attributterne name (str), sound (str), height (float),

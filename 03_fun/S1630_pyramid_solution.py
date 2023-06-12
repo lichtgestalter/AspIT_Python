@@ -8,8 +8,8 @@ Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil."""
 
 
-def pyramid2(lines, start):
-    strings = start.split(" ")  # split start into a list of strings
+def pyramid2(lines, firstline):
+    strings = firstline.split(" ")  # split firstline into a list of strings
     numbers = []  # numbers is a list and will later contain numbers
     for s in strings:
         if len(s) > 0:
@@ -27,8 +27,8 @@ def pyramid2(lines, start):
 
 
 # some alternative solutions:
-def pyramid2a(lines, start):
-    numbers = [int(i) for i in str(start)]
+def pyramid2a(lines, firstline):
+    numbers = [int(i) for i in str(firstline)]
     numbers2 = [i for i in numbers]
     for line in range(lines):
         print("row " + str(line+1), end=": ")
@@ -41,8 +41,8 @@ def pyramid2a(lines, start):
         numbers = [i for i in numbers2]
 
 
-def pyramid2b(lines, start):
-    number_lists = [[int(i) for i in str(start)]]
+def pyramid2b(lines, firstline):
+    number_lists = [[int(i) for i in str(firstline)]]
     for line in range(lines):
         number_lists.append([i for i in number_lists[line]])
         print("row " + str(line+1), end=": ")
@@ -54,8 +54,8 @@ def pyramid2b(lines, start):
                 index_shift += 1
 
 
-def pyramid2c(lines, start):
-    number_lists = [[int(i) for i in str(start)]]
+def pyramid2c(lines, firstline):
+    number_lists = [[int(i) for i in str(firstline)]]
     for line in range(lines):
         number_lists.append(number_lists[line].copy())
         print("row " + str(line+1), end=": ")
@@ -67,12 +67,12 @@ def pyramid2c(lines, start):
                 index_shift += 1
 
 
-# start_input = int(input("Enter the first row of the pyramid: "))
+# firstline_input = int(input("Enter the first row of the pyramid: "))
 # lines_input = int(input("Enter the number of rows to print: "))
-# pyramid2a(lines_input, start_input)
-# pyramid2b(lines_input, start_input)
-# pyramid2c(lines_input, start_input)
+# pyramid2a(lines_input, firstline_input)
+# pyramid2b(lines_input, firstline_input)
+# pyramid2c(lines_input, firstline_input)
 
-start_input = input("Enter the first row of the pyramid. (Separate the individual numbers with spaces.): ")
+firstline_input = input("Enter the first row of the pyramid. (Separate the individual numbers with spaces.): ")
 lines_input = int(input("Enter the number of rows to print: "))
-pyramid2(lines_input, start_input)
+pyramid2(lines_input, firstline_input)

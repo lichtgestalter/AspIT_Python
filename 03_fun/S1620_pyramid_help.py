@@ -35,7 +35,7 @@ def pyramid(lines):
     0
 
 
-def pyramid2(lines, numbers):
+def pyramid2(lines, firstline):
     0
 
 

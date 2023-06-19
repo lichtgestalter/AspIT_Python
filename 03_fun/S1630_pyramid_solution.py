@@ -16,7 +16,7 @@ def pyramid2(lines, firstline):
             numbers.append(int(s.strip()))  # strip removes white spaces and similar characters from the beginning and end of string
     number_lists = [numbers]  # number_lists is a list and will later contain lists of numbers
     for line in range(lines):
-        number_lists.append(number_lists[line].copy())  # copy the last element in number_lists and appended it to number_lists
+        number_lists.append(number_lists[line].copy())  # copy the last element in number_lists and append it to number_lists
         print("row " + str(line+1), end=": ")
         print(number_lists[line])
         index_shift = 0  # the last line keeps growing while we edit it. this variable helps us to keep track where we have to insert the next number.

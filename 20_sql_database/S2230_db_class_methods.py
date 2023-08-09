@@ -45,7 +45,7 @@ class Person(Base):
         # when reading data from our gui widgets, we typically get the data as a tuple
         # This function converts a tuple into an object of type Person.
         # the decorator declares the method to be static
-        # a static method operates on the class, not on an object of the class
+        # a static method belongs to the class, but does not operate on an object of the class
         # see https://www.geeksforgeeks.org/python-staticmethod/
         person = Person(id=tuple_[0], name=tuple_[1], age=tuple_[2])
         return person

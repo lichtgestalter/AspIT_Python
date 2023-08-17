@@ -24,7 +24,7 @@ Kontroller i din webbrowser på github.com, at den ændrede fil er til stede i d
 På GitHub-websiden for dit repository skal du klikke på "Settings" (indstillinger) og sikre dig, at dit repository er offentligt (General, Change repository visibility).
 
 Hvis du ikke allerede har gjort det, skal du sende din lærer url'en til dit github-løsningsrepositorium via Teams-chat.
-URL'en ser ud som https://github.com/<dit_brugernavn/Solutions.git
+URL'en ser ud som https://github.com/dit_brugernavn/Solutions.git
 
 Derefter går du videre med den næste fil.
 """

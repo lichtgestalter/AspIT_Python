@@ -1,7 +1,7 @@
 """
 Opgave "Tom the Turtle":
 
-Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
+Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 

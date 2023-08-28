@@ -1,6 +1,6 @@
 """Opgave "The inventory sequence"
 
-Som altid skal du læse hele øpgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
+Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
 Denne øvelse er en valgfri udfordring for de fremragende programmører blandt jer.
 Du behøver absolut ikke at løse denne øvelse for at fortsætte med succes.

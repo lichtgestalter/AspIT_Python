@@ -42,7 +42,7 @@ class TestEmptyEntries(unittest.TestCase):
         # act
         dcg.create_transport(dcg.tree_transport, record)
         # assert
-        self.assertEqual(dcg.INTERNAL_ERROR_CODE, 1)  # container weighs more than the aircraft's
+        self.assertEqual(dcg.INTERNAL_ERROR_CODE, 1)  # container weighs more than the aircraft's total capacity
 
 
 if __name__ == '__main__':

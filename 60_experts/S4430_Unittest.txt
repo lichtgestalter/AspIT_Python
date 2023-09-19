@@ -8,6 +8,7 @@ Find ud af, hvad programmet gør. Til dette formål:
     - klik på de forskellige grønne trekanter i koden for at udføre bare en delmængde af testerne
 
 Leg med danskcargo_unittest.py. Tilføj din egen unittest.
+Du kan f.eks. teste en af CRUD-funktionerne (create, read, update, delete) på en af tabellerne (Aircraft, Container, Transport).
 
 
 

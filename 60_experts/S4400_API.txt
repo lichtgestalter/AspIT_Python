@@ -9,6 +9,7 @@ Find ud af, hvad programmet gør. Til dette formål:
 Kopier værdien af variablen "url" ind i din webbrowsers adresslinje.
 Kopier resultatet fra browservinduet i en JSON-editor.
 Benyt fx https://jsoneditoronline.org/
+    Hvad sker der når du klikker på knapperne "text" og "tree"?
 Leg med weather.py. Få programmet til at vise nogle andre værdier man kan hente via API'en.
 
 

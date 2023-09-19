@@ -7,8 +7,9 @@ Find ud af, hvad programmet gør. Til dette formål:
     - udfør programmet
     - klik på de forskellige grønne trekanter i koden for at udføre bare en delmængde af testerne
 
-Leg med danskcargo_unittest.py. Tilføj din egen unittest.
-Du kan f.eks. teste en af CRUD-funktionerne (create, read, update, delete) på en af tabellerne (Aircraft, Container, Transport).
+Leg med danskcargo_unittest.py.
+Tilføj din egen unittest:
+    - Test, om en Aircrafts max_cargo_weight er lige med -1 efter den blev soft-deleted.
 
 
 

@@ -1,7 +1,7 @@
 from sqlalchemy.orm import declarative_base
 from sqlalchemy import Column, ForeignKey
 from sqlalchemy import String, Integer, Date
-from dateutil import parser
+from dateutil import parser  # pip install python-dateutil
 from tkinter import messagebox
 
 Base = declarative_base()  # creating the registry and declarative base classes - combined into one step. Base will serve as the base class for the ORM mapped classes we declare.

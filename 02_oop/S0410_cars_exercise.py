@@ -10,7 +10,7 @@ Definer en funktion drive_car(), der udskriver en bils motorlyd (f.eks. "roooaar
 I hovedprogrammet:
     Definer variabler, som repræsenterer antallet af hjul og den maksimale hastighed for 2 forskellige biler
     Udskriv disse egenskaber for begge biler
-    Kald derefter funktionen motorlyd
+    Kald derefter funktionen drive_car()
 
 Hvis du ikke har nogen idé om, hvordan du skal begynde, kan du åbne S0420_cars_help.py og starte derfra.
 Hvis du går i stå, kan du spørge google, de andre elever eller læreren (i denne rækkefølge).

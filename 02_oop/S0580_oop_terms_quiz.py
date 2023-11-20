@@ -9,7 +9,7 @@ Tilføj oop-relaterede kommentarer til denne kode.
         attribute / attribut
         method / metode
         polymorphism / polymorfisme
-        encapsulation: protected attribute / indkapsling: beskyttet attributå
+        encapsulation: protected attribute / indkapsling: beskyttet attribut
         encapsulation: protected method / indkapsling: beskyttet metode
 """
 

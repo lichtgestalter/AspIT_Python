@@ -10,7 +10,7 @@ mydata = ["Hi,\n", "this is a text file.\n", "It has 3 rows.\n"]  # this is a li
 myfile = "S0161_input.txt"  # the name of the file. Note the / (slash) instead of a \ (backslash) in the file path!
 
 # Writing to a file
-with open(myfile, "w") as file:  # 'w' stands fro "write"
+with open(myfile, "w") as file:  # 'w' stands for "write"
     file.writelines(mydata)  # writes the whole list of strings at once
 
 # Reading from a file (method 1)

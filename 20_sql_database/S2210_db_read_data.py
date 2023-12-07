@@ -32,4 +32,4 @@ def select_all(classparam):  # https://docs.sqlalchemy.org/en/14/tutorial/data_s
 engine = create_engine(Database, echo=False, future=True)
 Base.metadata.create_all(engine)
 
-print(select_all(Person))
+print(select_all(Person))  # the printed result is not very user friendly. We improve that in the next chapter.

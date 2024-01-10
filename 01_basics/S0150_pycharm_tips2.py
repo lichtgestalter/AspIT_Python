@@ -29,11 +29,11 @@ Vend tilbage til S0105_pycharm_tips.py og prøv nogle shortcuts i eksempelkoden 
 # Den følgende kode tjener som legeplads for de ovenstående opgaver.
 
 def eksempel(number):
-    result = 0
+    res_xxxx_ult = 0
     for n in range(number, 2 * number, 3):
-        result += n
-    result *= 10
-    return result
+        res_xxxx_ult += n
+    res_xxxx_ult *= 10
+    return res_xxxx_ult
 
 
 print("Start")

@@ -13,7 +13,7 @@ from S1520_turtle_hunt_service import distance
 
 # do NOT change these global constants!
 MAX_POS = 300    # x and y coordinates must be between -MAX_POS and +MAX_POS. (0, 0) is in the center of the screen.
-BOUNCE_STEP_SIZE = 2 * Tclass.STEP_SIZE         # a turtle trying to leave the window, gets thrown back so many pixels
+BOUNCE_STEP_SIZE = 2 * Tclass.STEP_SIZE  # a turtle trying to leave the window, gets thrown back so many pixels
 START_ANGLES_MIN = [0, 90, 180, 270]     # minimum initial right rotation of each turtle
 START_ANGLES_MAX = [30, 120, 210, 300]   # maximum initial right rotation of each turtle
 START_DISTANCE_MIN = int(MAX_POS * 0.6)  # minimum initial move of all turtles
@@ -31,7 +31,7 @@ def move(turtle_):  # move the turtle and bounce it back if it crosses the windo
 
 def caught(turtles_, max_distance):  # is a hunter near enough to the prey?
     positions = [t.position() for t in turtles_]  # this is list comprehension https://www.w3schools.com/python/python_lists_comprehension.asp
-    for hunter_position in positions[1:]:
+    for hunter_position in positions[1:]:  # checks all the hunteres to see if there are ind range of prey
         if distance(positions[0], hunter_position) < max_distance:
             return True
     return False
@@ -47,7 +47,7 @@ def init_positions(turtles_):  # move turtles to their initial random positions
         turtle_.pendown()  # draw while moving from now on
 
 
-def hunt(prey_class, hunter_class, color):  # execute the hunt
+def hunt(hunter_class, prey_class, color):  # execute the hunt
     # initialize screen:
     screen = turtle.Screen()
     screen.setup(2 * MAX_POS, 2 * MAX_POS)
@@ -92,8 +92,8 @@ def hunt(prey_class, hunter_class, color):  # execute the hunt
 score1 = score2 = 0
 for r in range(Tclass.ROUNDS):
     print(f"{Tclass.class1.__name__} is hunting {Tclass.class2.__name__}")
-    score1 += hunt(Tclass.class1, Tclass.class2, "red")
+    score2 += hunt(Tclass.class1, Tclass.class2, "red")
     print(f"{Tclass.class2.__name__} is hunting {Tclass.class1.__name__}")
-    score2 += hunt(Tclass.class2, Tclass.class1, "green")  # hunter class and prey class have switched roles now!
+    score1 += hunt(Tclass.class2, Tclass.class1, "green")  # hunter class and prey class have switched roles now!
     print(f"##### Score after round {r + 1}: {Tclass.class1.__name__}: {score1}    {Tclass.class2.__name__}: {score2} #####")
 # turtle.done()  # keeps the turtle window open after the program is done

@@ -1,6 +1,3 @@
-# https://www.youtube.com/watch?v=cZkGeR9CWbk
-
-
 """Opgave "Lunar arithmetic"
 
 Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.

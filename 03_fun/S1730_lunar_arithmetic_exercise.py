@@ -19,7 +19,7 @@ Del 3:
     Se resten af videoen.
 
 Del 4:
-    Skriv en funktion calc_lunar-primes(n), som retunerer en liste med de første n lunar primes.
+    Skriv en funktion calc_lunar_primes(n), som retunerer en liste med de første n lunar primes.
 
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.

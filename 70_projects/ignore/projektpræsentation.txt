@@ -1,8 +1,3 @@
-Skriv et program, som
-- henter data via en API
-- gemmer data in en SQL database
-- bruger en GUI for at vise data og for interaktionen med brugeren
-
 I løbet af den sidste uge af dette modul præsenterer du dit program overfor læreren.
 Der er sandsynligvis andre tilskuer til stede.
 Du bestemmer præsentationens indhold. Men hent dig gerne feedback af læreren mens du forbereder den.

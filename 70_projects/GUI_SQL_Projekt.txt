@@ -1,4 +1,0 @@
-Skriv et program, som
-- henter data via en API
-- gemmer data in en SQL database
-- bruger en GUI for at vise data og for interaktionen med brugeren

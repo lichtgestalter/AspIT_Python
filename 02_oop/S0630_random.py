@@ -4,7 +4,7 @@ Random numbers:
 Inspicer følgende kode i detaljer. Find ud af, hvad hver række kode gør.
 F.eks. ved at ændre koden en smule og derefter køre/debugge programmet.
 
-Derefter går du videre med den næste fil."""
+Derefter går du videre med den næste fil. """
 
 
 import random  # this imports a library called "random". A library is (someone else's) python code, that you can use in your own program.

@@ -14,10 +14,10 @@ Kør programmet med shift+f10 (eller klik på det grønne "play"-ikon)
 I programkoden ændre teksten mellem anførselstegnene
 
 Commit filen til dit eget git-repository (commit betyder: sikkerhedskopier den aktuelle tilstand af dine filer som en ny version)
-    Git, Commit (eller klik på det grønne flueben)
-    skriv en meningsfuld kommentar
-    klik på "commit and push" (push betyder: upload dette commit til github)
-    push
+    - klik på "Git", og derefter på "Commit" (eller CTRL+K eller klik på det grønne flueben)
+    - skriv en meningsfuld kommentar
+    - klik på "commit and push" (push betyder: upload dette commit til github)
+    - klik på "push"
 
 Kontroller i din webbrowser på github.com, at den ændrede fil er til stede i dit repository på github.
 

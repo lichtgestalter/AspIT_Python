@@ -1,7 +1,7 @@
 """Opgave "Number pyramid" (løsning):
 
 Inspicer følgende kode i detaljer. Især hvis du ikke selv har fundet på en løsning.
-Find ud af, hvad hver række kode gør. F.eks. ved at ændre koden en smule og derefter2
+Find ud af, hvad hver række kode gør. Fx ved at ændre koden en smule og derefter
 køre/debugge programmet.
 
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig

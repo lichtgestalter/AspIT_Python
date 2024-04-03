@@ -41,5 +41,5 @@ def pyramid2(lines, firstline):
     0
 
 
-pyramid(7)  # the calls for 2...10 are still missing
+pyramid(7)
 pyramid2(7, [1, 0, 1, 2])

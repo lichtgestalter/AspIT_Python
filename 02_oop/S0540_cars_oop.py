@@ -8,7 +8,7 @@ I python er det teknisk set muligt at kalde private metoder fra uden for deres k
 Private medlemmer kaldes også for beskyttede medlemmer.
 
 Undersøg følgende kode i detaljer. Find ud af, hvad hver række kode gør.
-F.eks. ved at ændre koden en smule og derefter køre/debugging af programmet.
+F.eks. ved at ændre koden en smule og derefter køre/debugge programmet.
 
 Læs mere om objektorienteret programmering her:
 https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/

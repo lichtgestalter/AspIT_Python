@@ -8,6 +8,7 @@ Undgå helst at bruge dette nøgleord i din egen kode.  Det ville være dårlig 
 
 Kør programmet og find ud af, hvad der skete.
 Hvorfor fremkalder print(x) forskellige resultater indenfor og udenfor funktionen?
+Læs kommentarerne i koden.
 
 Skift nu til variable_scope_2.py
 """

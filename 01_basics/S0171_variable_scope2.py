@@ -5,6 +5,7 @@ Hvis du har en funktion, der kalder en anden funktion, og den kaldte funktion sk
 
 Kør programmet og find ud af, hvad der skete.
 Hvorfor fremkalder print(x) forskellige resultater?
+Læs kommentarerne i koden.
 """
 
 def some_function():

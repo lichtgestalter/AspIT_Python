@@ -5,7 +5,7 @@ Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at
 
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Omskriv din oprindelige Morris-kode til en objektorienteret version.
+Genbrug din oprindelige Morris-kode og omskriv den til en objektorienteret version.
 
 Definer en klasse Miner med attributter som sleepiness, thirst osv.
 og metoder som sleep, drink osv.

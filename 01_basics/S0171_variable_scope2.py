@@ -24,4 +24,4 @@ def main():
   print(x)
 
 
-main()  # det er god programmeringsskik, at hovedprogrammet bare indeholderen en enkel linje, som kalder funktionen main.
+main()  # det er god programmeringsskik, at undgå globale variabler og at hovedprogrammet bare indeholderen en enkel linje, som kalder funktionen main.

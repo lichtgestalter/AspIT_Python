@@ -5,6 +5,9 @@ Vend tilbage til denne fil en gang i mellem og prøv nogle shortcuts.
 Du kan finde mere shortcuts her:
 https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html
 
+Ctrl+T: update from GitHub
+Ctrl+K: commit and push to GitHub
+
 Ctrl+1: comment / uncomment
 Alt+Down/Up: move line down/up
 Ctrl+Ins: insert line
@@ -22,7 +25,6 @@ Ctrl+Shift+A: search IDE commands
 Ctrl+Alt+S: settings
 Ctrl+B: show usages
 Ctrl+Alt+Shift+F8: remove all breakpoints
-
 """
 
 # Den følgende kode tjener bare som legeplads hvor du kan afprøve nogle af de ovenstående shortcuts.

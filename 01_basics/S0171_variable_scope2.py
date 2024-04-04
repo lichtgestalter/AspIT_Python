@@ -22,4 +22,5 @@ def main():
   another_function(x)
   print(x)
 
-main()
+
+main()  # det er god programmeringsskik, at hovedprogrammet bare indeholderen en enkel linje, som kalder funktionen main.

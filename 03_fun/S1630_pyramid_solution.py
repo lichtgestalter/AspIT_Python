@@ -8,7 +8,7 @@ Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil."""
 
 
-def pyramid2(lines, firstline):
+def pyramid2a(lines, firstline):
     strings = firstline.split(" ")  # split firstline into a list of strings
     numbers = []  # numbers is a list and will later contain numbers
     for s in strings:
@@ -26,53 +26,28 @@ def pyramid2(lines, firstline):
                 index_shift += 1
 
 
-# some alternative solutions:
-def pyramid2a(lines, firstline):
-    numbers = [int(i) for i in str(firstline)]
-    numbers2 = [i for i in numbers]
-    for line in range(lines):
-        print("row " + str(line+1), end=": ")
-        print(numbers2)
-        index_shift = 0
-        for n in range(len(numbers)-1):
-            if numbers[n] + numbers[n + 1] == line + 2:
-                numbers2.insert(n + index_shift + 1, line + 2)
-                index_shift += 1
-        numbers = [i for i in numbers2]
-
-
 def pyramid2b(lines, firstline):
-    number_lists = [[int(i) for i in str(firstline)]]
-    for line in range(lines):
-        number_lists.append([i for i in number_lists[line]])
-        print("row " + str(line+1), end=": ")
-        print(number_lists[line])
-        index_shift = 0
-        for n in range(len(number_lists[line])-1):
-            if number_lists[line][n] + number_lists[line][n + 1] == line + 2:
-                number_lists[line+1].insert(n + index_shift + 1, line + 2)
-                index_shift += 1
+    """
+    This version is much more elegant, but uses the advanced concept
+    "list comprehension" and the function "zip".
+    """
+    current_line = [int(i) for i in str(firstline)]  # list of integers. Input must not contain blanks!
+    next_line = []  # we build the next line of the pyramid in this variable
+    for line_number in range(2, lines + 1):
+        for left, right in zip(current_line[:-1], current_line[1:]):  # 2 for loops run parallel now: left iterates through current_line[:-1] and right iterates through current_line[1:]
+            next_line.append(left)
+            if left + right == line_number:
+                next_line.append(line_number)
+        next_line.append(current_line[-1])  # add the last element of current_line
+        print(f"row {line_number}: {next_line}")
+        current_line = next_line
+        next_line = []
 
 
-def pyramid2c(lines, firstline):
-    number_lists = [[int(i) for i in str(firstline)]]
-    for line in range(lines):
-        number_lists.append(number_lists[line].copy())
-        print("row " + str(line+1), end=": ")
-        print(number_lists[line])
-        index_shift = 0
-        for n in range(len(number_lists[line])-1):
-            if number_lists[line][n] + number_lists[line][n + 1] == line + 2:
-                number_lists[line+1].insert(n + index_shift + 1, line + 2)
-                index_shift += 1
-
-
-# firstline_input = int(input("Enter the first row of the pyramid: "))
-# lines_input = int(input("Enter the number of rows to print: "))
-# pyramid2a(lines_input, firstline_input)
-# pyramid2b(lines_input, firstline_input)
-# pyramid2c(lines_input, firstline_input)
-
-firstline_input = input("Enter the first row of the pyramid. (Separate the individual numbers with spaces.): ")
+firstline_input = input("Enter the first row of the pyramid. (Just type some integers. Use blanks to separate the numbers): ")
 lines_input = int(input("Enter the number of rows to print: "))
-pyramid2(lines_input, firstline_input)
+pyramid2a(lines_input, firstline_input)
+
+firstline_input = input("Enter the first row of the pyramid. (Just type some integers. This time, DO NOT use blanks or something else to separate the numbers): ")
+lines_input = int(input("Enter the number of rows to print: "))
+pyramid2b(lines_input, firstline_input)

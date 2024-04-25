@@ -1,5 +1,5 @@
 import json
-import requests
+import requests  # pip install requests
 
 KEY = "2a3891ce1248786a1398a888debb0368"  # ulsc@aspit.dk
 

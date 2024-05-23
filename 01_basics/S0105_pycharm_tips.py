@@ -21,6 +21,9 @@ Ctrl+Shift+(Numpad)Minus: collapse all (folding of blocks, functions, classes, e
 Ctrl+Shift+(Numpad)Plus: expand all
 
 Shift+F6: refactor (change names etc.)
+Ctrl+Alt+P: introduce parameter
+Ctrl+Alt+V: introduce variable
+Ctrl+Alt+M: introduce method (or function)
 Ctrl+Shift+A: search IDE commands
 Ctrl+Alt+S: settings
 Ctrl+B: show usages

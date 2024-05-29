@@ -25,7 +25,7 @@ Din opgave:
 Skriv et program, der giver Morris så meget guld som muligt på 1000 omgange.
 
 Hvis du ikke har nogen idé om hvordan du skal begynde, så åbn S0185_morris_help.py og start derfra.
-Hvis du går i stå, så spørg google, de andre elever eller læreren (i denne rækkefølge).
+Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig

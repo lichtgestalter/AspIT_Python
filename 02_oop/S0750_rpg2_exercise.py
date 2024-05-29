@@ -25,7 +25,7 @@ Del 4:
     Hold styr på resultaterne.
     Prøv at afbalancere dine figurers evner på en sådan måde, at hver figur vinder ca. halvdelen af kampene.
 
-Hvis du går i stå, kan du spørge google, de andre elever eller læreren (i denne rækkefølge).
+Hvis du går i stå, kan du spørge google, de andre elever, en AI eller læreren.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-besked til din lærer: <filename> done

@@ -42,6 +42,8 @@ Del 6:
     Opret din egen funktion, der producerer et sejt mønster.
     Senere, hvis du har lyst, kan du præsentere dit mønster på storskærmen for de andre.
 
+Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
+
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil.

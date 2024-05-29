@@ -21,6 +21,8 @@ Kør programmet. Tallet 6 bør udskrives i konsollen,
 efterfulgt af "Process finished with exit code 0".
 Det betyder, at programmet sluttede uden en fejlmeddelelse.
 
+Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
+
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil.

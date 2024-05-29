@@ -12,7 +12,7 @@ og metoder som sleep, drink osv.
 Opret Morris og initialiser hans attributter ved at kalde konstruktoren for Miner:
 morris = Miner()
 
-Hvis du går i stå, så spørg google, de andre elever eller læreren (i denne rækkefølge).
+Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig

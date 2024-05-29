@@ -54,6 +54,8 @@ Del 10:
     Gør det muligt at skrive puppy = daisy + brutus i stedet for puppy = mate(daisy, brutus)
     for at opnå den samme effekt.  Du bliver nok nødt til at google hvordan man laver det.
 
+Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
+
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil."""

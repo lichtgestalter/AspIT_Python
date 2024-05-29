@@ -29,7 +29,7 @@ Del 6:
     For at undgå at "heal" forandrer den protected attribut "_current_health" direkte,
     tilføj en metode get_healed til klassen Character, som fungerer lige som get_hit.
 
-Hvis du er gået i stå, kan du spørge google, de andre elever eller læreren (i denne rækkefølge).
+Hvis du er gået i stå, kan du spørge google, de andre elever, en AI eller læreren.
 Hvis du ikke aner, hvordan du skal begynde, kan du åbne S0720_rpg1_help.py og starte derfra.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository

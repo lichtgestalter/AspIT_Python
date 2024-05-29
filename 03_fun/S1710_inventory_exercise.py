@@ -25,6 +25,8 @@ Del 3:
 Hvis du ikke har nogen idé om, hvordan du skal begynde, kan du kigge på løsningen
 i S1720_inventory_solution.py
 
+Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
+
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil."""

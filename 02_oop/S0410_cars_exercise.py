@@ -13,7 +13,7 @@ I hovedprogrammet:
     Kald derefter funktionen drive_car()
 
 Hvis du ikke har nogen idé om, hvordan du skal begynde, kan du åbne S0420_cars_help.py og starte derfra.
-Hvis du går i stå, kan du spørge google, de andre elever eller læreren (i denne rækkefølge).
+Hvis du går i stå, kan du spørge google, de andre elever, en AI eller læreren.
 Hvis du stadig er gået i stå, skal du åbne S0430_cars_solution.py og sammenligne den med din løsning.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.

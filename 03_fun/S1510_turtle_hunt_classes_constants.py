@@ -71,7 +71,14 @@ Senere:
 
 Kun hvis du er nysgerrig og elsker detaljer:
     Her er den fulde dokumentation for skildpaddegrafikken:
-    https://docs.python.org/3.3/library/turtle.html"""
+    https://docs.python.org/3.3/library/turtle.html
+
+Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
+
+Når dit program er færdigt, skal du skubbe det til dit github-repository.
+Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
+Fortsæt derefter med den næste fil."""
+
 
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
 import random

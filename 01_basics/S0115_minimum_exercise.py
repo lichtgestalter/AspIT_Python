@@ -12,7 +12,7 @@ Funktionen minimum skal ...
     ikke bruge pythons inbyggede funktion min.
     returnere den mindste tal som er i numberlist.
 
-Der er allerede én kodelinje i hovedprogrammet, der kalder denne funktion.
+Der er allerede kodelinjer i hovedprogrammet, der kalder denne funktion.
 
 Kør programmet. Først 2 og derefter 1 bør udskrives i konsollen. Får du de rigtige resultater?
 

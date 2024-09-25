@@ -9,7 +9,7 @@ Ctrl+T: update from GitHub
 Ctrl+K: commit and push to GitHub
 
 Ctrl+1: comment / uncomment
-Alt+Down/Up: move line down/up
+Alt+Down/Up: move line or selection down/up
 Ctrl+Ins: insert line
 Ctrl+Del: delete line
 Ctrl+D : duplicate line

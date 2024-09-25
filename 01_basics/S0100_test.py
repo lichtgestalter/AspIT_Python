@@ -10,11 +10,15 @@ Kopier denne fil til din egen løsningsmappe.
 Rediger kun din kopi.
 
 Kør programmet med shift+f10 (eller klik på det grønne "play"-ikon)
+I konsollen burde vises:
+        hello world
+        Process finished with exit code 0
 
-I programkoden ændre teksten mellem anførselstegnene
+I programkoden ændre teksten mellem anførselstegnene.
+Kør programmet igen.
 
 Commit filen til dit eget git-repository (commit betyder: sikkerhedskopier den aktuelle tilstand af dine filer som en ny version)
-    - klik på "Git", og derefter på "Commit" (eller CTRL+K eller klik på det grønne flueben)
+    - klik på "Git", og derefter på "Commit" (eller CTRL+K)
     - skriv en meningsfuld kommentar
     - klik på "commit and push" (push betyder: upload dette commit til github)
     - klik på "push"

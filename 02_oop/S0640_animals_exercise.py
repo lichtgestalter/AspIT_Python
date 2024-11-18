@@ -18,7 +18,7 @@ Del 2:
     Kald disse metoder for at oprette objekter af klassen Animal og for at udskrive dem i hovedprogrammet.
 
 Del 3:
-    Skriv en klassemetode ved navn make_noise, som udskriver dyrets lyd i konsollen.
+    Skriv en metode ved navn make_noise, som udskriver dyrets lyd i konsollen.
     Kald denne metode i hovedprogrammet.
 
 Del 4:
@@ -35,13 +35,12 @@ Del 6:
     Kald metoden make_noise på Dog-objekter i hovedprogrammet.
 
 Del 7:
-    Skriv en klassemetode ved navn wag_tail for Dog.
-    Denne metode udskriver i konsollen noget i stil med
-    "Hunden Snoopy vifter med sin 32 cm lange hale"
+    Skriv en metode ved navn wag_tail for Dog. Denne metode udskriver i konsollen noget i stil
+    med "Hunden Snoopy vifter med sin 32 cm lange hale".
     Kald denne metode i hovedprogrammet.
 
 Del 8:
-    Skriv en funktion mate(mother, father). Begge parametre er af typen Dog.
+    Skriv en funktion mate(mother, father) undenfor klassen. Begge parametre er af typen Dog.
     Denne funktion skal returnere et nyt objekt af typen Dog.
     I denne funktion skal du lave meningsfulde regler for den nye hunds attributter.
     Hvis du har lyst, brug random numbers så mate() producerer tilfældige hunde.

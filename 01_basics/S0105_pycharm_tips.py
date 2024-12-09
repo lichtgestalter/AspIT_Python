@@ -24,13 +24,16 @@ Shift+F6: refactor (change names etc.)
 Ctrl+Alt+P: introduce parameter
 Ctrl+Alt+V: introduce variable
 Ctrl+Alt+M: introduce method (or function)
+
 Ctrl+Shift+A: search IDE commands
 Ctrl+Alt+S: settings
 Ctrl+B: show usages
+
 Ctrl+Alt+Shift+F8: remove all breakpoints
 """
 
-# Den følgende kode tjener bare som legeplads hvor du kan afprøve nogle af de ovenstående shortcuts.
+# Den følgende kode gøre ikke noget fornuftig.
+# Den tjener bare som legeplads hvor du kan afprøve nogle af de ovenstående shortcuts.
 
 def eksempel(lines, firstline):
     t_strings = firstline.split(" ")  # split firstline into a list of strings

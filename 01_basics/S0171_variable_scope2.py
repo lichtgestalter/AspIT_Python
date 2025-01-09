@@ -18,7 +18,7 @@ def some_function():
 
 
 def another_function(x):
-  print(x)  # uses the parameter x
+  print(x, ", which was handed to another function as an argument.")  # uses the parameter x
 
 
 def main():

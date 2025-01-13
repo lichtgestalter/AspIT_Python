@@ -37,4 +37,3 @@ og sammenlign det med lærerens løsning i S0730_rpg1_solution.py
 
 Send derefter denne Teams-besked til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil."""
-

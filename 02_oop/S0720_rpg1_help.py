@@ -44,7 +44,7 @@ class Character:
         0
 
     def __repr__(self):
-        return ""
+        return "change this"
 
     def hit(self, other):
         0

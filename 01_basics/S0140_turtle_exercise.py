@@ -64,5 +64,37 @@ def demo():  # demonstration of basic turtle commands
     tom.home()  # return to the original position in the middle of the window
     turtle.done()  # keeps the turtle window open after the program is done
 
+tom = turtle.Turtle()
+def square(lenght):
+    for x in range(4):
+        tom.forward(lenght)
+        tom.left(90)
+def many_squares(antal, størrelse, afstand):
+    for x in range(antal):
+        square(størrelse)
+        tom.penup()
+        tom.forward(afstand + størrelse)
+        tom.pendown()
 
-demo()
+def spiral_square(lenght):
+    if lenght < 10:
+        return
+    for x in range(2):
+        tom.forward(lenght)
+        tom.right(90)
+    spiral_square(lenght - 10)
+
+def star(points):
+    for x in range(points):
+        tom.forward(100)
+        tom.right(180 - 180 / points)
+def circle_square(number):
+    for x in range(number):
+        square(50)
+        tom.left(360 / number)
+
+many_squares(3, 30, 10)
+spiral_square(200)
+star(9)
+circle_square(20)
+turtle.done()

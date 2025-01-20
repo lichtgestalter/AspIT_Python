@@ -48,6 +48,14 @@ Fortsæt derefter med den næste fil.
 """
 
 #  Write your functions below this line.
-
+def print_repeatedly(string, repetitions):
+    for i in range(repetitions):
+        print(string, end="")
+def print_pattern(string, repetition_list):
+    for repetition in repetition_list:
+        print_repeatedly(string, repetition)
+        print()
 
 # Here starts the main program. From the main program you can call your functions.
+
+print_pattern("abc", [4, 2, 1])

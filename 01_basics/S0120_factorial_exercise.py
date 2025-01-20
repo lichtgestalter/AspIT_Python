@@ -35,6 +35,12 @@ Fortsæt derefter med den næste fil.
 """
 
 #  Write your function below this line.
-
+def factorial(number):
+    if number == 1:
+        return 1
+    return number * factorial(number - 1)
 
 # Here starts the main program. From the main program you can call your functions.
+factorial_input = 6
+factorial_result = factorial(factorial_input)
+print(f"{factorial_input}! = {factorial_result}")

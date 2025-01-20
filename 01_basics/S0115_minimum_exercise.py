@@ -22,7 +22,9 @@ Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil.
 """
-
+def minimum(numberlist):
+    numberlist.sort()
+    return numberlist[0]
 
 print(minimum([6, 2, 7, 3]))  # Should print 2
 print(minimum([8, 1, 17, 3, 5, 8, 3]))  # Should print 1

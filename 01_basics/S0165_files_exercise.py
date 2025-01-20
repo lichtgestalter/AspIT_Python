@@ -19,4 +19,11 @@ Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil.
 """
+file_name = "s0166_input.txt"
+
+with open(file_name) as file:
+    for line in file:
+        name, age = line.split()
+        print(f"{name} er {age} år gammel")
+
 

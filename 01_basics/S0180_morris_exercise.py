@@ -31,6 +31,7 @@ Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil.
 """
+from pyfiglet import figlet_format
 
 
 def change_attributes(player, sleepiness, thirst, hunger, whisky=0, gold=0):
@@ -64,6 +65,7 @@ def drink(player):
 def dead(player):
     return player["sleepiness"] > 100 or player["thirst"] > 100 or player["hunger"] > 100
 
+
 def attributes(player):
     for attribute in player:
         if player[attribute] < 0:
@@ -94,9 +96,10 @@ def main():
         print(morris)
 
     if dead(morris):
-        print("Morris died!!!")
+        print(figlet_format("Morris died", font="banner3"))
     else:
-        print(f"Morris survived and earned {morris['gold']} gold")
+        print(figlet_format(f"Morris survived and earned {morris['gold']} gold", font="bulbhead", width=150))
+
 
 if __name__ == '__main__':
     main()

@@ -20,3 +20,21 @@ Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Team-besked til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil."""
 
+
+def drive_car():
+    print("roooaar")
+
+
+car1_wheels = 4
+car1_maxspeed = 300
+car2_wheels = 6
+car2_maxspeed = 280
+
+print("Car 1:")
+print(f"    Wheels:     {car1_wheels}")
+print(f"    Max speed:  {car1_maxspeed}\n")
+print("Car 2:")
+print(f"    Wheels:     {car2_wheels}")
+print(f"    Max speed:  {car2_maxspeed}")
+
+drive_car()

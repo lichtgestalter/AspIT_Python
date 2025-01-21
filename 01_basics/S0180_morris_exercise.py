@@ -33,3 +33,70 @@ Fortsæt derefter med den næste fil.
 """
 
 
+def change_attributes(player, sleepiness, thirst, hunger, whisky=0, gold=0):
+    player["sleepiness"] += sleepiness
+    player["thirst"] += thirst
+    player["hunger"] += hunger
+    player["whisky"] += whisky
+    player["gold"] += gold
+
+
+def sleep(player):
+    change_attributes(player, -10, 1, 1)
+
+
+def mine(player):
+    change_attributes(player, 5, 5, 5, 0, 5)
+
+
+def eat(player):
+    change_attributes(player, 5, -5, -20, 0, -2)
+
+
+def buy_whisky(player):
+    change_attributes(player, 5, 1, 1, 1, -1)
+
+
+def drink(player):
+    change_attributes(player, 5, -15, -1, -1)
+
+
+def dead(player):
+    return player["sleepiness"] > 100 or player["thirst"] > 100 or player["hunger"] > 100
+
+def attributes(player):
+    for attribute in player:
+        if player[attribute] < 0:
+            player[attribute] = 0
+    if player["whisky"] > 10:
+        player["whisky"] = 10
+
+
+def main():
+    morris = {"turn": 0, "sleepiness": 0, "thirst": 0, "hunger": 0, "whisky": 0, "gold": 0}  # dictionary
+    turns = 1000
+
+    while not dead(morris) and morris["turn"] < turns:
+        morris["turn"] += 1
+        if morris["sleepiness"] > 90:
+            sleep(morris)
+        elif morris["hunger"] > 90:
+            eat(morris)
+        elif morris["thirst"] > 90:
+            if morris["whisky"] == 0:
+                buy_whisky(morris)
+            else:
+                drink(morris)
+        else:
+            mine(morris)
+
+        attributes(morris)
+        print(morris)
+
+    if dead(morris):
+        print("Morris died!!!")
+    else:
+        print(f"Morris survived and earned {morris['gold']} gold")
+
+if __name__ == '__main__':
+    main()

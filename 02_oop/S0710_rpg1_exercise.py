@@ -37,3 +37,60 @@ og sammenlign det med lærerens løsning i S0730_rpg1_solution.py
 
 Send derefter denne Teams-besked til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil."""
+from tkinter.font import names
+
+
+class Character:
+    def __init__(self, name, max_health, attackpower):
+        self.name = name
+        self.max_health = max_health
+        self._current_health = max_health
+        self.attackpower = attackpower
+
+    def __repr__(self):
+        return f"name: {self.name}, current_health: {self._current_health}/{self.max_health}, attackpower: {self.attackpower}"
+
+    def hit(self, character):
+        character.get_hit(self)
+
+    def get_hit(self, character):
+        self._current_health -= character.attackpower
+
+    def get_healed(self, character):
+        self._current_health += character.healpower
+
+
+class Healer(Character):
+    def __init__(self, name, max_health, healpower):
+        super().__init__(name, max_health, 0)
+        self.healpower = healpower
+
+    def __repr__(self):
+        return f"{super().__repr__()[:-16]}, healpower: {self.healpower}"
+
+    def heal(self, character):
+        character.get_healed(self)
+
+
+bob = Character("Bob", 50, 5)
+jack = Character("Jack", 50, 10)
+noah = Healer("Noah", 100, 20)
+
+print(bob)
+print(jack)
+print(noah)
+
+bob.hit(jack)
+
+print(jack)
+
+jack.hit(bob)
+jack.hit(bob)
+jack.hit(noah)
+
+print(bob)
+print(noah)
+
+noah.heal(bob)
+
+print(bob)

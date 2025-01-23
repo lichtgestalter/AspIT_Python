@@ -59,3 +59,67 @@ Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil."""
 
+from random import choice
+
+class Animal:
+
+    def __init__(self, name, sound, height, weight, legs, female):
+        self.name = name
+        self.sound = sound
+        self.height = height
+        self.weight = weight
+        self.legs = legs
+        self.female = female
+
+    def __repr__(self):
+        gender = "Female" if self.female else "Male"
+        return (f"Name: {self.name}, Sound: {self.sound}, "
+                f"Height: {self.height}m, Weight: {self.weight}kg, "
+                f"Legs: {self.legs}, Gender: {gender}")
+    def make_sound(self):
+        print(self.sound)
+
+class Dog(Animal):
+    def __init__(self, name, sound, height, weight, legs, female, tail_length, hunts_sheep):
+        super().__init__(name, sound, height, weight, legs, female)
+        self.tail_length = tail_length
+        self.hunts_sheep = hunts_sheep
+    def __repr__(self):
+        base_info = super().__repr__()
+        sheep_hunter = "Yes" if self.hunts_sheep else "No"
+        return f"{base_info}, Tail Length: {self.tail_length}cm, Hunts Sheep: {sheep_hunter}"
+    def __add__(self, other):
+        return mate(self, other)
+    def wag_tail(self):
+        print(f"Hunden Snoopy vifter med sin {self.tail_length} cm lange hale")
+
+def mate(mother: Dog, father: Dog):
+    return (
+        Dog(
+            choice([mother.name, father.name]),
+            choice([mother.sound, father.sound]),
+            (mother.height + father.height) / 2,
+            (mother.weight + father.weight) / 2,
+            4,
+            choice([mother.female, father.female]),
+            (mother.tail_length + father.tail_length) / 2,
+            False,
+        )
+    )
+
+
+
+cow = Animal("Cow", "moo", 1.5, 521, 4, True)
+
+cow.make_sound()
+
+shepherd_male = Dog("Shepherd", "Bark", 0.6, 25, 4, False, 30, True)
+shepherd_female = Dog("Shepherd", "Bark", 0.4, 15, 4, True, 23, False)
+
+
+shepherd_male.make_sound()
+shepherd_male.wag_tail()
+
+child = shepherd_male + shepherd_female
+
+print(child)

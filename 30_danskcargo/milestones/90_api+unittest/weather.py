@@ -9,8 +9,7 @@ def weather_now(city, key=KEY):
     weather = response.json()  # Deserialize json into a hierarchy of dictionaries and lists
 
     if weather["cod"] == "404":
-        weather_report = "Unknown Location"
-        return weather_report
+        return "Unknown Location"
 
     print(f'{weather=}')
     print(f'{weather["weather"]=}')

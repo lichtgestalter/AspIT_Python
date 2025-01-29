@@ -1,4 +1,4 @@
-""" Øvelse: "Simpel Lommeregner"
+""" Øvelse: "Calculator"
 
 Som altid, læs hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 

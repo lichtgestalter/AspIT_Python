@@ -34,3 +34,15 @@ Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil."""
+
+def pyramid(lines, firstline):
+    numbers = firstline.copy()
+    for equal_to in range(2, lines + 3):
+        print(numbers)
+        i = 0
+        while i < len(numbers) - 1:
+            if numbers[i] + numbers[i + 1] == equal_to:
+                numbers.insert(i + 1, equal_to)
+            i += 1
+
+pyramid(5, [1, 1])

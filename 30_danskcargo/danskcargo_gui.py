@@ -1,4 +1,5 @@
 import tkinter as tk
+from hmac import digest_size
 from tkinter import ttk
 
 import danskcargo_data as dcd
@@ -36,6 +37,24 @@ def edit_container(event, tree):
     values = tree.item(index_selected, 'values')
     clear_container_entries()
     write_container_entries(values)
+
+def create_container(tree, record):
+    container = dcd.Container.convert_from_tuple(record)
+    dcsql.create_record(container)
+    clear_container_entries()
+    refresh_treeview(tree, dcd.Container)
+
+def update_container(tree, record):
+    container = dcd.Container.convert_from_tuple(record)
+    dcsql.update_container(container)
+    clear_container_entries()
+    refresh_treeview(tree, dcd.Container)
+
+def delete_container(tree, record):
+    container = dcd.Container.convert_from_tuple(record)
+    dcsql.delete_soft_container(container)
+    clear_container_entries()
+    refresh_treeview(tree, dcd.Container)
 
 # endregion container functions
 
@@ -127,11 +146,11 @@ entry_container_weather.grid(row=1, column=3, padx=padx, pady=pady)
 button_frame_container = tk.Frame(controls_frame_container)
 button_frame_container.grid(row=1, column=0, padx=padx, pady=pady)
 
-button_create_container = tk.Button(button_frame_container, text="Create")
+button_create_container = tk.Button(button_frame_container, text="Create", command=lambda: create_container(tree_container, read_container_entries()))
 button_create_container.grid(row=0, column=1, padx=padx, pady=pady)
-button_update_container = tk.Button(button_frame_container, text="Update")
+button_update_container = tk.Button(button_frame_container, text="Update", command=lambda: update_container(tree_container, read_container_entries()))
 button_update_container.grid(row=0, column=2, padx=padx, pady=pady)
-button_delete_container = tk.Button(button_frame_container, text="Delete")
+button_delete_container = tk.Button(button_frame_container, text="Delete", command=lambda: delete_container(tree_container, read_container_entries()))
 button_delete_container.grid(row=0, column=3, padx=padx, pady=pady)
 button_clear_boxes = tk.Button(button_frame_container, text="Clear Entry Boxes", command=clear_container_entries)
 button_clear_boxes.grid(row=0, column=4, padx=padx, pady=pady)

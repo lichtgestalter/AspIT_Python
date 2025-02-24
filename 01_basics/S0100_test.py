@@ -1,7 +1,7 @@
 """
 Opgave "Test pycharm og github":
 
-Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
+Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven .
 
 Kopier denne fil til din egen løsningsmappe.
     I opgaver-projektet skal du klikke på filnavnet i vinduet Project og trykke CTRL+C.

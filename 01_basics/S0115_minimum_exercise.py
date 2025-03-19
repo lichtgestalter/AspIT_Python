@@ -25,4 +25,4 @@ Fortsæt derefter med den næste fil.
 
 
 print(minimum([6, 2, 7, 3]))  # Should print 2
-print(minimum([8, 1, 17, 3, 5, 8, 3]))  # Should print 1
+print(minimum([8, 17, 8, 3, 5, 1, 3]))  # Should print 1

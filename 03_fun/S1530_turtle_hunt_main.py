@@ -4,7 +4,7 @@ Du må ikke redigere denne fil!
 
 Kør denne fil for at starte skildpaddejagten.
 
-Læs øvelsesbeskrivelsen i S1510_turtle_hunt_classes_constants.py."""
+Læs øvelsesbeskrivelsen i S1500_turtle_hunt_exercise.py."""
 
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
 import random

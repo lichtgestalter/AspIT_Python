@@ -5,7 +5,7 @@ Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at
 
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Alt, hvad du har brug for at vide om funktioner for at løse denne øvelse, finder du i jupiter-notesbogen S0040_basics.ipynb
+-------
 
 Del 1:
     Skriv en funktion med navnet "print_repeatedly".
@@ -39,6 +39,8 @@ Del 3:
         abcabcabcabc
         abcabc
         abc
+
+-------
 
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 

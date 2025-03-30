@@ -1,5 +1,5 @@
 """
-Opgave "Reading from a file":
+Opgave "sequence1":
 
 Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
@@ -7,13 +7,14 @@ Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
 -------
 
-Opret en tekstfil med en editor efter eget valg (pycharm, notepad, notepad++ osv.)
-Hver række skal bestå af en persons navn efterfulgt af et mellemrum og et tal, der repræsenterer personens alder.
-gem filen i din løsningsmappe
+Skriv en funktion med navnet "sequence1".
+Scroll ned for at finde det sted i denne fil, hvor du skal skrive funktionen ind.
 
-Skriv et program, der læser filen til en liste af strings.
-Derefter brug indholdet af hver string til at udskrive en række som f.eks:
-    <navn> er <alder> år gammel.
+Funktionen sequence1 skal ...
+    have én parameter ved navn "max_value".
+    udskrive alle heltal (integer) fra 1 op til og med maxvalue.
+
+Eksempel: Når du kalder sequence1(3), printes 1 2 3.
 
 -------
 
@@ -24,3 +25,8 @@ Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil.
 """
 
+
+#  Write your function below this line:
+
+
+# Here starts the main program. Call your function here:

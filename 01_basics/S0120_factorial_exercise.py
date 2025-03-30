@@ -5,7 +5,7 @@ Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at
 
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Alt, hvad du har brug for at vide om funktioner for at løse denne øvelse, finder du i jupiter-notesbogen S0040_basics.ipynb.
+-------
 
 Skriv en funktion med navnet "factorial".
 Rul ned for at finde det sted i denne fil, hvor du skal skrive funktionen ind.
@@ -26,6 +26,8 @@ Kør programmet. "5! = 120" skal udskrives i konsollen.
 Ændr den første linje i hovedprogrammet til "factorial_input = 6".
 Kør programmet igen.
 Denne gang skal "6! = 720" udskrives i konsollen.
+
+-------
 
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 

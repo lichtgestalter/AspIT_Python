@@ -5,6 +5,8 @@ Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at
 
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
+-------
+
 Udgangssituation:
 Morris har egenskaberne sleepiness, thirst, hunger, whisky, gold.
 Alle attributter har startværdien 0.
@@ -25,6 +27,9 @@ Din opgave:
 Skriv et program, der giver Morris så meget guld som muligt på 1000 omgange.
 
 Hvis du ikke har nogen idé om hvordan du skal begynde, så åbn S0185_morris_help.py og start derfra.
+
+-------
+
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.

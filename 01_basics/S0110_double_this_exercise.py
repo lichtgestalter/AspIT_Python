@@ -5,6 +5,8 @@ Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at
 
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
+-------
+
 Alt, hvad du har brug for at vide om funktioner for at løse denne øvelse, finder du i jupiter-notesbogen S0040_basics.ipynb.
 
 Skriv en funktion med navnet "double_this".
@@ -20,6 +22,8 @@ Der er allerede én kodelinje i hovedprogrammet, der kalder denne funktion med a
 Kør programmet. Tallet 6 bør udskrives i konsollen,
 efterfulgt af "Process finished with exit code 0".
 Det betyder, at programmet sluttede uden en fejlmeddelelse.
+
+-------
 
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 

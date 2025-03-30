@@ -3,7 +3,9 @@ Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at
 
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
-Anvend det, du har lært i dette kapitel om databaser, på en første opgave.
+--------
+
+Anvend det, du har lært i dette kapitel om databaser, på en denne opgave.
 
 Trin 1:
 Opret en ny SQLite database "S2311_my_second_sql_database.db" i din solutions mappe.
@@ -28,6 +30,8 @@ Til læsning fra databasen kan du genbruge de to funktioner select_all() og get_
 
 Trin 5:
 Skriv hovedprogrammet: Det skriver testdata til databasen, læser dataene fra databasen med select_all() og/eller get_record() og udskriver posterne til konsollen med print().
+
+--------
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
 Send derefter denne Teams-besked til din lærer: <filename> færdig

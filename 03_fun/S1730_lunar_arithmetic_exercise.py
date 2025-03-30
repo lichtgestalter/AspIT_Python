@@ -2,6 +2,8 @@
 
 Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
+--------
+
 Denne øvelse er en valgfri udfordring for de fremragende programmører blandt jer.
 Du behøver absolut ikke at løse denne øvelse for at fortsætte med succes.
 
@@ -21,6 +23,7 @@ Del 3:
 Del 4:
     Skriv en funktion calc_lunar_primes(n), som retunerer en liste med de første n lunar primes.
 
+--------
 
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 

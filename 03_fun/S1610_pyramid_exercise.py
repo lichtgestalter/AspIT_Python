@@ -2,6 +2,8 @@
 
 Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
+--------
+
 Denne øvelse er en valgfri udfordring for de fremragende programmører blandt jer.
 Du behøver absolut ikke at løse denne øvelse for at fortsætte med succes.
 
@@ -28,6 +30,8 @@ Del 5:
     Afprøv forskellige lister som andet argument.
 
 Hvis du ikke aner, hvordan du skal begynde, kan du åbne S1620_pyramid_help.py og starte derfra
+
+--------
 
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 

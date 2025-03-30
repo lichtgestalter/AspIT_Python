@@ -5,6 +5,8 @@ Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at
 
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
+-------
+
 Funktionen "demo" introducerer dig til alle de kommandoer, du skal bruge for at interagere med Tom i de følgende øvelser.
 
 Kun hvis du er nysgerrig og elsker detaljer:
@@ -35,6 +37,8 @@ Del 4:
 Del 5:
     Opret din egen funktion, der producerer et sejt mønster.
     Senere, hvis du har lyst, kan du præsentere dit mønster på storskærmen for de andre.
+
+-------
 
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 

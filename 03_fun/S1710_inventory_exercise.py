@@ -2,6 +2,8 @@
 
 Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
 
+--------
+
 Denne øvelse er en valgfri udfordring for de fremragende programmører blandt jer.
 Du behøver absolut ikke at løse denne øvelse for at fortsætte med succes.
 
@@ -24,6 +26,8 @@ Del 3:
 
 Hvis du ikke har nogen idé om, hvordan du skal begynde, kan du kigge på løsningen
 i S1720_inventory_solution.py
+
+--------
 
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 

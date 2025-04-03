@@ -7,8 +7,6 @@ Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
 -------
 
-Alt, hvad du har brug for at vide om funktioner for at løse denne øvelse, finder du i jupiter-notesbogen S0040_basics.ipynb.
-
 Skriv en funktion med navnet "double_this".
 Scroll ned for at finde det sted i denne fil, hvor du skal skrive funktionen ind.
 
@@ -28,7 +26,6 @@ Det betyder, at programmet sluttede uden en fejlmeddelelse.
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
-Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil.
 """
 

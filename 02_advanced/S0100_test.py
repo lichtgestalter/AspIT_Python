@@ -31,6 +31,7 @@ at dit repository er offentligt (General, Change repository visibility).
 
 Hvis du ikke allerede har gjort det, skal du sende din lærer url'en til dit
 github-løsningsrepositorium via Teams-chat.
+
 URL'en ser ud som https://github.com/dit_brugernavn/Solutions.git
 
 Derefter går du videre med den næste fil.

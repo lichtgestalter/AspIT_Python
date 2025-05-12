@@ -1,3 +1,6 @@
+# Det følgende er en et opgave til nybegynder i Python. Skriv opgavedele 4 til 9. Alle opgavedele skal være på cirka samme sværhedsgrad som delene 1 til 3 og skal være nemmere end del 10.
+
+
 """
 Opgave "Tom the Turtle":
 
@@ -14,27 +17,58 @@ Del 0:
     Hvad gør fx funktionerne forward(), left(), right(), done()?
 
 Del 1:
-    Skriv en funktion "square", som accepterer en parameter "length".
-    Hvis denne funktion kaldes, får skildpadden til at tegne en firkant med en sidelængde på "længde" pixels.
+    Skriv en funktion "circle", som accepterer en parameter "radius".
+    Funktionen skal tegne en cirkel med den tilsvarende radius.
 
 Del 2:
-    Skriv en funktion "many_squares" med en for-loop, som kalder square gentagne gange.
-    Brug denne funktion til at tegne flere firkanter af forskellig størrelse i forskellige positioner.
+    Skriv en funktion "move_to", som accepterer 2 parametre x og y.
+    Funktionen skal flytte skildpadden til de angivne koordinater x og y
+    uden at tegne.
+
+Del 3:
+    Skriv en funktion "square", som accepterer en parameter "length".
+    Når denne funktion kaldes, skal skildpadden tegne en firkant med en
+    sidelængde på "længde" pixels.
+    Test funktionen ved at kalde den i hovedprogrammet. (Dette gælder
+    også for funktionerne i de øvrige dele af opgaven).
+
+Del 4:
+    Skriv en funktion "triangle", som accepterer en parameter "length".
+    Når denne funktion kaldes, skal skildpadden tegne en ligesidet trekant
+    med en sidelængde på "længde" pixels.
+
+Del 5:
+    Dupliker koden for funktionen "triangle". Omdøb den duplikerede funktion
+    til "coloured_triangle". Tilføj en parameter "color", som styrer med
+    hvilken farve skildpadden tegnes.
+
+Del 6:
+    Brug dine funktioner "circle" og "move_to" til at tegne 10 cirkler.
+    Du bestemmer, hvor stor cirklerne er, og hvor de befinder sig.
+
+Del 7:
+    Skriv en funktion "draw_square_at", som accepterer tre parametre:
+    "length", "x" og "y". Funktionen skal tegne en firkant med den givne
+    sidelængde. Det øverste venstre hjørne af firkanten skal ligge på de
+    angivne koordinater x, y. Brug din tidligere funktion "square".
+
+Del 8:
+
+
+Del 9:
+
+
+Del 10:
+    Skriv en funktion "many_squares" med en for-loop, som kalder funktionen 
+    "square" gentagne gange.
+    Brug denne funktion til at tegne flere firkanter af forskellig størrelse 
+    i forskellige positioner.
     Funktionen skal have nogle parametre. F.eks:
         antal: hvor mange firkanter skal der tegnes?
         størrelse: hvor store er firkanterne?
         afstand: hvor langt væk fra den sidste firkant er den næste firkant placeret?
 
-Del 3:
-    Skriv en funktion, der producerer mønstre, der ligner dette:
-    https://pixabay.com/vectors/spiral-square-pattern-black-white-154465/
-
-Del 4:
-    Skriv en funktion, der producerer mønstre svarende til dette:
-    https://www.101computing.net/2d-shapes-using-python-turtle/star-polygons/
-    Funktionen skal have en parameter, som påvirker mønsterets form.
-
-Del 5:
+Del 11:
     Opret din egen funktion, der producerer et sejt mønster.
 
 Kun hvis du er nysgerrig og elsker detaljer:
@@ -60,14 +94,22 @@ def demo():  # demonstration of basic turtle commands
     tom.penup()  # do not draw while moving from now on
     tom.forward(100)
     tom.pendown()  # draw while moving from now on
+    tom.circle(50)  # draw a circle with radius 50
     tom.pencolor("red")  # draw in red
     tom.right(90)  # turn 90 degrees right
     tom.forward(120)
     tom.right(-90)  # turning -90 degrees right is the same as turning +90 degrees left
     tom.forward(120)
+    tom.goto(-100, -200)  # move to coordinates -100, -200  (0, 0 is the middle of the screen)
     tom.home()  # return to the original position in the middle of the window
-    turtle.done()  # keep the turtle window open after the program is done
+
+
+# Del 8:
+# Skriv en funktion "draw_pattern", som bruger et loop til at tegne
+# flere cirkler med forskellig radius og på forskellige positioner.
+# Du kan selv bestemme, hvordan mønsteret skal se ud.
 
 
 tom = turtle.Turtle()  # create an object named tom of type Turtle
 demo()
+turtle.done()  # keep the turtle window open after the program is done

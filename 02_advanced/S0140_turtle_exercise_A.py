@@ -7,11 +7,13 @@ Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
 -------
 
-Funktionen "demo" introducerer dig til alle de kommandoer, du skal bruge for at interagere med Tom i de følgende øvelser.
+Denne opgave findes i varianterne A og B. Spørg din lærer, hvilken variant du skal arbejde med.
 
-Kun hvis du er nysgerrig og elsker detaljer:
-    Her er den fulde dokumentation for turtle graphics:
-    https://docs.python.org/3.3/library/turtle.html
+Del 0:
+    Funktionen demo introducerer dig til alle de kommandoer, du skal bruge
+    for at interagere med Tom the Turtle i de følgende øvelser.
+    Find ud af hvad funktionen gør ved at lege med funktionskoden.
+    Hvad gør fx funktionerne forward(), left(), right(), done()?
 
 Del 1:
     Skriv en funktion "square", som accepterer en parameter "length".
@@ -36,7 +38,10 @@ Del 4:
 
 Del 5:
     Opret din egen funktion, der producerer et sejt mønster.
-    Senere, hvis du har lyst, kan du præsentere dit mønster på storskærmen for de andre.
+
+Kun hvis du er nysgerrig og elsker detaljer:
+    Her er den fulde dokumentation for turtle graphics:
+    https://docs.python.org/3.3/library/turtle.html
 
 -------
 
@@ -49,7 +54,6 @@ Fortsæt derefter med den næste fil.
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
 
 def demo():  # demonstration of basic turtle commands
-    print(type(tom))
     tom.speed(1)  # fastest: 10, slowest: 1
     for x in range(8):  # do the following for x = 0, 1, 2, 3, 4, 5, 6, 7
         tom.forward(50)  # move 50 pixels
@@ -58,14 +62,16 @@ def demo():  # demonstration of basic turtle commands
     tom.penup()  # do not draw while moving from now on
     tom.forward(100)
     tom.pendown()  # draw while moving from now on
+    tom.circle(50)  # draw a circle with radius 50
     tom.pencolor("red")  # draw in red
     tom.right(90)  # turn 90 degrees right
     tom.forward(120)
     tom.right(-90)  # turning -90 degrees right is the same as turning +90 degrees left
     tom.forward(120)
+    tom.goto(-100, -200)  # move to coordinates -100, -200  (0, 0 is the middle of the screen)
     tom.home()  # return to the original position in the middle of the window
-    turtle.done()  # keeps the turtle window open after the program is done
 
 
 tom = turtle.Turtle()  # create an object named tom of type Turtle
 demo()
+turtle.done()  # keep the turtle window open after the program is done

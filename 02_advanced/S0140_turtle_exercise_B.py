@@ -1,6 +1,3 @@
-# Det følgende er en et opgave til nybegynder i Python. Skriv opgavedele 4 til 9. Alle opgavedele skal være på cirka samme sværhedsgrad som delene 1 til 3 og skal være nemmere end del 10.
-
-
 """
 Opgave "Tom the Turtle":
 
@@ -9,6 +6,8 @@ Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
 -------
+
+Denne opgave findes i varianterne A og B. Spørg din lærer, hvilken variant du skal arbejde med.
 
 Del 0:
     Funktionen demo introducerer dig til alle de kommandoer, du skal bruge
@@ -53,20 +52,24 @@ Del 7:
     angivne koordinater x, y. Brug din tidligere funktion "square".
 
 Del 8:
-
-
-Del 9:
-
-
-Del 10:
-    Skriv en funktion "many_squares" med en for-loop, som kalder funktionen 
+    Skriv en funktion "many_squares" med en for-loop, som kalder funktionen
     "square" gentagne gange.
-    Brug denne funktion til at tegne flere firkanter af forskellig størrelse 
+    Brug denne funktion til at tegne flere firkanter af forskellig størrelse
     i forskellige positioner.
     Funktionen skal have nogle parametre. F.eks:
         antal: hvor mange firkanter skal der tegnes?
         størrelse: hvor store er firkanterne?
         afstand: hvor langt væk fra den sidste firkant er den næste firkant placeret?
+
+Del 9:
+    Lav en funktion "draw_grid", der tegner et gitter (fx 5x5 firkanter).
+    Funktionen skal tage parametre for antal rækker, antalkolonner og
+    firkantens størrelse.
+
+Del 10:
+    Lav en funktion draw_house, som tegner et simpelt hus bestående af en
+    firkant (husets krop) og en trekant (taget). Funktionen skal tage
+    parametre for størrelse og farver.
 
 Del 11:
     Opret din egen funktion, der producerer et sejt mønster.
@@ -102,12 +105,6 @@ def demo():  # demonstration of basic turtle commands
     tom.forward(120)
     tom.goto(-100, -200)  # move to coordinates -100, -200  (0, 0 is the middle of the screen)
     tom.home()  # return to the original position in the middle of the window
-
-
-# Del 8:
-# Skriv en funktion "draw_pattern", som bruger et loop til at tegne
-# flere cirkler med forskellig radius og på forskellige positioner.
-# Du kan selv bestemme, hvordan mønsteret skal se ud.
 
 
 tom = turtle.Turtle()  # create an object named tom of type Turtle

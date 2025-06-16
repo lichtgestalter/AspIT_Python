@@ -38,6 +38,7 @@ Del 4:
 
 Del 5:
     Opret din egen funktion, der producerer et sejt mønster.
+    Måske har du lyst til at bruge random numbers for det.
 
 Kun hvis du er nysgerrig og elsker detaljer:
     Her er den fulde dokumentation for turtle graphics:

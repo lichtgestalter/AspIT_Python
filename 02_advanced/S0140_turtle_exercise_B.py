@@ -39,7 +39,7 @@ Del 4:
 Del 5:
     Dupliker koden for funktionen "triangle". Omdøb den duplikerede funktion
     til "coloured_triangle". Tilføj en parameter "color", som styrer med
-    hvilken farve skildpadden tegnes.
+    hvilken farve skildpadden tegner.
 
 Del 6:
     Brug dine funktioner "circle" og "move_to" til at tegne 10 cirkler.

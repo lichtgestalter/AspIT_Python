@@ -42,7 +42,8 @@ Del 5:
     hvilken farve skildpadden tegner.
 
 Del 6:
-    Brug dine funktioner "circle" og "move_to" til at tegne 10 cirkler.
+    Brug dine funktioner "circle" og "move_to" til at skrive en funktion
+    "many_circles", som tegner 10 cirkler. Brug en for-løkke for det.
     Du bestemmer, hvor stor cirklerne er, og hvor de befinder sig.
 
 Del 7:

@@ -57,10 +57,10 @@ Del 8:
     "square" gentagne gange.
     Brug denne funktion til at tegne flere firkanter af forskellig størrelse
     i forskellige positioner.
-    Funktionen skal have nogle parametre. F.eks:
-        antal: hvor mange firkanter skal der tegnes?
-        størrelse: hvor store er firkanterne?
-        afstand: hvor langt væk fra den sidste firkant er den næste firkant placeret?
+    Funktionen skal have 3 parametre:
+        number_of_squares: hvor mange firkanter skal der tegnes?
+        size: hvor store er firkanterne?
+        distance: hvor langt væk fra den sidste firkant er den næste firkant placeret?
 
 Del 9:
     Lav en funktion "draw_grid", der tegner et gitter (fx 5x5 firkanter).

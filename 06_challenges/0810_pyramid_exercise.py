@@ -29,7 +29,7 @@ Del 5:
     og en liste med tal efter eget valg som andet argument.
     Afprøv forskellige lister som andet argument.
 
-Hvis du ikke aner, hvordan du skal begynde, kan du åbne S1620_pyramid_help.py og starte derfra
+Hvis du ikke aner, hvordan du skal begynde, kan du åbne 0812_pyramid_help.py og starte derfra
 
 --------
 

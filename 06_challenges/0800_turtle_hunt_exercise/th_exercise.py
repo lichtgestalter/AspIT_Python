@@ -13,27 +13,27 @@ Spillet:
     Hvis byttet stadig er på flugt efter MAX_TURNS omgange, fordobles pointene, og jagten slutter.
 
 
-Koden til spillet er allerede skrevet i S1530_turtle_hunt_main.py og S1520_turtle_hunt_service.py. Du må ikke ændre disse filer.
+Koden til spillet er allerede skrevet i th_main.py og th_service.py. Du må ikke ændre disse filer.
 
 Din opgave er at få skildpadderne til at rotere smartere.
 
 Kopier alle 4 turtle_hunt-filer til din egen løsningsmappe.
-Skriv din løsning ind i din kopi af S1510_turtle_hunt_classes_constants.py.
+Skriv din løsning ind i din kopi af th_classes_constants.py.
 
 Filstruktur:
     Koden er opdelt i 3 filer for at gøre det klart, hvilken del af koden
     du skal ændre, og hvilken del af koden du skal lade være uændret.
 
-    S1530_turtle_hunt_main.py:
+    th_main.py:
         Dette er hovedprogrammet.
         Du må ikke foretage ændringer heri.
         Kør det for at starte spillet.
 
-    S1520_turtle_hunt_service.py:
+    th_service.py:
         Indeholder nogle servicefunktioner, som vil være nyttige for dig.
         Du må ikke foretage ændringer heri.
 
-    S1510_turtle_hunt_classes_constants.py:
+    th_classes_constants.py:
         Alt din programmering til denne øvelse foregår i denne fil.
 
 Delopgaver:

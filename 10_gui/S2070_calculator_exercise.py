@@ -1,6 +1,6 @@
 """Opgave "Calculator with GUI"
 
-Løs opgave S1450_calculator_exercise.py med en GUI
+Løs opgave 0700_calculator_exercise.py med en GUI
 
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning i kopien.
 

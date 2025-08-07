@@ -22,7 +22,7 @@ Se denne video: https://www.youtube.com/watch?v=4kzEbqaT2DY&t=56s
     Tilføj en anden parameter til funktionen.
 
 3) Shortcuts
-Vend tilbage til S0103_pycharm_tips.py og prøv nogle shortcuts i eksempelkoden nedenfor.
+Vend tilbage til 0110_pycharm_tips.py og prøv nogle shortcuts i eksempelkoden nedenfor.
 
 """
 

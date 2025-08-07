@@ -1,11 +1,11 @@
 """Opgave "Turtle Hunt": Klasse definition og konstanter
 
-Læs øvelsesbeskrivelsen i S1500_turtle_hunt_exercise.py.
+Læs øvelsesbeskrivelsen i th_exercise.py.
 """
 
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
 import random
-from S1520_turtle_hunt_service import distance, direction
+from th_service import distance, direction
 
 
 class PlayerName1(turtle.Turtle):

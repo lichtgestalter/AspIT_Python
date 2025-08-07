@@ -25,7 +25,7 @@ Del 3:
     I hovedprogrammet kalder du inventory() med fx 6 som argument.
 
 Hvis du ikke har nogen idé om, hvordan du skal begynde, kan du kigge på løsningen
-i S1720_inventory_solution.py
+i 0822_inventory_solution.py
 
 --------
 

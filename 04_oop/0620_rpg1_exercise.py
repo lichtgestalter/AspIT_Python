@@ -30,49 +30,10 @@ Del 6:
     tilføj en metode get_healed til klassen Character, som fungerer lige som get_hit.
 
 Hvis du er gået i stå, kan du spørge google, de andre elever, en AI eller læreren.
+Hvis du ikke aner, hvordan du skal begynde, kan du åbne 0622_rpg1_help.py og starte derfra.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository
-og sammenlign det med lærerens løsning i S0730_rpg1_solution.py
+og sammenlign det med lærerens løsning i 0624_rpg1_solution.py
 
 Send derefter denne Teams-besked til din lærer: <filename> færdig
 Fortsæt derefter med den næste fil."""
-
-
-class Character:
-
-    def __init__(self, name, health, attackpower):
-        0
-
-    def __repr__(self):
-        return "change this"
-
-    def hit(self, other):
-        0
-
-    def get_hit(self, attackpower):
-        0
-
-    def get_healed(self, healpower):
-        0
-
-
-class Healer(Character):
-    
-    def __init__(self, name, health, healpower):
-        0
-
-    def heal(self, other):
-        0
-
-
-hero1 = Character("Bozeto", 100, 20)
-hero2 = Character("Andananda", 110, 24)
-hero3 = Healer("DoctorX", 75, 15)
-print(hero1)
-print(hero2)
-print(hero3)
-hero1.hit(hero2)
-print(hero2)
-hero3.heal(hero2)
-print(hero2)
-

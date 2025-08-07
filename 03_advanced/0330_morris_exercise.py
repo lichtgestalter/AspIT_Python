@@ -26,7 +26,7 @@ drink:      sleepiness+=5,  thirst-=15, hunger-=1,  whisky-=1, gold+=0
 Din opgave:
 Skriv et program, der giver Morris så meget guld som muligt på 1000 omgange.
 
-Hvis du ikke har nogen idé om hvordan du skal begynde, så åbn S0185_morris_help.py og start derfra.
+Hvis du ikke har nogen idé om hvordan du skal begynde, så åbn 0332_morris_help.py og start derfra.
 
 -------
 

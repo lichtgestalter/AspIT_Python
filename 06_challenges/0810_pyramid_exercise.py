@@ -36,5 +36,4 @@ Hvis du ikke aner, hvordan du skal begynde, kan du åbne 0812_pyramid_help.py og
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
-Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
-Fortsæt derefter med den næste fil."""
+"""

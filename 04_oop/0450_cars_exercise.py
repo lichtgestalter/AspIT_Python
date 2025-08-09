@@ -17,6 +17,5 @@ Hvis du går i stå, kan du spørge google, de andre elever, en AI eller lærere
 Hvis du stadig er gået i stå, skal du åbne 0470_cars_solution.py og sammenligne den med din løsning.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
-Send derefter denne Team-besked til din lærer: <filename> færdig
-Fortsæt derefter med den næste fil."""
+"""
 

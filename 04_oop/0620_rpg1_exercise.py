@@ -34,6 +34,4 @@ Hvis du ikke aner, hvordan du skal begynde, kan du åbne 0622_rpg1_help.py og st
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository
 og sammenlign det med lærerens løsning i 0624_rpg1_solution.py
-
-Send derefter denne Teams-besked til din lærer: <filename> færdig
-Fortsæt derefter med den næste fil."""
+"""

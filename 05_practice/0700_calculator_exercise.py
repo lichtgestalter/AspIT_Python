@@ -24,6 +24,5 @@ Opret et program, der fungerer som en simpel lommeregner. Programmet skal funger
 Hvis du går i stå, spørg Google, andre elever, en AI eller læreren.
 
 Når dit program er færdigt, skub det til dit GitHub-repository.
-Send derefter denne Teams-besked til din lærer: `<filnavn> færdig`
-Fortsæt derefter med den næste fil."""
+"""
 

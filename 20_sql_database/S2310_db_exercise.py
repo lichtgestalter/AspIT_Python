@@ -34,6 +34,4 @@ Skriv hovedprogrammet: Det skriver testdata til databasen, læser dataene fra da
 --------
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
-Send derefter denne Teams-besked til din lærer: <filename> færdig
-Fortsæt derefter med den næste fil.
 """

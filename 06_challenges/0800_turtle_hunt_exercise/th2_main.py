@@ -4,12 +4,12 @@ Du må ikke redigere denne fil!
 
 Kør denne fil for at starte skildpaddejagten.
 
-Læs øvelsesbeskrivelsen i th_exercise.py."""
+Læs øvelsesbeskrivelsen i th1_exercise.py."""
 
 import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
 import random
-import th_classes_constants as Tclass
-from th_service import distance
+import th4_classes_constants as Tclass
+from th3_service import distance
 
 # do NOT change these global constants!
 MAX_POS = 300    # x and y coordinates must be between -MAX_POS and +MAX_POS. (0, 0) is in the center of the screen.

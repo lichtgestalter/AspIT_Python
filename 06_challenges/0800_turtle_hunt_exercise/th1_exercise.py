@@ -13,27 +13,27 @@ Spillet:
     Hvis byttet stadig er på flugt efter MAX_TURNS omgange, fordobles pointene, og jagten slutter.
 
 
-Koden til spillet er allerede skrevet i th_main.py og th_service.py. Du må ikke ændre disse filer.
+Koden til spillet er allerede skrevet i th2_main.py og th3_service.py. Du må ikke ændre disse filer.
 
 Din opgave er at få skildpadderne til at rotere smartere.
 
 Kopier alle 4 turtle_hunt-filer til din egen løsningsmappe.
-Skriv din løsning ind i din kopi af th_classes_constants.py.
+Skriv din løsning ind i din kopi af th4_classes_constants.py.
 
 Filstruktur:
     Koden er opdelt i 3 filer for at gøre det klart, hvilken del af koden
     du skal ændre, og hvilken del af koden du skal lade være uændret.
 
-    th_main.py:
+    th2_main.py:
         Dette er hovedprogrammet.
         Du må ikke foretage ændringer heri.
         Kør det for at starte spillet.
 
-    th_service.py:
+    th3_service.py:
         Indeholder nogle servicefunktioner, som vil være nyttige for dig.
         Du må ikke foretage ændringer heri.
 
-    th_classes_constants.py:
+    th4_classes_constants.py:
         Alt din programmering til denne øvelse foregår i denne fil.
 
 Delopgaver:
@@ -74,6 +74,5 @@ Kun hvis du er nysgerrig og elsker detaljer:
 
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 
-Når dit program er færdigt, skal du skubbe det til dit github-repository.
-Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
-Fortsæt derefter med den næste fil."""
+Når dit program er færdigt, skal du skubbe det til dit github-repository."""
+

@@ -2,7 +2,7 @@
 
 Du må ikke redigere denne fil!
 
-Læs øvelsesbeskrivelsen i th_exercise.py."""
+Læs øvelsesbeskrivelsen i th1_exercise.py."""
 
 import math
 

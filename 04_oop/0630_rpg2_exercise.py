@@ -28,6 +28,5 @@ Del 4:
 Hvis du går i stå, kan du spørge google, de andre elever, en AI eller læreren.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
-Send derefter denne Teams-besked til din lærer: <filename> done
-Fortsæt derefter med den næste fil."""
+"""
 

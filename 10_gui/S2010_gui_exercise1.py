@@ -12,6 +12,5 @@ Bruge det, du har lært i GUI-eksempelfilerne, og byg den GUI, der er afbildet i
 --------
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
-Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
-Fortsæt derefter med den næste fil."""
+"""
 

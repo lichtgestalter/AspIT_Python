@@ -12,11 +12,10 @@ I hovedprogrammet:
     Udskriv disse egenskaber for begge biler
     Kald derefter funktionen drive_car()
 
-Hvis du ikke har nogen idé om, hvordan du skal begynde, kan du åbne S0420_cars_help.py og starte derfra.
+Hvis du ikke har nogen idé om, hvordan du skal begynde, kan du åbne 0460_cars_help.py og starte derfra.
 Hvis du går i stå, kan du spørge google, de andre elever, en AI eller læreren.
-Hvis du stadig er gået i stå, skal du åbne S0430_cars_solution.py og sammenligne den med din løsning.
+Hvis du stadig er gået i stå, skal du åbne 0470_cars_solution.py og sammenligne den med din løsning.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
-Send derefter denne Team-besked til din lærer: <filename> færdig
-Fortsæt derefter med den næste fil."""
+"""
 

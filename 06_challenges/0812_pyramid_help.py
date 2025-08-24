@@ -29,12 +29,22 @@ Del 5:
     og en liste med tal efter eget valg som andet argument.
     Afprøv forskellige lister som andet argument.
 
-Hvis du ikke aner, hvordan du skal begynde, kan du åbne S1620_pyramid_help.py og starte derfra
-
 --------
 
 Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 
 Når dit program er færdigt, skal du skubbe det til dit github-repository.
-Send derefter denne Teams-meddelelse til din lærer: <filename> færdig
-Fortsæt derefter med den næste fil."""
+"""
+
+
+def pyramid(lines):
+    numbers = [1, 1]
+    0
+
+
+def pyramid2(lines, firstline):
+    0
+
+
+pyramid(7)
+pyramid2(7, [1, 0, 1, 2])

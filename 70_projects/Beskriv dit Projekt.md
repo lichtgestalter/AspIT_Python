@@ -1,3 +1,5 @@
+### Beskriv dit projekt
+
 Beskriv venligst dit projekt eller det færdige produkt af dit projekt med et par sætninger ved blandt andet at svare på følgende spørgsmål:
 
 - Hvad hedder dit produkt/projekt?
@@ -9,7 +11,7 @@ Beskriv venligst dit projekt eller det færdige produkt af dit projekt med et pa
 
 Hvis du allerede kan gøre det nu, så del dit projekt op i undertrin/delprojekter.
 
-Eksempel:
+**Eksempel**:
 Projekt: Automatisk genkendelse af håndsignaler
 Delprojekter:
 - Lær at tage billeder med webkameraet

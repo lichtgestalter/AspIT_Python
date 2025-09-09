@@ -1,4 +1,4 @@
-import turtle  # this imports a library called "turtle". A library is (someone else's) python code, that you can use in your own program.
+import turtle  # this imports a library called "turtle". A library is (typically someone else's) python code, that you can use in your own program.
 
 def demo():  # demonstration of basic turtle commands
     tom.speed(1)  # fastest: 10, slowest: 1

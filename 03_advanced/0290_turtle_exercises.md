@@ -5,7 +5,7 @@
 - Hvis du er i tvivl, så spørg din lærer.
 - Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder 
 at løse opgaven.
-- Kopier denne fil og eksempelkoden 0292_turtle_example.py til din egen 
+- Kopier denne fil og `eksempelkoden 0292_turtle_example.py` til din egen 
   løsningsmappe. 
 - Skriv din løsning ind i kopien.
 - Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
@@ -17,6 +17,7 @@ Her er den [fulde dokumentation for turtle graphics](https://docs.python.org/3.3
 -------
 
 ### 0. Demo
+- Kig på eksempelkoden `0292_turtle_example.py`.
 - Funktionen demo introducerer dig til alle de kommandoer, du skal bruge
 for at interagere med Tom the Turtle i de følgende øvelser.  
 - Find ud af hvad funktionen gør ved at lege med funktionskoden.  

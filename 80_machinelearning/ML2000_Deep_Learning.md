@@ -6,17 +6,20 @@ Hvis en af de følgende links ikke længere er gyldigt venligst sig det til lær
 
 ## ****Kom i gang****
 
-**Gennemfør helst først de samme tutorials, som står under afsnittet Machine Learning.**
+Gennemfør helst først de samme tutorials, som står i 
+ML1000_Machine_Learnin.md
 
-Derefter gennemfør https://www.kaggle.com/learn/intro-to-deep-learning
+Derefter gennemfør 
+[Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
 
-Hvis du vil lære om billedbehandling, computersyn og udtrækning af information fra billeder, skal du også læse https://www.kaggle.com/learn/computer-vision.  
+Hvis du vil lære om billedbehandling, computersyn og udtrækning af 
+information fra billeder, skal du også læse 
+[Computer Vision](https://www.kaggle.com/learn/computer-vision).  
 
 ## Alternativ tilgang til at komme i gang med deep learning
 
-Se de første 4 videoer i denne playliste:
-
-https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1
+Se de første 4 videoer i denne 
+[playliste](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1).
 
 Der er sikkert mange ting, du ikke vil forstå med det samme. Hvis du har lyst, kan du få din lærer til at se videoerne sammen med dig.
 

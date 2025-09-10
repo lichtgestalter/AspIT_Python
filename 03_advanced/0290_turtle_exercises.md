@@ -5,9 +5,9 @@
 - Hvis du er i tvivl, så spørg din lærer.
 - Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder 
 at løse opgaven.
-- Kopier denne fil og `eksempelkoden 0292_turtle_example.py` til din egen 
+- Kopier denne fil og eksempelkoden `0292_turtle_example.py` til din egen 
   løsningsmappe. 
-- Skriv din løsning ind i kopien.
+- Skriv din løsning ind i din kopie af `0292_turtle_example.py`.
 - Hvis du går i stå, så spørg google, de andre elever, en AI eller læreren.
 - Når dit program er færdigt, skal du skubbe det til dit github-repository.
 - Fortsæt derefter med den næste fil.

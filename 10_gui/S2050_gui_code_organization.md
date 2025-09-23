@@ -9,10 +9,9 @@ GUI-elementer så bliver globale variabler.
 
 
 ### Eksempel for en traditionel løsning  
-- Se her i mappen 10_gui i undermappen milestones. 
-- A local image, starting with an exclamation mark, then [some alternate 
-  text in brackets](../images/gui_files.png):
+- Se her i mappen 10_gui i undermappen milestones:
 
+  ![GUI Files](../images/gui_files.png):
 - Der finder du blandt andet milestone_2040.py.
 - Dette er en mønsterløsning af opgave S2040_gui_exercise4.py på traditionel 
   vis med hele GUI'en i hovedprogrammet.
@@ -21,8 +20,9 @@ GUI-elementer så bliver globale variabler.
 ### En bedre løsning
 - Sammenlign milestone_2040.py med milestone_2050.py.
 - Begge programmer har nøjagtig samme funktionalitet, men i milestone_2050.py 
-  defineres hele GUI'en i konstruktøren (__init__) af en klasse.
+  defineres hele GUI'en i konstruktoren (`__init__`) af en klasse.
 - Hele programmet klarer sig uden globale variabler.
-- I funktionen main defineres GUI'en og gemmes i variablen gui.
+- I funktionen main defineres GUI'en i en enkelt linje og gemmes i variablen 
+  gui.
 - Denne variabel gives derefter som parameter til de funktioner, der har brug 
   for adgang til GUI-elementer.

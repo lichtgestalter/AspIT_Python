@@ -51,22 +51,26 @@ Hvilke delmål/delprojekter findes?
 Diskuter din plan med din lærer, før du begynder at kode.
 
 ## Ressourcer
+### Forbindelsen mellem botten og lichess.org
+- [Blog artikel](https://lichess.org/@/thibault/blog/how-to-create-a-lichess-bot/FuKyvDuB)
+- [Lichess API dokumentation](https://lichess.org/api)
+- [Afsnit om botter i denne dokumentation](https://lichess.org/api#tag/Bot)
 
-### Hvordan fungerer forbindelsen mellem botten og lichess.org?
-
-- Blog artikel: https://lichess.org/@/thibault/blog/how-to-create-a-lichess-bot/FuKyvDuB
-- Lichess API dokumentation: https://lichess.org/api
-- Afsnit om botter i denne dokumentation: https://lichess.org/api#tag/Bot
-
-### Generelt om skakbot-algoritmer:
-
+### Skakbot-algoritmer
 - Google fx ”chess bot algorithm”, “minimax algorithm”, “alpha-beta pruning”.
 - Spørg Perplexity og lignende.
+- Her er nogle eksempler, men der findes mange andre. Søg selv!
+  - [Simple Min Max Chess](https://blog.devgenius.io/simple-min-max-chess-ai-in-python-2910a3602641)
+  - [Kort forklaring af MiniMax og Alpha-Beta Pruning](https://www.naftaliharris.com/blog/chess/)
+  - [GitHub Repository med en simpel implementering af Minimax Algoritmen](https://github.com/apostolisv/chess-ai)
+  - [Forklaring af MiniMax og Alpha-Beta Pruning og en implementering, som 
+    virker sammen med lichess.org](https://healeycodes.com/building-my-own-chess-engine)
+  - [YouTube Tutorial, som forklarer algoritmer og bygger en bot fra bunden af](https://www.youtube.com/playlist?list=PLBwF487qi8MGU81nDGaeNE1EnNEPYWKY_)
 
-## Lad din bot spille mod andre botter
+### Hvis din bot skal spille mod andre botter
 
 Mens din bot kører, udfør denne Python kode:  
-(Tilpas `API_TOKEN` og `BOT_USERNAME`.)
+(Tilpas `API_TOKEN` og `BOT_USERNAME` i koden.)
 
 ```python
 import requests

@@ -3,14 +3,14 @@
 Hvis de følgende links ikke længere er gyldigt, venligst sig det til læreren.
 ### For at komme i gang
 
-- Læs https://www.dmi.dk/frie-data/ for at lære hvilke data er tilgængelige 
-på dmi.dk.
-- Til sidst klik på linket [**Sådan henter du Frie Data**](https://www.dmi.dk/friedata/guides-til-frie-data/sadan-bruges-frie-data/) og læs denne side.
-- Klik linket under overskriften ”Hent data via API” til [startsiden for 
-  API-dokumentationen](https://confluence.govcloud.dk/display/FDAPI) og læs 
-  siden.
-- Til sidst klik på linket [Getting Started](https://confluence.govcloud.dk/display/FDAPI/Getting+Started) og skab dig et overblik der.
-- Registrer dig som bruger og abonner på tjenester på https://confluence.govcloud.dk/display/FDAPI/User+Creation
+- Læs [Documentation for DMI Open data](https://www.dmi.dk/friedata/dokumentation-paa-engelsk) for at lære 
+  hvilke data er tilgængelige på dmi.dk.
+- Læs [Getting Started](https://www.dmi.dk/friedata/dokumentation/getting-started).
+- Læs [Authentication](https://www.dmi.dk/friedata/dokumentation/authentication),
+  og følg anvisningerne for at få adgang til data.
+- Læs lidt om [Lightning Data](https://confluence.govcloud.dk/display/FDAPI).
+- Læs [Lightning Data API](https://www.dmi.dk/friedata/dokumentation/lightning-data-api) 
+  for at lære hvordan du henter data om lynnedslag.
 
 
 ### Projektbeskrivelse
@@ -20,8 +20,7 @@ ud fra disse data.
 
 - Programmet skal modtage et kalenderår som brugerinput.
 
-- Som output skal programmet generere et kort (f.eks. som JPG eller PNG). 
-Kortet skal visualisere, hvor mange lynnedslag der var pr. område i Danmarks kommuner.
-
+- Som output skal programmet generere et kort (f.eks. som JPG, PNG eller HTML).
+- Kortet skal visualisere, hvor mange lynnedslag der var pr. område i Danmarks kommuner.
 - Hvis du foretrækker at skrive et program, der bruger dataene på en anden 
 måde eller producerer et andet output, skal du diskutere det med din lærer, før du går i gang.

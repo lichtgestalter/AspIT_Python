@@ -51,6 +51,9 @@ Hvilke delmål/delprojekter findes?
 Diskuter din plan med din lærer, før du begynder at kode.
 
 ## Ressourcer
+
+Hvis følgende links ikke længere er gyldigt venligst sig det til læreren.
+
 ### Forbindelsen mellem botten og lichess.org
 - [Blog artikel](https://lichess.org/@/thibault/blog/how-to-create-a-lichess-bot/FuKyvDuB)
 - [Lichess API dokumentation](https://lichess.org/api)

@@ -6,6 +6,8 @@ Lær Rust.
 
 ## Ressourcer
 
+Hvis følgende links ikke længere er gyldigt venligst sig det til læreren.
+
 ### The Book
 
 De fleste starter med [The Book](https://doc.rust-lang.org/stable/book/) når de lærer Rust.   

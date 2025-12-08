@@ -1,3 +1,27 @@
+# Ignore the next few lines before the import statements.
+# They only serve to work around a bug in the unittest library.
+
+import os
+import sys
+
+def _find_project_root(start_dir):
+    cur = os.path.abspath(start_dir)
+    while True:
+        if os.path.exists(os.path.join(cur, 'danskcargo_gui.py')) or os.path.isdir(os.path.join(cur, 'danskcargo_gui')):
+            return cur
+        parent = os.path.dirname(cur)
+        if parent == cur:
+            return start_dir
+        cur = parent
+
+_project_root = _find_project_root(os.path.dirname(__file__))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
+
+# ####################################
+
+
 import unittest
 from datetime import date
 from sqlalchemy.orm import Session, declarative_base

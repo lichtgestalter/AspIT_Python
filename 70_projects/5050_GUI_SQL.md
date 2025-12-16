@@ -1,7 +1,12 @@
 # Projekt med GUI og SQL
 
-I dette projekt kan du anvende din viden fra S2-modulet direkte.  
+I denne opgave kan du anvende din viden fra afsnittene OOP, GUI og SQL 
+direkte.  
+
+Det giver mening, hvis du ikke har bearbejdet plusbus-opgaven, eller hvis du ønsker at uddybe samspillet mellem GUI og SQL yderligere.
+
 Tal med din lærer, hvis du har brug for inspiration til, hvad dit program konkret skal indeholde.
+
 ## Projektmål
 
 Skriv et program, som

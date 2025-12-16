@@ -89,7 +89,7 @@ def empty_treeview(tree):  # Clear treeview table
 
 # region common widgets
 main_window = tk.Tk()  # Define the main window
-main_window.title('AspIT S2: DanskCargo')  # Text shown in the top window bar
+main_window.title('Aspit : DanskCargo')  # Text shown in the top window bar
 main_window.geometry("500x500")  # window size
 
 style = ttk.Style()  # Add style

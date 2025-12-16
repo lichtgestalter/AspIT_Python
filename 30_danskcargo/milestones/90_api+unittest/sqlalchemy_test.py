@@ -40,9 +40,9 @@ class Address(Base):
 
 def create_test_data_1():
     with Session(engine) as session:
-        spongebob = User(name="spongebob2", fullname="S2pongebob Squarepants", addresses=[Address(email_address="spongebob@sqlalchemy.org")])
+        spongebob = User(name="spongebob2", fullname="Spongebob Squarepants", addresses=[Address(email_address="spongebob@sqlalchemy.org")])
         sandy = User(name="sandy2", fullname="2Sandy Cheeks", addresses=[Address(email_address="sandy@sqlalchemy.org"), Address(email_address="sandy@squirrelpower.org")])
-        patrick = User(name="patrick2", fullname="2Patrick Star")
+        patrick = User(name="patrick3", fullname="3Patrick Star")
         session.add_all([spongebob, sandy, patrick])
         # squidward = User(name="squidward", fullname="Squidward Tentacles")
         # session.add_all([squidward])

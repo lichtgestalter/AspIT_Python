@@ -1,4 +1,4 @@
-""" Læs først S2200_SQL_opgave.docx og gør, som der står.
+""" Læs først 2000_SQL_opgave.docx og gør, som der står.
 
 I dette program definerer vi en klasse. Meget elegant, samtidig opretter dette en sql database tabel med samme struktur.
 Dette kaldes ORM (Object-relational mapping).
@@ -13,7 +13,7 @@ from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps u
 from sqlalchemy import create_engine
 
 # The next 2 lines are needed _before_ data classes / sql tables are defined
-Database = 'sqlite:///S2206_my_first_sql_database.db'  # first part: database type, second part: file path
+Database = 'sqlite:///2206_my_first_sql_database.db'  # first part: database type, second part: file path
 Base = declarative_base()  # creating the registry and declarative base classes - combined into one step. Base will serve as the base class for the ORM mapped classes we declare.
 
 

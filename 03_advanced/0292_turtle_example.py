@@ -20,5 +20,6 @@ def demo():  # demonstration of basic turtle commands
 
 
 tom = turtle.Turtle()  # create an object named tom of type Turtle
+tom.shape("turtle")  # make Tom look like a turtle
 demo()
 turtle.done()  # keep the turtle window open after the program is done

@@ -10,7 +10,7 @@ Du behøver absolut ikke at løse denne øvelse for at fortsætte med succes.
 Kopier denne fil til din egen løsningsmappe. Skriv din løsning ind i kopien.
 
 Del 1:
-    Se de første 3 minutter af denne video:
+    Se denne video fra 0:00 til 2:41:
     https://www.youtube.com/watch?v=cZkGeR9CWbk
 
 Del 2:

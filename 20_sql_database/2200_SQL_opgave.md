@@ -1,5 +1,6 @@
 # SQL
 
+## SQL Tutorial
 På https://www.w3schools.com/sql/default.asp findes en rigtig god 
 SQL-vejledning.   
 Læs den.  
@@ -10,7 +11,7 @@ Brug derfor
 nu højst 90 minutter for at læse om SQL på w3schools.   
 Hvis du vil fordybe 
 dig i SQL kan du gerne vende tilbage senere og læse det hele SQL-tutorial.   
-Det er dog ikke nødvendig for S2-modulet.
+Det er dog ikke nødvendig nu.
 
 Læs de første 12 sider. Altså dem du kan se i den følgende screenshot:
 

@@ -8,7 +8,7 @@ Kør programmet.
 Læs alle kommentarerne. Du vil ikke forstå det hele. Det er helt ok. Nogle ting vil du forstå senere hen.
 Men når du bruger et fremmed bibliotek, er det ofte godt nok bare at få det til at virke uden at forstå alle detaljerne."""
 
-from sqlalchemy.orm import declarative_base, Session  # install sqlalchemy with the command "pip install SQLAlchemy" in a terminal.
+from sqlalchemy.orm import declarative_base, Session  # hover the mouse cursor over "sqlalchemy" and click on "Install package" (or use "pip install SQLAlchemy" in a terminal).
 from sqlalchemy import Column, String, Integer  # the library sqlalchemy helps us to work with a database
 from sqlalchemy import create_engine
 

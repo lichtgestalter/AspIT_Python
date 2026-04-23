@@ -14,7 +14,7 @@ Del 1:
     Funktionen print_repeatedly skal ...
         have 2 parametre ved navn "string" og "repetitions".
         udskrive parameteren "string" "repetitions" gange
-    Eksempel: print_repeatedly("xy", 3) udskriver "xyxyxyxy"
+    Eksempel: print_repeatedly("xy_", 3) udskriver "xy_xy_xy_"
     Tip: brug end="" som anden parameter i print() for at undgå at få udskrevet hver string i en ny linje. Mere om det: https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/ .
 
 Del 2:
@@ -32,13 +32,13 @@ Del 2:
 
 Del 3:
     I hovedprogrammet...
-        Skriv en kodelinje, der kalder print_pattern() med argumenterne "abc" og [4, 2, 1].
+        Skriv en kodelinje, der kalder print_pattern() med argumenterne "abc." og [4, 2, 1].
 
     Kør programmet.
     I konsollen skal der udskrives:
-        abcabcabcabc
-        abcabc
-        abc
+        abc.abc.abc.abc.
+        abc.abc.
+        abc.
 
 -------
 

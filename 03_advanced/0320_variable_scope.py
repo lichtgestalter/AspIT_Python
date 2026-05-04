@@ -13,9 +13,10 @@ Læs kommentarerne i koden.
 Skift derefter til variable_scope_2.py
 """
 
+
 def some_function():
-  x = "This is a local variable inside the function"  # x is local here and shadows the global variable x in outer scope
-  print(x)
+    x = "This is a local variable inside the function"  # x is local here and shadows the global variable x in outer scope
+    print(x)
 
 
 x = "This is a global variable outside the function"

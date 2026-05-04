@@ -12,20 +12,21 @@ Hvorfor fremkalder print(x) forskellige resultater?
 Læs kommentarerne i koden.
 """
 
+
 def some_function():
-  x = "This is a local variable inside the function some_function"  # x is local here and shadows the global variable x in outer scope
-  print(x)
+    x = "This is a local variable inside the function some_function"  # x is local here and shadows the global variable x in outer scope
+    print(x)
 
 
 def another_function(x):
-  print(x, ", which was handed to another function as an argument.")  # uses the parameter x
+    print(f"{x}, which was handed to another function as an argument.")  # uses the parameter x
 
 
 def main():
-  x = "This is a local variable inside the function main"
-  some_function()
-  another_function(x)
-  print(x)
+    x = "This is a local variable inside the function main"
+    some_function()
+    another_function(x)
+    print(x)
 
 
 main()

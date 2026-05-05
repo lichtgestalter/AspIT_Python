@@ -13,8 +13,6 @@ F.eks. ved at ændre koden en smule og derefter køre/debugge programmet.
 Læs mere om objektorienteret programmering her:
 https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/
 
-Send derefter denne Teams-meddelelse til din lærer: <filename> done
-
 Derefter går du videre med den næste fil."""
 
 

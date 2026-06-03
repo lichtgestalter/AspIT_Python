@@ -6,12 +6,13 @@ straks en færdig løsning.
 - Du lærer kun noget, når du selv løser problemerne.
 - Selvfølgelig vil du ofte have brug for information og hjælp 
 undervejs. Chatbots kan være meget nyttige i den forbindelse.
-- __Her er løsningen__: Forvandl med få trin én chatbot til 
-din tutor, der hjælper dig med at lære og løse opgaver, men ikke 
-bare afslører løsningen.
-- Gør chatbotten Claude til din tutor. 
-- Du kan fortsat bruge andre chatbots som ChatGPT, Perplexity og Gemini som du plejer.
-- Men ikke for at få serveret færdige løsninger til dine opgaver. Det ville være en skam for din læring.
+- __Her er løsningen__: 
+  - Forvandl med få trin én chatbot til 
+  din tutor, der hjælper dig med at lære og løse opgaver, men ikke 
+  bare afslører løsningen.
+  - Gør chatbotten Claude til din tutor. 
+  - Du kan fortsat bruge andre chatbots som ChatGPT, Perplexity og Gemini som du plejer.
+  - Men ikke for at få serveret færdige løsninger til dine opgaver. Det ville være en skam for din læring.
 
 Sådan gør du:
 - Log ind på https://claude.ai/.

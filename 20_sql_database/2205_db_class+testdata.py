@@ -1,4 +1,4 @@
-""" Læs først 2000_SQL_opgave.docx og gør, som der står.
+""" Læs først 2200_SQL_opgave.md og gør, som der står.
 
 I dette program definerer vi en klasse. Meget elegant, samtidig opretter dette en sql database tabel med samme struktur.
 Dette kaldes ORM (Object-relational mapping).

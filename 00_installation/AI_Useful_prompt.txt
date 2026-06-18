@@ -22,4 +22,4 @@ Use English names and comments in code even if I converse with you in another la
 /es Answer in Spanish
 >dk Translate to Danish
 >en Translate to English
-!!! Correct punctuation, spelling and grammar in this text. But do not restructure the content.
+!!! Correct the punctuation, spelling and grammar in this text. But do not restructure the content.

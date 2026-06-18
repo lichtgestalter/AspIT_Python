@@ -1,11 +1,10 @@
-import httpx  # pip install httpx
+import requests  # pip install requests
 
-KEY = "2a3891ce1248786a1398a888debb0368"  # ulsc@aspit.dk
-
+KEY = "2a3891ce1248786a1398a888debb0368"  # Ulis Key
 
 def weather_now(city, key=KEY):
     url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&APPID=" + key
-    response = httpx.get(url)
+    response = requests.get(url)
     weather = response.json()  # Deserialize json into a hierarchy of dictionaries and lists
 
     if weather["cod"] == "404":

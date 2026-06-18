@@ -34,3 +34,23 @@ Petr Lebedev.)
 - Ændr også indstillingerne i de andre chatbots for at gøre deres svar mere pålidelige og overskuelige. 
 - Til det kan du bruge prompten fra filen `AI_Useful_prompt.txt`.
 - Spørg læreren, hvis du har brug for hjælp til at konfigurere indstillingerne.
+
+### Perplexity
+https://www.perplexity.ai/  
+Klik på profilnavn, "Settings", "Personalization"   
+Sæt tekst ind under "Custom instructions"
+
+### ChatGPT
+https://chatgpt.com/  
+Klik på profilnavn, "Personlig tilpasning"   
+Sæt tekst ind under "Brugerdefinerede instruktioner"
+
+### Mistral/Vibe
+https://chat.mistral.ai/chat  
+Klik på "Contents", "Instructions"   
+Sæt tekst ind under "Additional Instructions"
+
+### Gemini
+https://gemini.google.com/app  
+Klik på tandhjulet, "Personlig kontekst"   
+Sæt tekst ind under "Dine instruktioner til Gemini"

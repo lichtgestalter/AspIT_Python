@@ -16,10 +16,14 @@ Write code in Python unless I said otherwise in our current conversation.
 Use English names and comments in code even if I converse with you in another language.
 
 ## Commands
+/de Answer in German
 /dk Answer in Danish
 /en Answer in English
-/de Answer in German
 /es Answer in Spanish
+>de Translate to German
 >dk Translate to Danish
 >en Translate to English
+>es Translate to Spanish
 !!! Correct the punctuation, spelling and grammar in this text. But do not restructure the content.
+
+

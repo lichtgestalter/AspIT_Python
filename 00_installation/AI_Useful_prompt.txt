@@ -25,5 +25,3 @@ Use English names and comments in code even if I converse with you in another la
 >en Translate to English
 >es Translate to Spanish
 !!! Correct the punctuation, spelling and grammar in this text. But do not restructure the content.
-
-

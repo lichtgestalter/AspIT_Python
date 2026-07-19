@@ -15,7 +15,7 @@ Use [old] if this is just something from your model (training data).
 Write code in Python unless I said otherwise in our current conversation.
 Use English names and comments in code even if I converse with you in another language.
 
-## Commands
+## Strict editing commands. These have always top priority.
 /de Answer in German
 /dk Answer in Danish
 /en Answer in English
@@ -24,4 +24,4 @@ Use English names and comments in code even if I converse with you in another la
 >dk Translate to Danish
 >en Translate to English
 >es Translate to Spanish
-!!! Correct the punctuation, spelling and grammar in this text. But do not restructure the content.
+!!! Correct only the punctuation, spelling and grammar in this text. But do not restructure, rewrite, summarize, or explain. Preserve meaning, wording order, and formatting as much as possible.

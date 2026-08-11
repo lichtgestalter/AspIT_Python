@@ -44,7 +44,7 @@ Undervejs vil du helt automatisk lære en masse om
 
 - __Start simpelt__. Løs kun ét delproblem for et simpelt tilfælde.
 - I starten behøver dit program ikke at være fleksibelt.
-- Hav alligevel allerede et øje på de første punkter i den næste afsnit 
+- Hav alligevel allerede et øje på de første 3 punkter i den næste afsnit 
   "Fleksibilitet"
 
 

@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Vi kan oprette en ny Python-variabel ved at tildele en værdi til et mærke ved hjælp af tildelingsoperatoren `=`.
@@ -35,7 +35,7 @@ def _():
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Her er et eksempel med et tal:
@@ -45,11 +45,11 @@ def _(mo):
 
 @app.cell
 def _():
-    age = 7
+    age = 9
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Med denne kode har vi gemt tallet 7 i variablen `age`.
@@ -73,7 +73,7 @@ def _():
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Disse er ugyldige variabelnavne:
@@ -99,7 +99,7 @@ def _():
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     ### Øvelser
@@ -135,7 +135,7 @@ def _():
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     ### Opfører din notebook sig mærkeligt?
@@ -152,7 +152,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Forstod/løste du alt på denne side?
@@ -161,6 +161,11 @@ def _(mo):
 
     Arbejd videre med den næste notebook.
     """)
+    return
+
+
+@app.cell(hide_code=True)
+def _():
     return
 
 

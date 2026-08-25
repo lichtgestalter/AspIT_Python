@@ -3,8 +3,7 @@
 ## Indledning
 - __Se hele [videoen](https://www.youtube.com/watch?v=UiX4CFIiegM)__.
 - __Forstå de regler__, der gælder for placeringen af de sorte og røde 
-  springere 
-  på brættet (4:28 – 8:18 i videoen), og som er blevet brugt til at generere
+  springere på brættet (4:28 – 8:18 i videoen), og som er blevet brugt til at generere
   - billedet med 100.000 felter (9:36) 
   - og billedet med 1.000.000 felter (10:37).
 - __Tal med din lærer__, hvis du ikke har forstået reglerne fuldt ud.
@@ -56,6 +55,7 @@ Hav i dine beslutninger fokus på, at programmet gerne skal være så fleksibelt
 - Fleksibelt antal og rækkefølge af spillebrikker
 - Fleksible typer af spillebrikker (med andre bevægelsesregler)
 - Regeludvidelse: Spillebrikkerne kan starte fra et andet felt end det først mulige
-- Regelændring: Et felt er kun forbudt, hvis det trues af _alle_ andre spillebrikker
+- Regelændring: Et felt er kun forbudt, hvis det trues af _alle_ andre spiller
 - Regelændring: Spillebrikken placeres ikke på det første (mindst mulige), men på det n-te ikke-truede felt (f.eks. n=2)
+- Regelændring: Spillerne kan have mere end 1 brik.
 - Alle disse variationer bør nemt kunne styres fra ét centralt sted i din kode (få linjer)

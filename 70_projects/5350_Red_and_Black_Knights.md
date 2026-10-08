@@ -54,8 +54,10 @@ Hav i dine beslutninger fokus på, at programmet gerne skal være så fleksibelt
 - Fleksibel størrelse på spiralen (spillebrættet)
 - Fleksibelt antal og rækkefølge af spillebrikker
 - Fleksible typer af spillebrikker (med andre bevægelsesregler)
-- Regeludvidelse: Spillebrikkerne kan starte fra et andet felt end det først mulige
-- Regelændring: Et felt er kun forbudt, hvis det trues af _alle_ andre spiller
-- Regelændring: Spillebrikken placeres ikke på det første (mindst mulige), men på det n-te ikke-truede felt (f.eks. n=2)
-- Regelændring: Spillerne kan have mere end 1 brik.
+- Regelændring: Et felt er kun forbudt, hvis det trues af mindst n andre 
+  spiller (fx n=2)
+- Regelændring: Spillebrikken placeres ikke på det første (mindst mulige), 
+  men på det n-te ikke-truede spiralfelt (fx n=2)
+- Regelændring: Spillerne kan have mere end 1 brik. Dvs. flere brikker 
+  bruger den samme farve.
 - Alle disse variationer bør nemt kunne styres fra ét centralt sted i din kode (få linjer)

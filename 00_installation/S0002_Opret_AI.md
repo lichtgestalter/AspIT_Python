@@ -20,12 +20,10 @@ mens du arbejder med en opgave.
 ## Sådan gør du:
 - Log ind på https://claude.ai/.
 - Klik nederst til venstre på dit navn og derefter på `Settings`.
-- I afsnittet `General` står der 
-  - `Instructions for Claude`  
-  - `Claude will keep these in mind across chats`
+- I afsnittet `Your Claude` står der 
+  - `Instructions`  
 - Indsæt den komplette tekst fra filen `AI_Tutor_prompt.txt` i 
-  indtastningsfeltet 
-  lige nedenunder.
+  indtastningsfeltet lige nedenunder.
 
 (Dette AI-prompt bygger i høj grad på arbejdet af videnskabsjournalisten Dr. 
 Petr Lebedev.)
@@ -38,17 +36,19 @@ Petr Lebedev.)
 ### Perplexity
 https://www.perplexity.ai/  
 Klik på profilnavn, "Settings", "Personalization"   
-Sæt tekst ind under "Custom instructions"
+Sæt teksten ind under "Custom instructions"
 
 ### ChatGPT
 https://chatgpt.com/  
-Klik på profilnavn, "Personlig tilpasning"   
-Sæt tekst ind under "Brugerdefinerede instruktioner"
+Klik på profilnavn, "Tilpasning"   
+Scroll ned til `Brugerdefinerede instruktioner`
+Klik på `Edit`.
+Sæt teksten ind.
 
 ### Mistral/Vibe
 https://chat.mistral.ai/chat  
-Klik på "Contents", "Instructions"   
-Sæt tekst ind under "Additional Instructions"
+Klik på "Context", "Instructions"   
+Sæt teksten ind under "Additional Instructions"
 
 ### Gemini
 https://gemini.google.com/app  
